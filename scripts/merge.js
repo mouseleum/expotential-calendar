@@ -15,9 +15,45 @@ const RAW_PATH = resolve(ROOT, 'data/tradeshow-calendar-raw.json');
 const VENUE_DIR = resolve(ROOT, 'data/venue-scrapes');
 const VENUES_CONFIG = resolve(ROOT, 'scripts/venues.json');
 const VENUE_DOMAINS = resolve(ROOT, 'scripts/venue-domains.json');
+const INDUSTRY_RULES = resolve(ROOT, 'scripts/industry-rules.json');
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
 const SHIP_PATH = resolve(ROOT, 'src/data/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
+
+async function loadIndustryRules() {
+  if (!existsSync(INDUSTRY_RULES)) return null;
+  const data = JSON.parse(await readFile(INDUSTRY_RULES, 'utf8'));
+  // Pre-compile name keyword regexes
+  const compiled = { ...data, name_regex: {} };
+  for (const [seg, patterns] of Object.entries(data.name_keywords || {})) {
+    compiled.name_regex[seg] = patterns.map((p) => new RegExp(p, 'i'));
+  }
+  // Lowercased raw-tag substrings for fast matching
+  compiled.raw_tag_lower = {};
+  for (const [seg, tags] of Object.entries(data.raw_tag_map || {})) {
+    compiled.raw_tag_lower[seg] = tags.map((t) => t.toLowerCase());
+  }
+  return compiled;
+}
+
+// Returns the set of canonical segments for a show. Combines raw_tag matches
+// (substring in the show's existing industry array) and name_keyword matches
+// (regex against show.name).
+function classifySegments(show, rules) {
+  if (!rules) return new Set();
+  const out = new Set();
+  const rawTags = (show.industry || []).map((t) => String(t).toLowerCase());
+  for (const [seg, lowerTags] of Object.entries(rules.raw_tag_lower)) {
+    if (lowerTags.some((t) => rawTags.some((rt) => rt.includes(t)))) {
+      out.add(seg);
+    }
+  }
+  const name = show.name || '';
+  for (const [seg, regexes] of Object.entries(rules.name_regex)) {
+    if (regexes.some((r) => r.test(name))) out.add(seg);
+  }
+  return out;
+}
 
 // Extract a domain key from a URL for venue lookup. Returns the last 2-3
 // labels (handles co.uk, com.br, etc.).
@@ -207,6 +243,24 @@ async function main() {
     }
   }
 
+  // Apply industry-segment classification (rules-based). Adds canonical
+  // segments to show.industry while preserving any existing raw tags.
+  const rules = await loadIndustryRules();
+  let segmentsTagged = 0;
+  const perSegment = {};
+  for (const show of byId.values()) {
+    const segs = classifySegments(show, rules);
+    if (segs.size === 0) continue;
+    const existing = new Set(show.industry || []);
+    let added = false;
+    for (const s of segs) {
+      if (!existing.has(s)) { existing.add(s); added = true; }
+      perSegment[s] = (perSegment[s] || 0) + 1;
+    }
+    if (added) segmentsTagged++;
+    show.industry = [...existing];
+  }
+
   // Apply URL→venue mapping for shows without a venue. Only enriches if
   // the mapped city matches the show's city (or show city is missing).
   let venueFromUrl = 0;
@@ -242,6 +296,10 @@ async function main() {
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
+  console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
+  for (const [seg, n] of Object.entries(perSegment).sort((a, b) => b[1] - a[1])) {
+    console.log(`  ${String(n).padStart(5)}  ${seg}`);
+  }
   console.log(`Final: ${shows.length} shows / ${final.countries} countries`);
   console.log(`  → ${SHIP_PATH}`);
   if (conflicts.length) console.log(`${conflicts.length} conflicts → ${REVIEW_PATH}`);

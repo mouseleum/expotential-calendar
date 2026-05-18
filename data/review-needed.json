@@ -12,7 +12,10 @@
         "country": "Germany",
         "country_code": "DE",
         "venue": null,
-        "industry": [],
+        "industry": [
+          "Technology & IT",
+          "Automotive & Transportation"
+        ],
         "attendees": null,
         "exhibitors": null,
         "website": "https://www.evtechexpo.eu",

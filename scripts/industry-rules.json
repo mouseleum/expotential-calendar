@@ -1,0 +1,116 @@
+{
+  "_comment": "Rules-based classifier. Two layers: raw_tag_map maps raw industry strings (case-insensitive substring) to canonical segments; name_keywords maps show-name regex patterns to canonical segments. A show may be tagged with multiple segments. Tune by editing this file then re-running scripts/classify-industries.js.",
+
+  "segments": [
+    "Technology & IT",
+    "Medical & Pharma",
+    "Industrial / Manufacturing",
+    "Construction & Building",
+    "Professional Services",
+    "Automotive & Transportation"
+  ],
+
+  "raw_tag_map": {
+    "Technology & IT": [
+      "IT", "Technology", "Information Technology", "Digital", "Software", "Cyber",
+      "Cybersecurity", "Cyber Security", "Data", "AI", "Artificial Intelligence",
+      "Cloud", "Fintech", "Gaming", "Audio", "Audiovisual", "Audio Technology",
+      "Electronics", "Embedded Systems", "Semiconductors", "Telecom", "Broadband",
+      "Communications", "Mobile", "Photonics", "Geospatial", "Robotics",
+      "Automation", "Smart Automation", "Data Centre", "Education Technology",
+      "Edtech", "Digital Health", "Digital Security", "Critical Communications",
+      "Hardware", "Optics", "Optical Technologies", "Digital Education",
+      "Microwave"
+    ],
+    "Medical & Pharma": [
+      "Healthcare", "Pharma", "Pharmaceutical", "Medical", "Medicine",
+      "Health & Wellness", "Health and Safety", "Dental", "Veterinary",
+      "Biotech", "Biotechnology", "Biopharmaceuticals", "Nutraceutical",
+      "Hospital", "Oncology", "Radiology", "Cardiovascular", "Psychiatry",
+      "Ophthalmology", "Ophthalmic", "Rheumatology", "Therapy", "Rehabilitation",
+      "Neuro", "Surgery", "Surgical", "Life Sciences", "Life Science",
+      "Medical Technology", "Medical Equipment", "Medical Practices", "Drug",
+      "Wellness", "Vision", "Eyewear", "Optometry", "Cosmetology"
+    ],
+    "Industrial / Manufacturing": [
+      "Manufacturing", "Industrial", "Industry", "Engineering",
+      "Mechanical Engineering", "Electrical Engineering", "Welding",
+      "Metalworking", "Metal", "Machinery", "Machine Tool", "Tooling",
+      "Production", "Fabrication", "Plant Engineering", "Heavy Equipment",
+      "Plastics", "Plastics Recycling", "Rubber", "Chemical", "Chemicals",
+      "Material", "Materials", "Composite", "Additive Manufacturing",
+      "3D Printing", "Smart Manufacturing", "Advanced Manufacturing",
+      "Pump", "Pumps", "Valves", "Electronics Manufacturing",
+      "Renewable Energy", "Energy", "Solar", "Hydrogen", "Bioenergy",
+      "Oil", "Gas", "Mining", "Steel", "Woodworking", "Paper", "Forest",
+      "Aerospace", "Defence", "Defense", "Military", "Maintenance",
+      "Quality Assurance", "Process", "Precision", "Packaging", "Printing"
+    ],
+    "Construction & Building": [
+      "Construction", "Building", "Architecture", "Architectural",
+      "Real Estate", "Renovation", "Refurbishment", "Interior Design",
+      "Interior", "Landscape", "Landscaping", "Roof", "Facade", "Infrastructure",
+      "HVAC", "Heating", "Cooling", "Plumbing", "Concrete", "Cement",
+      "Housing", "Property", "Smart Building", "Sustainable Building"
+    ],
+    "Professional Services": [
+      "Finance", "Financial", "Banking", "Insurance", "Investment", "Accounting",
+      "Legal", "Law", "Consulting", "HR", "Human Resources", "Recruitment",
+      "Workplace Management", "Anti-Money Laundering", "Marketing", "Advertising",
+      "Education", "Education and Training", "Business Education", "Training",
+      "Career", "Audit", "Tax", "Professional Services"
+    ],
+    "Automotive & Transportation": [
+      "Automotive", "Automobile", "Auto", "Vehicle", "Motorcycle", "Motorcycles",
+      "Bus", "Coach", "Truck", "Trucking", "Aviation", "Aerospace", "Aircraft",
+      "Maritime", "Marine", "Shipping", "Boat", "Yacht", "Rail", "Railway",
+      "Railroad", "Logistics", "Supply Chain", "Transport", "Transportation",
+      "Mobility", "Smart Mobility", "Intelligent Mobility", "Public Transport",
+      "Intralogistics", "Intermodal", "Parking", "EV", "Electric Vehicle",
+      "H/EV", "Battery", "Tire", "Air Freight", "Air Traffic"
+    ]
+  },
+
+  "name_keywords": {
+    "Technology & IT": [
+      "(?:^|\\W)(?:IT|ICT|AI|IoT|VR|AR|XR|SaaS|UX|UI|API)(?:$|\\W)",
+      "tech\\b", "techno", "softw", "data", "cyber", "digital", "cloud",
+      "fintech", "edtech", "biotech", "medtech", "regtech", "deeptech",
+      "blockchain", "crypto", "broadband", "telecom", "robot", "automation",
+      "gaming", "esport", "metaverse", "5g", "wifi", "infosec", "devops"
+    ],
+    "Medical & Pharma": [
+      "pharm", "medic", "health", "hospital", "clinic", "dental", "dent",
+      "oncolog", "cardio", "neuro", "radiolog", "surger", "therap",
+      "rehab", "psych", "biotech", "medtech", "veterinar", "vet show",
+      "ophthalm", "optometr", "eye care", "wellness", "diagnostic",
+      "nursing", "rheumatolog", "drug", "vaccine"
+    ],
+    "Industrial / Manufacturing": [
+      "manufact", "industr", "factor", "fabric", "machin", "metalwork",
+      "weld", "tool ", "plastics", "rubber", "chemic", "process tech",
+      "engineer", "production tech", "additive", "3d print", "packag",
+      "energy", "solar", "hydrogen", "wind power", "renewab", "oil & gas",
+      "oil and gas", "mining", "steel", "wood", "paper", "aerospace",
+      "defence", "defense", "maintenance"
+    ],
+    "Construction & Building": [
+      "constr", "building", "architect", "real estate", "interior design",
+      "renovat", "refurbish", "infrastructure", "hvac", "concrete", "cement",
+      "housing", "property", "facade", "roofing", "plumbing", "landscap"
+    ],
+    "Professional Services": [
+      "finance", "bank", "insur", "invest", "account", "legal", "law ",
+      "consult", "\\bhr\\b", "recruit", "marketing", "advertis", "education",
+      "training", "business school", "mba", "audit", "tax "
+    ],
+    "Automotive & Transportation": [
+      "automot", "vehicle", "automobile", "motorcycle", "motorbike",
+      "\\bcar\\b", "car show", "auto show", "truck", "bus ", "coach",
+      "aviation", "aerospace", "aircraft", "airshow", "marit", "marine",
+      "boat show", "yacht", "shipping", "rail", "railw", "logist",
+      "supply chain", "transport", "mobility", "electric vehicle",
+      "\\bev\\b", "tire", "parking"
+    ]
+  }
+}
