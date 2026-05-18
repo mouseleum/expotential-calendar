@@ -39,6 +39,44 @@
         "notes": "",
         "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06"
       }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "energimassan-stockholm-2026-05",
+      "existing": {
+        "id": "energimassan-stockholm-2026-05",
+        "name": "Energimassan",
+        "start_date": "2026-05-20",
+        "end_date": "2026-05-21",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "country_code": "SE",
+        "venue": null,
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://energimassan.se/english/",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "Energimässan",
+        "start_date": "2026-05-20",
+        "end_date": "2026-05-21",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "country_code": "SE",
+        "venue": "Kistamässan",
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://energimassan.se/",
+        "source": "venue:kistamassan",
+        "source_url": "https://energimassan.se/",
+        "notes": "",
+        "id": "energimassan-stockholm-2026-05"
+      }
     }
   ]
 }

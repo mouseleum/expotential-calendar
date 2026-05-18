@@ -15,5 +15,29 @@
     "country_code": null,
     "url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
     "type": "calendar"
+  },
+  {
+    "id": "stockholmsmassan",
+    "name": "Stockholmsmässan",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE",
+    "url": "https://stockholmsmassan.se/en/calendar/"
+  },
+  {
+    "id": "kistamassan",
+    "name": "Kistamässan",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE",
+    "url": "https://www.kistamassan.se/calendar/"
+  },
+  {
+    "id": "malmomassan",
+    "name": "Malmömässan",
+    "city": "Malmo",
+    "country": "Sweden",
+    "country_code": "SE",
+    "url": "https://www.malmomassan.se/calendar/"
   }
 ]

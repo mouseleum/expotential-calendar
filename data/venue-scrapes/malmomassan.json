@@ -1,0 +1,16 @@
+{
+  "venue_id": "malmomassan",
+  "scraped_at": "2026-05-18T00:00:00.000Z",
+  "source_url": "https://www.malmomassan.se/calendar/",
+  "events": [
+    { "name": "Fokus Hjälpmedel Skåne", "start_date": "2026-05-27", "end_date": "2026-05-28", "website": "https://www.fokushjalpmedel.se/" },
+    { "name": "KOMMEK", "start_date": "2026-08-19", "end_date": "2026-08-20", "website": "https://kommek.se/" },
+    { "name": "Malmö Game Week", "start_date": "2026-09-26", "end_date": "2026-09-27", "website": "https://mgw.spelenshus.se/" },
+    { "name": "AMS26 – Scandinavias largest aesthetic medicine summit", "start_date": "2026-10-23", "end_date": "2026-10-24", "website": "https://amscongress.com/" },
+    { "name": "Gymnasiemässan", "start_date": "2026-11-05", "end_date": "2026-11-07", "website": "https://malmo.se/Gymnasiemassan-i-Malmo.html" },
+    { "name": "Saco Studentmässa", "start_date": "2026-12-02", "end_date": "2026-12-02", "website": "https://www.saco.se/studier/saco-studentmassa/" },
+    { "name": "Food Innovation Expo", "start_date": "2027-04-28", "end_date": "2027-04-29", "website": "https://www.foodinnovationexpo.com/" },
+    { "name": "Plastteknik Nordic", "start_date": "2027-05-12", "end_date": "2027-05-13", "website": "https://www.plasttekniknordic.com/" },
+    { "name": "Industrimässorna Öresund", "start_date": "2027-05-19", "end_date": "2027-05-20", "website": "https://industrimassornaoresund.se/" }
+  ]
+}

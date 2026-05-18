@@ -1,0 +1,27 @@
+{
+  "venue_id": "kistamassan",
+  "scraped_at": "2026-05-18T00:00:00.000Z",
+  "source_url": "https://www.kistamassan.se/calendar/",
+  "events": [
+    { "name": "Energimässan", "start_date": "2026-05-20", "end_date": "2026-05-21", "website": "https://energimassan.se/" },
+    { "name": "Stockholm Smart City", "start_date": "2026-05-20", "end_date": "2026-05-21", "website": "https://stockholmsmartcitylive.se/" },
+    { "name": "Infrastrukturmässan", "start_date": "2026-05-20", "end_date": "2026-05-21", "website": "https://infrastrukturmassan.se/" },
+    { "name": "Nordic Mobility Expo", "start_date": "2026-05-20", "end_date": "2026-05-21", "website": "https://nordicmobilityexpo.se/" },
+    { "name": "Stockholm Tech Show", "start_date": "2026-05-26", "end_date": "2026-05-27", "website": "https://stockholmtechshow.se/" },
+    { "name": "Data Centre Expo", "start_date": "2026-05-26", "end_date": "2026-05-27", "website": "https://datacentreexpo.se/" },
+    { "name": "Retail Technology Expo", "start_date": "2026-05-26", "end_date": "2026-05-27", "website": "https://retailexpostockholm.se/" },
+    { "name": "Comic Con Stockholm Summer", "start_date": "2026-05-30", "end_date": "2026-05-31", "website": "https://www.comicconstockholm.se/" },
+    { "name": "DevSum", "start_date": "2026-06-02", "end_date": "2026-06-03", "website": "https://www.devsum.se/" },
+    { "name": "Ekonomi & Företag", "start_date": "2026-09-23", "end_date": "2026-09-24", "website": "https://www.ekonomiforetag.se/sv/" },
+    { "name": "Empack Stockholm", "start_date": "2026-09-30", "end_date": "2026-10-01", "website": "https://www.empacksthlm.se/sv/" },
+    { "name": "Logistics & Automation", "start_date": "2026-09-30", "end_date": "2026-10-01", "website": "https://www.logisticssthlm.se/sv/" },
+    { "name": "Elmässan", "start_date": "2026-10-14", "end_date": "2026-10-15", "website": "https://www.elmassan.se/sv/" },
+    { "name": "Clean & Facility", "start_date": "2026-11-10", "end_date": "2026-11-11", "website": "https://nmevents.se/cleanmassan/" },
+    { "name": "Saco Studentmässa", "start_date": "2026-11-25", "end_date": "2026-11-26", "website": "https://www.saco.se/" },
+    { "name": "2nd Homeland Security Expo 2026", "start_date": "2026-12-03", "end_date": "2026-12-04", "website": "https://www.eurohomesecexpo.com/" },
+    { "name": "Upphandlingsdagarna", "start_date": "2027-01-27", "end_date": "2027-01-28", "website": "https://upphandlingsdagarna.se/" },
+    { "name": "Framtidens Hälso & Sjukvård", "start_date": "2027-01-27", "end_date": "2027-01-28", "website": "https://framtidenshalsosjukvard.se/" },
+    { "name": "Lösningar för Offentlig Sektor", "start_date": "2027-01-27", "end_date": "2027-01-28", "website": "https://losningarforoffentligsektor.se/" },
+    { "name": "e-Hälsa+MVTe", "start_date": "2027-01-27", "end_date": "2027-01-28", "website": "https://e-halsastockholm.se/" }
+  ]
+}
