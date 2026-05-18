@@ -14,9 +14,31 @@ const ROOT = resolve(__dirname, '..');
 const RAW_PATH = resolve(ROOT, 'data/tradeshow-calendar-raw.json');
 const VENUE_DIR = resolve(ROOT, 'data/venue-scrapes');
 const VENUES_CONFIG = resolve(ROOT, 'scripts/venues.json');
+const VENUE_DOMAINS = resolve(ROOT, 'scripts/venue-domains.json');
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
 const SHIP_PATH = resolve(ROOT, 'src/data/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
+
+// Extract a domain key from a URL for venue lookup. Returns the last 2-3
+// labels (handles co.uk, com.br, etc.).
+function urlToDomain(url) {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '').toLowerCase();
+    const parts = host.split('.');
+    if (parts.length >= 3 && /^(co|com|org|net|ac|gov|edu)$/.test(parts[parts.length - 2])) {
+      return parts.slice(-3).join('.');
+    }
+    return parts.slice(-2).join('.');
+  } catch {
+    return null;
+  }
+}
+
+async function loadDomainMap() {
+  if (!existsSync(VENUE_DOMAINS)) return {};
+  const data = JSON.parse(await readFile(VENUE_DOMAINS, 'utf8'));
+  return data.domains || {};
+}
 
 function pickBetter(a, b) {
   const score = (s) => [s.attendees, s.exhibitors, s.venue, s.website, s.city, s.country_code]
@@ -133,6 +155,7 @@ async function loadVenueScrapes() {
 async function main() {
   const ttc = await loadTradeshowCalendar();
   const venueShows = await loadVenueScrapes();
+  const domainMap = await loadDomainMap();
   const byId = new Map();
   const conflicts = [];
 
@@ -181,6 +204,22 @@ async function main() {
     }
   }
 
+  // Apply URL→venue mapping for shows without a venue. Only enriches if
+  // the mapped city matches the show's city (or show city is missing).
+  let venueFromUrl = 0;
+  for (const show of byId.values()) {
+    if (show.venue || !show.website) continue;
+    const dom = urlToDomain(show.website);
+    if (!dom) continue;
+    const v = domainMap[dom];
+    if (!v) continue;
+    if (show.city && v.city && show.city.toLowerCase() !== v.city.toLowerCase()) continue;
+    show.venue = v.venue;
+    if (!show.city && v.city) show.city = v.city;
+    if (!show.country && v.country) show.country = v.country;
+    venueFromUrl++;
+  }
+
   const shows = [...byId.values()].sort((a, b) => a.start_date.localeCompare(b.start_date));
 
   const final = {
@@ -199,6 +238,7 @@ async function main() {
 
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);
+  console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
   console.log(`Final: ${shows.length} shows / ${final.countries} countries`);
   console.log(`  → ${SHIP_PATH}`);
   if (conflicts.length) console.log(`${conflicts.length} conflicts → ${REVIEW_PATH}`);
