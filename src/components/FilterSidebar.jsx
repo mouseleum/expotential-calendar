@@ -252,7 +252,18 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           )}
         </div>
         <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', marginBottom: 8, fontSize: 10 }}>
-          <span style={{ color: 'var(--text-dimmer)', alignSelf: 'center', marginRight: 2 }}>regions:</span>
+          <span style={{ color: 'var(--text-dimmer)', alignSelf: 'center', marginRight: 2 }}>select:</span>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setFilters((p) => ({ ...p, countries: new Set([...countryCounts.keys()].filter(Boolean)) }))}
+            title="Select every country with at least one show"
+          >all countries</button>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
+            title="Clear all country and venue selections"
+          >none</button>
+          <span style={{ color: 'var(--text-dimmer)', alignSelf: 'center', marginLeft: 6, marginRight: 2 }}>regions:</span>
           <button
             style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
             onClick={() => setExpandedRegions(new Set(REGIONS.map((r) => r.id)))}
