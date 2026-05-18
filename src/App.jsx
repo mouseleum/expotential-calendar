@@ -18,7 +18,7 @@ const INITIAL_FILTERS = {
   countries: new Set(EUROPE_MAIN_COUNTRIES),
   venues: new Set(),
   industries: new Set(),
-  audiences: new Set(),
+  audiences: new Set(['b2b']),
   query: '',
   minAttendees: '',
   dateFrom: '',
