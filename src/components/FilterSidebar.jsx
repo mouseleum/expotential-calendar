@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { REGIONS } from '../utils/regions';
 import { INDUSTRY_SEGMENTS } from '../utils/industries';
+import { sourceLabel } from '../utils/sources';
 
 const MONTHS = [
   { value: '01', label: 'Jan' }, { value: '02', label: 'Feb' },
@@ -126,12 +127,21 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
   }
 
+  function toggleSource(src) {
+    setFilters((prev) => {
+      const next = new Set(prev.sources);
+      if (next.has(src)) next.delete(src); else next.add(src);
+      return { ...prev, sources: next };
+    });
+  }
+
   function clearAll() {
     setFilters({
       countries: new Set(),
       venues: new Set(),
       industries: new Set(),
       audiences: new Set(),
+      sources: new Set(),
       query: '',
       minAttendees: '',
       dateFrom: '',
@@ -147,6 +157,17 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     const m = { b2b: 0, b2c: 0, mixed: 0, unknown: 0 };
     for (const s of allShows) m[s.audience || 'unknown']++;
     return m;
+  }, [allShows]);
+
+  const sourceCounts = useMemo(() => {
+    const m = new Map();
+    for (const s of allShows) {
+      for (const t of (s.source || '').split('+')) {
+        if (!t) continue;
+        m.set(t, (m.get(t) || 0) + 1);
+      }
+    }
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
   }, [allShows]);
 
   const industryCounts = useMemo(() => {
@@ -335,6 +356,31 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           );
         })}
       </div>
+
+      {sourceCounts.length > 0 && (
+        <div className="filter-group">
+          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <span>Source</span>
+            {filters.sources.size > 0 && (
+              <button
+                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+                onClick={() => setFilters((p) => ({ ...p, sources: new Set() }))}
+              >clear ({filters.sources.size})</button>
+            )}
+          </div>
+          {sourceCounts.map(([id, count]) => (
+            <label key={id} className="filter-group__row">
+              <input
+                type="checkbox"
+                checked={filters.sources.has(id)}
+                onChange={() => toggleSource(id)}
+              />
+              <span>{sourceLabel(id)}</span>
+              <span className="filter-group__count">{count}</span>
+            </label>
+          ))}
+        </div>
+      )}
 
       <div className="filter-group">
         <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

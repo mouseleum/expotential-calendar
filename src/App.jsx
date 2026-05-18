@@ -19,6 +19,7 @@ const INITIAL_FILTERS = {
   venues: new Set(),
   industries: new Set(),
   audiences: new Set(['b2b']),
+  sources: new Set(),
   query: '',
   minAttendees: '',
   dateFrom: '',
@@ -84,6 +85,10 @@ function App() {
       if (filters.audiences.size > 0) {
         const aud = s.audience || 'unknown';
         if (!filters.audiences.has(aud)) return false;
+      }
+      if (filters.sources.size > 0) {
+        const tokens = (s.source || '').split('+');
+        if (!tokens.some((t) => filters.sources.has(t))) return false;
       }
       if (q && !s.name.toLowerCase().includes(q)) return false;
       if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;
