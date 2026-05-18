@@ -1,6 +1,27 @@
 import { useMemo, useState } from 'react';
 import { REGIONS } from '../utils/regions';
 
+const MONTHS = [
+  { value: '01', label: 'Jan' }, { value: '02', label: 'Feb' },
+  { value: '03', label: 'Mar' }, { value: '04', label: 'Apr' },
+  { value: '05', label: 'May' }, { value: '06', label: 'Jun' },
+  { value: '07', label: 'Jul' }, { value: '08', label: 'Aug' },
+  { value: '09', label: 'Sep' }, { value: '10', label: 'Oct' },
+  { value: '11', label: 'Nov' }, { value: '12', label: 'Dec' },
+];
+
+// Build YYYY-MM from a YYYY-MM string by overriding year or month.
+function splitYM(v) {
+  if (!v || v.length < 7) return { year: '', month: '' };
+  return { year: v.slice(0, 4), month: v.slice(5, 7) };
+}
+function joinYM(year, month) {
+  if (!year && !month) return '';
+  if (year && !month) return `${year}-01`;
+  if (!year && month) return ''; // need year to be meaningful
+  return `${year}-${month}`;
+}
+
 export function FilterSidebar({ allShows, filters, setFilters }) {
   const countryCounts = useMemo(() => {
     const m = new Map();
@@ -15,6 +36,15 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     }
     return [...m.entries()].sort((a, b) => b[1] - a[1]);
   }, [allShows]);
+
+  const years = useMemo(() => {
+    const s = new Set();
+    for (const show of allShows) if (show.start_date) s.add(show.start_date.slice(0, 4));
+    return [...s].sort();
+  }, [allShows]);
+
+  const fromYM = splitYM(filters.dateFrom);
+  const toYM = splitYM(filters.dateTo);
 
   const [expanded, setExpanded] = useState(() => new Set(REGIONS.map((r) => r.id)));
 
@@ -77,23 +107,52 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <div className="filter-group__title">Month range</div>
-        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-          <input
-            type="month"
-            value={filters.dateFrom}
-            onChange={(e) => setFilters((p) => ({ ...p, dateFrom: e.target.value }))}
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span>Month range</span>
+          {(filters.dateFrom || filters.dateTo) && (
+            <button
+              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+              onClick={() => setFilters((p) => ({ ...p, dateFrom: '', dateTo: '' }))}
+            >clear</button>
+          )}
+        </div>
+        <div style={{ fontSize: 10, color: 'var(--text-dimmer)', marginBottom: 4 }}>From</div>
+        <div style={{ display: 'flex', gap: 6, marginBottom: 8 }}>
+          <select
+            value={fromYM.month}
+            onChange={(e) => setFilters((p) => ({ ...p, dateFrom: joinYM(fromYM.year || years[0], e.target.value) }))}
             style={{ flex: 1 }}
-            placeholder="From"
-          />
-          <span style={{ color: 'var(--text-dimmer)' }}>→</span>
-          <input
-            type="month"
-            value={filters.dateTo}
-            onChange={(e) => setFilters((p) => ({ ...p, dateTo: e.target.value }))}
+          >
+            <option value="">Month</option>
+            {MONTHS.map((m) => <option key={m.value} value={m.value}>{m.label}</option>)}
+          </select>
+          <select
+            value={fromYM.year}
+            onChange={(e) => setFilters((p) => ({ ...p, dateFrom: joinYM(e.target.value, fromYM.month || '01') }))}
             style={{ flex: 1 }}
-            placeholder="To"
-          />
+          >
+            <option value="">Year</option>
+            {years.map((y) => <option key={y} value={y}>{y}</option>)}
+          </select>
+        </div>
+        <div style={{ fontSize: 10, color: 'var(--text-dimmer)', marginBottom: 4 }}>To</div>
+        <div style={{ display: 'flex', gap: 6 }}>
+          <select
+            value={toYM.month}
+            onChange={(e) => setFilters((p) => ({ ...p, dateTo: joinYM(toYM.year || years[years.length - 1], e.target.value) }))}
+            style={{ flex: 1 }}
+          >
+            <option value="">Month</option>
+            {MONTHS.map((m) => <option key={m.value} value={m.value}>{m.label}</option>)}
+          </select>
+          <select
+            value={toYM.year}
+            onChange={(e) => setFilters((p) => ({ ...p, dateTo: joinYM(e.target.value, toYM.month || '12') }))}
+            style={{ flex: 1 }}
+          >
+            <option value="">Year</option>
+            {years.map((y) => <option key={y} value={y}>{y}</option>)}
+          </select>
         </div>
       </div>
 
