@@ -50,6 +50,17 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     return [...s].sort();
   }, [allShows]);
 
+  // Flat list of all venues sorted by show count desc.
+  const allVenues = useMemo(() => {
+    const m = new Map();
+    for (const s of allShows) {
+      if (s.venue) m.set(s.venue, (m.get(s.venue) || 0) + 1);
+    }
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+  }, [allShows]);
+
+  const [venueQuery, setVenueQuery] = useState('');
+
   const fromYM = splitYM(filters.dateFrom);
   const toYM = splitYM(filters.dateTo);
 
@@ -313,6 +324,42 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           );
         })}
       </div>
+
+      {allVenues.length > 0 && (
+        <div className="filter-group">
+          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <span>Venue</span>
+            {filters.venues.size > 0 && (
+              <button
+                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+                onClick={() => setFilters((p) => ({ ...p, venues: new Set() }))}
+              >clear ({filters.venues.size})</button>
+            )}
+          </div>
+          <input
+            type="text"
+            placeholder="Filter venues…"
+            value={venueQuery}
+            onChange={(e) => setVenueQuery(e.target.value)}
+            style={{ width: '100%', marginBottom: 6 }}
+          />
+          <div style={{ maxHeight: 280, overflowY: 'auto' }}>
+            {allVenues
+              .filter(([v]) => !venueQuery || v.toLowerCase().includes(venueQuery.toLowerCase()))
+              .map(([venue, count]) => (
+                <label key={venue} className="filter-group__row">
+                  <input
+                    type="checkbox"
+                    checked={filters.venues.has(venue)}
+                    onChange={() => toggleVenue(venue)}
+                  />
+                  <span>{venue}</span>
+                  <span className="filter-group__count">{count}</span>
+                </label>
+              ))}
+          </div>
+        </div>
+      )}
 
       <div className="filter-group">
         <button onClick={clearAll} style={{ width: '100%' }}>Clear all filters</button>
