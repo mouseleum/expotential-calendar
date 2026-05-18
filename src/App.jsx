@@ -14,6 +14,7 @@ const EUROPE_MAIN_COUNTRIES = REGIONS.find((r) => r.id === 'europe-main')?.count
 const INITIAL_FILTERS = {
   countries: new Set(EUROPE_MAIN_COUNTRIES),
   venues: new Set(),
+  industries: new Set(),
   query: '',
   minAttendees: '',
   dateFrom: '',
@@ -50,6 +51,10 @@ function App() {
     const out = allShows.filter((s) => {
       if (filters.countries.size > 0 && !filters.countries.has(s.country)) return false;
       if (filters.venues.size > 0 && !filters.venues.has(s.venue)) return false;
+      if (filters.industries.size > 0) {
+        const tags = Array.isArray(s.industry) ? s.industry : [];
+        if (!tags.some((t) => filters.industries.has(t))) return false;
+      }
       if (q && !s.name.toLowerCase().includes(q)) return false;
       if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;
       if (!isInDateRange(s.start_date, s.end_date, filters.dateFrom, filters.dateTo)) return false;

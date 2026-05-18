@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { REGIONS } from '../utils/regions';
+import { INDUSTRY_SEGMENTS } from '../utils/industries';
 
 const MONTHS = [
   { value: '01', label: 'Jan' }, { value: '02', label: 'Feb' },
@@ -109,10 +110,19 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
   }
 
+  function toggleIndustry(seg) {
+    setFilters((prev) => {
+      const next = new Set(prev.industries);
+      if (next.has(seg)) next.delete(seg); else next.add(seg);
+      return { ...prev, industries: next };
+    });
+  }
+
   function clearAll() {
     setFilters({
       countries: new Set(),
       venues: new Set(),
+      industries: new Set(),
       query: '',
       minAttendees: '',
       dateFrom: '',
@@ -123,6 +133,17 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
     setExpandedCountries(new Set());
   }
+
+  const industryCounts = useMemo(() => {
+    const m = new Map();
+    for (const s of allShows) {
+      const tags = Array.isArray(s.industry) ? s.industry : [];
+      for (const seg of INDUSTRY_SEGMENTS) {
+        if (tags.includes(seg)) m.set(seg, (m.get(seg) || 0) + 1);
+      }
+    }
+    return m;
+  }, [allShows]);
 
   return (
     <div>
@@ -239,6 +260,33 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           />
           Flagged only
         </label>
+      </div>
+
+      <div className="filter-group">
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span>Industry</span>
+          {filters.industries.size > 0 && (
+            <button
+              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+              onClick={() => setFilters((p) => ({ ...p, industries: new Set() }))}
+            >clear ({filters.industries.size})</button>
+          )}
+        </div>
+        {INDUSTRY_SEGMENTS.map((seg) => {
+          const count = industryCounts.get(seg) || 0;
+          return (
+            <label key={seg} className="filter-group__row" style={{ opacity: count === 0 ? 0.5 : 1 }}>
+              <input
+                type="checkbox"
+                checked={filters.industries.has(seg)}
+                onChange={() => toggleIndustry(seg)}
+                disabled={count === 0 && !filters.industries.has(seg)}
+              />
+              <span>{seg}</span>
+              <span className="filter-group__count">{count}</span>
+            </label>
+          );
+        })}
       </div>
 
       <div className="filter-group">
