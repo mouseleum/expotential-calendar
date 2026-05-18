@@ -22,8 +22,11 @@ const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
 // Extract a domain key from a URL for venue lookup. Returns the last 2-3
 // labels (handles co.uk, com.br, etc.).
 function urlToDomain(url) {
+  if (!url) return null;
   try {
-    const host = new URL(url).hostname.replace(/^www\./, '').toLowerCase();
+    // Handle protocol-relative URLs (//host/path) by prepending https:
+    const normalized = url.startsWith('//') ? `https:${url}` : url;
+    const host = new URL(normalized).hostname.replace(/^www\./, '').toLowerCase();
     const parts = host.split('.');
     if (parts.length >= 3 && /^(co|com|org|net|ac|gov|edu)$/.test(parts[parts.length - 2])) {
       return parts.slice(-3).join('.');
