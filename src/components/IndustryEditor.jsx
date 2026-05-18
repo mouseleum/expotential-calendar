@@ -1,35 +1,34 @@
 import { useEffect, useRef, useState } from 'react';
-import { INDUSTRY_SEGMENTS } from '../utils/industries';
+import { INDUSTRY_SEGMENTS, INDUSTRY_COLORS } from '../utils/industries';
 
 const SEGMENT_SET = new Set(INDUSTRY_SEGMENTS);
 
-// Short labels for the dropdown trigger button (one initial per segment).
-const SHORT = {
-  'Technology & IT': 'T',
-  'Medical & Pharma': 'M',
-  'Industrial / Manufacturing': 'I',
-  'Construction & Building': 'C',
-  'Professional Services': 'P',
-  'Automotive & Transportation': 'A',
-};
+function chipStyle(seg, { faded = false } = {}) {
+  const c = INDUSTRY_COLORS[seg];
+  if (!c) return {};
+  return {
+    background: c.bg,
+    color: c.fg,
+    border: `1px solid ${c.border}`,
+    opacity: faded ? 0.35 : 1,
+  };
+}
 
 export function IndustryEditor({ show, overrides, onChange }) {
   const [open, setOpen] = useState(false);
   const [saving, setSaving] = useState(false);
   const popoverRef = useRef(null);
 
-  // Effective segments = override if present, else canonical segments from show.industry
   const baseSegments = (show.industry || []).filter((t) => SEGMENT_SET.has(t));
   const effective = overrides[show.id] || baseSegments;
   const isOverridden = show.id in overrides;
+  const effectiveSet = new Set(effective);
 
-  // Local draft state for the popover
-  const [draft, setDraft] = useState(new Set(effective));
+  const [draft, setDraft] = useState(() => new Set(effective));
   useEffect(() => {
     if (open) setDraft(new Set(effective));
   }, [open]);
 
-  // Close on outside click
   useEffect(() => {
     if (!open) return;
     function onClick(e) {
@@ -76,7 +75,7 @@ export function IndustryEditor({ show, overrides, onChange }) {
         method: 'DELETE',
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      onChange(show.id, null); // null = remove override
+      onChange(show.id, null);
       setOpen(false);
     } catch (err) {
       alert(`Failed to clear: ${err.message}`);
@@ -87,33 +86,46 @@ export function IndustryEditor({ show, overrides, onChange }) {
 
   return (
     <div style={{ position: 'relative' }} ref={popoverRef}>
-      <button
-        className="industry-chip"
+      <div
+        className="industry-cell"
         onClick={() => setOpen((o) => !o)}
-        title={effective.length === 0 ? 'No industry set — click to edit' : effective.join(', ')}
         data-override={isOverridden}
+        title="Click to edit"
       >
         {effective.length === 0 ? (
-          <span style={{ color: 'var(--text-dimmer)' }}>+</span>
+          <span className="industry-cell__empty">+ tag</span>
         ) : (
-          effective.map((s) => SHORT[s] || '?').join('')
+          effective.map((seg) => (
+            <span key={seg} className="industry-pill" style={chipStyle(seg)}>
+              {seg.replace('Industrial / Manufacturing', 'Industrial/Manuf.')
+                  .replace('Automotive & Transportation', 'Auto & Transport')
+                  .replace('Construction & Building', 'Construction')
+                  .replace('Professional Services', 'Prof. Services')
+                  .replace('Technology & IT', 'Tech & IT')
+                  .replace('Medical & Pharma', 'Medical')}
+            </span>
+          ))
         )}
-      </button>
+        <span className="industry-cell__edit">✎</span>
+      </div>
       {open && (
-        <div className="industry-popover">
+        <div className="industry-popover industry-popover--chips">
           <div className="industry-popover__title">
             Industries{isOverridden && <span style={{ color: 'var(--accent)', marginLeft: 6 }}>(edited)</span>}
           </div>
-          {INDUSTRY_SEGMENTS.map((seg) => (
-            <label key={seg} className="industry-popover__row">
-              <input
-                type="checkbox"
-                checked={draft.has(seg)}
-                onChange={() => toggle(seg)}
-              />
-              <span>{seg}</span>
-            </label>
-          ))}
+          {INDUSTRY_SEGMENTS.map((seg) => {
+            const on = draft.has(seg);
+            return (
+              <div
+                key={seg}
+                className="industry-pill industry-pill--row"
+                style={chipStyle(seg, { faded: !on })}
+                onClick={() => toggle(seg)}
+              >
+                {seg}
+              </div>
+            );
+          })}
           <div className="industry-popover__actions">
             {isOverridden && (
               <button onClick={clearOverride} disabled={saving} style={{ fontSize: 10 }}>
