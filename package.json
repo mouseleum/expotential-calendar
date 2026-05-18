@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "scrape": "node scripts/scrape-tradeshow-calendar.js",
+    "scrape:expostands": "node scripts/scrape-expostands.js",
+    "scrape:eventseye": "node scripts/scrape-eventseye.js",
     "merge": "node scripts/merge.js",
     "refresh": "npm run scrape && npm run merge"
   },

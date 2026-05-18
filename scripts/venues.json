@@ -48,5 +48,14 @@
     "country_code": null,
     "url": "https://www.rxglobal.com",
     "type": "calendar"
+  },
+  {
+    "id": "eventseye",
+    "name": null,
+    "city": null,
+    "country": null,
+    "country_code": null,
+    "url": "https://www.eventseye.com",
+    "type": "calendar"
   }
 ]
