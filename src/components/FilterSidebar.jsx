@@ -271,15 +271,17 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
                               onClick={(e) => { e.stopPropagation(); toggleCountryExpand(country); }}
                               style={{
                                 marginLeft: 6,
-                                padding: '0 4px',
-                                border: 'none',
+                                padding: '1px 5px',
+                                border: '1px solid var(--border-strong)',
                                 fontSize: 10,
-                                color: selectedVenuesInCountry > 0 ? 'var(--accent)' : 'var(--text-dimmer)',
+                                color: selectedVenuesInCountry > 0 ? 'var(--accent)' : 'var(--text-dim)',
+                                background: 'var(--bg-elev-2)',
                                 cursor: 'pointer',
+                                whiteSpace: 'nowrap',
                               }}
-                              title={`${venues.length} venue${venues.length === 1 ? '' : 's'}`}
+                              title={`${venues.length} venue${venues.length === 1 ? '' : 's'} — click to ${countryExpanded ? 'hide' : 'show'}`}
                             >
-                              {countryExpanded ? '▾' : '▸'}{selectedVenuesInCountry > 0 ? ` ${selectedVenuesInCountry}` : ''}
+                              {countryExpanded ? '▾' : '▸'} {selectedVenuesInCountry > 0 ? `${selectedVenuesInCountry}/${venues.length}` : venues.length}
                             </button>
                           )}
                         </div>
