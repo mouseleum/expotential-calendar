@@ -128,11 +128,12 @@ function parseShows(html, country) {
     });
   });
 
-  // Parse pagination footer: "now showing 1-17 out of 17 exhibitions"
+  // Parse pagination footer: "now showing 1-100 out of 1,296 exhibitions"
   const footerText = $('.bottom-nav-text').text() + $('#bottom-nav').text();
-  const pageMatch = footerText.match(/showing\s+\d+\s*-\s*(\d+)\s+out of\s+(\d+)/i);
-  const total = pageMatch ? parseInt(pageMatch[2], 10) : shows.length;
-  const shownTo = pageMatch ? parseInt(pageMatch[1], 10) : shows.length;
+  const pageMatch = footerText.match(/showing\s+[\d,]+\s*-\s*([\d,]+)\s+out of\s+([\d,]+)/i);
+  const stripComma = (s) => parseInt(s.replace(/,/g, ''), 10);
+  const total = pageMatch ? stripComma(pageMatch[2]) : shows.length;
+  const shownTo = pageMatch ? stripComma(pageMatch[1]) : shows.length;
 
   return { shows, total, shownTo };
 }

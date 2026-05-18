@@ -1,122 +1,74 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useMemo, useState } from 'react';
+import './App.css';
+import showsData from './data/shows.json';
+import { StatsBar } from './components/StatsBar';
+import { FilterSidebar } from './components/FilterSidebar';
+import { ShowTable } from './components/ShowTable';
+import { useFlagged } from './hooks/useFlagged';
+import { isInDateRange } from './utils/dateUtils';
+
+const INITIAL_FILTERS = {
+  countries: new Set(),
+  query: '',
+  minAttendees: '',
+  dateFrom: '',
+  dateTo: '',
+  flaggedOnly: false,
+};
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [filters, setFilters] = useState(INITIAL_FILTERS);
+  const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
+  const { flags, cycle } = useFlagged();
+
+  const allShows = showsData.shows;
+
+  const filtered = useMemo(() => {
+    const q = filters.query.trim().toLowerCase();
+    const minAtt = filters.minAttendees ? parseInt(filters.minAttendees, 10) : null;
+    const out = allShows.filter((s) => {
+      if (filters.countries.size > 0 && !filters.countries.has(s.country)) return false;
+      if (q && !s.name.toLowerCase().includes(q)) return false;
+      if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;
+      if (!isInDateRange(s.start_date, s.end_date, filters.dateFrom, filters.dateTo)) return false;
+      if (filters.flaggedOnly && !flags[s.id]) return false;
+      return true;
+    });
+
+    out.sort((a, b) => {
+      const k = sort.key;
+      const va = a[k]; const vb = b[k];
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1;
+      if (vb == null) return -1;
+      const cmp = typeof va === 'number' && typeof vb === 'number' ? va - vb : String(va).localeCompare(String(vb));
+      return sort.dir === 'asc' ? cmp : -cmp;
+    });
+    return out;
+  }, [allShows, filters, sort, flags]);
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="app">
+      <header className="app__header">
+        <div className="app__title">
+          eXpotential Calendar
+          <span className="dim">— global trade show database</span>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+        <div className="app__meta">
+          {showsData.count.toLocaleString()} shows / {showsData.countries} countries
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      </header>
+      <div className="app__body">
+        <aside className="app__sidebar">
+          <FilterSidebar allShows={allShows} filters={filters} setFilters={setFilters} />
+        </aside>
+        <main className="app__main">
+          <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData.source_scraped_at} />
+          <ShowTable shows={filtered} sort={sort} setSort={setSort} flags={flags} onFlag={cycle} />
+        </main>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

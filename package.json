@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scrape": "node scripts/scrape-tradeshow-calendar.js",
+    "merge": "node scripts/merge.js",
+    "refresh": "npm run scrape && npm run merge"
   },
   "dependencies": {
     "react": "^19.2.6",

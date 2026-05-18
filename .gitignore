@@ -29,3 +29,4 @@ data/*.tmp.json
 data/tradeshow-calendar-raw.json
 data/venue-scrapes-raw.json
 .vercel
+screenshots/
