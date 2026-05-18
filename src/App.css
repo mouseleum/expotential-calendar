@@ -163,6 +163,23 @@
   color: var(--accent);
   margin-left: 4px;
 }
+.show-table td {
+  word-break: break-word;
+  overflow: hidden;
+}
+
+.col-resize {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  width: 8px;
+  height: 100%;
+  cursor: col-resize;
+  z-index: 5;
+}
+.col-resize:hover {
+  background: linear-gradient(to right, transparent 35%, var(--accent-dim) 35%, var(--accent-dim) 65%, transparent 65%);
+}
 .show-table tbody tr {
   border-bottom: 1px solid var(--border);
 }

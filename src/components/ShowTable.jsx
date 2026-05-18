@@ -1,15 +1,38 @@
 import { formatDateRange } from '../utils/dateUtils';
 import { IndustryEditor } from './IndustryEditor';
+import { INDUSTRY_SEGMENTS } from '../utils/industries';
+import { useColumnWidths } from '../hooks/useColumnWidths';
 
 const FLAG_GLYPH = { interested: '★', attending: '✓', skip: '✕' };
+const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
+
+const DEFAULT_COL_WIDTHS = {
+  flag: 40,
+  dates: 130,
+  name: 280,
+  city: 130,
+  country: 110,
+  industry: 200,
+  attendees: 90,
+  exhibitors: 90,
+};
+
+// First canonical industry segment for sorting; empty string sorts last.
+function industrySortKey(show) {
+  if (!Array.isArray(show.industry)) return '';
+  for (const t of show.industry) if (INDUSTRY_CANON.has(t)) return t;
+  return '';
+}
 
 export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrides, onIndustryChange }) {
+  const { widths, startResize } = useColumnWidths(DEFAULT_COL_WIDTHS);
+
   function header(key, label, align = 'left') {
     const active = sort.key === key;
     const arrow = active ? (sort.dir === 'asc' ? '▲' : '▼') : '';
     return (
       <th
-        style={{ textAlign: align }}
+        style={{ textAlign: align, width: widths[key], position: 'relative' }}
         onClick={() => setSort((prev) => ({
           key,
           dir: prev.key === key && prev.dir === 'asc' ? 'desc' : 'asc',
@@ -17,6 +40,7 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
       >
         {label}
         {active && <span className="sort-arrow">{arrow}</span>}
+        <span className="col-resize" onMouseDown={startResize(key)} />
       </th>
     );
   }
@@ -27,15 +51,15 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
 
   return (
     <div className="show-table-wrap">
-      <table className="show-table">
+      <table className="show-table" style={{ tableLayout: 'fixed' }}>
         <thead>
           <tr>
-            <th className="col-flag">⚑</th>
+            <th className="col-flag" style={{ width: widths.flag }}>⚑</th>
             {header('start_date', 'Dates')}
             {header('name', 'Show')}
             {header('city', 'City')}
             {header('country', 'Country')}
-            <th>Industry</th>
+            {header('industry', 'Industry')}
             {header('attendees', 'Attendees', 'right')}
             {header('exhibitors', 'Exhibitors', 'right')}
           </tr>
@@ -85,3 +109,5 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
     </div>
   );
 }
+
+export { industrySortKey };

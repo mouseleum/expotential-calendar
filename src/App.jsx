@@ -99,10 +99,16 @@ function App() {
 
     out.sort((a, b) => {
       const k = sort.key;
-      const va = a[k]; const vb = b[k];
-      if (va == null && vb == null) return 0;
-      if (va == null) return 1;
-      if (vb == null) return -1;
+      let va, vb;
+      if (k === 'industry') {
+        // Sort by first canonical segment; empty sorts last
+        va = (Array.isArray(a.industry) ? a.industry : []).find((t) => INDUSTRY_CANON.has(t)) || '';
+        vb = (Array.isArray(b.industry) ? b.industry : []).find((t) => INDUSTRY_CANON.has(t)) || '';
+      } else {
+        va = a[k]; vb = b[k];
+      }
+      if (va == null || va === '') return vb == null || vb === '' ? 0 : 1;
+      if (vb == null || vb === '') return -1;
       const cmp = typeof va === 'number' && typeof vb === 'number' ? va - vb : String(va).localeCompare(String(vb));
       return sort.dir === 'asc' ? cmp : -cmp;
     });
