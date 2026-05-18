@@ -6,9 +6,12 @@ import { FilterSidebar } from './components/FilterSidebar';
 import { ShowTable } from './components/ShowTable';
 import { useFlagged } from './hooks/useFlagged';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
+import { REGIONS } from './utils/regions';
+
+const EUROPE_MAIN_COUNTRIES = REGIONS.find((r) => r.id === 'europe-main')?.countries || [];
 
 const INITIAL_FILTERS = {
-  countries: new Set(),
+  countries: new Set(EUROPE_MAIN_COUNTRIES),
   venues: new Set(),
   query: '',
   minAttendees: '',
