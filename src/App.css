@@ -332,6 +332,42 @@
   min-width: 240px;
   background: #1a1a1a;
 }
+
+.filter-preset {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  margin-bottom: 2px;
+  border: 1px solid var(--border);
+  background: var(--bg-elev-2);
+  cursor: pointer;
+  font-size: 11px;
+}
+.filter-preset:hover {
+  border-color: var(--accent-dim);
+}
+.filter-preset--active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.filter-preset__name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.filter-preset__delete {
+  border: none;
+  padding: 0 4px;
+  font-size: 10px;
+  color: var(--text-dimmer);
+  background: transparent;
+  cursor: pointer;
+}
+.filter-preset__delete:hover {
+  color: var(--red);
+}
 .industry-popover__title {
   font-size: 10px;
   color: var(--text-dim);

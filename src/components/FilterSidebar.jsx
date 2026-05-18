@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { REGIONS } from '../utils/regions';
 import { INDUSTRY_SEGMENTS } from '../utils/industries';
 import { sourceLabel } from '../utils/sources';
+import { FilterPresets } from './FilterPresets';
 
 const MONTHS = [
   { value: '01', label: 'Jan' }, { value: '02', label: 'Feb' },
@@ -183,6 +184,8 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
 
   return (
     <div>
+      <FilterPresets filters={filters} setFilters={setFilters} />
+
       <div className="filter-group">
         <div className="filter-group__title">Search</div>
         <input
