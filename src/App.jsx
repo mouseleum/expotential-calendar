@@ -1,9 +1,10 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import showsData from './data/shows.json';
 import { StatsBar } from './components/StatsBar';
 import { FilterSidebar } from './components/FilterSidebar';
 import { ShowTable } from './components/ShowTable';
+import { AddShowForm } from './components/AddShowForm';
 import { useFlagged } from './hooks/useFlagged';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
@@ -26,8 +27,22 @@ function App() {
   const [filters, setFilters] = useState(INITIAL_FILTERS);
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
+  const [manualShows, setManualShows] = useState([]);
+  const [formOpen, setFormOpen] = useState(false);
 
-  const allShows = showsData.shows;
+  useEffect(() => {
+    fetch('/api/manual-shows')
+      .then((r) => (r.ok ? r.json() : { shows: [] }))
+      .then((d) => setManualShows(d.shows || []))
+      .catch(() => setManualShows([]));
+  }, []);
+
+  const allShows = useMemo(() => {
+    // Manual shows take priority on ID collisions
+    const map = new Map(showsData.shows.map((s) => [s.id, s]));
+    for (const s of manualShows) map.set(s.id, s);
+    return [...map.values()];
+  }, [manualShows]);
 
   const filtered = useMemo(() => {
     const q = filters.query.trim().toLowerCase();
@@ -59,6 +74,13 @@ function App() {
     return out;
   }, [allShows, filters, sort, flags]);
 
+  function handleAdded(show) {
+    setManualShows((prev) => {
+      const without = prev.filter((s) => s.id !== show.id);
+      return [...without, show];
+    });
+  }
+
   return (
     <div className="app">
       <header className="app__header">
@@ -66,8 +88,12 @@ function App() {
           eXpotential Calendar
           <span className="dim">— global trade show database</span>
         </div>
-        <div className="app__meta">
-          {showsData.count.toLocaleString()} shows / {showsData.countries} countries
+        <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+          <button onClick={() => setFormOpen(true)} style={{ color: 'var(--accent)', borderColor: 'var(--accent-dim)' }}>+ Add show</button>
+          <div className="app__meta">
+            {allShows.length.toLocaleString()} shows
+            {manualShows.length > 0 && <span style={{ color: 'var(--accent)' }}> · {manualShows.length} manual</span>}
+          </div>
         </div>
       </header>
       <div className="app__body">
@@ -79,6 +105,7 @@ function App() {
           <ShowTable shows={filtered} sort={sort} setSort={setSort} flags={flags} onFlag={cycle} />
         </main>
       </div>
+      {formOpen && <AddShowForm onClose={() => setFormOpen(false)} onAdded={handleAdded} />}
     </div>
   );
 }
