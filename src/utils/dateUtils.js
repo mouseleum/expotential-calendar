@@ -36,3 +36,35 @@ export function isInMonth(showStart, year, month) {
   const d = new Date(showStart);
   return d.getUTCFullYear() === year && d.getUTCMonth() === month;
 }
+
+// ISO 8601 week number: weeks start Monday, week 1 contains the first Thursday.
+export function getISOWeek(date) {
+  const d = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const day = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+  return { year: d.getUTCFullYear(), week: weekNo };
+}
+
+// First Monday of ISO week N of year Y, in UTC.
+function isoWeekStart(year, week) {
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const jan4Day = jan4.getUTCDay() || 7;
+  const week1Monday = new Date(jan4);
+  week1Monday.setUTCDate(jan4.getUTCDate() - jan4Day + 1);
+  const target = new Date(week1Monday);
+  target.setUTCDate(week1Monday.getUTCDate() + (week - 1) * 7);
+  return target;
+}
+
+// True if [showStart, showEnd] overlaps with ISO week `week` of `year`.
+export function isInISOWeek(showStart, showEnd, year, week) {
+  if (!showStart || !year || !week) return false;
+  const wkStart = isoWeekStart(year, week);
+  const wkEnd = new Date(wkStart);
+  wkEnd.setUTCDate(wkStart.getUTCDate() + 6);
+  const s = new Date(showStart);
+  const e = showEnd ? new Date(showEnd) : s;
+  return e >= wkStart && s <= wkEnd;
+}

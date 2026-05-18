@@ -5,7 +5,7 @@ import { StatsBar } from './components/StatsBar';
 import { FilterSidebar } from './components/FilterSidebar';
 import { ShowTable } from './components/ShowTable';
 import { useFlagged } from './hooks/useFlagged';
-import { isInDateRange } from './utils/dateUtils';
+import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 
 const INITIAL_FILTERS = {
   countries: new Set(),
@@ -14,6 +14,8 @@ const INITIAL_FILTERS = {
   minAttendees: '',
   dateFrom: '',
   dateTo: '',
+  week: '',
+  weekYear: '',
   flaggedOnly: false,
 };
 
@@ -33,6 +35,11 @@ function App() {
       if (q && !s.name.toLowerCase().includes(q)) return false;
       if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;
       if (!isInDateRange(s.start_date, s.end_date, filters.dateFrom, filters.dateTo)) return false;
+      if (filters.week && filters.weekYear) {
+        const wk = parseInt(filters.week, 10);
+        const yr = parseInt(filters.weekYear, 10);
+        if (Number.isFinite(wk) && Number.isFinite(yr) && !isInISOWeek(s.start_date, s.end_date, yr, wk)) return false;
+      }
       if (filters.flaggedOnly && !flags[s.id]) return false;
       return true;
     });

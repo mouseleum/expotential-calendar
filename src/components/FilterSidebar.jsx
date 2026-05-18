@@ -117,6 +117,8 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       minAttendees: '',
       dateFrom: '',
       dateTo: '',
+      week: '',
+      weekYear: '',
       flaggedOnly: false,
     });
     setExpandedCountries(new Set());
@@ -181,6 +183,40 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             <option value="">Year</option>
             {years.map((y) => <option key={y} value={y}>{y}</option>)}
           </select>
+        </div>
+      </div>
+
+      <div className="filter-group">
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span>ISO week</span>
+          {(filters.week || filters.weekYear) && (
+            <button
+              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+              onClick={() => setFilters((p) => ({ ...p, week: '', weekYear: '' }))}
+            >clear</button>
+          )}
+        </div>
+        <div style={{ display: 'flex', gap: 6 }}>
+          <input
+            type="number"
+            min="1"
+            max="53"
+            placeholder="Week"
+            value={filters.week}
+            onChange={(e) => setFilters((p) => ({ ...p, week: e.target.value, weekYear: p.weekYear || years[0] || '' }))}
+            style={{ flex: 1 }}
+          />
+          <select
+            value={filters.weekYear}
+            onChange={(e) => setFilters((p) => ({ ...p, weekYear: e.target.value }))}
+            style={{ flex: 1 }}
+          >
+            <option value="">Year</option>
+            {years.map((y) => <option key={y} value={y}>{y}</option>)}
+          </select>
+        </div>
+        <div style={{ fontSize: 10, color: 'var(--text-dimmer)', marginTop: 4 }}>
+          Shows whose dates overlap that Mon–Sun week.
         </div>
       </div>
 
