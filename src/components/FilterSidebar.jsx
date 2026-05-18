@@ -77,19 +77,22 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <div className="filter-group__title">Date range</div>
-        <div style={{ display: 'flex', gap: 6 }}>
+        <div className="filter-group__title">Month range</div>
+        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
           <input
-            type="date"
+            type="month"
             value={filters.dateFrom}
             onChange={(e) => setFilters((p) => ({ ...p, dateFrom: e.target.value }))}
             style={{ flex: 1 }}
+            placeholder="From"
           />
+          <span style={{ color: 'var(--text-dimmer)' }}>→</span>
           <input
-            type="date"
+            type="month"
             value={filters.dateTo}
             onChange={(e) => setFilters((p) => ({ ...p, dateTo: e.target.value }))}
             style={{ flex: 1 }}
+            placeholder="To"
           />
         </div>
       </div>

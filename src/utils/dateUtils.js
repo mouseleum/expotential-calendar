@@ -14,10 +14,20 @@ export function formatDateRange(start, end) {
   return `${monthShort(s)} ${day(s)}, ${year(s)} – ${monthShort(e)} ${day(e)}, ${year(e)}`;
 }
 
+// Accepts YYYY-MM-DD or YYYY-MM (month). Month is expanded to the start of
+// month for the "from" bound and end of month for the "to" bound.
+function normalizeBound(v, kind) {
+  if (!v) return null;
+  if (v.length === 7) return kind === 'from' ? `${v}-01` : `${v}-31`;
+  return v;
+}
+
 export function isInDateRange(showStart, showEnd, filterStart, filterEnd) {
   if (!showStart) return false;
-  if (filterStart && showEnd && showEnd < filterStart) return false;
-  if (filterEnd && showStart > filterEnd) return false;
+  const fStart = normalizeBound(filterStart, 'from');
+  const fEnd = normalizeBound(filterEnd, 'to');
+  if (fStart && showEnd && showEnd < fStart) return false;
+  if (fEnd && showStart > fEnd) return false;
   return true;
 }
 
