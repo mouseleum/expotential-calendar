@@ -8,6 +8,7 @@ const BENELUX = ['Belgium', 'Luxembourg', 'Netherlands'];
 const SOUTHERN_EUROPE = ['France', 'Greece', 'Italy', 'Malta', 'Monaco', 'Portugal', 'Spain'];
 
 export const REGIONS = [
+  { id: 'united-states', name: 'United States', countries: ['United States'] },
   {
     id: 'europe-main',
     name: 'Europe main',
