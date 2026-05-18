@@ -1,16 +1,23 @@
 // Region groupings for the filter sidebar. Every country in scripts/countries.json
 // belongs to exactly one region. Order within REGIONS controls display order.
 
+const NORDICS = ['Denmark', 'Finland', 'Norway', 'Sweden'];
+const BRITISH_ISLES = ['Ireland', 'United Kingdom'];
+const DACH = ['Austria', 'Germany', 'Switzerland'];
+const BENELUX = ['Belgium', 'Luxembourg', 'Netherlands'];
+const SOUTHERN_EUROPE = ['France', 'Greece', 'Italy', 'Malta', 'Monaco', 'Portugal', 'Spain'];
+
 export const REGIONS = [
-  { id: 'nordics', name: 'Nordics', countries: ['Denmark', 'Finland', 'Norway', 'Sweden'] },
-  { id: 'british-isles', name: 'British Isles', countries: ['Ireland', 'United Kingdom'] },
-  { id: 'dach', name: 'DACH', countries: ['Austria', 'Germany', 'Switzerland'] },
-  { id: 'benelux', name: 'Benelux', countries: ['Belgium', 'Luxembourg', 'Netherlands'] },
   {
-    id: 'southern-europe',
-    name: 'Southern Europe',
-    countries: ['France', 'Greece', 'Italy', 'Malta', 'Monaco', 'Portugal', 'Spain'],
+    id: 'europe-main',
+    name: 'Europe main',
+    countries: [...NORDICS, ...BRITISH_ISLES, ...DACH, ...BENELUX, ...SOUTHERN_EUROPE],
   },
+  { id: 'nordics', name: 'Nordics', countries: NORDICS },
+  { id: 'british-isles', name: 'British Isles', countries: BRITISH_ISLES },
+  { id: 'dach', name: 'DACH', countries: DACH },
+  { id: 'benelux', name: 'Benelux', countries: BENELUX },
+  { id: 'southern-europe', name: 'Southern Europe', countries: SOUTHERN_EUROPE },
   {
     id: 'eastern-europe',
     name: 'Eastern Europe',
