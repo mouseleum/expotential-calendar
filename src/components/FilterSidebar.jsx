@@ -10,7 +10,6 @@ const MONTHS = [
   { value: '11', label: 'Nov' }, { value: '12', label: 'Dec' },
 ];
 
-// Build YYYY-MM from a YYYY-MM string by overriding year or month.
 function splitYM(v) {
   if (!v || v.length < 7) return { year: '', month: '' };
   return { year: v.slice(0, 4), month: v.slice(5, 7) };
@@ -18,7 +17,7 @@ function splitYM(v) {
 function joinYM(year, month) {
   if (!year && !month) return '';
   if (year && !month) return `${year}-01`;
-  if (!year && month) return ''; // need year to be meaningful
+  if (!year && month) return '';
   return `${year}-${month}`;
 }
 
@@ -29,12 +28,20 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     return m;
   }, [allShows]);
 
-  const venueCounts = useMemo(() => {
+  // country → [[venue, count], ...] sorted by count desc
+  const venuesByCountry = useMemo(() => {
     const m = new Map();
     for (const s of allShows) {
-      if (s.venue) m.set(s.venue, (m.get(s.venue) || 0) + 1);
+      if (!s.venue || !s.country) continue;
+      if (!m.has(s.country)) m.set(s.country, new Map());
+      const inner = m.get(s.country);
+      inner.set(s.venue, (inner.get(s.venue) || 0) + 1);
     }
-    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+    const out = new Map();
+    for (const [country, inner] of m) {
+      out.set(country, [...inner.entries()].sort((a, b) => b[1] - a[1]));
+    }
+    return out;
   }, [allShows]);
 
   const years = useMemo(() => {
@@ -46,12 +53,21 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
   const fromYM = splitYM(filters.dateFrom);
   const toYM = splitYM(filters.dateTo);
 
-  const [expanded, setExpanded] = useState(() => new Set(REGIONS.map((r) => r.id)));
+  const [expandedRegions, setExpandedRegions] = useState(() => new Set(REGIONS.map((r) => r.id)));
+  const [expandedCountries, setExpandedCountries] = useState(() => new Set());
 
   function toggleRegion(id) {
-    setExpanded((prev) => {
+    setExpandedRegions((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }
+
+  function toggleCountryExpand(country) {
+    setExpandedCountries((prev) => {
+      const next = new Set(prev);
+      if (next.has(country)) next.delete(country); else next.add(country);
       return next;
     });
   }
@@ -92,6 +108,7 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       dateTo: '',
       flaggedOnly: false,
     });
+    setExpandedCountries(new Set());
   }
 
   return (
@@ -177,43 +194,18 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
         </label>
       </div>
 
-      {venueCounts.length > 0 && (
-        <div className="filter-group">
-          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <span>Venue</span>
-            {filters.venues.size > 0 && (
-              <button
-                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-                onClick={() => setFilters((p) => ({ ...p, venues: new Set() }))}
-              >clear ({filters.venues.size})</button>
-            )}
-          </div>
-          {venueCounts.map(([venue, count]) => (
-            <label key={venue} className="filter-group__row">
-              <input
-                type="checkbox"
-                checked={filters.venues.has(venue)}
-                onChange={() => toggleVenue(venue)}
-              />
-              <span>{venue}</span>
-              <span className="filter-group__count">{count}</span>
-            </label>
-          ))}
-        </div>
-      )}
-
       <div className="filter-group">
         <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
           <span>Country / Region</span>
-          {filters.countries.size > 0 && (
+          {(filters.countries.size > 0 || filters.venues.size > 0) && (
             <button
               style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-              onClick={() => setFilters((p) => ({ ...p, countries: new Set() }))}
-            >clear ({filters.countries.size})</button>
+              onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
+            >clear ({filters.countries.size + filters.venues.size})</button>
           )}
         </div>
         {REGIONS.map((region) => {
-          const isOpen = expanded.has(region.id);
+          const isOpen = expandedRegions.has(region.id);
           const regionTotal = region.countries.reduce((sum, c) => sum + (countryCounts.get(c) || 0), 0);
           if (regionTotal === 0) return null;
           const selectedInRegion = region.countries.filter((c) => filters.countries.has(c)).length;
@@ -240,16 +232,55 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
                   {region.countries.map((country) => {
                     const count = countryCounts.get(country) || 0;
                     if (count === 0) return null;
+                    const venues = venuesByCountry.get(country);
+                    const hasVenues = venues && venues.length > 0;
+                    const countryExpanded = expandedCountries.has(country);
+                    const selectedVenuesInCountry = hasVenues
+                      ? venues.filter(([v]) => filters.venues.has(v)).length
+                      : 0;
                     return (
-                      <label key={country} className="filter-group__row">
-                        <input
-                          type="checkbox"
-                          checked={filters.countries.has(country)}
-                          onChange={() => toggleCountry(country)}
-                        />
-                        <span>{country}</span>
-                        <span className="filter-group__count">{count}</span>
-                      </label>
+                      <div key={country}>
+                        <div className="filter-group__row" style={{ paddingRight: 0 }}>
+                          <input
+                            type="checkbox"
+                            checked={filters.countries.has(country)}
+                            onChange={() => toggleCountry(country)}
+                          />
+                          <span style={{ flex: 1 }} onClick={() => toggleCountry(country)}>{country}</span>
+                          <span className="filter-group__count">{count}</span>
+                          {hasVenues && (
+                            <button
+                              onClick={(e) => { e.stopPropagation(); toggleCountryExpand(country); }}
+                              style={{
+                                marginLeft: 6,
+                                padding: '0 4px',
+                                border: 'none',
+                                fontSize: 10,
+                                color: selectedVenuesInCountry > 0 ? 'var(--accent)' : 'var(--text-dimmer)',
+                                cursor: 'pointer',
+                              }}
+                              title={`${venues.length} venue${venues.length === 1 ? '' : 's'}`}
+                            >
+                              {countryExpanded ? '▾' : '▸'}{selectedVenuesInCountry > 0 ? ` ${selectedVenuesInCountry}` : ''}
+                            </button>
+                          )}
+                        </div>
+                        {hasVenues && countryExpanded && (
+                          <div style={{ paddingLeft: 20, marginBottom: 4 }}>
+                            {venues.map(([venue, vCount]) => (
+                              <label key={venue} className="filter-group__row" style={{ fontSize: 11 }}>
+                                <input
+                                  type="checkbox"
+                                  checked={filters.venues.has(venue)}
+                                  onChange={() => toggleVenue(venue)}
+                                />
+                                <span style={{ color: 'var(--text-dim)' }}>{venue}</span>
+                                <span className="filter-group__count">{vCount}</span>
+                              </label>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     );
                   })}
                 </div>
