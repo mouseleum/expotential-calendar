@@ -23,7 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# Raw scraper output (kept locally; only src/data/shows.json is shipped)
+# Raw scraper output (kept locally; only merged data/shows.json is committed)
 data/*.html
 data/*.tmp.json
+data/tradeshow-calendar-raw.json
+data/venue-scrapes-raw.json
 .vercel
