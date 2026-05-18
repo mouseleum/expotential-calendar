@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-18T08:30:42.648Z",
+  "generated_at": "2026-05-18T13:32:57.348Z",
   "source_scraped_at": "2026-05-18T08:05:14.619Z",
-  "count": 4132,
+  "count": 4149,
   "countries": 90,
   "shows": [
     {
@@ -760,12 +760,12 @@
       "city": "Copenhagen",
       "country": "Denmark",
       "country_code": "DK",
-      "venue": null,
+      "venue": "Bella Center",
       "industry": [],
       "attendees": 2975,
       "exhibitors": 58,
       "website": "https://himss1.eventsair.com/himss26-europe/programme?_gl=1*15jzimh*_gcl_au*MTY3NDE0MzA0NC4xNzY1OTAwNTQx*_ga*MTA5NjMyNTQ2LjE3NjU5MDA1NDM.*_ga_PEZQ60E422*czE3NjU5MDA1NDMkbzEkZzEkdDE3NjU5MDA1NzQkajI5JGwwJGg5MzYxOTA2NDA.",
-      "source": "tradeshow_calendar",
+      "source": "tradeshow_calendar+venue:bellacenter",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Denmark",
       "notes": ""
     },
@@ -9134,6 +9134,23 @@
       "notes": ""
     },
     {
+      "name": "ESMO Gynaecological Cancers Congress 2026",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.esmo.org/meeting-calendar/esmo-gynaecological-cancers-congress-2026",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "esmo-gynaecological-cancers-congress-2026-copenhagen-2026-06"
+    },
+    {
       "id": "intex-bangladesh-dhaka-2026-06",
       "name": "Intex Bangladesh",
       "start_date": "2026-06-18",
@@ -10339,6 +10356,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "DTW 2026",
+      "start_date": "2026-06-23",
+      "end_date": "2026-06-25",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.tmforum.org/events/dtw",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "dtw-2026-copenhagen-2026-06"
     },
     {
       "id": "batev-international-exhibition-of-construction-housing-buenos-aires-2026-06",
@@ -11752,6 +11786,23 @@
       "notes": ""
     },
     {
+      "name": "EPPC 2026",
+      "start_date": "2026-06-29",
+      "end_date": "2026-07-02",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://bit.ly/BellaCentre",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "eppc-2026-copenhagen-2026-06"
+    },
+    {
       "id": "formobile-sao-paulo-2026-06",
       "name": "ForMobile",
       "start_date": "2026-06-30",
@@ -12651,6 +12702,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "SPIE AS 2026",
+      "start_date": "2026-07-07",
+      "end_date": "2026-07-09",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "spie-as-2026-copenhagen-2026-07"
     },
     {
       "id": "international-society-for-stem-cell-research-isscr-montreal-qc-2026-07",
@@ -16121,6 +16189,23 @@
       "notes": ""
     },
     {
+      "name": "CIFF 67",
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-05",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://ciff.dk/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "ciff-67-copenhagen-2026-08"
+    },
+    {
       "id": "tech-in-gov-tig-canberra-2026-08",
       "name": "Tech in Gov - TIG",
       "start_date": "2026-08-04",
@@ -17258,6 +17343,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "ATHX GAMES x Copenhagen 2026",
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-15",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.athxgames.com/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "athx-games-x-copenhagen-2026-copenhagen-2026-08"
     },
     {
       "id": "association-for-the-healthcare-environment-ahe-exchange-new-orleans-la-2026-08",
@@ -19028,6 +19130,23 @@
       "notes": ""
     },
     {
+      "name": "TechBBQ 2026",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-27",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://techbbq.dk/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "techbbq-2026-copenhagen-2026-08"
+    },
+    {
       "id": "imcas-china-dermatology-plastic-surgery-aging-science-shanghai-2026-08",
       "name": "IMCAS China - Dermatology, Plastic Surgery & Aging Science",
       "start_date": "2026-08-27",
@@ -20150,6 +20269,23 @@
       "notes": ""
     },
     {
+      "name": "Space for Inspiration 2026",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-02",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://bsgn.esa.int/s4i-2026/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "space-for-inspiration-2026-copenhagen-2026-09"
+    },
+    {
       "id": "africa-downunder-conference-adu-perth-2026-09",
       "name": "Africa Downunder Conference - ADU",
       "start_date": "2026-09-02",
@@ -21245,12 +21381,12 @@
       "city": "Copenhagen",
       "country": "Denmark",
       "country_code": "DK",
-      "venue": null,
+      "venue": "Bella Center",
       "industry": [],
       "attendees": 6725,
       "exhibitors": 112,
       "website": "https://cirsecongress.cirse.org",
-      "source": "tradeshow_calendar",
+      "source": "tradeshow_calendar+venue:bellacenter",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Denmark",
       "notes": ""
     },
@@ -23327,6 +23463,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "ISTAT 2026",
+      "start_date": "2026-09-13",
+      "end_date": "2026-09-15",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.istat.org/Events/EMEA/Event-Information",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "istat-2026-copenhagen-2026-09"
     },
     {
       "id": "gartner-symposium-itxpo-gold-coast-2026-09",
@@ -30044,6 +30197,23 @@
       "notes": ""
     },
     {
+      "name": "IBA Annual Conference 2026",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-09",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.ibanet.org/conference-details/CONF2635",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "iba-annual-conference-2026-copenhagen-2026-10"
+    },
+    {
       "id": "expo-real-commercial-real-estate-munich-2026-10",
       "name": "Expo Real - Commercial Real Estate",
       "start_date": "2026-10-05",
@@ -33648,6 +33818,23 @@
       "notes": ""
     },
     {
+      "name": "Intergraf 2026",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://intergrafconference.com/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "intergraf-2026-copenhagen-2026-10"
+    },
+    {
       "id": "chengdu-china-beauty-expo-ccbe-autumn-chengdu-2026-10",
       "name": "Chengdu China Beauty Expo - CCBE Autumn",
       "start_date": "2026-10-15",
@@ -34343,6 +34530,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "Pax8 Beyond EMEA 2026",
+      "start_date": "2026-10-18",
+      "end_date": "2026-10-20",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "http://pax8beyond.com/emea",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "pax8-beyond-emea-2026-copenhagen-2026-10"
     },
     {
       "id": "electricity-transformation-canada-etc-toronto-on-2026-10",
@@ -37830,6 +38034,23 @@
       "notes": ""
     },
     {
+      "name": "Bogforum 2026",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.bogforum.dk/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "bogforum-2026-copenhagen-2026-10"
+    },
+    {
       "id": "iena-nurnberg-ideas-inventions-products-nuremberg-2026-10",
       "name": "iENA Nurnberg  Ideas-Inventions-Products",
       "start_date": "2026-10-31",
@@ -39528,6 +39749,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20States",
       "notes": ""
+    },
+    {
+      "name": "Comic Con Denmark 2026",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.comiccondenmark.com/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "comic-con-denmark-2026-copenhagen-2026-11"
     },
     {
       "id": "ispor-europe-the-professional-society-for-health-economics-and-outcomes-research-vienna-2026-11",
@@ -43421,6 +43659,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20Kingdom",
       "notes": ""
+    },
+    {
+      "name": "World Hydrogen & Carbon Week 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-27",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.wh2cweek.com/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "world-hydrogen-carbon-week-2026-copenhagen-2026-11"
     },
     {
       "id": "melbourne-build-expo-melbourne-2026-11",
@@ -65761,6 +66016,23 @@
       "notes": ""
     },
     {
+      "name": "Euroanaesthesia 2027",
+      "start_date": "2027-05-29",
+      "end_date": "2027-05-31",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://euroanaesthesia.org/2027/",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "euroanaesthesia-2027-copenhagen-2027-05"
+    },
+    {
       "id": "isakos-congress-international-society-of-arthroscopy-knee-surgery-and-orthopaedic-sports-medicine-sydney-2027-05",
       "name": "ISAKOS Congress - International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine",
       "start_date": "2027-05-30",
@@ -70060,6 +70332,23 @@
       "source": "tradeshow_calendar",
       "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
       "notes": ""
+    },
+    {
+      "name": "ISSCR 2028 Annual Meeting",
+      "start_date": "2028-06-27",
+      "end_date": "2028-06-30",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "country_code": "DK",
+      "venue": "Bella Center",
+      "industry": [],
+      "attendees": null,
+      "exhibitors": null,
+      "website": "https://www.isscr.org/upcoming-programs/isscr-2028",
+      "source": "venue:bellacenter",
+      "source_url": "https://bellacenter.dk/en/visitors/future-events",
+      "notes": "",
+      "id": "isscr-2028-annual-meeting-copenhagen-2028-06"
     },
     {
       "id": "international-geographical-congress-igc-melbourne-2028-07",

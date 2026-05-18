@@ -1,0 +1,25 @@
+{
+  "venue_id": "bellacenter",
+  "scraped_at": "2026-05-18T00:00:00.000Z",
+  "events": [
+    { "name": "HIMSS 2026", "start_date": "2026-05-19", "end_date": "2026-05-21", "website": "https://www.himss.org/events-overview/european-health-conference-and-exhibition/" },
+    { "name": "ESMO Gynaecological Cancers Congress 2026", "start_date": "2026-06-17", "end_date": "2026-06-19", "website": "https://www.esmo.org/meeting-calendar/esmo-gynaecological-cancers-congress-2026" },
+    { "name": "DTW 2026", "start_date": "2026-06-23", "end_date": "2026-06-25", "website": "https://www.tmforum.org/events/dtw" },
+    { "name": "EPPC 2026", "start_date": "2026-06-29", "end_date": "2026-07-02", "website": "https://bit.ly/BellaCentre" },
+    { "name": "SPIE AS 2026", "start_date": "2026-07-07", "end_date": "2026-07-09", "website": "https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" },
+    { "name": "CIFF 67", "start_date": "2026-08-03", "end_date": "2026-08-05", "website": "https://ciff.dk/" },
+    { "name": "ATHX GAMES x Copenhagen 2026", "start_date": "2026-08-15", "end_date": "2026-08-15", "website": "https://www.athxgames.com/" },
+    { "name": "TechBBQ 2026", "start_date": "2026-08-26", "end_date": "2026-08-27", "website": "https://techbbq.dk/" },
+    { "name": "Space for Inspiration 2026", "start_date": "2026-09-01", "end_date": "2026-09-02", "website": "https://bsgn.esa.int/s4i-2026/" },
+    { "name": "CIRSE 2026", "start_date": "2026-09-05", "end_date": "2026-09-09", "website": "https://cirsecongress.cirse.org/" },
+    { "name": "ISTAT 2026", "start_date": "2026-09-13", "end_date": "2026-09-15", "website": "https://www.istat.org/Events/EMEA/Event-Information" },
+    { "name": "IBA Annual Conference 2026", "start_date": "2026-10-04", "end_date": "2026-10-09", "website": "https://www.ibanet.org/conference-details/CONF2635" },
+    { "name": "Intergraf 2026", "start_date": "2026-10-14", "end_date": "2026-10-16", "website": "https://intergrafconference.com/" },
+    { "name": "Pax8 Beyond EMEA 2026", "start_date": "2026-10-18", "end_date": "2026-10-20", "website": "http://pax8beyond.com/emea" },
+    { "name": "Bogforum 2026", "start_date": "2026-10-30", "end_date": "2026-11-01", "website": "https://www.bogforum.dk/" },
+    { "name": "Comic Con Denmark 2026", "start_date": "2026-11-07", "end_date": "2026-11-08", "website": "https://www.comiccondenmark.com/" },
+    { "name": "World Hydrogen & Carbon Week 2026", "start_date": "2026-11-24", "end_date": "2026-11-27", "website": "https://www.wh2cweek.com/" },
+    { "name": "Euroanaesthesia 2027", "start_date": "2027-05-29", "end_date": "2027-05-31", "website": "https://euroanaesthesia.org/2027/" },
+    { "name": "ISSCR 2028 Annual Meeting", "start_date": "2028-06-27", "end_date": "2028-06-30", "website": "https://www.isscr.org/upcoming-programs/isscr-2028" }
+  ]
+}
