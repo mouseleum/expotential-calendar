@@ -1,8 +1,9 @@
 import { formatDateRange } from '../utils/dateUtils';
+import { IndustryEditor } from './IndustryEditor';
 
 const FLAG_GLYPH = { interested: '★', attending: '✓', skip: '✕' };
 
-export function ShowTable({ shows, sort, setSort, flags, onFlag }) {
+export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrides, onIndustryChange }) {
   function header(key, label, align = 'left') {
     const active = sort.key === key;
     const arrow = active ? (sort.dir === 'asc' ? '▲' : '▼') : '';
@@ -34,6 +35,7 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag }) {
             {header('name', 'Show')}
             {header('city', 'City')}
             {header('country', 'Country')}
+            <th>Industry</th>
             {header('attendees', 'Attendees', 'right')}
             {header('exhibitors', 'Exhibitors', 'right')}
           </tr>
@@ -66,6 +68,13 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag }) {
                   )}
                 </td>
                 <td>{s.country}</td>
+                <td>
+                  <IndustryEditor
+                    show={s}
+                    overrides={industryOverrides}
+                    onChange={onIndustryChange}
+                  />
+                </td>
                 <td className="col-num">{s.attendees != null ? s.attendees.toLocaleString() : '—'}</td>
                 <td className="col-num">{s.exhibitors != null ? s.exhibitors.toLocaleString() : '—'}</td>
               </tr>

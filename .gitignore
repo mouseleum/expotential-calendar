@@ -30,3 +30,7 @@ data/tradeshow-calendar-raw.json
 data/venue-scrapes-raw.json
 .vercel
 screenshots/
+
+# Secrets
+.env
+.env.local

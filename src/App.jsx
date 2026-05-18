@@ -8,6 +8,9 @@ import { AddShowForm } from './components/AddShowForm';
 import { useFlagged } from './hooks/useFlagged';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
+import { INDUSTRY_SEGMENTS } from './utils/industries';
+
+const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
 
 const EUROPE_MAIN_COUNTRIES = REGIONS.find((r) => r.id === 'europe-main')?.countries || [];
 
@@ -29,6 +32,7 @@ function App() {
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
   const [manualShows, setManualShows] = useState([]);
+  const [industryOverrides, setIndustryOverrides] = useState({});
   const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
@@ -36,14 +40,35 @@ function App() {
       .then((r) => (r.ok ? r.json() : { shows: [] }))
       .then((d) => setManualShows(d.shows || []))
       .catch(() => setManualShows([]));
+    fetch('/api/industry-overrides')
+      .then((r) => (r.ok ? r.json() : { overrides: {} }))
+      .then((d) => setIndustryOverrides(d.overrides || {}))
+      .catch(() => setIndustryOverrides({}));
   }, []);
 
   const allShows = useMemo(() => {
-    // Manual shows take priority on ID collisions
+    // Manual shows take priority on ID collisions; industry overrides replace
+    // the show's canonical-segment portion of `industry`.
     const map = new Map(showsData.shows.map((s) => [s.id, s]));
     for (const s of manualShows) map.set(s.id, s);
-    return [...map.values()];
-  }, [manualShows]);
+    if (Object.keys(industryOverrides).length === 0) return [...map.values()];
+    return [...map.values()].map((s) => {
+      const override = industryOverrides[s.id];
+      if (!override) return s;
+      // Keep non-canonical (raw) industry tags, replace canonical ones with override
+      const nonCanonical = (s.industry || []).filter((t) => !INDUSTRY_CANON.has(t));
+      return { ...s, industry: [...nonCanonical, ...override] };
+    });
+  }, [manualShows, industryOverrides]);
+
+  function handleIndustryChange(showId, newIndustry) {
+    setIndustryOverrides((prev) => {
+      const next = { ...prev };
+      if (newIndustry === null) delete next[showId];
+      else next[showId] = newIndustry;
+      return next;
+    });
+  }
 
   const filtered = useMemo(() => {
     const q = filters.query.trim().toLowerCase();
@@ -107,7 +132,15 @@ function App() {
         </aside>
         <main className="app__main">
           <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData.source_scraped_at} />
-          <ShowTable shows={filtered} sort={sort} setSort={setSort} flags={flags} onFlag={cycle} />
+          <ShowTable
+            shows={filtered}
+            sort={sort}
+            setSort={setSort}
+            flags={flags}
+            onFlag={cycle}
+            industryOverrides={industryOverrides}
+            onIndustryChange={handleIndustryChange}
+          />
         </main>
       </div>
       {formOpen && <AddShowForm onClose={() => setFormOpen(false)} onAdded={handleAdded} />}
