@@ -8,6 +8,14 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     return m;
   }, [allShows]);
 
+  const venueCounts = useMemo(() => {
+    const m = new Map();
+    for (const s of allShows) {
+      if (s.venue) m.set(s.venue, (m.get(s.venue) || 0) + 1);
+    }
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+  }, [allShows]);
+
   const [expanded, setExpanded] = useState(() => new Set(REGIONS.map((r) => r.id)));
 
   function toggleRegion(id) {
@@ -36,9 +44,18 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
   }
 
+  function toggleVenue(venue) {
+    setFilters((prev) => {
+      const next = new Set(prev.venues);
+      if (next.has(venue)) next.delete(venue); else next.add(venue);
+      return { ...prev, venues: next };
+    });
+  }
+
   function clearAll() {
     setFilters({
       countries: new Set(),
+      venues: new Set(),
       query: '',
       minAttendees: '',
       dateFrom: '',
@@ -97,6 +114,31 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           Flagged only
         </label>
       </div>
+
+      {venueCounts.length > 0 && (
+        <div className="filter-group">
+          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <span>Venue</span>
+            {filters.venues.size > 0 && (
+              <button
+                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+                onClick={() => setFilters((p) => ({ ...p, venues: new Set() }))}
+              >clear ({filters.venues.size})</button>
+            )}
+          </div>
+          {venueCounts.map(([venue, count]) => (
+            <label key={venue} className="filter-group__row">
+              <input
+                type="checkbox"
+                checked={filters.venues.has(venue)}
+                onChange={() => toggleVenue(venue)}
+              />
+              <span>{venue}</span>
+              <span className="filter-group__count">{count}</span>
+            </label>
+          ))}
+        </div>
+      )}
 
       <div className="filter-group">
         <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>

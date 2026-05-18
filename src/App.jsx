@@ -9,6 +9,7 @@ import { isInDateRange } from './utils/dateUtils';
 
 const INITIAL_FILTERS = {
   countries: new Set(),
+  venues: new Set(),
   query: '',
   minAttendees: '',
   dateFrom: '',
@@ -28,6 +29,7 @@ function App() {
     const minAtt = filters.minAttendees ? parseInt(filters.minAttendees, 10) : null;
     const out = allShows.filter((s) => {
       if (filters.countries.size > 0 && !filters.countries.has(s.country)) return false;
+      if (filters.venues.size > 0 && !filters.venues.has(s.venue)) return false;
       if (q && !s.name.toLowerCase().includes(q)) return false;
       if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;
       if (!isInDateRange(s.start_date, s.end_date, filters.dateFrom, filters.dateTo)) return false;

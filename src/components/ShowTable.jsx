@@ -59,7 +59,12 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag }) {
                     ? <a href={s.website} target="_blank" rel="noopener noreferrer">{s.name}</a>
                     : s.name}
                 </td>
-                <td>{s.city || '—'}</td>
+                <td>
+                  {s.city || '—'}
+                  {s.venue && (
+                    <div style={{ fontSize: 10, color: 'var(--text-dimmer)', marginTop: 1 }}>{s.venue}</div>
+                  )}
+                </td>
                 <td>{s.country}</td>
                 <td className="col-num">{s.attendees != null ? s.attendees.toLocaleString() : '—'}</td>
                 <td className="col-num">{s.exhibitors != null ? s.exhibitors.toLocaleString() : '—'}</td>
