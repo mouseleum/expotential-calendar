@@ -69,6 +69,17 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
 
   const [expandedRegions, setExpandedRegions] = useState(() => new Set(REGIONS.map((r) => r.id)));
   const [expandedCountries, setExpandedCountries] = useState(() => new Set());
+  const [collapsedGroups, setCollapsedGroups] = useState(() => new Set());
+
+  function toggleGroup(id) {
+    setCollapsedGroups((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }
+  const isCollapsed = (id) => collapsedGroups.has(id);
+  const chevron = (id) => (isCollapsed(id) ? '▸' : '▾');
 
   function toggleRegion(id) {
     setExpandedRegions((prev) => {
@@ -302,16 +313,16 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <span>Audience</span>
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }} onClick={() => toggleGroup('audience')}>
+          <span>{chevron('audience')} Audience</span>
           {filters.audiences.size > 0 && (
             <button
               style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-              onClick={() => setFilters((p) => ({ ...p, audiences: new Set() }))}
+              onClick={(e) => { e.stopPropagation(); setFilters((p) => ({ ...p, audiences: new Set() })); }}
             >clear ({filters.audiences.size})</button>
           )}
         </div>
-        {[
+        {!isCollapsed('audience') && [
           { id: 'b2b', label: 'B2B (trade)' },
           { id: 'b2c', label: 'B2C (consumer)' },
           { id: 'mixed', label: 'Mixed' },
@@ -334,16 +345,16 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <span>Industry</span>
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }} onClick={() => toggleGroup('industry')}>
+          <span>{chevron('industry')} Industry</span>
           {filters.industries.size > 0 && (
             <button
               style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-              onClick={() => setFilters((p) => ({ ...p, industries: new Set() }))}
+              onClick={(e) => { e.stopPropagation(); setFilters((p) => ({ ...p, industries: new Set() })); }}
             >clear ({filters.industries.size})</button>
           )}
         </div>
-        {INDUSTRY_SEGMENTS.map((seg) => {
+        {!isCollapsed('industry') && INDUSTRY_SEGMENTS.map((seg) => {
           const count = industryCounts.get(seg) || 0;
           return (
             <label key={seg} className="filter-group__row" style={{ opacity: count === 0 ? 0.5 : 1 }}>
@@ -362,16 +373,16 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
 
       {sourceCounts.length > 0 && (
         <div className="filter-group">
-          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <span>Source</span>
+          <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }} onClick={() => toggleGroup('source')}>
+            <span>{chevron('source')} Source</span>
             {filters.sources.size > 0 && (
               <button
                 style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-                onClick={() => setFilters((p) => ({ ...p, sources: new Set() }))}
+                onClick={(e) => { e.stopPropagation(); setFilters((p) => ({ ...p, sources: new Set() })); }}
               >clear ({filters.sources.size})</button>
             )}
           </div>
-          {sourceCounts.map(([id, count]) => (
+          {!isCollapsed('source') && sourceCounts.map(([id, count]) => (
             <label key={id} className="filter-group__row">
               <input
                 type="checkbox"
