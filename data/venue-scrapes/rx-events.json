@@ -1,0 +1,5964 @@
+{
+  "venue_id": "rx-events",
+  "scraped_at": "2026-05-18T18:33:42.096Z",
+  "source_url": "https://www.rxglobal.com",
+  "events": [
+    {
+      "name": "2026 Yiwu Gifts, Fashion products and Houseware Fair",
+      "start_date": "2026-05-16",
+      "end_date": "2026-05-18",
+      "city": "Yiwu",
+      "country": "China",
+      "venue": "Yiwu International Expo Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.rxhuabo.com.cn/"
+    },
+    {
+      "name": "WORLD HYDROGEN 2026 SUMMIT & EXHIBITION",
+      "start_date": "2026-05-19",
+      "end_date": "2026-05-21",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "venue": "Rotterdam Ahoy",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.world-hydrogen-summit.com/world/en-gb.html"
+    },
+    {
+      "name": "INTERPHEX JAPAN -Int'l Pharmaceutical and Cosmetics Manufacturing Expo",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/ipj.html"
+    },
+    {
+      "name": "in-PHARMA JAPAN -Int'l Pharmaceutical and Cosmetics Ingredients Expo",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/pi.html"
+    },
+    {
+      "name": "BioPharma Expo -Biopharmaceutical R&D and Manufacturing Expo",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/bp.html"
+    },
+    {
+      "name": "PharmaLab EXPO [TOKYO] -Pharmaceutical and Cosmetics R&D Expo Tokyo",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/rd.html"
+    },
+    {
+      "name": "Regenerative Medicine Expo [TOKYO]",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/rm.html"
+    },
+    {
+      "name": "28th Bakery China",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-23",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "NECC(Shanghai)",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "https://www.bakerychina.com/"
+    },
+    {
+      "name": "Pharma Digital Transformation EXPO [TOKYO]",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/pdx.html"
+    },
+    {
+      "name": "CMO/CDMO EXPO [TOKYO]",
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-22",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb.html"
+    },
+    {
+      "name": "THE 64rd HIGHER EDUCATION EXPO CHINA",
+      "start_date": "2026-05-22",
+      "end_date": "2026-05-24",
+      "city": "Nanchang",
+      "country": "China",
+      "venue": "Nanchang Greenland International Expo Center",
+      "industry": [
+        "Business Services, Education & Training",
+        "Education & Training"
+      ],
+      "website": "https://heec.cahe.edu.cn/heexpochina"
+    },
+    {
+      "name": "The 27th China Hospital Construction Conference & International Hospital Build and Infrastructure Exposition (CHCC)",
+      "start_date": "2026-05-23",
+      "end_date": "2026-05-25",
+      "city": "Tianjin",
+      "country": "China",
+      "venue": "National Convention and Exhibition Center (Tianjin)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.chccchina.com/en"
+    },
+    {
+      "name": "Luxury",
+      "start_date": "2026-05-27",
+      "end_date": "2026-06-01",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "The Venetian",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "http://luxury.jckonline.com"
+    },
+    {
+      "name": "MAPIC Italy",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-28",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Rho Fiera Milano",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mapic-italy.it/en-gb.html"
+    },
+    {
+      "name": "SPEXA – Space Business Expo",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-29",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Space"
+      ],
+      "website": "https://www.spexa.jp/tokyo/en-gb.html"
+    },
+    {
+      "name": "J AGRI SUPPLY KYUSHU",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-29",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "venue": "Grandmesse Kumamoto",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agrisupply.html"
+    },
+    {
+      "name": "J AGRI TECH KYUSHU",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-29",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "venue": "Grandmesse Kumamoto",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agritech.html"
+    },
+    {
+      "name": "J AGRI LIVESTOCK KYUSHU",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-29",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "venue": "Grandmesse Kumamoto",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agrilivestock.html"
+    },
+    {
+      "name": "J AGRI BUSINESS KYUSHU",
+      "start_date": "2026-05-27",
+      "end_date": "2026-05-29",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "venue": "Grandmesse Kumamoto",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.agriexpo-week.jp/kyushu/en-gb/about/agritech.html"
+    },
+    {
+      "name": "Vision China 2026",
+      "start_date": "2026-05-28",
+      "end_date": "2026-05-31",
+      "city": "Tianjin",
+      "country": "China",
+      "venue": "Tianjin MeiJiang Convention and Exhibition Center",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": null
+    },
+    {
+      "name": "JCK",
+      "start_date": "2026-05-29",
+      "end_date": "2026-06-01",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "The Venetian",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "https://lasvegas.jckonline.com/"
+    },
+    {
+      "name": "Infosecurity Europe",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [
+        "Safety & Security",
+        "IT & Telecoms"
+      ],
+      "website": "http://www.infosecurityeurope.com"
+    },
+    {
+      "name": "Expo Seguridad Industrial",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "http://www.exposeguridadindustrial.com"
+    },
+    {
+      "name": "Expo Seguridad Mexico",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "http://www.exposeguridadmexico.com"
+    },
+    {
+      "name": "Infosecurity Mexico",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Safety & Security",
+        "IT & Security"
+      ],
+      "website": "http://www.infosecuritymexico.com"
+    },
+    {
+      "name": "S-Factory Expo",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai World Expo Exhibition and Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Smart Manufacturing & Logistics"
+      ],
+      "website": "https://www.s-factoryexpo.com/en-gb.html"
+    },
+    {
+      "name": "Fac Tec China",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-04",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai World Expo Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.factec.com.cn/"
+    },
+    {
+      "name": "Bar Convent Brooklyn",
+      "start_date": "2026-06-09",
+      "end_date": "2026-06-10",
+      "city": "Brooklyn",
+      "country": "United States",
+      "venue": "Industry City",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.barconventbrooklyn.com/en-us.html"
+    },
+    {
+      "name": "ITS America Conference & Expo",
+      "start_date": "2026-06-09",
+      "end_date": "2026-06-12",
+      "city": "Detroit",
+      "country": "United States",
+      "venue": "Huntington Place",
+      "industry": [
+        "Safety & Security",
+        "Automotive, Transport & Aerospace"
+      ],
+      "website": "https://www.itsamericaevents.com/expo/en-us.html"
+    },
+    {
+      "name": "BCB Brooklyn",
+      "start_date": "2026-06-09",
+      "end_date": "2026-06-10",
+      "city": "Brooklyn",
+      "country": "United States",
+      "venue": "Industry City",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.barconventbrooklyn.com/en-us.html#/"
+    },
+    {
+      "name": "EDIX Osaka",
+      "start_date": "2026-06-11",
+      "end_date": "2026-06-13",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Education & Training"
+      ],
+      "website": "https://www.edix-expo.jp/hub/en-gb.html"
+    },
+    {
+      "name": "Automotive Manufacturing",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Automobiles & Automotive Engineering"
+      ],
+      "website": "http://www.automanexpo.com"
+    },
+    {
+      "name": "InterPlas Thailand",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Plastics"
+      ],
+      "website": "http://www.interplasthailand.com"
+    },
+    {
+      "name": "NEPCON Thailand",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "http://www.nepconthailand.com"
+    },
+    {
+      "name": "Manufacturing Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "http://www.manufacturing-expo.com"
+    },
+    {
+      "name": "Assembly & Automation Technology",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "http://www.assemblytechexpo.com"
+    },
+    {
+      "name": "Surface & Coatings",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "http://www.surfaceandcoatings.com/"
+    },
+    {
+      "name": "FacTech",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.factech-expo.com"
+    },
+    {
+      "name": "InterMold Thailand",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-20",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Processing"
+      ],
+      "website": "http://www.intermoldthailand.com"
+    },
+    {
+      "name": "Korea Ocean Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Incheon",
+      "country": "South Korea",
+      "venue": "Songdo Convensia",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Marine"
+      ],
+      "website": "https://www.koreaoceanexpo.com/"
+    },
+    {
+      "name": "Office Disaster Prevention Expo Spring",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Administration Services Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "HR EXPO [Spring] - Human Resources Management Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Work-Style Innovation Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Accounting ＆ Finance Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Welfare Benefits Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Corporate Legal ＆ Compliance Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Public Relations Expo Spring",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Health Management Expo [Spring]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Business Services, Education & Training",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Hospitality Technology EXPO",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.itt-show.jp/tokyo/en-gb/about/iwt.html"
+    },
+    {
+      "name": "LICENSING JAPAN",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/lj.html"
+    },
+    {
+      "name": "Creators' Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/cr.html"
+    },
+    {
+      "name": "Video & CG Production Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/cg.html"
+    },
+    {
+      "name": "Ad Creative & Marketing Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/adb.html"
+    },
+    {
+      "name": "Immersive Technology Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/next.html"
+    },
+    {
+      "name": "XR & Metaverse Fair Tokyo [SUMMER]",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.xr-fair.jp/hub/en-gb.html"
+    },
+    {
+      "name": "Communication Design Expo",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Content"
+      ],
+      "website": "https://www.content-tokyo.jp/hub/en-gb/about/cd.html"
+    },
+    {
+      "name": "Fastener Fair Italy",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-25",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "CityLife - Allianz MiCo",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "https://www.fastenerfairitaly.com/"
+    },
+    {
+      "name": "“Japan's Food” Export Fair [SUMMER]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jpfood/en-gb.html"
+    },
+    {
+      "name": "JFEX FOOD -JAPAN INT’L PROCESSED FOOD EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/food.html"
+    },
+    {
+      "name": "JFEX WINE＆SPIRITS -JAPAN INT’L WINE & SPIRITS EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/wine.html"
+    },
+    {
+      "name": "JFEX FRESH -JAPAN INT’L FRESH FOOD EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/fresh.html"
+    },
+    {
+      "name": "JFEX PREMIUM -JAPAN INT’L PREMIUM FOOD EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/premium.html"
+    },
+    {
+      "name": "Promotional Goods Expo -Summer-",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Sales Support Expo -Summer-",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Advertising Media Expo -Summer-",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Digital Marketing Acceleration Expo -Summer-",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Customer Experience Management Expo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Data Insight Expo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Publishing Media & Communications"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "EC Acceleration Expo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Media, Marketing & Contents",
+        "Sales Promotion"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "Creative Tech Expo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Publishing Media & Communications"
+      ],
+      "website": "https://www.marketing-week.jp/hub/ja-jp.html"
+    },
+    {
+      "name": "GIFTEX TOKYO [Summer] - Gifts & Interior Expo",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "Fashion Goods & Accessories Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "Baby & Kids Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "Table & Kitchenware Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "Health & Beauty Goods Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "International Stationery & Office Products Fair Tokyo -ISOT TOKYO [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/hub/en-gb/about/isot.html"
+    },
+    {
+      "name": "DESIGN TOKYO - TOKYO DESIGN PRODUCTS FAIR",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb/about/dt.html"
+    },
+    {
+      "name": "Sustainable Goods Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "Good Foods Expo Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb.html"
+    },
+    {
+      "name": "MARKETER RECRUITMENT ＆ TRAINING EXPO [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Publishing Media & Communications"
+      ],
+      "website": "https://www.marketing-week.jp/summer/en-gb.html"
+    },
+    {
+      "name": "OSHIKATSU - Merch Collection EXPO Tokyo [Summer]",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Gifts"
+      ],
+      "website": "https://www.lifestyle-expo.jp/summer/en-gb/about/fave.html"
+    },
+    {
+      "name": "JFEX NEXT -JAPAN INT’L NEXT FOOD EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/next.html"
+    },
+    {
+      "name": "JFEX INBOUND -JAPAN INT’L INBOUND FOOD EXPO",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.jfex.jp/jfex/en-gb/about/inbound.html"
+    },
+    {
+      "name": "Japan Crafts & Souvenirs Expo",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Gifts"
+      ],
+      "website": "https://www.lifestyle-expo.jp/hub/en-gb/about.html"
+    },
+    {
+      "name": "STYLE x DESIGN Packaging Expo",
+      "start_date": "2026-06-24",
+      "end_date": "2026-06-26",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Gifts"
+      ],
+      "website": "https://www.lifestyle-expo.jp/hub/en-gb/about.html"
+    },
+    {
+      "name": "Decorex Cape Town",
+      "start_date": "2026-06-25",
+      "end_date": "2026-06-28",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.decorex.co.za/cape-town/en-gb.html"
+    },
+    {
+      "name": "India Warehousing Show",
+      "start_date": "2026-06-25",
+      "end_date": "2026-06-27",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Yashobhoomi, IICC, New Delhi",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.indiawarehousingshow.com/"
+    },
+    {
+      "name": "India Material Handling & Logistics Show",
+      "start_date": "2026-06-25",
+      "end_date": "2026-06-27",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Yashobhoomi, IICC, New Delhi",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.indiamhshow.com/"
+    },
+    {
+      "name": "The 18th China (Chengdu) Gifts & Houseware Fair and 2025 Edition Cultural & Creative Tourism Commodities Fair",
+      "start_date": "2026-06-25",
+      "end_date": "2026-06-27",
+      "city": "Chengdu",
+      "country": "China",
+      "venue": "Chengdu Century City New International Convention & Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://jun.rxhuabo.com.cn/en"
+    },
+    {
+      "name": "The Maison",
+      "start_date": "2026-06-25",
+      "end_date": "2026-06-28",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "http://www.hometabledeco.com/"
+    },
+    {
+      "name": "Mommy 'n' Me",
+      "start_date": "2026-06-26",
+      "end_date": "2026-06-28",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "venue": "Jakarta Convention Centre",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Other"
+      ],
+      "website": "http://www.imbex.co.id"
+    },
+    {
+      "name": "ILTM Asia Pacific",
+      "start_date": "2026-06-29",
+      "end_date": "2026-07-02",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Marina Bay Sands",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.iltm.com/asiapacific/Home/"
+    },
+    {
+      "name": "In-Cosmetics Korea",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://korea.in-cosmetics.com"
+    },
+    {
+      "name": "InterCharm Korea",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://www.intercharmkorea.com"
+    },
+    {
+      "name": "GFT",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-04",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "http://www.gftexpo.com/"
+    },
+    {
+      "name": "Design Manufacturing Solutions Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/dms.html"
+    },
+    {
+      "name": "Mechanical Components & Technology Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/mtech.html"
+    },
+    {
+      "name": "Medical Device Development Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/medix.html"
+    },
+    {
+      "name": "Factory Facilities ＆ Equipment Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/factex.html"
+    },
+    {
+      "name": "Additive Manufacturing Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/am.html"
+    },
+    {
+      "name": "Measure/Test/Sensor Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/mts.html"
+    },
+    {
+      "name": "Manufacturing DX Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/mdx.html"
+    },
+    {
+      "name": "FOODtech JAPAN [Osaka] - Food Factory Technology Expo Osaka",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/odm.html"
+    },
+    {
+      "name": "Manufacturing Cyber Security Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/cybersecurity.html"
+    },
+    {
+      "name": "Smart Maintenance Expo [Tokyo]",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-03",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/tokyo/en-gb/about/maintenance.html"
+    },
+    {
+      "name": "TOKYO JEWELRY FES '26 Summer -Japan's Grand Consumer Jewelry Event",
+      "start_date": "2026-07-03",
+      "end_date": "2026-07-05",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Jewellery"
+      ],
+      "website": "https://www.jewelry-fes.jp/tokyo/en-gb.html"
+    },
+    {
+      "name": "Functional Fabric Fair Summer",
+      "start_date": "2026-07-07",
+      "end_date": "2026-07-09",
+      "city": "New York City",
+      "country": "United States",
+      "venue": "Javits Center",
+      "industry": [
+        "Fashion"
+      ],
+      "website": "https://www.functionalfabricfair.com/new-york/en-us.html"
+    },
+    {
+      "name": "ALUMINIUM CHINA 2026\n INDUSTRIAL MATERIAL SHANGHAI",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Centre (SNIEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Materials"
+      ],
+      "website": "https://www.aluminiumchina.com/en-gb.html"
+    },
+    {
+      "name": "Asia’s Lightweight Automotive Trade Fair",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Centre (SNIEC)",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automobiles & Automotive Engineering"
+      ],
+      "website": "https://www.lightweightasia.com/en-gb.html"
+    },
+    {
+      "name": "AMTS 2026",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Center",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automotive & Automotive Electronics"
+      ],
+      "website": "https://www.shanghaiamts.com.cn/en/"
+    },
+    {
+      "name": "COPPER CHINA 2026",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Materials"
+      ],
+      "website": "https://www.copperexpo.com.cn/en-gb.html"
+    },
+    {
+      "name": "AHTE 2026",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Smart Manufacturing & Logistics"
+      ],
+      "website": "https://www.shanghaiahte.com/"
+    },
+    {
+      "name": "Magnesium China 2026",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Centre (SNIEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Materials"
+      ],
+      "website": "https://www.aluminiumchina.com/en-gb.html"
+    },
+    {
+      "name": "2026 Shanghai International Metal Recycling Expo",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Centre (SNIEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Materials"
+      ],
+      "website": "https://www.aluminiumchina.com/en-gb.html"
+    },
+    {
+      "name": "Florida Supercon",
+      "start_date": "2026-07-10",
+      "end_date": "2026-07-12",
+      "city": "Miami Beach",
+      "country": "United States",
+      "venue": "Miami Beach Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.floridasupercon.com/"
+    },
+    {
+      "name": "The 8th Shanghai International Gifts and Home Products Fair",
+      "start_date": "2026-07-16",
+      "end_date": "2026-07-18",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://july.rxhuabo.com.cn/"
+    },
+    {
+      "name": "Online Retailer",
+      "start_date": "2026-07-22",
+      "end_date": "2026-07-23",
+      "city": "Sydney",
+      "country": "Australia",
+      "venue": "International Convention Centre Sydney",
+      "industry": [
+        "Marketing, Business Services & Training"
+      ],
+      "website": "https://www.onlineretailer.com/"
+    },
+    {
+      "name": "119th China Daily-use Articles Trade Fair",
+      "start_date": "2026-07-23",
+      "end_date": "2026-07-25",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai New International Expo Centre (SNIEC)",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Hardware, Houseware & Allied Products"
+      ],
+      "website": "https://www.cdatf.com/en-gb.html"
+    },
+    {
+      "name": "Fastener Fair India",
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-26",
+      "city": "Greater Noida",
+      "country": "India",
+      "venue": "India Expo Mart, Greater Noida",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Processing"
+      ],
+      "website": "https://www.fastenerfairindia.com/"
+    },
+    {
+      "name": "AMTEX - Asian Machine Tool Exhibition",
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-27",
+      "city": "Greater Noida",
+      "country": "India",
+      "venue": "India Expo Mart, Greater Noida",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Machinery & Tooling"
+      ],
+      "website": "https://www.amtex-expo.com/"
+    },
+    {
+      "name": "PGA Buying Summit - Frisco",
+      "start_date": "2026-07-26",
+      "end_date": "2026-07-29",
+      "city": "Frisco",
+      "country": "United States",
+      "venue": "PGA Frisco Campus",
+      "industry": [
+        "Sport & Wellbeing",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.pgabuyingsummit.com/"
+    },
+    {
+      "name": "The Health Industry Series - ASEAN ( tHIS ASEAN)",
+      "start_date": "2026-07-28",
+      "end_date": "2026-07-30",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "venue": "Kuala Lumpur Convention Center",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.thisasean.com/"
+    },
+    {
+      "name": "Decorex Africa",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-02",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "venue": "Sandton Convention Centre",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.decorex.co.za/joburg/en-gb.html"
+    },
+    {
+      "name": "100% Design South Africa",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-02",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "venue": "Sandton Convention Centre",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "http://www.100percentdesign.co.za"
+    },
+    {
+      "name": "GPCE Melbourne",
+      "start_date": "2026-07-31",
+      "end_date": "2026-08-02",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "industry": [
+        "Medical Education"
+      ],
+      "website": "https://www.gpce.com.au/melbourne/en-gb.html"
+    },
+    {
+      "name": "Industrial Technology World Asia @ Vietnam 2026",
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-07",
+      "city": "HANOI",
+      "country": "Vietnam",
+      "venue": "VIETNAM EXPOSITION CENTER -VEC, Hanoi",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://vietnam.itwa-asia.com/"
+    },
+    {
+      "name": "Life Instyle Melbourne",
+      "start_date": "2026-08-06",
+      "end_date": "2026-08-08",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Royal Exhibition Building, Carlton",
+      "industry": [
+        "Gifts"
+      ],
+      "website": "https://www.lifeinstyle.com.au/melbourne/en-gb.html"
+    },
+    {
+      "name": "MCM Comic Con Birmingham",
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-09",
+      "city": "Birmingham",
+      "country": "United Kingdom",
+      "venue": "NEC",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.mcmcomiccon.com/birmingham/en-us/home.html"
+    },
+    {
+      "name": "Reed Gift Fairs - Melbourne",
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-12",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "industry": [
+        "Gifts"
+      ],
+      "website": "https://www.reedgiftfairs.com.au/melbourne/en-gb.html"
+    },
+    {
+      "name": "Fenasucro & Agrocana",
+      "start_date": "2026-08-11",
+      "end_date": "2026-08-14",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Centro de Eventos Zanini",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.fenasucro.com.br"
+    },
+    {
+      "name": "Fenabio",
+      "start_date": "2026-08-11",
+      "end_date": "2026-08-14",
+      "city": "Sertãozinho",
+      "country": "Brazil",
+      "venue": "Zanini Exhibitions Center",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.fenasucro.com.br/pt-br/fenabio.html"
+    },
+    {
+      "name": "The 54th China Beijing International Gifts, Premium & Houseware Exhibition",
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-16",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "CIEC, Beijing",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.giftsbeijing.com/"
+    },
+    {
+      "name": "The 54th China Beijing International Gifts, Premium & Houseware Exhibition",
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-15",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "CIEC, Beijing",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.giftsbeijing.com/"
+    },
+    {
+      "name": "Beauty Expo Australia",
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-16",
+      "city": "Sydney",
+      "country": "Australia",
+      "venue": "International Convention Centre Sydney",
+      "industry": [
+        "Beauty & Cosmetics"
+      ],
+      "website": "https://www.beautyexpoaustralia.com.au"
+    },
+    {
+      "name": "Arabian Travel Market",
+      "start_date": "2026-08-17",
+      "end_date": "2026-08-20",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "venue": "Dubai World Trade Centre (DWTC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "http://arabiantravelmarket.wtm.com"
+    },
+    {
+      "name": "TILOG - LOGISTIX",
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-21",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "http://www.tilog-logistix.com"
+    },
+    {
+      "name": "IBTM Americas",
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-20",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "http://www.ibtmlatinamerica.com/"
+    },
+    {
+      "name": "PackPlus Delhi",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Pragati Maidan",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplus.in/"
+    },
+    {
+      "name": "PackSol",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Pragati Maidan",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplus.in/"
+    },
+    {
+      "name": "CartonTech",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Pragati Maidan",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplus.in/"
+    },
+    {
+      "name": "SupplyPlus",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "city": "New Delhi",
+      "country": "India",
+      "venue": "Pragati Maidan",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplus.in/"
+    },
+    {
+      "name": "Gifts India",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Centre",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.giftsindiaexpo.com/"
+    },
+    {
+      "name": "Building Material ＆Housing Equipment Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/building-material.html"
+    },
+    {
+      "name": "Smart Building Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/smart-building.html"
+    },
+    {
+      "name": "Building Renovation Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/renovation.html"
+    },
+    {
+      "name": "Smart Home Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/smart-home.html"
+    },
+    {
+      "name": "Real Estate Tech Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/real-estate-tech.html"
+    },
+    {
+      "name": "Digital Construction Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/construction-dx.html"
+    },
+    {
+      "name": "Retail Digital Transformation Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/sdx.html"
+    },
+    {
+      "name": "Green Building Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/gx.html"
+    },
+    {
+      "name": "Architectural Construction Material Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/cm.html"
+    },
+    {
+      "name": "Housing DX Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/jdx.html"
+    },
+    {
+      "name": "Building Maintenance Expo [OSAKA]",
+      "start_date": "2026-08-26",
+      "end_date": "2026-08-28",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Building & Construction"
+      ],
+      "website": "https://www.japan-build.jp/hub/en-gb/about/bmt.html"
+    },
+    {
+      "name": "World Expo of Packaging Industry-Southeast Asia 2026",
+      "start_date": "2026-08-27",
+      "end_date": "2026-08-29",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "venue": "Jakarta International Expo JIExpo",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.wepack-southeastasia.com/"
+    },
+    {
+      "name": "Bakery ASEAN",
+      "start_date": "2026-08-27",
+      "end_date": "2026-08-29",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "venue": "Jakarta International Expo JIExpo",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "https://www.bakerychina.com/"
+    },
+    {
+      "name": "Asset Management Expo Osaka",
+      "start_date": "2026-08-28",
+      "end_date": "2026-08-30",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Finance"
+      ],
+      "website": "https://www.am-expo.jp/osaka-1/ja-jp.html"
+    },
+    {
+      "name": "ISC Brasil",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-02",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Distrito Anhembi",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "https://www.iscbrasil.com.br"
+    },
+    {
+      "name": "Top Flotillas",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-03",
+      "city": "Playa del Carmen",
+      "country": "Mexico",
+      "venue": "AVA Resort Cancún",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "http://www.topflotillas.com"
+    },
+    {
+      "name": "Logistics Experience LOGEX",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-03",
+      "city": "Cancún",
+      "country": "Mexico",
+      "venue": "AVA Resort Cancún",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.logisticsexperience.com"
+    },
+    {
+      "name": "BEX Asia",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-04",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Sands Expo & Convention Centre, Marina Bay Sands",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.bex-asia.com/"
+    },
+    {
+      "name": "International Built Environment Week (IBEW) Conference",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-04",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Sands Expo & Convention Centre, Marina Bay Sands",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.ibew.sg/"
+    },
+    {
+      "name": "Fastener Fair Mexico",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-05",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "venue": "Expo Guadalajara",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "https://www.fastenerfairmexico.com/"
+    },
+    {
+      "name": "Expo Nacional Ferretera GDL",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-05",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "venue": "Expo Guadalajara",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Hardware, Houseware & Allied Products"
+      ],
+      "website": "http://www.expoferretera.com.mx/"
+    },
+    {
+      "name": "RX Huabo Asia Gift Fair-Indonesia 2026",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-05",
+      "city": "Jakarta",
+      "country": "China",
+      "venue": "JIEXPO Kemayoran",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "indonesia.rxhuabo.com.cn"
+    },
+    {
+      "name": "APAC Hydrogen Summit",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-04",
+      "city": "Adelaide",
+      "country": "Australia",
+      "venue": "Adelaide Convention Centre",
+      "industry": [
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.world-hydrogen-summit.com/asia-pacific/en-gb.html"
+    },
+    {
+      "name": "Bienal Internacional do Livro de São Paulo",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-13",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Distrito Anhembi",
+      "industry": [
+        "Media & Content",
+        "Books & Publishing"
+      ],
+      "website": "https://www.bienaldolivrosp.com.br/"
+    },
+    {
+      "name": "PAX West",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-07",
+      "city": "Seattle",
+      "country": "United States",
+      "venue": "Washington State Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://west.paxsite.com/"
+    },
+    {
+      "name": "Cannes Yachting Festival",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-13",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Vieux Port de Cannes et Port Pierre Canto",
+      "industry": [
+        "Sport & Wellbeing",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.cannesyachtingfestival.com"
+    },
+    {
+      "name": "EV JAPAN [September]–EV, HV & FCV Technology Expo",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automobile"
+      ],
+      "website": "https://www.automotiveworld.jp/hub/en-gb/about/ev-japan.html"
+    },
+    {
+      "name": "AUTOMOTIVE WORLD [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automobile"
+      ],
+      "website": "https://www.automotiveworld.jp/autumn/en-gb.html"
+    },
+    {
+      "name": "Factory Innovation Week [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Electronics"
+      ],
+      "website": "https://www.fiweek.jp/autumn/en-gb.html"
+    },
+    {
+      "name": "Power Device & Module Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Electronics"
+      ],
+      "website": "https://www.nepconjapan.jp/hub/en-gb/about/pdm.html"
+    },
+    {
+      "name": "Sustainable Mobility Technology Expo [September]（SuM-TEC）",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automobile"
+      ],
+      "website": "https://www.automotiveworld.jp/hub/en-gb/about/sumtec.html"
+    },
+    {
+      "name": "Software-Defined Vehicle Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Automobile"
+      ],
+      "website": "https://www.automotiveworld.jp/hub/en-gb/about/sdv.html"
+    },
+    {
+      "name": "RoboDEX [September] ‐Robot Development & Application EXPO",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Robotics"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/robodex.html"
+    },
+    {
+      "name": "SMART FACTORY Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/sfe.html"
+    },
+    {
+      "name": "GREEN FACTORY Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/gfe.html"
+    },
+    {
+      "name": "NEPCON JAPAN September",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Electronics"
+      ],
+      "website": "https://www.nepconjapan.jp/autumn/en-gb.html"
+    },
+    {
+      "name": "DECARBONISATION EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.decarbonization-expo.jp/hub/en-gb/about/dcm.html"
+    },
+    {
+      "name": "H2 & FC EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/fc.html"
+    },
+    {
+      "name": "PV EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/pv.html"
+    },
+    {
+      "name": "BATTERY JAPAN [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/bj.html"
+    },
+    {
+      "name": "SMART GRID EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/sg.html"
+    },
+    {
+      "name": "WIND EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/wd.html"
+    },
+    {
+      "name": "CCUS EXPO –Int'l Carbon Capture, Utilisation and Storage Expo–",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.wsew.jp/hub/en-gb/about/ccus.html"
+    },
+    {
+      "name": "CIRCULAR ECONOMY EXPO [September][CE JAPAN]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "New Energy"
+      ],
+      "website": "https://www.decarbonization-expo.jp/hub/en-gb/about/ce.html"
+    },
+    {
+      "name": "INTERNEPCON JAPAN [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Electronics"
+      ],
+      "website": "https://www.nepconjapan.jp/hub/en-gb/about/internepcon-japan.html"
+    },
+    {
+      "name": "ELECTRONIC COMPONENTS & MATERIALS EXPO [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Electronics"
+      ],
+      "website": "https://www.nepconjapan.jp/hub/en-gb/about/electronic-components-materials-expo.html"
+    },
+    {
+      "name": "Manufacturing Industry’s HR Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/mihr.html"
+    },
+    {
+      "name": "Factory Safety & Accessibility Expo [September]",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-11",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Manufacturing"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/fsa.html"
+    },
+    {
+      "name": "Maison&Objet* Paris / *Organised by SAFI, a subsidiary of RX France and Ateliers d'Art de France",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-14",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.maison-objet.com/fr"
+    },
+    {
+      "name": "GPCE Brisbane",
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-13",
+      "city": "Brisbane",
+      "country": "Australia",
+      "venue": "Brisbane Showgrounds",
+      "industry": [
+        "Medical Education"
+      ],
+      "website": "https://www.gpce.com.au/brisbane/en-gb.html"
+    },
+    {
+      "name": "Expolux",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-18",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Expo Center Norte",
+      "industry": [
+        "Building & Construction",
+        "Lighting"
+      ],
+      "website": "https://www.expolux.com.br"
+    },
+    {
+      "name": "IFTM",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-17",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.iftm.fr"
+    },
+    {
+      "name": "Equipotel",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-18",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Expo Center Norte",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.equipotel.com.brs"
+    },
+    {
+      "name": "BIG DATA & AI Paris",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-16",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.bigdataparis.com/fr"
+    },
+    {
+      "name": "28th Ice Cream China",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tianjin",
+      "country": "China",
+      "venue": "Tianjin Meijiang Convention Center",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "http://www.icecreamchinashow.com/"
+    },
+    {
+      "name": "Office Disaster Prevention Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/bousai.html"
+    },
+    {
+      "name": "Administration Service Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/ofs.html"
+    },
+    {
+      "name": "HR EXPO [Autumn] - Human Resources Management Expo",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/hr.html"
+    },
+    {
+      "name": "Work-style Innovation Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/ws.html"
+    },
+    {
+      "name": "Accounting & Finance Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/acc.html"
+    },
+    {
+      "name": "Welfare Benefits Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/wel.html"
+    },
+    {
+      "name": "Corporate Legal & Compliance Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/tokyo/ja-jp/about/legal.html"
+    },
+    {
+      "name": "Health Management Expo Autumn",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/ja-jp.html"
+    },
+    {
+      "name": "Workplace Innovation Expo [Autumn]",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/hub/ja-jp/about/wp.html"
+    },
+    {
+      "name": "Ideal Manager Expo Tokyo",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Others",
+        "General Affairs, HR & Accounting"
+      ],
+      "website": "https://www.office-expo.jp/manager/ja-jp.html"
+    },
+    {
+      "name": "Fastener Expo Eurasia",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-20",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Hardware, Houseware & Allied Products"
+      ],
+      "website": "https://www.fastenerexpoeurasia.com/en/"
+    },
+    {
+      "name": "Intermob - International Furniture Side Industry, Accessories, Forestry Products and Wood Technology Fair",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-20",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.intermobistanbul.com/en/"
+    },
+    {
+      "name": "Rééduca Paris",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-19",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Medical, Health & Beauty"
+      ],
+      "website": "https://www.salonreeduca.com/fr-fr.html"
+    },
+    {
+      "name": "IFEX Kunming International Flowers & Plants Expo",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-20",
+      "city": "Kunming",
+      "country": "China",
+      "venue": "Kunming Dianchi International Convention & Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Flowers & Gardening"
+      ],
+      "website": "https://www.ifexflowerexpo.com"
+    },
+    {
+      "name": "Kunming International Flower Expo of China",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-20",
+      "city": "Kunming",
+      "country": "China",
+      "venue": "Kunming Dianchi International Convention & Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Flowers & Gardening"
+      ],
+      "website": "https://www.kmflowerexpo.com/zh-cn.html"
+    },
+    {
+      "name": "GPCE Perth",
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-20",
+      "city": "Perth",
+      "country": "Australia",
+      "venue": "Perth Convention & Exhibition Centre",
+      "industry": [
+        "Medical Education"
+      ],
+      "website": "https://www.gpce.com.au/perth/en-gb.html"
+    },
+    {
+      "name": "In-Cosmetics Latin America",
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-24",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Expo Center Norte",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://latinamerica.in-cosmetics.com"
+    },
+    {
+      "name": "Big Data LDN",
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-24",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Olympia",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://bigdataldn.com/"
+    },
+    {
+      "name": "Comic Con Africa",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-27",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "venue": "Johannesburg Expo Centre",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.comicconafrica.co.za"
+    },
+    {
+      "name": "ILTM North America",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "The Bahamas",
+      "country": "Bahamas",
+      "venue": "Baha Mar",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.iltm.com/northamerica/home/"
+    },
+    {
+      "name": "Global Gaming Expo (G2E)",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "The Venetian Expo",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.globalgamingexpo.com/"
+    },
+    {
+      "name": "Idéobain",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.ideobain.com"
+    },
+    {
+      "name": "Interclima",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.interclima.com"
+    },
+    {
+      "name": "Batimat",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.batimat.com"
+    },
+    {
+      "name": "Renodays",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-01",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.renodays.com/fr-fr.html"
+    },
+    {
+      "name": "MAPIC India",
+      "start_date": "2026-09-29",
+      "end_date": "2026-09-30",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "JIO World Convention Centre",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mapic-india.in/en-gb.html"
+    },
+    {
+      "name": "InterAviation Arabia",
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-01",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "venue": "Riyadh Front Exhibition & Conference Center",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "https://www.interairporteurope.com/en-gb/arabia.html"
+    },
+    {
+      "name": "WTM Spotlight Riyadh",
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-01",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "venue": "Riyadh Front Exhibition & Conference Centre",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/spotlight-riyadh/en-gb.html"
+    },
+    {
+      "name": "FOODtech JAPAN [Osaka] - Food Factory Technology Expo Osaka",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.foodtechjapan.jp/ftw/en-gb/about/ftech.html"
+    },
+    {
+      "name": "Food Hygiene Expo [Osaka]",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Food, Agriculture",
+        "Food"
+      ],
+      "website": "https://www.foodtechjapan.jp/ftw/en-gb/about/fhi.html"
+    },
+    {
+      "name": "INTERPHEX OSAKA -Int'l Pharmceutical and Cosmetics Manufacturing Expo Osaka",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/ipj.html"
+    },
+    {
+      "name": "PharmaLab EXPO [OSAKA] - Int'l Pharmaceutical and Cosmetics R&D Expo Osaka",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/rd.html"
+    },
+    {
+      "name": "Regenerative Medicine Expo [Osaka]",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/osaka/en-gb.html"
+    },
+    {
+      "name": "COSME Tech OSAKA - INT'L COSMETICS DEVELOPMENT EXPO OSAKA",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Consumer Goods"
+      ],
+      "website": "https://www.cosme-week.jp/osaka/en-gb/about/ci.html"
+    },
+    {
+      "name": "COSME OSAKA - INT'L COSMETICS TRADE FAIR OSAKA",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Consumer Goods"
+      ],
+      "website": "https://www.cosme-week.jp/osaka/en-gb/about/ct.html"
+    },
+    {
+      "name": "FILMTECH JAPAN –Highly-functional Film Expo-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/film.html"
+    },
+    {
+      "name": "PLASTIC JAPAN –High-performance Plastic Expo",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/pla.html"
+    },
+    {
+      "name": "METAL JAPAN –Highly-functional Metal Expo",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/pla.html"
+    },
+    {
+      "name": "CERAMIC JAPAN –Highly-functional Ceramic Expo-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/cera.html"
+    },
+    {
+      "name": "Adhesion & Bonding Expo",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/joi.html"
+    },
+    {
+      "name": "Paint & Coating Expo -COATING JAPAN-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/coat.html"
+    },
+    {
+      "name": "Sustainable Material Expo –SUSMA–",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/susma.html"
+    },
+    {
+      "name": "FINETECH JAPAN -Int'l Electronic Display Industry Expo-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/ftj.html"
+    },
+    {
+      "name": "Photonix - Int'l Laser & Photonics Expo-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/photo.html"
+    },
+    {
+      "name": "Recycle Tech Japan -Recycling Innovation and Eco-System Development Expo -",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/rtj.html"
+    },
+    {
+      "name": "Pharma Digital Transformation EXPO [OSAKA]",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Pharmaceuticals & Biotechnology"
+      ],
+      "website": "https://www.interphex.jp/hub/en-gb/about/pdx.html"
+    },
+    {
+      "name": "Green Process JAPAN -Material Factory Decarbonization Expo-",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/gpj.html"
+    },
+    {
+      "name": "Highly-functional Material EXPO",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": null
+    },
+    {
+      "name": "Material DX EXPO",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/dx.html"
+    },
+    {
+      "name": "Next-Generation Drying Process Expo- DRYTECH -",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": null
+    },
+    {
+      "name": "Extreme Heat Countermeasures EXPO",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-02",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Energy",
+        "Materials"
+      ],
+      "website": "https://www.material-expo.jp/hub/en-gb/exhibit/ehc.html"
+    },
+    {
+      "name": "HYDROGEN AMERICAS 2024 SUMMIT & EXHIBITION",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-07",
+      "city": "Washington D.C.",
+      "country": "United States",
+      "venue": "Gaylord National Resort & Convention Center",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.hydrogen-americas-summit.com/"
+    },
+    {
+      "name": "ALUMINIUM",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Dusseldorf Exhibition Centre",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.aluminium-exhibition.com/"
+    },
+    {
+      "name": "Febrava Rio",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "venue": "Riocentro",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.febrava.com.br/pt-br/expor/febrava-rio.html"
+    },
+    {
+      "name": "Feicon Rio",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "venue": "Riocentro",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://https://www.feiconrio.com.br/"
+    },
+    {
+      "name": "FaW TOKYO ‐FASHION WORLD TOKYO［OCTOBER］",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb.html"
+    },
+    {
+      "name": "Design Manufacturing Solutions Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osakaen-gb/about/dms.html"
+    },
+    {
+      "name": "Medical Device Development Expo Tokyo",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/medix.html"
+    },
+    {
+      "name": "Mechanical Components & Technology Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/mtech.html"
+    },
+    {
+      "name": "Factory Facilities ＆ Equipment Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/factex.html"
+    },
+    {
+      "name": "Additive Manufacturing Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/jen-gb/about/am.html"
+    },
+    {
+      "name": "Measure/Test/Sensor Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/mts.html"
+    },
+    {
+      "name": "Manufacturing DX Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/mdx.html"
+    },
+    {
+      "name": "Industrial ODM/EMS Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/odm.html"
+    },
+    {
+      "name": "HOSPITAL EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/tokyo/ja-jp/about/hos.html"
+    },
+    {
+      "name": "ELDERLY CARE ＆ WELFARE EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/tokyo/ja-jp/about/ns.html"
+    },
+    {
+      "name": "CLINICS EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/tokyo/ja-jp/about/cli.html"
+    },
+    {
+      "name": "PHARMACY SOLUTIONS EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/tokyo/ja-jp/about/pha.html"
+    },
+    {
+      "name": "Infection Prevention Expo Tokyo",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Healthcare"
+      ],
+      "website": "https://www.medical-jpn.jp/hub/en-gb/about/shows/ks.html"
+    },
+    {
+      "name": "WELLNESS ＆ PREVENTIVE HEALTHCARE EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/hub/ja-jp/lp/hea.html"
+    },
+    {
+      "name": "GARDEX -INT’L GARDEN ＆ OUTDOOR EXPO TOKYO",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Horticulture & Flowers"
+      ],
+      "website": "https://www.gardex.jp/en-gb.html/"
+    },
+    {
+      "name": "HEALTHCARE DIGITAL TRANSFORMATION EXPO [TOKYO]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Healthcare, Medical & Pharmaceutical",
+        "Medical, Nursing Care & Pharmacy"
+      ],
+      "website": "https://www.medical-jpn.jp/hub/ja-jp/lp/dx.html"
+    },
+    {
+      "name": "Manufacturing Cyber Security Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/cybersecurity.html"
+    },
+    {
+      "name": "Smart Maintenance Expo [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.manufacturing-world.jp/osaka/en-gb/about/maintenance.html"
+    },
+    {
+      "name": "MADE in JAPAN EXPORT FAIR OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/jfa.html"
+    },
+    {
+      "name": "BRANDS ＆ DESIGNERS EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/ifa.html"
+    },
+    {
+      "name": "TEXTILE EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/textile.html"
+    },
+    {
+      "name": "FASHION SOURCING EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/oem.html"
+    },
+    {
+      "name": "SUSTAINABLE FASHION EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/sus.html"
+    },
+    {
+      "name": "FASHION TECH EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/fdx.html"
+    },
+    {
+      "name": "WELLNESS/BEAUTY/FUNCTIONAL CLOTHES EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/wef.html"
+    },
+    {
+      "name": "SPORTS FASHION EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/autumn/en-gb/about/sports.html"
+    },
+    {
+      "name": "REUSE BUSINESS EXPO OCTOBER",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Consumer Goods",
+        "Fashion"
+      ],
+      "website": "https://www.fashion-tokyo.jp/hub/en-gb/about/reuse.html"
+    },
+    {
+      "name": "Manufacturing NEXT [Osaka]",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": null
+    },
+    {
+      "name": "TOOL JAPAN -INT’L HARDWARE & TOOLS EXPO TOKYO",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Tools & Equipment"
+      ],
+      "website": "https://www.tooljapan.jp/en-gb.html"
+    },
+    {
+      "name": "J-AGRI SUPPLY",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agrisupply.html"
+    },
+    {
+      "name": "J-AGRI TECH",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agritech.html"
+    },
+    {
+      "name": "J-AGRI BUSINESS",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agribusiness.html"
+    },
+    {
+      "name": "J-AGRI LIVESTOCK",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agrilivestock.html"
+    },
+    {
+      "name": "J-AGRI GREEN",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-09",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Food, Agriculture",
+        "Agriculture"
+      ],
+      "website": "https://www.jagri-global.jp/hub/en-gb/about/agrigreen.html"
+    },
+    {
+      "name": "New York Comic Con",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-11",
+      "city": "New York City",
+      "country": "United States",
+      "venue": "Jacob K. Javits Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.newyorkcomiccon.com"
+    },
+    {
+      "name": "Expo FAC Farmacias y Cuidado Personal",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-09",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Medical, Health & Beauty"
+      ],
+      "website": "https://www.expofac.mx/"
+    },
+    {
+      "name": "PAX Australia",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-11",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "industry": [
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://aus.paxsite.com/"
+    },
+    {
+      "name": "MIPJUNIOR",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.mipjunior.com/"
+    },
+    {
+      "name": "Airport Show",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-14",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "venue": "Dubai World Trade Centre (DWTC)",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "https://www.theairportshow.com/"
+    },
+    {
+      "name": "Bar Convent Berlin",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-14",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Exhibition Centre Berlin",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.barconvent.com"
+    },
+    {
+      "name": "MIPCOM CANNES",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-15",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.mipcom.com"
+    },
+    {
+      "name": "Eurasia Packaging Istanbul",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-16",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://packagingfair.com/en"
+    },
+    {
+      "name": "2026 China Dental Show",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-16",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "NECC (Shanghai)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.chinadentalshow.com/#/"
+    },
+    {
+      "name": "IndiaCorr Expo - Noida",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Centre, Mumbai",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.indiacorrexpo.com/"
+    },
+    {
+      "name": "India Folding Carton",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Centre, Mumbai",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.indiafoldingcarton.com/"
+    },
+    {
+      "name": "India Paper Expo",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Centre, Mumbai",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.indiapaperexpo.com/"
+    },
+    {
+      "name": "JIS Fall",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-19",
+      "city": "Miami Beach",
+      "country": "United States",
+      "venue": "Miami Beach Convention Center",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "https://www.jisshow.com/fall/en-us.html"
+    },
+    {
+      "name": "Bakery China Autumn",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "city": "Wuhan",
+      "country": "China",
+      "venue": "Wuhan Int'l Expo Center",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "https://www.bakerychina.com/"
+    },
+    {
+      "name": "China Home Baking Show",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "city": "Wuhan",
+      "country": "China",
+      "venue": "Wuhan Int'l Expo Center",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "https://www.bakerychina.com/"
+    },
+    {
+      "name": "International Golf Travel Market (IGTM)",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-23",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Travel & Tourism",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.igtmarket.com/"
+    },
+    {
+      "name": "EuroBLECH",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-23",
+      "city": "Hanover",
+      "country": "Germany",
+      "venue": "Hanover Trade Fair Centre",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "https://www.euroblech.com/"
+    },
+    {
+      "name": "The 34th China (Shenzhen) International Gifts and Home Products Fair",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-23",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://oct.chinagiftsfair.com/"
+    },
+    {
+      "name": "The 18th China Mobile Electronics Fair",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-23",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.chinamobileelectronic.com/"
+    },
+    {
+      "name": "The 13th Shenzhen Gifts, Consumer Goods Packaging & Printing Fair",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-23",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://giftpackaging.rxhuabo.com.cn/"
+    },
+    {
+      "name": "MIPIM Middle East",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "venue": "Ritz-Carlton Riyadh",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mipim.com/en-gb/mipim-middle-east.html"
+    },
+    {
+      "name": "The 41st International Component Manufacturing & Design Show (Autumn)",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.cmef.com.cn/"
+    },
+    {
+      "name": "The 94th China International Medical Equipment Fair (Autumn)",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.cmef.com.cn/"
+    },
+    {
+      "name": "2026 International Intelligent Health (Autumn) Expo",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.cmef.com.cn/"
+    },
+    {
+      "name": "2026 Emergency, Rescue & Safe International (Autumn)",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.cmef.com.cn/"
+    },
+    {
+      "name": "2026 Animal Health China (Autumn)",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.cmef.com.cn/"
+    },
+    {
+      "name": "China International Rehabilitation and Personal Health Show",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.rehabshow.com.cn/"
+    },
+    {
+      "name": "China International Elderly Care and Nursing Show",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.rehabshow.com.cn/"
+    },
+    {
+      "name": "China International Home Care Exhibition",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
+      "city": "Beijing",
+      "country": "China",
+      "venue": "Capital International Exhibition & Convention Center(Beijing)",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.rehabshow.com.cn/"
+    },
+    {
+      "name": "International Franchise Show Autumm",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-24",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Franchise"
+      ],
+      "website": "https://www.ifskorea.co.kr/"
+    },
+    {
+      "name": "India Warehousing & Logistics Show",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-24",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Centre",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.indiawlshow.com/"
+    },
+    {
+      "name": "WoodTech",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-25",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Woodworking & Forestry"
+      ],
+      "website": "http://woodtechistanbul.com/en/"
+    },
+    {
+      "name": "India Cold Chain Show",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-24",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Center",
+      "industry": [
+        "Food - Processing & Manufacturing"
+      ],
+      "website": "https://www.indiacoldchainshow.com/"
+    },
+    {
+      "name": "MCM Comic Con London",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-25",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.mcmcomiccon.com/london/en-us/home.html"
+    },
+    {
+      "name": "Expo Beauty Show",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-26",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "venue": "Centro Banamex",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://www.expobeautyshow.com/"
+    },
+    {
+      "name": "Functional Fabric Fair Fall",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-28",
+      "city": "Portland",
+      "country": "United States",
+      "venue": "Oregon Convention Center",
+      "industry": [
+        "Fashion"
+      ],
+      "website": "https://www.functionalfabricfair.com/portland/en-us.html#/"
+    },
+    {
+      "name": "Automotive World China (AWC)",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Automotive & Automotive Electronics"
+      ],
+      "website": "https://www.automotiveworld.cn/en-gb.html"
+    },
+    {
+      "name": "S-Factory Expo",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Smart Manufacturing & Logistics"
+      ],
+      "website": "https://www.s-factoryexpo.com/en-gb.html"
+    },
+    {
+      "name": "NEPCON ASIA",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.nepconasia.com/"
+    },
+    {
+      "name": "C-TOUCH & DISPLAY SHENZHEN 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.quanchu.com.cn/en-gb.html"
+    },
+    {
+      "name": "FILM & TAPE EXPO 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.film-expo.com/en-gb.html"
+    },
+    {
+      "name": "COMMERCIAL DISPLAY 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.displaychina.com.cn/en-gb.html"
+    },
+    {
+      "name": "The 13th International Fluorine & Silicon Material lndustry and Application Exhibition 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Materials"
+      ],
+      "website": "https://www.film-expo.com/en-gb.html"
+    },
+    {
+      "name": "Shenzhen International Electronics Sourcing Show",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Baoan)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://esshow.cn/"
+    },
+    {
+      "name": "AUTOMOTIVE DISPLAY SHENZHEN 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Baoan)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.quanchu.com.cn/en-gb.html"
+    },
+    {
+      "name": "ADHESIVES & CHEMICALS EXPO 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Baoan)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.film-expo.com/en-gb.html"
+    },
+    {
+      "name": "Shenzhen International Futuristic Electronics Industry Show",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Baoan)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://esshow.cn/"
+    },
+    {
+      "name": "Shenzhen International AI+AR Smart Glasses Industry Expo 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Baoan)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Smart Manufacturing & Logistics"
+      ],
+      "website": "https://www.quanchu.com.cn/"
+    },
+    {
+      "name": "2026 ROBOTECH ASIA",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Shenzhen",
+      "country": "China",
+      "venue": "Shenzhen World Exhibition & Convention Center(Bao'an)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Smart Manufacturing & Logistics"
+      ],
+      "website": "https://www.nepconasia.com/"
+    },
+    {
+      "name": "Viscom Italia",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Allianz MiCo Milan Convention Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Printing, Graphics & Visual Communication"
+      ],
+      "website": "http://www.viscomitalia.it"
+    },
+    {
+      "name": "Bioplus-Interphex Korea",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-30",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "https://www.bioplusinterphex.co.kr/"
+    },
+    {
+      "name": "Fame Week Africa",
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC2)",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.fameweekafrica.com/"
+    },
+    {
+      "name": "MIP Africa",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-30",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC2)",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.mipafrica.com/"
+    },
+    {
+      "name": "All-Energy Australia",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "industry": [
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.all-energy.com.au"
+    },
+    {
+      "name": "Waste Expo Australia",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue": "Melbourne Convention & Exhibition Centre",
+      "industry": [
+        "Environment & Urban Management"
+      ],
+      "website": "https://www.wasteexpoaustralia.com.au/"
+    },
+    {
+      "name": "EquipHotel Paris",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-05",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.equiphotel.com/"
+    },
+    {
+      "name": "In-Cosmetics Asia",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://asia.in-cosmetics.com/"
+    },
+    {
+      "name": "World Travel Market (WTM) London",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/london/en-gb.html"
+    },
+    {
+      "name": "ISC East",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "New York City",
+      "country": "United States",
+      "venue": "Jacob K. Javits Convention Center",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "http://www.isceast.com"
+    },
+    {
+      "name": "Expoprotection",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "https://www.expoprotection.com"
+    },
+    {
+      "name": "MAPIC",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-04",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mapic.com"
+    },
+    {
+      "name": "COSMEX",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "http://www.cosmexshow.com"
+    },
+    {
+      "name": "The Luxe Convergence",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès de Cannes",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.theluxeconvergence.com/"
+    },
+    {
+      "name": "DIY CON",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "city": "Dallas",
+      "country": "United States",
+      "venue": "Fair Park Dallas TX",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Homes"
+      ],
+      "website": "https://www.diycon.com/"
+    },
+    {
+      "name": "Fenatran",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-13",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "São Paulo Expo Exhibition & Convention Center",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.fenatran.com.br/"
+    },
+    {
+      "name": "Jewellery & Watch Show Abu Dhabi",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-15",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "venue": "Abu Dhabi National Exhibition Centre (ADNEC)",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "http://www.jws.ae"
+    },
+    {
+      "name": "Seoul International Cafe Show",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-14",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Food & Hospitality",
+        "Food - Retail"
+      ],
+      "website": "http://www.cafeshow.com"
+    },
+    {
+      "name": "XR ＆ Metaverse Fair Tokyo [Autumn]",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.xr-fair.jp/hub/en-gb.html"
+    },
+    {
+      "name": "Industrial AI/IoT Expo Osaka",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.manufacturing-world.jp/hub/en-gb/about/aiotex.html"
+    },
+    {
+      "name": "Aluminium Arabia",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-12",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "venue": "The Arena, Riyadh",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.aluminium-exhibition.com/arabia/en-gb.html"
+    },
+    {
+      "name": "AI EXPO TOKYO [Autumn]",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.nextech-week.jp/hub/en-gb.html"
+    },
+    {
+      "name": "BLOCKCHAIN EXPO TOKYO [Autumn]",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.nextech-week.jp/hub/en-gb.html"
+    },
+    {
+      "name": "QUANTUM COMPUTING EXPO TOKYO [Autumn]",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.nextech-week.jp/hub/en-gb.html"
+    },
+    {
+      "name": "DX HUMAN RESOURCE DEVELOPMENT EXPO TOKYO [Autumn]",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Chiba",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.nextech-week.jp/hub/en-gb.html#"
+    },
+    {
+      "name": "Paris Photo",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-15",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Grand Palais",
+      "industry": [
+        "Art"
+      ],
+      "website": "https://www.parisphoto.fr"
+    },
+    {
+      "name": "MIP Cancun",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-20",
+      "city": "Cancun",
+      "country": "Mexico",
+      "venue": "Moon Palace",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.mipcancun.com/"
+    },
+    {
+      "name": "IBTM World",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira Gran Via",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "http://www.ibtmworld.com/"
+    },
+    {
+      "name": "METALEX",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-21",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "http://www.metalex.co.th"
+    },
+    {
+      "name": "ROBOT X @ METALEX",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-21",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.metalex.co.th/"
+    },
+    {
+      "name": "Franchise EXPO",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Finance"
+      ],
+      "website": "https://www.mgmt-expo.jp/osaka/ja-jp/about/franchise.html"
+    },
+    {
+      "name": "Business Expansion ＆ Management Support WEEK [OSAKA]",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Finance"
+      ],
+      "website": "https://www.mgmt-expo.jp/osaka/ja-jp.html"
+    },
+    {
+      "name": "Business Expansion Support EXPO [OSAKA]",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
+      "city": "Osaka",
+      "country": "Japan",
+      "venue": "INTEX Osaka",
+      "industry": [
+        "Others",
+        "Finance"
+      ],
+      "website": "https://www.mgmt-expo.jp/osaka/ja-jp.html"
+    },
+    {
+      "name": "Eurasia Glass Fair",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-24",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://eurasiaglassfair.com/"
+    },
+    {
+      "name": "Eurasia Window & Door",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-24",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.eurasiawindowdoorfair.com/"
+    },
+    {
+      "name": "Indonesia Maternity Baby and Kids Expo (IMBEX)",
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "venue": "Jakarta Convention Centre",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Other"
+      ],
+      "website": "http://www.imbex.co.id"
+    },
+    {
+      "name": "ILTM Cannes",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-03",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.iltm.com/cannes/home/"
+    },
+    {
+      "name": "Supply Chain Event",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-02",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.supplychain-event.com"
+    },
+    {
+      "name": "Asia TV Forum",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-04",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Sands Expo & Convention Centre, Marina Bay Sands",
+      "industry": [
+        "Media & Content",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.asiatvforum.com/"
+    },
+    {
+      "name": "STEP",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-02",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Environment & Urban Management"
+      ],
+      "website": "https://www.stepbypollutec.com/"
+    },
+    {
+      "name": "MIPIM Asia Summit",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-03",
+      "city": "Hong Kong",
+      "country": "China",
+      "venue": "Rosewood Hotel",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mipim-asia.com/"
+    },
+    {
+      "name": "COMNEXT - Next Generation Communication Technology Expo",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-04",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Data, IT & Tech",
+        "Telecommunications & Broadcasting"
+      ],
+      "website": "https://www.cbw-expo.jp/en-gb.html"
+    },
+    {
+      "name": "PackPlus South",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Bangalore",
+      "country": "India",
+      "venue": "Bangalore International Exhibition Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplussouth.in/"
+    },
+    {
+      "name": "PrintFair",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Bangalore",
+      "country": "India",
+      "venue": "Bangalore International Exhibition Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplussouth.in/"
+    },
+    {
+      "name": "SupplyPlus South",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Bangalore",
+      "country": "India",
+      "venue": "Bangalore International Exhibition Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplussouth.in/"
+    },
+    {
+      "name": "Carton Tech",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Bangalore",
+      "country": "India",
+      "venue": "Bangalore International Exhibition Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplussouth.in/"
+    },
+    {
+      "name": "India Packaging Show",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Bangalore",
+      "country": "India",
+      "venue": "Bangalore International Exhibition Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.packplussouth.in/"
+    },
+    {
+      "name": "PAX Unplugged",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-06",
+      "city": "Philadelphia",
+      "country": "United States",
+      "venue": "Pennsylvania Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://unplugged.paxsite.com"
+    },
+    {
+      "name": "2026 RX Huabo Asia Gift Fair – Vietnam",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-13",
+      "city": "Ho Chi Minh",
+      "country": "Vietnam",
+      "venue": "Sky Expo Convention and Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.rxhuabo.com.cn/"
+    },
+    {
+      "name": "Home Table Deco Fair Seoul",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-20",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "COEX",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "http://www.hometabledeco.com/"
+    },
+    {
+      "name": "2026 RX Huabo Asia Gift Fair – Korea",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-20",
+      "city": "Seoul",
+      "country": "Korea",
+      "venue": "COEX Convention & Exhibition Center",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Gifts"
+      ],
+      "website": "https://www.rxhuabo.com.cn/"
+    },
+    {
+      "name": "World Future Energy Summit",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "venue": "Abu Dhabi National Exhibition Centre (ADNEC)",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.worldfutureenergysummit.com/"
+    },
+    {
+      "name": "PSI Trade Show",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Dusseldorf Exhibition Centre",
+      "industry": [
+        "Business Services, Education & Training",
+        "Marketing, Business Services & Training"
+      ],
+      "website": "https://www.psi-messe.com"
+    },
+    {
+      "name": "Maison&Objet* Paris / *Organised by SAFI, a subsidiary of RX France and Ateliers d'Art de France",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-18",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte",
+      "industry": [
+        "Homes, Gardens & Gifts",
+        "Interior Design"
+      ],
+      "website": "https://www.maison-objet.com/fr"
+    },
+    {
+      "name": "PGA Show",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-29",
+      "city": "Orlando, FL",
+      "country": "United States",
+      "venue": "Orange County Convention Center",
+      "industry": [
+        "Sport & Wellbeing",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.pgashow.com/en-us.html"
+    },
+    {
+      "name": "INTERNATIONAL JEWELLERY TOKYO [IJT]",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-29",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Makuhari Messe",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "https://www.ijt.jp/en-gb.html"
+    },
+    {
+      "name": "IT Partners",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-04",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris La Défense Arena",
+      "industry": [
+        "Data, IT & Tech",
+        "IT & Telecoms"
+      ],
+      "website": "https://www.itpartners.fr/"
+    },
+    {
+      "name": "COSME Tech TOKYO - INT'L COSMETICS DEVELOPMENT EXPO TOKYO",
+      "start_date": "2027-02-17",
+      "end_date": "2027-02-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Cosmetics & Beauty"
+      ],
+      "website": "https://www.cosme-week.jp/tokyo/en-gb/about/ci.html"
+    },
+    {
+      "name": "COSME TOKYO - INT'L COSMETICS TRADE FAIR TOKYO",
+      "start_date": "2027-02-17",
+      "end_date": "2027-02-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Cosmetics & Beauty"
+      ],
+      "website": "https://www.cosme-week.jp/tokyo/en-gb/about/ct.html"
+    },
+    {
+      "name": "HAIR EXPO TOKYO",
+      "start_date": "2027-02-17",
+      "end_date": "2027-02-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Cosmetics & Beauty"
+      ],
+      "website": "https://www.cosme-week.jp/tokyo/en-gb/about/hc.html"
+    },
+    {
+      "name": "COSMETICS MARKETING EXPO",
+      "start_date": "2027-02-17",
+      "end_date": "2027-02-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Cosmetics & Beauty"
+      ],
+      "website": "https://www.cosme-week.jp/tokyo/en-gb/about/cm.html"
+    },
+    {
+      "name": "SMART FACTORY EXPO",
+      "start_date": "2027-02-17",
+      "end_date": "2027-02-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Automotive, Aerospace, Manufacturing & Engineering",
+        "Manufacturing"
+      ],
+      "website": "https://www.fiweek.jp/hub/en-gb/about/sfe.html"
+    },
+    {
+      "name": "Life Instyle Sydney",
+      "start_date": "2027-02-20",
+      "end_date": "2027-02-23",
+      "city": "Sydney",
+      "country": "Australia",
+      "venue": "International Convention Centre Sydney",
+      "industry": [
+        "Gifts"
+      ],
+      "website": "https://www.lifeinstyle.com.au/sydney/en-gb.html"
+    },
+    {
+      "name": "Reed Gift Fairs - Sydney",
+      "start_date": "2027-02-20",
+      "end_date": "2027-02-23",
+      "city": "Sydney",
+      "country": "Australia",
+      "venue": "International Convention Centre Sydney",
+      "industry": [
+        "Gifts"
+      ],
+      "website": "https://www.reedgiftfairs.com.au/sydney/en-gb.html"
+    },
+    {
+      "name": "Personal Care and Homecare Ingredients (PCHi)",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-26",
+      "city": "Guangzhou",
+      "country": "China",
+      "venue": "China Import and Export Fair Complex",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "https://www.pchi-china.com/"
+    },
+    {
+      "name": "Emerald City Comic Con",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-07",
+      "city": "Seattle",
+      "country": "United States",
+      "venue": "Seattle Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://www.emeraldcitycomiccon.com/"
+    },
+    {
+      "name": "JIS Spring",
+      "start_date": "2027-03-07",
+      "end_date": "2027-03-09",
+      "city": "Miami Beach",
+      "country": "United States",
+      "venue": "Miami Beach Convention Center",
+      "industry": [
+        "Jewellery & Watches",
+        "Jewellery"
+      ],
+      "website": "https://www.jisshow.com/spring/en-us.html"
+    },
+    {
+      "name": "CCE International",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-11",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Munich Trade Fair Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.cce-international.com/"
+    },
+    {
+      "name": "ICE Europe",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-11",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Munich Trade Fair Centre",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.ice-x.com/"
+    },
+    {
+      "name": "NHS Concept to Commerce",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-10",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "Las Vegas Convention Center",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.nhsconcepttocommerce.com/en-us.html"
+    },
+    {
+      "name": "Vision Expo",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-10",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "Venetian Expo & Convention Center",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Optical"
+      ],
+      "website": "https://www.visionexpo.com/en-us.html"
+    },
+    {
+      "name": "MIPIM",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-19",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congrès",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Property & Real Estate"
+      ],
+      "website": "https://www.mipim.com/en-gb.html"
+    },
+    {
+      "name": "The London Book Fair",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-18",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Olympia",
+      "industry": [
+        "Media & Content",
+        "Books & Publishing"
+      ],
+      "website": "https://www.londonbookfair.co.uk/en-gb.html"
+    },
+    {
+      "name": "SMART LOGISTICS EXPO",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-19",
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": "Tokyo Big Sight",
+      "industry": [
+        "Data, IT & Tech",
+        "Next-generation Technology"
+      ],
+      "website": "https://www.smart-logistic.jp/tokyo/en-gb.html"
+    },
+    {
+      "name": "EQUITANA",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-24",
+      "city": "Essen",
+      "country": "Germany",
+      "venue": "Messegelände Essen",
+      "industry": [
+        "Sport & Wellbeing",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.equitana.com/"
+    },
+    {
+      "name": "Inter Airport South East Asia",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Sands Expo & Convention Centre, Marina Bay Sands",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "https://www.interairport-southeastasia.com/"
+    },
+    {
+      "name": "SITL",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles,",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Materials Handling / Transportation & Distribution"
+      ],
+      "website": "https://www.sitl.eu/"
+    },
+    {
+      "name": "Snack Show",
+      "start_date": "2027-03-24",
+      "end_date": "2027-03-25",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.snackshow.com/"
+    },
+    {
+      "name": "Star Wars Celebration",
+      "start_date": "2027-04-01",
+      "end_date": "2027-04-04",
+      "city": "Los Angeles",
+      "country": "United States",
+      "venue": "Los Angeles Convention Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.starwarscelebration.com/"
+    },
+    {
+      "name": "ILTM Africa",
+      "start_date": "2027-04-04",
+      "end_date": "2027-04-06",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Norval Foundation, Cape Town, South Africa",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.iltm.com"
+    },
+    {
+      "name": "Passenger Experience Conference",
+      "start_date": "2027-04-05",
+      "end_date": "2027-04-05",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "http://www.passengerexperienceconference.com"
+    },
+    {
+      "name": "ISC West",
+      "start_date": "2027-04-05",
+      "end_date": "2027-04-09",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "Venetian Expo & Convention Center",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "https://www.discoverisc.com/west/en-us.html"
+    },
+    {
+      "name": "Fastener Fair Global",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-08",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "https://www.fastenerfairglobal.com/"
+    },
+    {
+      "name": "Aircraft Interiors Expo",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-08",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "http://www.aircraftinteriorsexpo.com"
+    },
+    {
+      "name": "World Travel Catering & Onboard Services Expo",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-08",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "https://www.worldtravelcateringexpo.com/"
+    },
+    {
+      "name": "In-Cosmetics Global",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-08",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Cosmetics & Beauty",
+        "Beauty & Cosmetics"
+      ],
+      "website": "https://www.in-cosmetics.com/global"
+    },
+    {
+      "name": "World Travel Market (WTM) Africa",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-09",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "http://www.africa.wtm.com"
+    },
+    {
+      "name": "Incentives, Business Travel & Meetings Expo - Africa",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-09",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/africa/en-gb/conference-programme/ibtm-africa.html"
+    },
+    {
+      "name": "Equal Africa",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-09",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/africa/en-gb/conference-programme/equal-africa.html"
+    },
+    {
+      "name": "African Tourism Investment Conference",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-09",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/africa/en-gb/conference-programme/tourism-investment-forum-africa.html"
+    },
+    {
+      "name": "Sports & Events Tourism Exchange",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-09",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "venue": "Cape Town International Convention Centre (CTICC)",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "http://www.africa.wtm.com"
+    },
+    {
+      "name": "Heat Pump Technologies",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-08",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Allianz MiCo Milan Convention Center",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.heatpumptechnologies.it/en-gb.html"
+    },
+    {
+      "name": "COOC",
+      "start_date": "2027-04-08",
+      "end_date": "2027-04-10",
+      "city": "Shanghai",
+      "country": "China",
+      "venue": "Shanghai Convention & Exhibition Center of International Sourcing",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Medical Education"
+      ],
+      "website": "http://www.cooc.org.cn/en/index.asp"
+    },
+    {
+      "name": "FIBO",
+      "start_date": "2027-04-08",
+      "end_date": "2027-04-11",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Exhibition Centre Cologne",
+      "industry": [
+        "Sport & Wellbeing",
+        "Sports & Recreation"
+      ],
+      "website": "https://www.fibo.de"
+    },
+    {
+      "name": "BookCon",
+      "start_date": "2027-04-10",
+      "end_date": "2027-04-11",
+      "city": "New York",
+      "country": "United States",
+      "venue": "Javits Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Books & Publishing"
+      ],
+      "website": "https://www.bookcon.com"
+    },
+    {
+      "name": "World Travel Market (WTM) Latin America",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Expo Center Norte",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "https://www.wtm.com/latin-america/en-gb.html"
+    },
+    {
+      "name": "INTERPHEX",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "New York City",
+      "country": "United States",
+      "venue": "Jacob K. Javits Convention Center",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Life Sciences & Pharmaceuticals"
+      ],
+      "website": "http://www.interphex.com"
+    },
+    {
+      "name": "Functional Fabric Fair Spring",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "Portland",
+      "country": "United States",
+      "venue": "Oregon Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Fashion"
+      ],
+      "website": "https://www.functionalfabricfair.com/portland-spring/en-us.html"
+    },
+    {
+      "name": "Expomed Eurasia",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-18",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "venue": "Tuyap Fair Convention & Congress Center",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Healthcare"
+      ],
+      "website": "http://expomedistanbul.com/en/"
+    },
+    {
+      "name": "Automec",
+      "start_date": "2027-04-20",
+      "end_date": "2027-04-24",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "São Paulo Expo Exhibition & Convention Center",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Automobiles & Automotive Engineering"
+      ],
+      "website": "https://www.automecfeira.com.br/"
+    },
+    {
+      "name": "PAX East",
+      "start_date": "2027-04-22",
+      "end_date": "2027-04-25",
+      "city": "Boston",
+      "country": "United States",
+      "venue": "Boston Convention and Exhibition Center",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "https://east.paxsite.com/"
+    },
+    {
+      "name": "BLECH India",
+      "start_date": "2027-04-22",
+      "end_date": "2027-04-24",
+      "city": "Mumbai",
+      "country": "India",
+      "venue": "Bombay Exhibition Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Processing"
+      ],
+      "website": "https://www.blechindia.com/"
+    },
+    {
+      "name": "C2E2",
+      "start_date": "2027-04-30",
+      "end_date": "2027-05-01",
+      "city": "Chicago",
+      "country": "United States",
+      "venue": "McCormick Place Complex",
+      "industry": [
+        "Pop Culture & Gaming",
+        "Broadcasting, TV, Music & Entertainment"
+      ],
+      "website": "http://www.c2e2.com"
+    },
+    {
+      "name": "ILTM Latin America",
+      "start_date": "2027-05-03",
+      "end_date": "2027-05-06",
+      "city": "São Paulo",
+      "country": "The Americas",
+      "venue": "Expo Center Norte",
+      "industry": [
+        "Travel & Tourism",
+        "Travel"
+      ],
+      "website": "www.iltm.com/latin-america"
+    },
+    {
+      "name": "BCB London",
+      "start_date": "2027-05-10",
+      "end_date": "2027-05-11",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "TBC",
+      "industry": [
+        "Food & Hospitality",
+        "Food Service & Hospitality"
+      ],
+      "website": "http://live.imbibe.com"
+    },
+    {
+      "name": "Africa Automation Technology Fair",
+      "start_date": "2027-05-11",
+      "end_date": "2027-05-13",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "venue": "Gallagher",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.africaautomationtechnologyfair.com/"
+    },
+    {
+      "name": "All-Energy and Dcarbonise",
+      "start_date": "2027-05-12",
+      "end_date": "2027-05-13",
+      "city": "Glasgow",
+      "country": "United Kingdom",
+      "venue": "SEC",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.all-energy.co.uk/en-gb.html"
+    },
+    {
+      "name": "ALUMINUM USA",
+      "start_date": "2027-05-19",
+      "end_date": "2026-05-20",
+      "city": "Louisville, KY",
+      "country": "United States",
+      "venue": "Kentucky International Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Machinery & Tooling"
+      ],
+      "website": "http://www.aluminum-us.com"
+    },
+    {
+      "name": "Chemspec Europe",
+      "start_date": "2027-05-24",
+      "end_date": "2027-05-25",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Messe Basel",
+      "industry": [
+        "Healthcare, Medical & Pharma",
+        "Life Sciences & Pharmaceuticals"
+      ],
+      "website": "https://www.chemspeceurope.com/"
+    },
+    {
+      "name": "SIFER",
+      "start_date": "2027-06-22",
+      "end_date": "2027-06-24",
+      "city": "Lille",
+      "country": "France",
+      "venue": "Lille Grand Palais Exhibition Centre",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.sifer-expo.com/"
+    },
+    {
+      "name": "WEPACK Thailand",
+      "start_date": "2027-06-30",
+      "end_date": "2027-07-02",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue": "Bangkok International Trade Exhibition Center",
+      "industry": [
+        "Printing & Packaging",
+        "Paper, Packaging & Converting"
+      ],
+      "website": "https://www.wepack-thailand.com"
+    },
+    {
+      "name": "SPE Offshore Europe",
+      "start_date": "2027-09-07",
+      "end_date": "2027-09-09",
+      "city": "Aberdeen",
+      "country": "United Kingdom",
+      "venue": "P&J Live",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "http://www.offshore-europe.co.uk"
+    },
+    {
+      "name": "Febrava",
+      "start_date": "2027-09-14",
+      "end_date": "2027-09-17",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "São Paulo Expo Exhibition & Convention Center",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "https://www.febrava.com.br/"
+    },
+    {
+      "name": "FIEE",
+      "start_date": "2027-09-14",
+      "end_date": "2027-09-17",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "São Paulo Expo Exhibition & Convention Center",
+      "industry": [
+        "Engineering & Manufacturing",
+        "Electronics & Electrical Engineering"
+      ],
+      "website": "https://www.fiee.com.br"
+    },
+    {
+      "name": "APS",
+      "start_date": "2027-09-28",
+      "end_date": "2027-09-30",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Safety & Security",
+        "Security & Safety"
+      ],
+      "website": "https://www.salon-aps.com/"
+    },
+    {
+      "name": "EXPO Ferroviaria",
+      "start_date": "2027-09-28",
+      "end_date": "2027-09-30",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Fiera Milano Rho",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Engineering, Manufacturing & Distribution"
+      ],
+      "website": "https://www.expoferroviaria.com/"
+    },
+    {
+      "name": "inter airport Europe",
+      "start_date": "2027-10-12",
+      "end_date": "2027-10-14",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Munich Trade Fair Centre",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Aerospace & Aviation"
+      ],
+      "website": "https://www.interairporteurope.com/"
+    },
+    {
+      "name": "Pollutec",
+      "start_date": "2027-10-12",
+      "end_date": "2027-10-15",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Lyon Eurexpo",
+      "industry": [
+        "Real Estate & Urban Management",
+        "Environment & Urban Management"
+      ],
+      "website": "https://www.pollutec.com"
+    },
+    {
+      "name": "Kormarine",
+      "start_date": "2027-10-19",
+      "end_date": "2027-10-22",
+      "city": "Busan",
+      "country": "South Korea",
+      "venue": "Busan Exhibition & Convention Center (BEXCO)",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Marine"
+      ],
+      "website": "http://www.kormarine.com"
+    },
+    {
+      "name": "Salão Internacional do Automóvel de São Paulo",
+      "start_date": "2027-10-30",
+      "end_date": "2027-11-07",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "venue": "Distrito Anhembi",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Automobiles & Automotive Engineering"
+      ],
+      "website": "https://www.salaodoautomovel.com.br/pt-br.html"
+    },
+    {
+      "name": "World Nuclear Exhibition (WNE)",
+      "start_date": "2027-12-07",
+      "end_date": "2027-12-09",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.world-nuclear-exhibition.com"
+    },
+    {
+      "name": "MCE Mostra Convegno Expocomfort",
+      "start_date": "2028-03-07",
+      "end_date": "2028-03-10",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Fiera Milano Exhibition Center, Rho",
+      "industry": [
+        "Building & Construction"
+      ],
+      "website": "http://www.mcexpocomfort.it/"
+    },
+    {
+      "name": "Oceanology International",
+      "start_date": "2028-03-14",
+      "end_date": "2028-03-16",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [
+        "Energy",
+        "Energy, Oil & Gas"
+      ],
+      "website": "https://www.oceanologyinternational.com/london/en-gb.html"
+    },
+    {
+      "name": "Asia Pacific Maritime",
+      "start_date": "2028-03-22",
+      "end_date": "2028-03-24",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue": "Sands Expo & Convention Centre, Marina Bay Sands",
+      "industry": [
+        "Automotive, Transport & Aerospace",
+        "Marine"
+      ],
+      "website": "https://www.apmaritime.com/"
+    },
+    {
+      "name": "ITS World Congress",
+      "start_date": "2028-10-08",
+      "end_date": "2028-10-12",
+      "city": "Orlando",
+      "country": "United States",
+      "venue": "Georgia World Congress Center",
+      "industry": [
+        "Safety & Security",
+        "Automotive & Automotive Electronics"
+      ],
+      "website": "https://www.itsamericaevents.com/world-congress/en-us.html"
+    }
+  ]
+}

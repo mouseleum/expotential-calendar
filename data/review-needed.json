@@ -80,6 +80,172 @@
         "notes": "",
         "id": "energimassan-stockholm-2026-05"
       }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "logistics-experience-logex-cancun-2026-09",
+      "existing": {
+        "id": "logistics-experience-logex-cancun-2026-09",
+        "name": "Logistics Experience LOGEX",
+        "start_date": "2026-09-01",
+        "end_date": "2026-09-03",
+        "city": "Cancun",
+        "country": "Mexico",
+        "country_code": "MX",
+        "venue": null,
+        "industry": [
+          "Automotive & Transportation"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.logisticsexperience.com/en-us.html",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Mexico",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "Logistics Experience LOGEX",
+        "start_date": "2026-09-01",
+        "end_date": "2026-09-03",
+        "city": "Cancún",
+        "country": "Mexico",
+        "country_code": null,
+        "venue": "AVA Resort Cancún",
+        "industry": [
+          "Automotive, Transport & Aerospace",
+          "Materials Handling / Transportation & Distribution"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.logisticsexperience.com",
+        "source": "venue:rx-events",
+        "source_url": "https://www.logisticsexperience.com",
+        "notes": "",
+        "id": "logistics-experience-logex-cancun-2026-09"
+      }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "expolux-sao-paulo-2026-09",
+      "existing": {
+        "id": "expolux-sao-paulo-2026-09",
+        "name": "Expolux",
+        "start_date": "2026-09-15",
+        "end_date": "2026-09-18",
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "country_code": "BR",
+        "venue": null,
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expolux.com.br",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Brazil",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "Expolux",
+        "start_date": "2026-09-15",
+        "end_date": "2026-09-18",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "country_code": null,
+        "venue": "Expo Center Norte",
+        "industry": [
+          "Building & Construction",
+          "Lighting"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expolux.com.br",
+        "source": "venue:rx-events",
+        "source_url": "https://www.expolux.com.br",
+        "notes": "",
+        "id": "expolux-sao-paulo-2026-09"
+      }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "reeduca-paris-paris-2026-09",
+      "existing": {
+        "id": "reeduca-paris-paris-2026-09",
+        "name": "Reeduca Paris",
+        "start_date": "2026-09-17",
+        "end_date": "2026-09-19",
+        "city": "Paris",
+        "country": "France",
+        "country_code": "FR",
+        "venue": null,
+        "industry": [],
+        "attendees": 4000,
+        "exhibitors": 99,
+        "website": "http://www.salonreeduca.com",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=France",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "Rééduca Paris",
+        "start_date": "2026-09-17",
+        "end_date": "2026-09-19",
+        "city": "Paris",
+        "country": "France",
+        "country_code": null,
+        "venue": "Paris Expo Porte de Versailles",
+        "industry": [
+          "Healthcare, Medical & Pharma",
+          "Medical, Health & Beauty"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.salonreeduca.com/fr-fr.html",
+        "source": "venue:rx-events",
+        "source_url": "https://www.salonreeduca.com/fr-fr.html",
+        "notes": "",
+        "id": "reeduca-paris-paris-2026-09"
+      }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "in-cosmetics-latin-america-sao-paulo-2026-09",
+      "existing": {
+        "id": "in-cosmetics-latin-america-sao-paulo-2026-09",
+        "name": "In-cosmetics Latin America",
+        "start_date": "2026-09-23",
+        "end_date": "2026-09-24",
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "country_code": "BR",
+        "venue": null,
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.in-cosmetics.com/latin-america/en-gb.html",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Brazil",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "In-Cosmetics Latin America",
+        "start_date": "2026-09-23",
+        "end_date": "2026-09-24",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "country_code": null,
+        "venue": "Expo Center Norte",
+        "industry": [
+          "Cosmetics & Beauty",
+          "Beauty & Cosmetics"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "http://latinamerica.in-cosmetics.com",
+        "source": "venue:rx-events",
+        "source_url": "http://latinamerica.in-cosmetics.com",
+        "notes": "",
+        "id": "in-cosmetics-latin-america-sao-paulo-2026-09"
+      }
     }
   ]
 }

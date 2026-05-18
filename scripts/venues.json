@@ -39,5 +39,14 @@
     "country": "Sweden",
     "country_code": "SE",
     "url": "https://www.malmomassan.se/calendar/"
+  },
+  {
+    "id": "rx-events",
+    "name": null,
+    "city": null,
+    "country": null,
+    "country_code": null,
+    "url": "https://www.rxglobal.com",
+    "type": "calendar"
   }
 ]
