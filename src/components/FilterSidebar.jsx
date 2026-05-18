@@ -197,30 +197,34 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       <div className="filter-group">
         <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span>Country / Region</span>
-          <div style={{ display: 'flex', gap: 4 }}>
+          {(filters.countries.size > 0 || filters.venues.size > 0) && (
             <button
-              style={{ padding: '0 4px', fontSize: 10, border: 'none', color: 'var(--text-dimmer)' }}
-              onClick={() => {
-                setExpandedRegions(new Set(REGIONS.map((r) => r.id)));
-                setExpandedCountries(new Set([...venuesByCountry.keys()]));
-              }}
-              title="Expand all regions and country venues"
-            >expand all</button>
-            <button
-              style={{ padding: '0 4px', fontSize: 10, border: 'none', color: 'var(--text-dimmer)' }}
-              onClick={() => {
-                setExpandedRegions(new Set());
-                setExpandedCountries(new Set());
-              }}
-              title="Collapse everything"
-            >collapse all</button>
-            {(filters.countries.size > 0 || filters.venues.size > 0) && (
-              <button
-                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-                onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
-              >clear ({filters.countries.size + filters.venues.size})</button>
-            )}
-          </div>
+              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+              onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
+            >clear ({filters.countries.size + filters.venues.size})</button>
+          )}
+        </div>
+        <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', marginBottom: 8, fontSize: 10 }}>
+          <span style={{ color: 'var(--text-dimmer)', alignSelf: 'center', marginRight: 2 }}>regions:</span>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setExpandedRegions(new Set(REGIONS.map((r) => r.id)))}
+          >expand</button>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setExpandedRegions(new Set())}
+          >collapse</button>
+          <span style={{ color: 'var(--text-dimmer)', alignSelf: 'center', marginLeft: 6, marginRight: 2 }}>venues:</span>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setExpandedCountries(new Set([...venuesByCountry.keys()]))}
+            title="Expand every country's venue list"
+          >expand</button>
+          <button
+            style={{ padding: '1px 5px', fontSize: 10, border: '1px solid var(--border-strong)' }}
+            onClick={() => setExpandedCountries(new Set())}
+            title="Collapse every country's venue list"
+          >collapse</button>
         </div>
         {REGIONS.map((region) => {
           const isOpen = expandedRegions.has(region.id);
