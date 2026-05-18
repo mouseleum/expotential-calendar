@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { INDUSTRY_SEGMENTS } from '../utils/industries';
 
 const EMPTY = {
   name: '',
@@ -10,7 +11,8 @@ const EMPTY = {
   website: '',
   attendees: '',
   exhibitors: '',
-  industry: '',
+  industries: [],
+  industryOther: '',
   added_by: '',
   notes: '',
 };
@@ -25,18 +27,32 @@ export function AddShowForm({ onClose, onAdded }) {
     setForm((f) => ({ ...f, [field]: value }));
   }
 
+  function toggleIndustry(seg) {
+    setForm((f) => ({
+      ...f,
+      industries: f.industries.includes(seg)
+        ? f.industries.filter((s) => s !== seg)
+        : [...f.industries, seg],
+    }));
+  }
+
   async function handleSubmit(e) {
     e.preventDefault();
     setSubmitting(true);
     setErrors(null);
     try {
+      const others = form.industryOther
+        ? form.industryOther.split(',').map((s) => s.trim()).filter(Boolean)
+        : [];
       const payload = {
         ...form,
         end_date: form.end_date || form.start_date,
-        industry: form.industry ? form.industry.split(',').map((s) => s.trim()).filter(Boolean) : [],
+        industry: [...form.industries, ...others],
         attendees: form.attendees || null,
         exhibitors: form.exhibitors || null,
       };
+      delete payload.industries;
+      delete payload.industryOther;
       const res = await fetch('/api/manual-shows', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -98,8 +114,26 @@ export function AddShowForm({ onClose, onAdded }) {
               <input type="number" min="0" value={form.exhibitors} onChange={(e) => update('exhibitors', e.target.value)} />
             </Field>
           </div>
-          <Field label="Industry (comma-separated)">
-            <input type="text" value={form.industry} onChange={(e) => update('industry', e.target.value)} placeholder="Technology, Finance" />
+          <Field label="Industry">
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2px 8px' }}>
+              {INDUSTRY_SEGMENTS.map((seg) => (
+                <label key={seg} style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, cursor: 'pointer' }}>
+                  <input
+                    type="checkbox"
+                    checked={form.industries.includes(seg)}
+                    onChange={() => toggleIndustry(seg)}
+                  />
+                  <span>{seg}</span>
+                </label>
+              ))}
+            </div>
+            <input
+              type="text"
+              value={form.industryOther}
+              onChange={(e) => update('industryOther', e.target.value)}
+              placeholder="Other (comma-separated)"
+              style={{ marginTop: 6 }}
+            />
           </Field>
           <Field label="Added by (your name)">
             <input type="text" value={form.added_by} onChange={(e) => update('added_by', e.target.value)} placeholder="Mikael" />
