@@ -1,3 +1,44 @@
 {
-  "conflicts": []
+  "conflicts": [
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06",
+      "existing": {
+        "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06",
+        "name": "Electric & Hybrid - Vehicle Technology Expo",
+        "start_date": "2026-06-09",
+        "end_date": "2026-06-11",
+        "city": "Stuttgart",
+        "country": "Germany",
+        "country_code": "DE",
+        "venue": null,
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.evtechexpo.eu",
+        "source": "tradeshow_calendar",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
+        "notes": ""
+      },
+      "incoming": {
+        "name": "Electric & Hybrid Vehicle Technology Expo, Stuttgart -",
+        "start_date": "2026-06-09",
+        "end_date": "2026-06-11",
+        "city": null,
+        "country": "Germany",
+        "country_code": null,
+        "venue": "Messe Stuttgart",
+        "industry": [
+          "Advanced Battery and Automotive"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/",
+        "notes": "",
+        "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06"
+      }
+    }
+  ]
 }

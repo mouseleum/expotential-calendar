@@ -101,20 +101,26 @@ async function loadVenueScrapes() {
       continue;
     }
     for (const ev of data.events) {
+      // Per-event city/country/venue override the venue-config defaults.
+      // This supports multi-venue sources (e.g. third-party calendars).
+      const city = ev.city || venue.city || null;
+      const country = ev.country || venue.country || null;
+      const country_code = ev.country_code || (country === venue.country ? venue.country_code : null) || null;
+      const venueName = ev.venue || venue.name || null;
       const show = {
         name: ev.name,
         start_date: ev.start_date,
         end_date: ev.end_date,
-        city: venue.city,
-        country: venue.country,
-        country_code: venue.country_code,
-        venue: venue.name,
+        city,
+        country,
+        country_code,
+        venue: venueName,
         industry: ev.industry || [],
         attendees: ev.attendees ?? null,
         exhibitors: ev.exhibitors ?? null,
         website: ev.website || null,
         source: `venue:${venue.id}`,
-        source_url: venue.url,
+        source_url: ev.website || venue.url,
         notes: ev.notes || '',
       };
       show.id = rebuildId(show);
@@ -181,7 +187,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     source_scraped_at: ttc.scraped_at,
     count: shows.length,
-    countries: new Set(shows.map((s) => s.country)).size,
+    countries: new Set(shows.map((s) => s.country).filter(Boolean)).size,
     shows,
   };
 
