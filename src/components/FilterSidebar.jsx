@@ -195,14 +195,32 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span>Country / Region</span>
-          {(filters.countries.size > 0 || filters.venues.size > 0) && (
+          <div style={{ display: 'flex', gap: 4 }}>
             <button
-              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
-              onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
-            >clear ({filters.countries.size + filters.venues.size})</button>
-          )}
+              style={{ padding: '0 4px', fontSize: 10, border: 'none', color: 'var(--text-dimmer)' }}
+              onClick={() => {
+                setExpandedRegions(new Set(REGIONS.map((r) => r.id)));
+                setExpandedCountries(new Set([...venuesByCountry.keys()]));
+              }}
+              title="Expand all regions and country venues"
+            >expand all</button>
+            <button
+              style={{ padding: '0 4px', fontSize: 10, border: 'none', color: 'var(--text-dimmer)' }}
+              onClick={() => {
+                setExpandedRegions(new Set());
+                setExpandedCountries(new Set());
+              }}
+              title="Collapse everything"
+            >collapse all</button>
+            {(filters.countries.size > 0 || filters.venues.size > 0) && (
+              <button
+                style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+                onClick={() => setFilters((p) => ({ ...p, countries: new Set(), venues: new Set() }))}
+              >clear ({filters.countries.size + filters.venues.size})</button>
+            )}
+          </div>
         </div>
         {REGIONS.map((region) => {
           const isOpen = expandedRegions.has(region.id);
