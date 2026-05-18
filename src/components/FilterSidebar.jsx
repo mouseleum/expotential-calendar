@@ -118,11 +118,20 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
   }
 
+  function toggleAudience(aud) {
+    setFilters((prev) => {
+      const next = new Set(prev.audiences);
+      if (next.has(aud)) next.delete(aud); else next.add(aud);
+      return { ...prev, audiences: next };
+    });
+  }
+
   function clearAll() {
     setFilters({
       countries: new Set(),
       venues: new Set(),
       industries: new Set(),
+      audiences: new Set(),
       query: '',
       minAttendees: '',
       dateFrom: '',
@@ -133,6 +142,12 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
     });
     setExpandedCountries(new Set());
   }
+
+  const audienceCounts = useMemo(() => {
+    const m = { b2b: 0, b2c: 0, mixed: 0, unknown: 0 };
+    for (const s of allShows) m[s.audience || 'unknown']++;
+    return m;
+  }, [allShows]);
 
   const industryCounts = useMemo(() => {
     const m = new Map();
@@ -260,6 +275,38 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
           />
           Flagged only
         </label>
+      </div>
+
+      <div className="filter-group">
+        <div className="filter-group__title" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <span>Audience</span>
+          {filters.audiences.size > 0 && (
+            <button
+              style={{ padding: '0 4px', fontSize: 10, border: 'none' }}
+              onClick={() => setFilters((p) => ({ ...p, audiences: new Set() }))}
+            >clear ({filters.audiences.size})</button>
+          )}
+        </div>
+        {[
+          { id: 'b2b', label: 'B2B (trade)' },
+          { id: 'b2c', label: 'B2C (consumer)' },
+          { id: 'mixed', label: 'Mixed' },
+          { id: 'unknown', label: 'Unknown' },
+        ].map(({ id, label }) => {
+          const count = audienceCounts[id] || 0;
+          return (
+            <label key={id} className="filter-group__row" style={{ opacity: count === 0 ? 0.5 : 1 }}>
+              <input
+                type="checkbox"
+                checked={filters.audiences.has(id)}
+                onChange={() => toggleAudience(id)}
+                disabled={count === 0 && !filters.audiences.has(id)}
+              />
+              <span>{label}</span>
+              <span className="filter-group__count">{count}</span>
+            </label>
+          );
+        })}
       </div>
 
       <div className="filter-group">

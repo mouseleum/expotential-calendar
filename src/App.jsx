@@ -18,6 +18,7 @@ const INITIAL_FILTERS = {
   countries: new Set(EUROPE_MAIN_COUNTRIES),
   venues: new Set(),
   industries: new Set(),
+  audiences: new Set(),
   query: '',
   minAttendees: '',
   dateFrom: '',
@@ -79,6 +80,10 @@ function App() {
       if (filters.industries.size > 0) {
         const tags = Array.isArray(s.industry) ? s.industry : [];
         if (!tags.some((t) => filters.industries.has(t))) return false;
+      }
+      if (filters.audiences.size > 0) {
+        const aud = s.audience || 'unknown';
+        if (!filters.audiences.has(aud)) return false;
       }
       if (q && !s.name.toLowerCase().includes(q)) return false;
       if (minAtt != null && (s.attendees == null || s.attendees < minAtt)) return false;

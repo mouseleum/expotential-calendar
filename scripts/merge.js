@@ -16,6 +16,7 @@ const VENUE_DIR = resolve(ROOT, 'data/venue-scrapes');
 const VENUES_CONFIG = resolve(ROOT, 'scripts/venues.json');
 const VENUE_DOMAINS = resolve(ROOT, 'scripts/venue-domains.json');
 const INDUSTRY_RULES = resolve(ROOT, 'scripts/industry-rules.json');
+const AUDIENCE_PATH = resolve(ROOT, 'data/audience-classifications.json');
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
 const SHIP_PATH = resolve(ROOT, 'src/data/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
@@ -261,6 +262,15 @@ async function main() {
     show.industry = [...existing];
   }
 
+  // Apply persisted Haiku audience classifications, if any.
+  let audienceApplied = 0;
+  if (existsSync(AUDIENCE_PATH)) {
+    const audiences = JSON.parse(await readFile(AUDIENCE_PATH, 'utf8'));
+    for (const show of byId.values()) {
+      if (audiences[show.id]) { show.audience = audiences[show.id]; audienceApplied++; }
+    }
+  }
+
   // Apply URL→venue mapping for shows without a venue. Only enriches if
   // the mapped city matches the show's city (or show city is missing).
   let venueFromUrl = 0;
@@ -295,6 +305,7 @@ async function main() {
 
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);
+  console.log(`Audience tags: ${audienceApplied} shows tagged (B2B / B2C / mixed)`);
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
   console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
   for (const [seg, n] of Object.entries(perSegment).sort((a, b) => b[1] - a[1])) {
