@@ -6,6 +6,7 @@ export const SOURCE_LABELS = {
   'venue:bellacenter': 'Bella Center',
   'venue:eventseye': 'EventsEye',
   'venue:expostands': 'Expo Exhibition Stands',
+  'venue:informa': 'Informa Markets',
   'venue:kistamassan': 'Kistamässan',
   'venue:malmomassan': 'Malmömässan',
   'venue:rx-events': 'RX Global',

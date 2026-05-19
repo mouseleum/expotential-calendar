@@ -57,5 +57,14 @@
     "country_code": null,
     "url": "https://www.eventseye.com",
     "type": "calendar"
+  },
+  {
+    "id": "informa",
+    "name": null,
+    "city": null,
+    "country": null,
+    "country_code": null,
+    "url": "https://events.informamarkets.com/en/event-listing.html",
+    "type": "calendar"
   }
 ]

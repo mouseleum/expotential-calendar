@@ -102,7 +102,7 @@
         "attendees": null,
         "exhibitors": null,
         "website": "https://www.evtechexpo.eu",
-        "source": "tradeshow_calendar+venue:eventseye+venue:expostands",
+        "source": "tradeshow_calendar+venue:eventseye+venue:expostands+venue:informa",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
         "notes": "",
         "audience": "b2b"
