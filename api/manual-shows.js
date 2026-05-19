@@ -1,16 +1,20 @@
 // Vercel serverless function — manual-shows store backed by Vercel KV.
-// GET  /api/manual-shows         → { shows: [...] }
-// POST /api/manual-shows {show}  → { ok: true, show: {...} }
-// DELETE /api/manual-shows?id=…  → { ok: true }
+// GET    /api/manual-shows         → { shows: [...] }
+// POST   /api/manual-shows {show}  → { ok: true, show: {...} }
+// DELETE /api/manual-shows?id=…    → { ok: true }
 //
-// KV key layout: a single key 'manual-shows:v1' holds the JSON array.
-// (For our scale — manual additions, never more than a few hundred —
-// one round-trip read/write is simpler than per-show keys.)
+// Storage: a Redis HASH at 'manual-shows' with field=id → value=JSON.
+// Per-field HSET/HDEL is atomic, so concurrent POSTs/DELETEs don't race
+// like a read-array-modify-write-array round-trip would.
+//
+// Legacy fallback: an older 'manual-shows:v1' key holding the array shape
+// is read on the first GET and migrated to the hash, then removed.
 
 import { kv } from '@vercel/kv';
 import { slugify } from '../scripts/lib/slugify.js';
 
-const KEY = 'manual-shows:v1';
+const HASH_KEY = 'manual-shows';
+const LEGACY_KEY = 'manual-shows:v1';
 
 function makeId(show) {
   const name = slugify(show.name);
@@ -20,7 +24,6 @@ function makeId(show) {
 }
 
 function normalize(input) {
-  // Required + nullable validation
   const errors = [];
   if (!input || typeof input !== 'object') {
     errors.push('body must be an object');
@@ -57,30 +60,40 @@ function normalize(input) {
   return { show };
 }
 
+// Migrate the legacy array key into the hash, then delete it. Idempotent —
+// calling twice is safe (second call sees no legacy data and does nothing).
+async function migrateLegacyIfPresent() {
+  const legacy = await kv.get(LEGACY_KEY);
+  if (!Array.isArray(legacy) || legacy.length === 0) return;
+  const fields = {};
+  for (const show of legacy) {
+    if (show && show.id) fields[show.id] = show;
+  }
+  if (Object.keys(fields).length > 0) await kv.hset(HASH_KEY, fields);
+  await kv.del(LEGACY_KEY);
+}
+
 export default async function handler(req, res) {
   try {
     if (req.method === 'GET') {
-      const shows = (await kv.get(KEY)) || [];
+      await migrateLegacyIfPresent();
+      const all = (await kv.hgetall(HASH_KEY)) || {};
+      const shows = Object.values(all);
       return res.status(200).json({ shows });
     }
 
     if (req.method === 'POST') {
       const { show, errors } = normalize(req.body);
       if (errors) return res.status(400).json({ errors });
-      const current = (await kv.get(KEY)) || [];
-      const filtered = current.filter((s) => s.id !== show.id);
-      filtered.push(show);
-      await kv.set(KEY, filtered);
+      await kv.hset(HASH_KEY, { [show.id]: show });
       return res.status(200).json({ ok: true, show });
     }
 
     if (req.method === 'DELETE') {
       const id = req.query?.id || new URL(req.url, 'http://x').searchParams.get('id');
       if (!id) return res.status(400).json({ error: 'id query param required' });
-      const current = (await kv.get(KEY)) || [];
-      const filtered = current.filter((s) => s.id !== id);
-      await kv.set(KEY, filtered);
-      return res.status(200).json({ ok: true, removed: current.length - filtered.length });
+      const removed = await kv.hdel(HASH_KEY, id);
+      return res.status(200).json({ ok: true, removed });
     }
 
     res.setHeader('Allow', 'GET, POST, DELETE');
