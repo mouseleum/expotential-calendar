@@ -103,41 +103,60 @@ function rebuildId(show) {
   return city ? `${name}-${city}-${ym}` : `${name}-${ym}`;
 }
 
-// Normalize a show name for fuzzy match: lowercase, strip year, strip
-// common suffixes ("2026", "annual conference"), collapse whitespace.
-function normalizeForMatch(name) {
-  return (name || '')
+// Words that don't carry identity — strip them so token-set comparison
+// works across naming-convention differences across sources.
+const STOP_TOKENS = new Set([
+  'the', 'a', 'an', 'of', 'and', 'for', 'on', 'in', 'at', 'by', 'to',
+  'annual', 'conference', 'congress', 'meeting', 'expo', 'exposition',
+  'summit', 'symposium', 'forum', 'fair', 'exhibition', 'show', 'event',
+  'days', 'week', 'days', 'trade',
+  'international', 'global', 'world', 'european', 'europe', 'asian', 'asia',
+  'american', 'america', 'north', 'south', 'east', 'west',
+]);
+
+function normalizeForMatch(name, city) {
+  const cityTokens = (city || '')
     .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
+  const tokens = (name || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/&amp;|&/g, 'and')
     .replace(/\b20\d{2}\b/g, '')
-    .replace(/\bannual\b|\bconference\b|\bcongress\b|\bmeeting\b|\bexpo\b|\bsummit\b/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .split(' ')
-    .filter((w) => w.length > 0)
-    .sort()
-    .join(' ');
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w && !STOP_TOKENS.has(w) && !cityTokens.includes(w));
+  return [...new Set(tokens)].sort().join(' ');
 }
 
-// True if two shows are likely the same: same normalized name + same city +
-// overlapping date ranges.
+// True if two shows are likely the same: similar normalized name + same city +
+// overlapping start month (allow ±1 month for events that span the boundary).
 function isLikelyDup(a, b) {
-  if (a.city !== b.city) return false;
-  const na = normalizeForMatch(a.name);
-  const nb = normalizeForMatch(b.name);
+  if (!a.city || !b.city) return false;
+  if (a.city.toLowerCase() !== b.city.toLowerCase()) return false;
+  const na = normalizeForMatch(a.name, a.city);
+  const nb = normalizeForMatch(b.name, b.city);
   if (!na || !nb) return false;
   if (na !== nb) {
-    // Token containment: shorter ⊆ longer
-    const setA = new Set(na.split(' '));
-    const setB = new Set(nb.split(' '));
-    const [small, big] = setA.size < setB.size ? [setA, setB] : [setB, setA];
+    const setA = new Set(na.split(' ').filter(Boolean));
+    const setB = new Set(nb.split(' ').filter(Boolean));
+    if (setA.size === 0 || setB.size === 0) return false;
+    const [small, big] = setA.size <= setB.size ? [setA, setB] : [setB, setA];
     let overlap = 0;
     for (const t of small) if (big.has(t)) overlap++;
-    if (overlap < small.size) return false;
+    // Require at least 1 shared identity token; allow up to 1 missing if the
+    // smaller set has ≥2 tokens (so initialisms and acronym variants still merge).
+    const allowedMisses = small.size >= 2 ? 1 : 0;
+    if (small.size - overlap > allowedMisses) return false;
   }
-  // Date overlap (or same start month)
   if (!a.start_date || !b.start_date) return false;
-  const sameStartMonth = a.start_date.slice(0, 7) === b.start_date.slice(0, 7);
-  return sameStartMonth;
+  const monthsApart = Math.abs(
+    (new Date(a.start_date + 'T00:00:00Z') - new Date(b.start_date + 'T00:00:00Z')) / (1000 * 60 * 60 * 24)
+  );
+  return monthsApart <= 14; // within ~2 weeks → same edition
 }
 
 async function loadTradeshowCalendar() {

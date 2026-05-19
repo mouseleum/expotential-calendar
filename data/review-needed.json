@@ -2,32 +2,36 @@
   "conflicts": [
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "edition-speciale-by-luxe-pack-paris-2026-06",
+      "id": "ict-logistiek-utrecht-2026-11",
       "existing": {
-        "id": "edition-speciale-by-luxe-pack-paris-2026-06",
-        "name": "Edition Speciale by LUXE PACK",
-        "start_date": "2026-06-17",
-        "end_date": "2026-06-18",
-        "city": "Paris",
-        "country": "France",
-        "country_code": "FR",
+        "id": "ict-logistiek-utrecht-2026-11",
+        "name": "ICT&Logistiek",
+        "start_date": "2026-11-03",
+        "end_date": "2026-11-05",
+        "city": "Utrecht",
+        "country": "Netherlands",
+        "country_code": "NL",
         "venue": null,
-        "industry": [],
+        "industry": [
+          "Technology & IT",
+          "Automotive & Transportation"
+        ],
         "attendees": null,
         "exhibitors": null,
-        "website": "https://www.editionspeciale-luxepack.com/en/",
+        "website": "https://www.loginext.nl/en/ict-en-logistiek/exposeren",
         "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=France",
-        "notes": ""
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Netherlands",
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
-        "name": "ÉDITION SPÉCIALE BY LUXE PACK",
-        "start_date": "2026-06-30",
-        "end_date": "2026-07-01",
-        "city": "Paris",
-        "country": "France",
+        "name": "ICT & LOGISTIEK",
+        "start_date": "2026-11-03",
+        "end_date": "2026-11-05",
+        "city": "Utrecht",
+        "country": "Netherlands",
         "country_code": null,
-        "venue": "Carrousel du Louvre",
+        "venue": "Jaarbeurs Utrecht",
         "industry": [],
         "attendees": null,
         "exhibitors": null,
@@ -35,197 +39,7 @@
         "source": "venue:eventseye",
         "source_url": "https://www.eventseye.com",
         "notes": "frequency: once a year",
-        "id": "edition-speciale-by-luxe-pack-paris-2026-06"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "reeduca-paris-paris-2026-09",
-      "existing": {
-        "id": "reeduca-paris-paris-2026-09",
-        "name": "Reeduca Paris",
-        "start_date": "2026-09-17",
-        "end_date": "2026-09-19",
-        "city": "Paris",
-        "country": "France",
-        "country_code": "FR",
-        "venue": null,
-        "industry": [],
-        "attendees": 4000,
-        "exhibitors": 99,
-        "website": "http://www.salonreeduca.com",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=France",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "RÉÉDUCA - PARIS",
-        "start_date": "2026-09-17",
-        "end_date": "2026-09-19",
-        "city": "Paris",
-        "country": "France",
-        "country_code": null,
-        "venue": "Paris Expo Porte de Versailles",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "reeduca-paris-paris-2026-09"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "caravan-salon-dusseldorf-dusseldorf-2026-08",
-      "existing": {
-        "id": "caravan-salon-dusseldorf-dusseldorf-2026-08",
-        "name": "CARAVAN SALON DUSSELDORF",
-        "start_date": "2026-08-28",
-        "end_date": "2026-09-06",
-        "city": "Dusseldorf",
-        "country": "Germany",
-        "country_code": "DE",
-        "venue": null,
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://www.caravan-salon.com",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "CARAVAN SALON DÜSSELDORF",
-        "start_date": "2026-08-28",
-        "end_date": "2026-09-06",
-        "city": "Dusseldorf",
-        "country": "Germany",
-        "country_code": null,
-        "venue": "Düsseldorf Exhibition Centre",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "caravan-salon-dusseldorf-dusseldorf-2026-08"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "boot-dusseldorf-dusseldorf-2027-01",
-      "existing": {
-        "id": "boot-dusseldorf-dusseldorf-2027-01",
-        "name": "Boot - Dusseldorf",
-        "start_date": "2027-01-23",
-        "end_date": "2027-01-31",
-        "city": "Dusseldorf",
-        "country": "Germany",
-        "country_code": "DE",
-        "venue": null,
-        "industry": [],
-        "attendees": 214000,
-        "exhibitors": 1500,
-        "website": "https://www.boot.com",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "BOOT-DÜSSELDORF",
-        "start_date": "2027-01-23",
-        "end_date": "2027-01-31",
-        "city": "Dusseldorf",
-        "country": "Germany",
-        "country_code": null,
-        "venue": "Düsseldorf Exhibition Centre",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "boot-dusseldorf-dusseldorf-2027-01"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "subcontratacion-bilbao-2027-02",
-      "existing": {
-        "id": "subcontratacion-bilbao-2027-02",
-        "name": "Subcontratacion",
-        "start_date": "2027-02-23",
-        "end_date": "2027-02-25",
-        "city": "Bilbao",
-        "country": "Spain",
-        "country_code": "ES",
-        "venue": "Bilbao Exhibition Centre",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://subcontratacion.bilbaoexhibitioncentre.com/en/",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Spain",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "SUBCONTRATACIÓN",
-        "start_date": "2027-02-23",
-        "end_date": "2027-02-25",
-        "city": "Bilbao",
-        "country": "Spain",
-        "country_code": null,
-        "venue": "Bilbao Exhibition Centre",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: every 2 years",
-        "id": "subcontratacion-bilbao-2027-02"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "energimassan-stockholm-2026-05",
-      "existing": {
-        "id": "energimassan-stockholm-2026-05",
-        "name": "Energimassan",
-        "start_date": "2026-05-20",
-        "end_date": "2026-05-21",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": "SE",
-        "venue": null,
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://energimassan.se/english/",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "ENERGIMÄSSAN",
-        "start_date": "2026-05-20",
-        "end_date": "2026-05-21",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": null,
-        "venue": "Kista Mässan",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "energimassan-stockholm-2026-05"
+        "id": "ict-logistiek-utrecht-2026-11"
       }
     },
     {
@@ -246,7 +60,8 @@
         "website": "http://www.eurominexpo.com/",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "EURO MINE EXPO",
@@ -284,7 +99,8 @@
         "website": "//www.elmia.se/en/subcontractor/",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "ELMIA SUBCONTRACTOR",
@@ -302,44 +118,6 @@
         "source_url": "https://www.eventseye.com",
         "notes": "frequency: once a year",
         "id": "elmia-subcontractor-jonkoping-2026-11"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
-      "id": "moten-event-stockholm-2027-02",
-      "existing": {
-        "id": "moten-event-stockholm-2027-02",
-        "name": "Moten & Event",
-        "start_date": "2027-02-24",
-        "end_date": "2027-02-25",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": "SE",
-        "venue": null,
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://motenevent.se/english/",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "MÖTEN & EVENT",
-        "start_date": "2027-02-24",
-        "end_date": "2027-02-25",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": null,
-        "venue": "Kista Mässan",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "moten-event-stockholm-2027-02"
       }
     },
     {
@@ -362,7 +140,8 @@
         "website": "https://www.elmia.se/en/wood/",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "ELMIA WOOD",
@@ -384,44 +163,6 @@
     },
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "cafe-business-expo-london-2026-09",
-      "existing": {
-        "id": "cafe-business-expo-london-2026-09",
-        "name": "Cafe Business Expo",
-        "start_date": "2026-09-29",
-        "end_date": "2026-09-30",
-        "city": "London",
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "venue": null,
-        "industry": [],
-        "attendees": 15000,
-        "exhibitors": 250,
-        "website": "https://www.cafebusinessshow.co.uk",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=United%20Kingdom",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "CAFÉ BUSINESS EXPO",
-        "start_date": "2026-09-29",
-        "end_date": "2026-09-30",
-        "city": "London",
-        "country": "United Kingdom",
-        "country_code": null,
-        "venue": "ExCeL",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "cafe-business-expo-london-2026-09"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
       "id": "gpec-leipzig-2026-05",
       "existing": {
         "name": "GPEC",
@@ -438,7 +179,8 @@
         "source": "venue:eventseye",
         "source_url": "https://www.eventseye.com",
         "notes": "frequency: every 2 years",
-        "id": "gpec-leipzig-2026-05"
+        "id": "gpec-leipzig-2026-05",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "GPEC Leipzig",
@@ -479,9 +221,10 @@
         "attendees": null,
         "exhibitors": null,
         "website": "https://www.evtechexpo.eu",
-        "source": "tradeshow_calendar+venue:eventseye",
+        "source": "tradeshow_calendar+venue:eventseye+venue:expostands",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "Electric & Hybrid Vehicle Technology Expo, Stuttgart -",
@@ -505,40 +248,46 @@
     },
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "energimassan-stockholm-2026-05",
+      "id": "csi-frankfurt-2025-2025-06",
       "existing": {
-        "id": "energimassan-stockholm-2026-05",
-        "name": "Energimassan",
-        "start_date": "2026-05-20",
-        "end_date": "2026-05-21",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": "SE",
-        "venue": null,
-        "industry": [],
+        "name": "CSI Frankfurt 2025",
+        "start_date": "2025-06-18",
+        "end_date": "2025-06-21",
+        "city": null,
+        "country": "Germany",
+        "country_code": null,
+        "venue": "Frankfurt",
+        "industry": [
+          "Medical & Healthcare",
+          "Medical & Pharma"
+        ],
         "attendees": null,
         "exhibitors": null,
-        "website": "https://energimassan.se/english/",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Sweden",
-        "notes": ""
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-csi-frankfurt/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-csi-frankfurt/",
+        "notes": "",
+        "id": "csi-frankfurt-2025-2025-06",
+        "audience": "b2b"
       },
       "incoming": {
-        "name": "Energimässan",
-        "start_date": "2026-05-20",
-        "end_date": "2026-05-21",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "country_code": "SE",
-        "venue": "Kistamässan",
-        "industry": [],
+        "name": "CSI Frankfurt 2025",
+        "start_date": "2025-06-04",
+        "end_date": "2025-06-06",
+        "city": null,
+        "country": "Germany",
+        "country_code": null,
+        "venue": "Beffroi de Montrouge, Paris",
+        "industry": [
+          "Medical & Healthcare"
+        ],
         "attendees": null,
         "exhibitors": null,
-        "website": "https://energimassan.se/",
-        "source": "venue:kistamassan",
-        "source_url": "https://energimassan.se/",
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-sfco-paris/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-sfco-paris/",
         "notes": "",
-        "id": "energimassan-stockholm-2026-05"
+        "id": "csi-frankfurt-2025-2025-06"
       }
     },
     {
@@ -561,7 +310,8 @@
         "website": "https://www.logisticsexperience.com/en-us.html",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Mexico",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "Logistics Experience LOGEX",
@@ -602,7 +352,8 @@
         "website": "https://www.expolux.com.br",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Brazil",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "Expolux",
@@ -627,47 +378,6 @@
     },
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "reeduca-paris-paris-2026-09",
-      "existing": {
-        "id": "reeduca-paris-paris-2026-09",
-        "name": "Reeduca Paris",
-        "start_date": "2026-09-17",
-        "end_date": "2026-09-19",
-        "city": "Paris",
-        "country": "France",
-        "country_code": "FR",
-        "venue": null,
-        "industry": [],
-        "attendees": 4000,
-        "exhibitors": 99,
-        "website": "http://www.salonreeduca.com",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=France",
-        "notes": ""
-      },
-      "incoming": {
-        "name": "Rééduca Paris",
-        "start_date": "2026-09-17",
-        "end_date": "2026-09-19",
-        "city": "Paris",
-        "country": "France",
-        "country_code": null,
-        "venue": "Paris Expo Porte de Versailles",
-        "industry": [
-          "Healthcare, Medical & Pharma",
-          "Medical, Health & Beauty"
-        ],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://www.salonreeduca.com/fr-fr.html",
-        "source": "venue:rx-events",
-        "source_url": "https://www.salonreeduca.com/fr-fr.html",
-        "notes": "",
-        "id": "reeduca-paris-paris-2026-09"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
       "id": "in-cosmetics-latin-america-sao-paulo-2026-09",
       "existing": {
         "id": "in-cosmetics-latin-america-sao-paulo-2026-09",
@@ -684,7 +394,8 @@
         "website": "https://www.in-cosmetics.com/latin-america/en-gb.html",
         "source": "tradeshow_calendar",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Brazil",
-        "notes": ""
+        "notes": "",
+        "audience": "b2b"
       },
       "incoming": {
         "name": "In-Cosmetics Latin America",
