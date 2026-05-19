@@ -8,18 +8,9 @@
 // one round-trip read/write is simpler than per-show keys.)
 
 import { kv } from '@vercel/kv';
+import { slugify } from '../scripts/lib/slugify.js';
 
 const KEY = 'manual-shows:v1';
-
-function slugify(s) {
-  return (s || '')
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
 
 function makeId(show) {
   const name = slugify(show.name);
@@ -39,6 +30,9 @@ function normalize(input) {
   if (!input.start_date || !/^\d{4}-\d{2}-\d{2}$/.test(input.start_date)) errors.push('start_date must be YYYY-MM-DD');
   if (input.end_date && !/^\d{4}-\d{2}-\d{2}$/.test(input.end_date)) errors.push('end_date must be YYYY-MM-DD');
   if (!input.country || typeof input.country !== 'string') errors.push('country required');
+  if (input.start_date && input.end_date && input.end_date < input.start_date) {
+    errors.push('end_date must be on or after start_date');
+  }
   if (errors.length) return { errors };
 
   const show = {

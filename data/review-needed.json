@@ -2,48 +2,6 @@
   "conflicts": [
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "ict-logistiek-utrecht-2026-11",
-      "existing": {
-        "id": "ict-logistiek-utrecht-2026-11",
-        "name": "ICT&Logistiek",
-        "start_date": "2026-11-03",
-        "end_date": "2026-11-05",
-        "city": "Utrecht",
-        "country": "Netherlands",
-        "country_code": "NL",
-        "venue": null,
-        "industry": [
-          "Technology & IT",
-          "Automotive & Transportation"
-        ],
-        "attendees": null,
-        "exhibitors": null,
-        "website": "https://www.loginext.nl/en/ict-en-logistiek/exposeren",
-        "source": "tradeshow_calendar",
-        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Netherlands",
-        "notes": "",
-        "audience": "b2b"
-      },
-      "incoming": {
-        "name": "ICT & LOGISTIEK",
-        "start_date": "2026-11-03",
-        "end_date": "2026-11-05",
-        "city": "Utrecht",
-        "country": "Netherlands",
-        "country_code": null,
-        "venue": "Jaarbeurs Utrecht",
-        "industry": [],
-        "attendees": null,
-        "exhibitors": null,
-        "website": null,
-        "source": "venue:eventseye",
-        "source_url": "https://www.eventseye.com",
-        "notes": "frequency: once a year",
-        "id": "ict-logistiek-utrecht-2026-11"
-      }
-    },
-    {
-      "reason": "venue: id collision, fuzzy missed",
       "id": "gpec-leipzig-2026-05",
       "existing": {
         "name": "GPEC",
@@ -85,9 +43,9 @@
     },
     {
       "reason": "venue: id collision, fuzzy missed",
-      "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06",
+      "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2026-06",
       "existing": {
-        "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06",
+        "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2026-06",
         "name": "Electric & Hybrid - Vehicle Technology Expo",
         "start_date": "2026-06-09",
         "end_date": "2026-06-11",
@@ -104,8 +62,7 @@
         "website": "https://www.evtechexpo.eu",
         "source": "tradeshow_calendar+venue:eventseye+venue:expostands+venue:informa",
         "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
-        "notes": "",
-        "audience": "b2b"
+        "notes": ""
       },
       "incoming": {
         "name": "Electric & Hybrid Vehicle Technology Expo, Stuttgart -",
@@ -124,7 +81,7 @@
         "source": "venue:expostands",
         "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/",
         "notes": "",
-        "id": "electric-hybrid-vehicle-technology-expo-stuttgart-2026-06"
+        "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2026-06"
       }
     },
     {

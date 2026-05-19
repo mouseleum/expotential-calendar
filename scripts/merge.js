@@ -7,6 +7,7 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { existsSync } from 'node:fs';
+import { slugify } from './lib/slugify.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -202,16 +203,6 @@ function pickBetter(a, b) {
   return score(b) > score(a) ? b : a;
 }
 
-function slugify(s) {
-  return (s || '')
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/&amp;/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
-
 function rebuildId(show) {
   const name = slugify(show.name);
   const city = slugify(show.city);
@@ -225,7 +216,7 @@ const STOP_TOKENS = new Set([
   'the', 'a', 'an', 'of', 'and', 'for', 'on', 'in', 'at', 'by', 'to',
   'annual', 'conference', 'congress', 'meeting', 'expo', 'exposition',
   'summit', 'symposium', 'forum', 'fair', 'exhibition', 'show', 'event',
-  'days', 'week', 'days', 'trade',
+  'days', 'week', 'trade',
   'international', 'global', 'world', 'european', 'europe', 'asian', 'asia',
   'american', 'america', 'north', 'south', 'east', 'west',
 ]);
@@ -416,12 +407,22 @@ async function main() {
     }
   }
 
-  // Apply persisted Haiku audience classifications, if any.
+  // Apply persisted Haiku audience classifications, if any. Also garbage-
+  // collect IDs that no longer exist in the dataset (saves the file from
+  // growing forever as shows get deduped/dropped across merges).
   let audienceApplied = 0;
+  let audienceGcd = 0;
   if (existsSync(AUDIENCE_PATH)) {
     const audiences = JSON.parse(await readFile(AUDIENCE_PATH, 'utf8'));
+    const liveIds = new Set([...byId.values()].map((s) => s.id));
     for (const show of byId.values()) {
       if (audiences[show.id]) { show.audience = audiences[show.id]; audienceApplied++; }
+    }
+    for (const id of Object.keys(audiences)) {
+      if (!liveIds.has(id)) { delete audiences[id]; audienceGcd++; }
+    }
+    if (audienceGcd > 0) {
+      await writeFile(AUDIENCE_PATH, JSON.stringify(audiences, null, 2));
     }
   }
 
@@ -460,7 +461,7 @@ async function main() {
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);
   console.log(`Scan2Lead matches: ${s2lTagged} shows tagged`);
-  console.log(`Audience tags: ${audienceApplied} shows tagged (B2B / B2C / mixed)`);
+  console.log(`Audience tags: ${audienceApplied} shows tagged (B2B / B2C / mixed)` + (audienceGcd ? `, ${audienceGcd} stale ids GC'd` : ''));
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
   console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
   for (const [seg, n] of Object.entries(perSegment).sort((a, b) => b[1] - a[1])) {
