@@ -27,6 +27,7 @@ const INITIAL_FILTERS = {
   week: '',
   weekYear: '',
   flaggedOnly: false,
+  scan2leadOnly: false,
 };
 
 function App() {
@@ -99,6 +100,7 @@ function App() {
         if (Number.isFinite(wk) && Number.isFinite(yr) && !isInISOWeek(s.start_date, s.end_date, yr, wk)) return false;
       }
       if (filters.flaggedOnly && !flags[s.id]) return false;
+      if (filters.scan2leadOnly && !s.scan2lead) return false;
       return true;
     });
 

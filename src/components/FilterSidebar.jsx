@@ -161,6 +161,7 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       week: '',
       weekYear: '',
       flaggedOnly: false,
+      scan2leadOnly: false,
     });
     setExpandedCountries(new Set());
   }
@@ -309,6 +310,14 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             onChange={(e) => setFilters((p) => ({ ...p, flaggedOnly: e.target.checked }))}
           />
           Flagged only
+        </label>
+        <label className="filter-group__row">
+          <input
+            type="checkbox"
+            checked={filters.scan2leadOnly}
+            onChange={(e) => setFilters((p) => ({ ...p, scan2leadOnly: e.target.checked }))}
+          />
+          Scan2Lead reference only
         </label>
       </div>
 

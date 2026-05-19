@@ -17,7 +17,66 @@ const VENUES_CONFIG = resolve(ROOT, 'scripts/venues.json');
 const VENUE_DOMAINS = resolve(ROOT, 'scripts/venue-domains.json');
 const INDUSTRY_RULES = resolve(ROOT, 'scripts/industry-rules.json');
 const VENUE_ALIASES = resolve(ROOT, 'scripts/venue-aliases.json');
+const SCAN2LEAD_NAMES = resolve(ROOT, 'scripts/scan2lead-names.json');
 const AUDIENCE_PATH = resolve(ROOT, 'data/audience-classifications.json');
+
+async function loadScan2LeadNames() {
+  if (!existsSync(SCAN2LEAD_NAMES)) return [];
+  const data = JSON.parse(await readFile(SCAN2LEAD_NAMES, 'utf8'));
+  return data.names || [];
+}
+
+// Tokenize a show name for scan2lead matching: lowercase, strip diacritics,
+// drop tokens shorter than 3 chars. (Same shape as normalizeForMatch but
+// without removing stop tokens — we want every distinguishing token here.)
+function s2lTokens(name) {
+  return new Set(
+    (name || '')
+      .toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/&amp;|&/g, 'and')
+      .split(/[^a-z0-9]+/)
+      .filter((t) => t.length >= 3)
+  );
+}
+
+// Generic words that aren't distinguishing on their own — if a scan2lead
+// entry boils down to just one of these, drop the entry (would match
+// every "<X> Festival" / "<Y> Show" in the dataset). Includes the cities
+// that appear in the scan2lead list, since e.g. "A+A Düsseldorf" reduces
+// to just {dusseldorf} after filtering short tokens.
+const S2L_GENERIC = new Set([
+  // generic event words
+  'festival', 'show', 'expo', 'fair', 'conference', 'congress',
+  'summit', 'forum', 'days', 'week', 'salon', 'world',
+  'europe', 'asia', 'global', 'international',
+  // common cities that appear in the scan2lead list
+  'dusseldorf', 'munich', 'berlin', 'frankfurter', 'frankfurt',
+  'leipzig', 'basel', 'nuremberg', 'dubai', 'hannover',
+  // tokens left over after the distinguishing prefix gets filtered as too
+  // short — e.g. "DIGITAL X" → {digital}, "EM-POWER" → {power}, "IT-TRANS"
+  // → {trans}. These match too broadly on their own.
+  'digital', 'power', 'trans', 'mobility',
+]);
+
+// Pre-compute scan2lead token sets once.
+function prepareScan2Lead(names) {
+  return names
+    .map((name) => ({ name, tokens: [...s2lTokens(name)] }))
+    .filter((e) => {
+      if (e.tokens.length === 0) return false;
+      // Single-token entries must not be a generic word
+      if (e.tokens.length === 1 && S2L_GENERIC.has(e.tokens[0])) return false;
+      return true;
+    });
+}
+
+// True if the show name's tokens include EVERY token of a scan2lead entry.
+function matchesScan2Lead(showName, prepared) {
+  const showTokens = s2lTokens(showName);
+  if (showTokens.size === 0) return false;
+  return prepared.some(({ tokens }) => tokens.every((t) => showTokens.has(t)));
+}
 
 // Strip accents (NFD-decomposable) plus handle Nordic letters that don't
 // decompose (ø/Ø, æ/Æ, å/Å, ð/Ð, þ/Þ) and the German ß.
@@ -346,6 +405,17 @@ async function main() {
     show.industry = [...existing];
   }
 
+  // Tag shows that match a Scan2Lead reference fair.
+  const s2lNames = await loadScan2LeadNames();
+  const s2lPrepared = prepareScan2Lead(s2lNames);
+  let s2lTagged = 0;
+  for (const show of byId.values()) {
+    if (matchesScan2Lead(show.name, s2lPrepared)) {
+      show.scan2lead = true;
+      s2lTagged++;
+    }
+  }
+
   // Apply persisted Haiku audience classifications, if any.
   let audienceApplied = 0;
   if (existsSync(AUDIENCE_PATH)) {
@@ -389,6 +459,7 @@ async function main() {
 
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);
+  console.log(`Scan2Lead matches: ${s2lTagged} shows tagged`);
   console.log(`Audience tags: ${audienceApplied} shows tagged (B2B / B2C / mixed)`);
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
   console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
