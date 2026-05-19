@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Classify untagged trade shows into canonical industry segments using Claude Haiku 4.5.
 //
-// Reads src/data/shows.json, finds shows that have no canonical segment in their
+// Reads public/shows.json, finds shows that have no canonical segment in their
 // `industry` array (rules-based classifier already ran via merge.js), batches them
 // to Haiku 4.5, and appends returned segments. Persists classifications to
 // data/haiku-classifications.json so they survive future re-scrapes.
@@ -22,7 +22,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
-const DATA_PATH = resolve(ROOT, 'src/data/shows.json');
+const DATA_PATH = resolve(ROOT, 'public/shows.json');
 const PERSIST_PATH = resolve(ROOT, 'data/haiku-classifications.json');
 
 const SEGMENTS = [

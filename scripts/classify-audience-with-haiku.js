@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Classify each show as B2B, B2C, or both using Claude Haiku 4.5.
 //
-// Reads src/data/shows.json, sends shows in batches to Haiku, persists
+// Reads public/shows.json, sends shows in batches to Haiku, persists
 // classifications to data/audience-classifications.json (keyed by show id).
 // Also writes `audience` field directly onto each show in shows.json so the
 // UI can filter without a separate fetch.
@@ -22,7 +22,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
-const DATA_PATH = resolve(ROOT, 'src/data/shows.json');
+const DATA_PATH = resolve(ROOT, 'public/shows.json');
 const PERSIST_PATH = resolve(ROOT, 'data/audience-classifications.json');
 
 const AUDIENCES = ['b2b', 'b2c', 'mixed'];

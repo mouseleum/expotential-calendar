@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
-import showsData from './data/shows.json';
 import { StatsBar } from './components/StatsBar';
 import { FilterSidebar } from './components/FilterSidebar';
 import { ShowTable } from './components/ShowTable';
@@ -9,6 +8,10 @@ import { useFlagged } from './hooks/useFlagged';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
 import { INDUSTRY_SEGMENTS } from './utils/industries';
+
+// shows.json is served from /public/ at runtime instead of being bundled
+// into the JS — keeps the initial JS chunk small.
+const EMPTY_SHOWS = { generated_at: null, source_scraped_at: null, count: 0, countries: 0, shows: [] };
 
 const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
 
@@ -34,11 +37,20 @@ function App() {
   const [filters, setFilters] = useState(INITIAL_FILTERS);
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
+  const [showsData, setShowsData] = useState(EMPTY_SHOWS);
+  const [loadError, setLoadError] = useState(null);
   const [manualShows, setManualShows] = useState([]);
   const [industryOverrides, setIndustryOverrides] = useState({});
   const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
+    fetch('/shows.json')
+      .then((r) => {
+        if (!r.ok) throw new Error(`shows.json ${r.status}`);
+        return r.json();
+      })
+      .then((d) => setShowsData(d))
+      .catch((err) => setLoadError(err.message));
     fetch('/api/manual-shows')
       .then((r) => (r.ok ? r.json() : { shows: [] }))
       .then((d) => setManualShows(d.shows || []))
@@ -149,6 +161,8 @@ function App() {
           <FilterSidebar allShows={allShows} filters={filters} setFilters={setFilters} />
         </aside>
         <main className="app__main">
+          {loadError && <div className="empty" style={{ color: 'var(--red)' }}>Failed to load shows: {loadError}</div>}
+          {!loadError && showsData.shows.length === 0 && <div className="empty">Loading…</div>}
           <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData.source_scraped_at} />
           <ShowTable
             shows={filtered}

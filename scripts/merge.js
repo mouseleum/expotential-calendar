@@ -135,7 +135,7 @@ function normalizeVenue(venue, city, aliases) {
   return alias || v || null;
 }
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
-const SHIP_PATH = resolve(ROOT, 'src/data/shows.json');
+const SHIP_PATH = resolve(ROOT, 'public/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
 
 async function loadIndustryRules() {
