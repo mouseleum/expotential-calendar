@@ -1,6 +1,6 @@
 {
   "venue_id": "informa",
-  "scraped_at": "2026-05-19T07:37:40.600Z",
+  "scraped_at": "2026-05-19T07:41:15.003Z",
   "source_url": "https://events.informamarkets.com/en/event-listing.html",
   "events": [
     {
@@ -2253,6 +2253,17 @@
       "end_date": "2026-11-21",
       "city": "Ho Chi Minh City",
       "country": "Vietnam",
+      "venue": null,
+      "industry": [],
+      "website": null,
+      "notes": "Informa Markets"
+    },
+    {
+      "name": "SolarPLUS Central and Eastern Europe",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-25",
+      "city": "Warsaw",
+      "country": "Poland",
       "venue": null,
       "industry": [],
       "website": null,

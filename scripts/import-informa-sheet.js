@@ -24,6 +24,12 @@ const COUNTRY_FIX = {
   '': null,
 };
 
+// Fallback when the sheet has the city but the country cell is blank.
+// Add cities here as new sheet imports surface them.
+const CITY_TO_COUNTRY = {
+  'Warsaw': 'Poland',
+};
+
 const MONTHS = {
   january: 1, jan: 1, february: 2, feb: 2, march: 3, mar: 3,
   april: 4, apr: 4, may: 5, june: 6, jun: 6, july: 7, jul: 7,
@@ -124,7 +130,10 @@ async function main() {
     }
     const dates = parseDateRange(dateRaw);
     if (!dates) { skipped++; continue; }
-    const { city, country } = parseLocation(loc);
+    let { city, country } = parseLocation(loc);
+    if (!country && city && CITY_TO_COUNTRY[city.trim()]) {
+      country = CITY_TO_COUNTRY[city.trim()];
+    }
     if (!country) { skipped++; continue; }
     events.push({
       name: name.trim(),
