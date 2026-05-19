@@ -1,0 +1,9 @@
+{
+  "_comment": "Map raw venue strings to canonical names. Applied during merge after the per-source venue suffix is stripped. Match is case-insensitive.",
+  "aliases": {
+    "norges varemesse": "Nova Spektrum",
+    "norges varemesse - norway trade fairs": "Nova Spektrum",
+    "norges varemesse, lillestrøm": "Nova Spektrum",
+    "norges varemesse, lillestrom": "Nova Spektrum"
+  }
+}

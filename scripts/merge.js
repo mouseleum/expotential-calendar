@@ -16,7 +16,64 @@ const VENUE_DIR = resolve(ROOT, 'data/venue-scrapes');
 const VENUES_CONFIG = resolve(ROOT, 'scripts/venues.json');
 const VENUE_DOMAINS = resolve(ROOT, 'scripts/venue-domains.json');
 const INDUSTRY_RULES = resolve(ROOT, 'scripts/industry-rules.json');
+const VENUE_ALIASES = resolve(ROOT, 'scripts/venue-aliases.json');
 const AUDIENCE_PATH = resolve(ROOT, 'data/audience-classifications.json');
+
+// Strip accents (NFD-decomposable) plus handle Nordic letters that don't
+// decompose (ø/Ø, æ/Æ, å/Å, ð/Ð, þ/Þ) and the German ß.
+function stripDiacritics(s) {
+  if (!s) return '';
+  return s.normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/ø/g, 'o').replace(/Ø/g, 'O')
+    .replace(/æ/g, 'ae').replace(/Æ/g, 'Ae')
+    .replace(/å/g, 'a').replace(/Å/g, 'A')
+    .replace(/ð/g, 'd').replace(/Ð/g, 'D')
+    .replace(/þ/g, 'th').replace(/Þ/g, 'Th')
+    .replace(/ß/g, 'ss');
+}
+
+async function loadVenueAliases() {
+  if (!existsSync(VENUE_ALIASES)) return {};
+  const data = JSON.parse(await readFile(VENUE_ALIASES, 'utf8'));
+  return data.aliases || {};
+}
+
+// Words that look like generic-suffix terms eventseye/RX append to venue
+// names but aren't actually cities. Keep these — don't strip them.
+const KEEP_VENUE_SUFFIX = new Set([
+  'expo', 'centre', 'center', 'hall', 'fair', 'forum', 'centro', 'palais',
+  'arena', 'kongress', 'mässan', 'messe',
+]);
+
+// Normalize a venue name:
+//   1. Strip trailing ", <city>" if it matches the show's city
+//   2. Strip trailing ", <SingleCapitalizedWord>" (eventseye habit)
+//   3. Look up in the aliases map (full lowercase string match)
+function normalizeVenue(venue, city, aliases) {
+  if (!venue) return null;
+  let v = venue.trim();
+
+  // 1. Strip exact show-city match first (handles diacritics)
+  if (city) {
+    const cityNorm = stripDiacritics(city.toLowerCase());
+    const vNorm = stripDiacritics(v.toLowerCase());
+    if (vNorm.endsWith(', ' + cityNorm)) {
+      v = v.slice(0, v.length - (cityNorm.length + 2)).trim();
+    }
+  }
+
+  // 2. Strip trailing ", <SingleCapitalizedWord>" — typical eventseye output
+  //    Skip if the trailing word looks like a venue noun (Expo, Centre, …).
+  const tailMatch = v.match(/,\s*([A-ZÀ-Ý][a-zà-ÿ]{2,})\s*$/u);
+  if (tailMatch && !KEEP_VENUE_SUFFIX.has(tailMatch[1].toLowerCase())) {
+    v = v.slice(0, tailMatch.index).trim();
+  }
+
+  // 3. Aliases
+  const alias = aliases[v.toLowerCase()];
+  return alias || v || null;
+}
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
 const SHIP_PATH = resolve(ROOT, 'src/data/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
@@ -136,7 +193,7 @@ function normalizeForMatch(name, city) {
 // overlapping start month (allow ±1 month for events that span the boundary).
 function isLikelyDup(a, b) {
   if (!a.city || !b.city) return false;
-  if (a.city.toLowerCase() !== b.city.toLowerCase()) return false;
+  if (stripDiacritics(a.city.toLowerCase()) !== stripDiacritics(b.city.toLowerCase())) return false;
   const na = normalizeForMatch(a.name, a.city);
   const nb = normalizeForMatch(b.name, b.city);
   if (!na || !nb) return false;
@@ -166,7 +223,7 @@ async function loadTradeshowCalendar() {
   return raw;
 }
 
-async function loadVenueScrapes() {
+async function loadVenueScrapes(aliases) {
   if (!existsSync(VENUE_DIR)) return [];
   const venuesConfig = existsSync(VENUES_CONFIG)
     ? JSON.parse(await readFile(VENUES_CONFIG, 'utf8'))
@@ -187,7 +244,8 @@ async function loadVenueScrapes() {
       const city = ev.city || venue.city || null;
       const country = ev.country || venue.country || null;
       const country_code = ev.country_code || (country === venue.country ? venue.country_code : null) || null;
-      const venueName = ev.venue || venue.name || null;
+      const rawVenue = ev.venue || venue.name || null;
+      const venueName = normalizeVenue(rawVenue, city, aliases);
       const show = {
         name: ev.name,
         start_date: ev.start_date,
@@ -212,8 +270,12 @@ async function loadVenueScrapes() {
 }
 
 async function main() {
+  const aliases = await loadVenueAliases();
   const ttc = await loadTradeshowCalendar();
-  const venueShows = await loadVenueScrapes();
+  // Normalize any TTC venues too (rare today — TTC doesn't provide venue —
+  // but cheap to run, and future-proofs if TTC ever exposes venue).
+  for (const s of ttc.shows) if (s.venue) s.venue = normalizeVenue(s.venue, s.city, aliases);
+  const venueShows = await loadVenueScrapes(aliases);
   const domainMap = await loadDomainMap();
   const byId = new Map();
   const conflicts = [];
@@ -230,11 +292,15 @@ async function main() {
     else conflicts.push({ reason: 'id collision (intra-ttc)', id: show.id, existing, incoming: show });
   }
 
-  // 2. Venue scrapes — fuzzy-match against existing first to avoid dups
+  // 2. Venue scrapes — fuzzy-match against existing first to avoid dups.
+  // Bucket by normalized city (diacritic-stripped, lowercase) so spellings
+  // like "Lillestrom" and "Lillestrøm" share a bucket.
+  const cityKey = (city) => stripDiacritics((city || '').toLowerCase());
   const existingByCity = new Map();
   for (const s of byId.values()) {
-    if (!existingByCity.has(s.city)) existingByCity.set(s.city, []);
-    existingByCity.get(s.city).push(s);
+    const k = cityKey(s.city);
+    if (!existingByCity.has(k)) existingByCity.set(k, []);
+    existingByCity.get(k).push(s);
   }
 
   let venueAdded = 0;
@@ -244,21 +310,20 @@ async function main() {
       conflicts.push({ reason: 'venue: missing start_date', show });
       continue;
     }
-    const cityShows = existingByCity.get(show.city) || [];
+    const k = cityKey(show.city);
+    const cityShows = existingByCity.get(k) || [];
     const dup = cityShows.find((s) => isLikelyDup(s, show));
     if (dup) {
-      // Merge: keep TTC name+id, add venue field + website if missing
       if (!dup.venue) dup.venue = show.venue;
       if (!dup.website) dup.website = show.website;
       if (!dup.source.includes(show.source)) dup.source += `+${show.source}`;
       venueMerged++;
     } else if (byId.has(show.id)) {
-      // Exact ID collision but not detected as dup — rare; queue for review
       conflicts.push({ reason: 'venue: id collision, fuzzy missed', id: show.id, existing: byId.get(show.id), incoming: show });
     } else {
       byId.set(show.id, show);
-      if (!existingByCity.has(show.city)) existingByCity.set(show.city, []);
-      existingByCity.get(show.city).push(show);
+      if (!existingByCity.has(k)) existingByCity.set(k, []);
+      existingByCity.get(k).push(show);
       venueAdded++;
     }
   }
