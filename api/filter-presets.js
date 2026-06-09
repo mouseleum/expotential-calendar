@@ -4,38 +4,35 @@
 // POST   /api/filter-presets {name, filters}  → { ok, preset }
 // DELETE /api/filter-presets?id=…             → { ok, removed }
 //
-// Storage: Redis HASH 'filter-presets' with field=preset_id → value=JSON.
-// Per-field HSET/HDEL is atomic — concurrent saves don't race.
-//
-// Legacy: older 'filter-presets:v1' array key is migrated on first GET.
+// Storage: Redis HASH 'filter-presets' (see api/_lib/kv-hash-store.js);
+// the legacy 'filter-presets:v1' array key is migrated on first read.
 
-import { kv } from '@vercel/kv';
+import { createHashStore, getQueryId } from './_lib/kv-hash-store.js';
 
-const HASH_KEY = 'filter-presets';
-const LEGACY_KEY = 'filter-presets:v1';
 const MAX_NAME = 60;
 const MAX_PRESETS = 100;
+
+const store = createHashStore({
+  hashKey: 'filter-presets',
+  legacyKey: 'filter-presets:v1',
+  legacyToFields(legacy) {
+    if (!Array.isArray(legacy)) return {};
+    const fields = {};
+    for (const p of legacy) {
+      if (p && p.id) fields[p.id] = p;
+    }
+    return fields;
+  },
+});
 
 function genId() {
   return 'pre_' + Math.random().toString(36).slice(2, 10);
 }
 
-async function migrateLegacyIfPresent() {
-  const legacy = await kv.get(LEGACY_KEY);
-  if (!Array.isArray(legacy) || legacy.length === 0) return;
-  const fields = {};
-  for (const p of legacy) {
-    if (p && p.id) fields[p.id] = p;
-  }
-  if (Object.keys(fields).length > 0) await kv.hset(HASH_KEY, fields);
-  await kv.del(LEGACY_KEY);
-}
-
 export default async function handler(req, res) {
   try {
     if (req.method === 'GET') {
-      await migrateLegacyIfPresent();
-      const all = (await kv.hgetall(HASH_KEY)) || {};
+      const all = await store.all();
       const presets = Object.values(all).sort((a, b) =>
         (a.created_at || '').localeCompare(b.created_at || ''),
       );
@@ -55,8 +52,7 @@ export default async function handler(req, res) {
       }
       // Soft cap on total presets — count without locking; one extra under
       // race is acceptable for this resource.
-      const existing = await kv.hkeys(HASH_KEY);
-      if (existing.length >= MAX_PRESETS) {
+      if ((await store.count()) >= MAX_PRESETS) {
         return res.status(400).json({ error: `preset limit reached (${MAX_PRESETS})` });
       }
       const preset = {
@@ -66,14 +62,14 @@ export default async function handler(req, res) {
         added_by: typeof added_by === 'string' ? added_by.trim() || null : null,
         created_at: new Date().toISOString(),
       };
-      await kv.hset(HASH_KEY, { [preset.id]: preset });
+      await store.set(preset.id, preset);
       return res.status(200).json({ ok: true, preset });
     }
 
     if (req.method === 'DELETE') {
-      const id = req.query?.id || new URL(req.url, 'http://x').searchParams.get('id');
+      const id = getQueryId(req);
       if (!id) return res.status(400).json({ error: 'id query param required' });
-      const removed = await kv.hdel(HASH_KEY, id);
+      const removed = await store.remove(id);
       return res.status(200).json({ ok: true, removed });
     }
 
