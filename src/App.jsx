@@ -9,10 +9,6 @@ import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
 import { INDUSTRY_SEGMENTS } from './utils/industries';
 
-// shows.json is served from /public/ at runtime instead of being bundled
-// into the JS — keeps the initial JS chunk small.
-const EMPTY_SHOWS = { generated_at: null, source_scraped_at: null, count: 0, countries: 0, shows: [] };
-
 const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
 
 const EUROPE_MAIN_COUNTRIES = REGIONS.find((r) => r.id === 'europe-main')?.countries || [];
@@ -37,7 +33,9 @@ function App() {
   const [filters, setFilters] = useState(INITIAL_FILTERS);
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
-  const [showsData, setShowsData] = useState(EMPTY_SHOWS);
+  // shows.json is served from /public/ at runtime instead of being bundled
+  // into the JS — keeps the initial JS chunk small. null = not yet loaded.
+  const [showsData, setShowsData] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [manualShows, setManualShows] = useState([]);
   const [industryOverrides, setIndustryOverrides] = useState({});
@@ -64,7 +62,7 @@ function App() {
   const allShows = useMemo(() => {
     // Manual shows take priority on ID collisions; industry overrides replace
     // the show's canonical-segment portion of `industry`.
-    const map = new Map(showsData.shows.map((s) => [s.id, s]));
+    const map = new Map((showsData?.shows ?? []).map((s) => [s.id, s]));
     for (const s of manualShows) map.set(s.id, s);
     if (Object.keys(industryOverrides).length === 0) return [...map.values()];
     return [...map.values()].map((s) => {
@@ -74,7 +72,7 @@ function App() {
       const nonCanonical = (s.industry || []).filter((t) => !INDUSTRY_CANON.has(t));
       return { ...s, industry: [...nonCanonical, ...override] };
     });
-  }, [manualShows, industryOverrides]);
+  }, [showsData, manualShows, industryOverrides]);
 
   function handleIndustryChange(showId, newIndustry) {
     setIndustryOverrides((prev) => {
@@ -162,8 +160,8 @@ function App() {
         </aside>
         <main className="app__main">
           {loadError && <div className="empty" style={{ color: 'var(--red)' }}>Failed to load shows: {loadError}</div>}
-          {!loadError && showsData.shows.length === 0 && <div className="empty">Loading…</div>}
-          <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData.source_scraped_at} />
+          {!loadError && !showsData && <div className="empty">Loading…</div>}
+          <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData?.source_scraped_at} />
           <ShowTable
             shows={filtered}
             sort={sort}
