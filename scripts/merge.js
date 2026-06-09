@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Merge raw scraper outputs (Tradeshow Calendar + per-venue scrapes)
-// → final data/shows.json + src/data/shows.json
+// → final data/shows.json + public/shows.json
 // Conflicts go to data/review-needed.json.
 
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
