@@ -29,6 +29,13 @@ function makeId(show) {
   return city ? `manual-${name}-${city}-${ym}` : `manual-${name}-${ym}`;
 }
 
+// Missing/empty counts stay null; anything else must coerce to a finite
+// number (note +null and +'' are 0, so the emptiness check comes first).
+function toCount(v) {
+  if (v == null || v === '') return null;
+  return Number.isFinite(+v) ? +v : null;
+}
+
 function normalize(input) {
   const errors = [];
   if (!input || typeof input !== 'object') {
@@ -42,6 +49,10 @@ function normalize(input) {
   if (input.start_date && input.end_date && input.end_date < input.start_date) {
     errors.push('end_date must be on or after start_date');
   }
+  const website = typeof input.website === 'string' ? input.website.trim() : '';
+  if (website && !/^https?:\/\//i.test(website)) {
+    errors.push('website must start with http:// or https://');
+  }
   if (errors.length) return { errors };
 
   const show = {
@@ -53,9 +64,9 @@ function normalize(input) {
     country_code: (input.country_code || '').trim() || null,
     venue: (input.venue || '').trim() || null,
     industry: Array.isArray(input.industry) ? input.industry : [],
-    attendees: Number.isFinite(+input.attendees) ? +input.attendees : null,
-    exhibitors: Number.isFinite(+input.exhibitors) ? +input.exhibitors : null,
-    website: (input.website || '').trim() || null,
+    attendees: toCount(input.attendees),
+    exhibitors: toCount(input.exhibitors),
+    website: website || null,
     source: 'manual',
     source_url: null,
     notes: (input.notes || '').trim() || '',

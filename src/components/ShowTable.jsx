@@ -1,10 +1,8 @@
 import { formatDateRange } from '../utils/dateUtils';
 import { IndustryEditor } from './IndustryEditor';
-import { INDUSTRY_SEGMENTS } from '../utils/industries';
 import { useColumnWidths } from '../hooks/useColumnWidths';
 
 const FLAG_GLYPH = { interested: '★', attending: '✓', skip: '✕' };
-const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
 
 const DEFAULT_COL_WIDTHS = {
   flag: 40,
@@ -16,13 +14,6 @@ const DEFAULT_COL_WIDTHS = {
   attendees: 90,
   exhibitors: 90,
 };
-
-// First canonical industry segment for sorting; empty string sorts last.
-function industrySortKey(show) {
-  if (!Array.isArray(show.industry)) return '';
-  for (const t of show.industry) if (INDUSTRY_CANON.has(t)) return t;
-  return '';
-}
 
 export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrides, onIndustryChange }) {
   const { widths, startResize } = useColumnWidths(DEFAULT_COL_WIDTHS);
@@ -109,5 +100,3 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
     </div>
   );
 }
-
-export { industrySortKey };

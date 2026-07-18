@@ -22,12 +22,13 @@ export function IndustryEditor({ show, overrides, onChange }) {
   const baseSegments = (show.industry || []).filter((t) => SEGMENT_SET.has(t));
   const effective = overrides[show.id] || baseSegments;
   const isOverridden = show.id in overrides;
-  const effectiveSet = new Set(effective);
 
   const [draft, setDraft] = useState(() => new Set(effective));
-  useEffect(() => {
-    if (open) setDraft(new Set(effective));
-  }, [open]);
+
+  function toggleOpen() {
+    if (!open) setDraft(new Set(effective));
+    setOpen((o) => !o);
+  }
 
   useEffect(() => {
     if (!open) return;
@@ -59,7 +60,9 @@ export function IndustryEditor({ show, overrides, onChange }) {
         const data = await res.json().catch(() => ({}));
         throw new Error(data.error || `HTTP ${res.status}`);
       }
-      onChange(show.id, industry);
+      // The API deletes the override when the list is empty — mirror that
+      // here so local state matches what a reload would show.
+      onChange(show.id, industry.length > 0 ? industry : null);
       setOpen(false);
     } catch (err) {
       alert(`Failed to save: ${err.message}`);
@@ -88,7 +91,7 @@ export function IndustryEditor({ show, overrides, onChange }) {
     <div style={{ position: 'relative' }} ref={popoverRef}>
       <div
         className="industry-cell"
-        onClick={() => setOpen((o) => !o)}
+        onClick={toggleOpen}
         data-override={isOverridden}
         title="Click to edit"
       >

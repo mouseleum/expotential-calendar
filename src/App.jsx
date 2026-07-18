@@ -21,7 +21,9 @@ const INITIAL_FILTERS = {
   sources: new Set(),
   query: '',
   minAttendees: '',
-  dateFrom: '',
+  // Default to the current month — with no lower bound the ascending date
+  // sort would open the table on long-past shows.
+  dateFrom: new Date().toISOString().slice(0, 7),
   dateTo: '',
   week: '',
   weekYear: '',

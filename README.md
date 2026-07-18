@@ -1,16 +1,42 @@
-# React + Vite
+# eXpotential Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Internal trade-show database: ~8,200 shows scraped from public calendars
+(Tradeshow Calendar, EventsEye, Expo Exhibition Stands, Informa Markets,
+RX Global, plus per-venue sites), merged, deduplicated, and classified by
+industry segment and audience (B2B/B2C). The frontend is a React + Vite
+single-page table with filters for country/region, venue, industry, audience,
+source, date range, and ISO week, plus CSV export, per-user flags
+(localStorage), and team-shared extras backed by Vercel KV: manual show
+entries, per-show industry overrides, and saved filter presets.
 
-Currently, two official plugins are available:
+## Running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev        # Vite dev server (the /api/* endpoints need `vercel dev`)
+npm run build      # production build to dist/
+npm run lint
+```
 
-## React Compiler
+Deployed on Vercel; `api/` contains the serverless endpoints and `vercel.json`
+sets edge caching for `/shows.json`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Data pipeline
 
-## Expanding the ESLint configuration
+Shows are refreshed offline and committed — the app just serves
+`public/shows.json`:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+npm run scrape             # Tradeshow Calendar → data/tradeshow-calendar-raw.json
+npm run scrape:expostands  # → data/venue-scrapes/expostands.json
+npm run scrape:eventseye   # → data/venue-scrapes/eventseye.json
+npm run classify:industry  # Haiku-tags industry segments (needs ANTHROPIC_API_KEY)
+npm run classify:audience  # Haiku-tags B2B/B2C audience   (needs ANTHROPIC_API_KEY)
+npm run merge              # dedupe + normalize → data/shows.json + public/shows.json
+```
+
+`scripts/merge.js` does cross-source dedup (diacritic-aware name/city/date
+matching), venue-name canonicalization (`scripts/venue-aliases.json`),
+rule-based industry tagging (`scripts/industry-rules.json`), and Scan2Lead
+reference-fair tagging (`scripts/scan2lead-names.json`). Ambiguous merges land
+in `data/review-needed.json` for manual review.

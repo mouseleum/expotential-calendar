@@ -13,7 +13,7 @@ export function useColumnWidths(defaults) {
   });
 
   useEffect(() => {
-    try { localStorage.setItem(KEY, JSON.stringify(widths)); } catch {}
+    try { localStorage.setItem(KEY, JSON.stringify(widths)); } catch { /* widths become session-only */ }
   }, [widths]);
 
   // Start a drag-to-resize on a column. Returns an onMouseDown handler.

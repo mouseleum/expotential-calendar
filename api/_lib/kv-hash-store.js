@@ -30,18 +30,24 @@ export function createHashStore({ hashKey, legacyKey, legacyToFields }) {
     legacyMigrated = true;
   }
 
+  // Every operation migrates first — otherwise a write that lands on a cold
+  // instance before any read could later be clobbered when the migration
+  // hsets the legacy values over the hash.
   return {
     async all() {
       await migrateLegacyIfPresent();
       return (await kv.hgetall(hashKey)) || {};
     },
-    set(id, value) {
+    async set(id, value) {
+      await migrateLegacyIfPresent();
       return kv.hset(hashKey, { [id]: value });
     },
-    remove(id) {
+    async remove(id) {
+      await migrateLegacyIfPresent();
       return kv.hdel(hashKey, id);
     },
-    count() {
+    async count() {
+      await migrateLegacyIfPresent();
       return kv.hlen(hashKey);
     },
   };

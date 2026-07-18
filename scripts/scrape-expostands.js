@@ -43,11 +43,6 @@ function extractCountry(text) {
   return { country: null, cityChunk: t };
 }
 
-// Strip trailing year ("2026") from a chunk and return [chunk_without_year, year].
-function stripYear(text) {
-  const m = text.match(/^(.*?)\s+(20\d{2})\s*$/);
-  return m ? [m[1].trim(), m[2]] : [text.trim(), null];
-}
 
 function parseDate(yyyymmdd) {
   if (!yyyymmdd || yyyymmdd.length !== 8) return null;
@@ -73,7 +68,7 @@ async function fetchPage(page) {
 // (When, Industry, Here, About).
 function parseWhere(subtitle) {
   // Accept colon, en-dash, em-dash, hyphen as the separator after Where
-  const m = subtitle.match(/Where\s*[:–—\-]\s*(.+?)\s*(?=When\s*[:–—\-]|Industry\s*[:–—\-]|Here['']|About\s|$)/i);
+  const m = subtitle.match(/Where\s*[:–—-]\s*(.+?)\s*(?=When\s*[:–—-]|Industry\s*[:–—-]|Here['']|About\s|$)/i);
   if (!m) return { venue: null, city: null, country: null };
   const where = m[1].trim().replace(/\s+/g, ' ').replace(/[,.]+$/, '');
   const parts = where.split(',').map((s) => s.trim()).filter(Boolean);

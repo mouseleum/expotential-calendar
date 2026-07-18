@@ -185,12 +185,8 @@ async function main() {
         const target = showsById.get(show.id);
         if (!target) continue;
         const existing = new Set(target.industry || []);
-        let added = 0;
         for (const seg of segments) {
-          if (SEGMENT_SET.has(seg) && !existing.has(seg)) {
-            existing.add(seg);
-            added++;
-          }
+          if (SEGMENT_SET.has(seg)) existing.add(seg);
         }
         target.industry = [...existing];
         persisted[show.id] = segments.filter((s) => SEGMENT_SET.has(s));

@@ -53,7 +53,7 @@ async function main() {
     console.error('Usage: node scripts/import-rx-csv.js <csv-path>');
     process.exit(1);
   }
-  const text = (await readFile(csvPath, 'utf8')).replace(/^﻿/, '');
+  const text = (await readFile(csvPath, 'utf8')).replace(/^\uFEFF/, '');
   const rows = parseCSV(text);
   const headers = rows[0];
   const idx = Object.fromEntries(headers.map((h, i) => [h, i]));

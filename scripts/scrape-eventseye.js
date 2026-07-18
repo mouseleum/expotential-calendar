@@ -58,13 +58,6 @@ async function fetchPage(slug, page) {
   return new TextDecoder('iso-8859-1').decode(buf);
 }
 
-// Parse "DD/MM/YYYY" → "YYYY-MM-DD". Returns null on failure.
-function parseDate(s) {
-  const m = (s || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
-  if (!m) return null;
-  return `${m[3]}-${m[2]}-${m[1]}`;
-}
-
 // Add days to an ISO date (YYYY-MM-DD) → YYYY-MM-DD.
 function addDays(iso, days) {
   const d = new Date(iso + 'T00:00:00Z');

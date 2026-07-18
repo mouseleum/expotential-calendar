@@ -47,7 +47,7 @@ export default async function handler(req, res) {
       if (name.length > MAX_NAME) {
         return res.status(400).json({ error: `name too long (max ${MAX_NAME})` });
       }
-      if (!filters || typeof filters !== 'object') {
+      if (!filters || typeof filters !== 'object' || Array.isArray(filters)) {
         return res.status(400).json({ error: 'filters must be an object' });
       }
       // Soft cap on total presets — count without locking; one extra under

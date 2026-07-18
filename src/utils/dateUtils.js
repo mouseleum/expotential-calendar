@@ -15,7 +15,10 @@ export function formatDateRange(start, end) {
 }
 
 // Accepts YYYY-MM-DD or YYYY-MM (month). Month is expanded to the start of
-// month for the "from" bound and end of month for the "to" bound.
+// month for the "from" bound and end of month for the "to" bound. "-31" is
+// safe as the upper bound even for short months: bounds are compared as
+// strings, and every real date in that month sorts <= "YYYY-MM-31" while
+// dates in later months sort above it.
 function normalizeBound(v, kind) {
   if (!v) return null;
   if (v.length === 7) return kind === 'from' ? `${v}-01` : `${v}-31`;
