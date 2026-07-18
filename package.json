@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "cp data/shows.json public/shows.json",
     "dev": "vite",
+    "prebuild": "cp data/shows.json public/shows.json",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

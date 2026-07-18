@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Classify each show as B2B, B2C, or both using Claude Haiku 4.5.
 //
-// Reads public/shows.json, sends shows in batches to Haiku, persists
+// Reads data/shows.json (and updates the public/ copy), sends shows in batches to Haiku, persists
 // classifications to data/audience-classifications.json (keyed by show id).
 // Also writes `audience` field directly onto each show in shows.json so the
 // UI can filter without a separate fetch.
@@ -22,7 +22,14 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
-const DATA_PATH = resolve(ROOT, 'public/shows.json');
+const DATA_PATH = resolve(ROOT, 'data/shows.json');
+const SHIP_PATH = resolve(ROOT, 'public/shows.json');  // regenerated copy served by the app
+
+async function writeShows(data) {
+  const json = JSON.stringify(data, null, 2);
+  await writeFile(DATA_PATH, json);
+  await writeFile(SHIP_PATH, json);
+}
 const PERSIST_PATH = resolve(ROOT, 'data/audience-classifications.json');
 
 const AUDIENCES = ['b2b', 'b2c', 'mixed'];
@@ -131,7 +138,7 @@ async function main() {
     for (const s of data.shows) {
       if (persisted[s.id]) { s.audience = persisted[s.id]; applied++; }
     }
-    await writeFile(DATA_PATH, JSON.stringify(data, null, 2));
+    await writeShows(data);
     console.log(`Applied ${applied} audience tags from cache.`);
     return;
   }
@@ -183,7 +190,7 @@ async function main() {
 
     if ((bi + 1) % 10 === 0) {
       data.shows = [...showsById.values()];
-      await writeFile(DATA_PATH, JSON.stringify(data, null, 2));
+      await writeShows(data);
       await writeFile(PERSIST_PATH, JSON.stringify(persisted, null, 2));
     }
   }
@@ -193,7 +200,7 @@ async function main() {
     if (persisted[s.id]) s.audience = persisted[s.id];
   }
   data.shows = [...showsById.values()];
-  await writeFile(DATA_PATH, JSON.stringify(data, null, 2));
+  await writeShows(data);
   await writeFile(PERSIST_PATH, JSON.stringify(persisted, null, 2));
 
   // Haiku 4.5 pricing: $1/M input, $5/M output, cache read ~$0.10/M, cache write $1.25/M

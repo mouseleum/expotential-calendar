@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // Classify untagged trade shows into canonical industry segments using Claude Haiku 4.5.
 //
-// Reads public/shows.json, finds shows that have no canonical segment in their
+// Reads data/shows.json, finds shows that have no canonical segment in their
 // `industry` array (rules-based classifier already ran via merge.js), batches them
-// to Haiku 4.5, and appends returned segments. Persists classifications to
+// to Haiku 4.5, and appends returned segments (updating the public/ copy too). Persists classifications to
 // data/haiku-classifications.json so they survive future re-scrapes.
 //
 // Usage:
@@ -22,7 +22,14 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
-const DATA_PATH = resolve(ROOT, 'public/shows.json');
+const DATA_PATH = resolve(ROOT, 'data/shows.json');
+const SHIP_PATH = resolve(ROOT, 'public/shows.json');  // regenerated copy served by the app
+
+async function writeShows(data) {
+  const json = JSON.stringify(data, null, 2);
+  await writeFile(DATA_PATH, json);
+  await writeFile(SHIP_PATH, json);
+}
 const PERSIST_PATH = resolve(ROOT, 'data/haiku-classifications.json');
 
 const SEGMENTS = [
@@ -223,14 +230,14 @@ async function main() {
     // Persist every 10 batches in case of interruption
     if ((bi + 1) % 10 === 0) {
       data.shows = [...showsById.values()];
-      await writeFile(DATA_PATH, JSON.stringify(data, null, 2));
+      await writeShows(data);
       await writeFile(PERSIST_PATH, JSON.stringify(persisted, null, 2));
     }
   }
 
   // Final write
   data.shows = [...showsById.values()];
-  await writeFile(DATA_PATH, JSON.stringify(data, null, 2));
+  await writeShows(data);
   await writeFile(PERSIST_PATH, JSON.stringify(persisted, null, 2));
 
   // Cost summary (Haiku 4.5: $1/M input, $5/M output, cache read ~$0.10/M)
