@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "cp data/shows.json public/shows.json",
+    "predev": "node scripts/prepare-public.js",
     "dev": "vite",
-    "prebuild": "cp data/shows.json public/shows.json",
+    "prebuild": "node scripts/prepare-public.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

@@ -1,8 +1,9 @@
 import { useMemo } from 'react';
 import { isInMonth } from '../utils/dateUtils';
-import { showsToCSV, downloadCSV } from '../utils/csvExport';
+import { showsToCSV, downloadCSV, downloadFile } from '../utils/csvExport';
+import { showsToICS } from '../utils/icsExport';
 
-export function StatsBar({ filtered, total, refreshedAt }) {
+export function StatsBar({ filtered, total, refreshedAt, view, setView }) {
   const stats = useMemo(() => {
     const now = new Date();
     const thisYear = now.getUTCFullYear();
@@ -25,6 +26,16 @@ export function StatsBar({ filtered, total, refreshedAt }) {
     const csv = showsToCSV(filtered);
     const date = new Date().toISOString().slice(0, 10);
     downloadCSV(`expotential-calendar-${date}.csv`, csv);
+  }
+
+  function handleExportICS() {
+    const ics = showsToICS(filtered);
+    const date = new Date().toISOString().slice(0, 10);
+    downloadFile(`expotential-calendar-${date}.ics`, ics, 'text/calendar;charset=utf-8');
+  }
+
+  function handleCopyLink() {
+    navigator.clipboard?.writeText(window.location.href);
   }
 
   return (
@@ -55,6 +66,16 @@ export function StatsBar({ filtered, total, refreshedAt }) {
         <span className="stats-bar__value" style={{ fontSize: 13 }}>{refreshedText}</span>
       </div>
       <div className="stats-bar__actions">
+        <button
+          onClick={() => setView('table')}
+          style={view === 'table' ? { color: 'var(--accent)', borderColor: 'var(--accent-dim)' } : undefined}
+        >Table</button>
+        <button
+          onClick={() => setView('calendar')}
+          style={view === 'calendar' ? { color: 'var(--accent)', borderColor: 'var(--accent-dim)' } : undefined}
+        >Calendar</button>
+        <button onClick={handleCopyLink} title="Copy a shareable link to this view">Copy link</button>
+        <button onClick={handleExportICS} disabled={filtered.length === 0} title="All-day calendar events for the filtered shows">Export .ics</button>
         <button onClick={handleExport} disabled={filtered.length === 0}>Export CSV</button>
       </div>
     </div>

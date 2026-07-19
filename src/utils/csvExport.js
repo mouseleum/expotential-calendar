@@ -17,8 +17,8 @@ export function showsToCSV(shows) {
   return lines.join('\n');
 }
 
-export function downloadCSV(filename, csv) {
-  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+export function downloadFile(filename, text, mime) {
+  const blob = new Blob([text], { type: mime });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
@@ -27,4 +27,8 @@ export function downloadCSV(filename, csv) {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+}
+
+export function downloadCSV(filename, csv) {
+  downloadFile(filename, csv, 'text/csv;charset=utf-8');
 }

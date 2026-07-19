@@ -8,6 +8,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { existsSync } from 'node:fs';
 import { slugify } from './lib/slugify.js';
+import { diffShows } from './lib/diff.js';
 import {
   prepareScan2Lead, matchesScan2Lead,
   stripDiacritics, normalizeVenue, urlToDomain,
@@ -40,6 +41,9 @@ async function loadVenueAliases() {
 const FINAL_PATH = resolve(ROOT, 'data/shows.json');
 const SHIP_PATH = resolve(ROOT, 'public/shows.json');
 const REVIEW_PATH = resolve(ROOT, 'data/review-needed.json');
+const CHANGELOG_PATH = resolve(ROOT, 'data/changelog.json');
+const CHANGELOG_SHIP_PATH = resolve(ROOT, 'public/changelog.json');
+const CHANGELOG_KEEP = 8;
 
 async function loadIndustryRules() {
   if (!existsSync(INDUSTRY_RULES)) return null;
@@ -337,11 +341,42 @@ async function main() {
     shows,
   };
 
+  // "What's new" changelog: diff against the previous merged dataset before
+  // overwriting it. Same-day re-runs replace that day's entry so a manual
+  // re-merge doesn't stack duplicates.
+  let changelogNote = '';
+  if (existsSync(FINAL_PATH)) {
+    const prev = JSON.parse(await readFile(FINAL_PATH, 'utf8'));
+    // Guard against a silently failed source gutting the dataset (this
+    // happened: TTC returned 0 shows to a GitHub Actions runner and the
+    // merge shrank 8,066 → 4,890). Abort instead of overwriting good data.
+    const prevCount = (prev.shows || []).length;
+    if (prevCount > 0 && shows.length < prevCount * 0.7 && !process.env.ALLOW_SHRINK) {
+      console.error(
+        `ABORT: merged only ${shows.length} shows but the previous dataset had ${prevCount} ` +
+        `(>30% shrink) — a source scrape probably failed. Set ALLOW_SHRINK=1 to override.`);
+      process.exit(1);
+    }
+    const diff = diffShows(prev.shows || [], shows);
+    const today = new Date().toISOString().slice(0, 10);
+    let log = [];
+    if (existsSync(CHANGELOG_PATH)) {
+      log = (JSON.parse(await readFile(CHANGELOG_PATH, 'utf8')).refreshes || [])
+        .filter((e) => e.date !== today);
+    }
+    log.unshift({ date: today, ...diff });
+    const payload = JSON.stringify({ refreshes: log.slice(0, CHANGELOG_KEEP) }, null, 2);
+    await writeFile(CHANGELOG_PATH, payload);
+    await writeFile(CHANGELOG_SHIP_PATH, payload);
+    changelogNote = `Changelog: +${diff.counts.added} new, ${diff.counts.changed} date changes, -${diff.counts.removed} gone`;
+  }
+
   await mkdir(dirname(FINAL_PATH), { recursive: true });
   await mkdir(dirname(SHIP_PATH), { recursive: true });
   await writeFile(FINAL_PATH, JSON.stringify(final, null, 2));
   await writeFile(SHIP_PATH, JSON.stringify(final, null, 2));
   await writeFile(REVIEW_PATH, JSON.stringify({ conflicts }, null, 2));
+  if (changelogNote) console.log(changelogNote);
 
   console.log(`TTC: ${ttc.shows.length} shows`);
   console.log(`Venues: ${venueShows.length} events (added ${venueAdded}, merged ${venueMerged})`);

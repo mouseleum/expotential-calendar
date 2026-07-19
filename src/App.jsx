@@ -4,6 +4,9 @@ import { StatsBar } from './components/StatsBar';
 import { FilterSidebar } from './components/FilterSidebar';
 import { ShowTable } from './components/ShowTable';
 import { AddShowForm } from './components/AddShowForm';
+import { CalendarView } from './components/CalendarView';
+import { ChangelogPanel } from './components/ChangelogPanel';
+import { filtersToParam, filtersFromParam } from './utils/urlState';
 import { useFlagged } from './hooks/useFlagged';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
@@ -32,7 +35,14 @@ const INITIAL_FILTERS = {
 };
 
 function App() {
-  const [filters, setFilters] = useState(INITIAL_FILTERS);
+  // Filter + view state round-trips through the URL (?f=…&v=cal) so any view
+  // can be shared as a link; see src/utils/urlState.js.
+  const [filters, setFilters] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return filtersFromParam(params.get('f')) || INITIAL_FILTERS;
+  });
+  const [view, setView] = useState(() =>
+    new URLSearchParams(window.location.search).get('v') === 'cal' ? 'calendar' : 'table');
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
   // shows.json is served from /public/ at runtime instead of being bundled
@@ -60,6 +70,18 @@ function App() {
       .then((d) => setIndustryOverrides(d.overrides || {}))
       .catch(() => setIndustryOverrides({}));
   }, []);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      const params = new URLSearchParams();
+      const f = filtersToParam(filters, INITIAL_FILTERS);
+      if (f) params.set('f', f);
+      if (view === 'calendar') params.set('v', 'cal');
+      const qs = params.toString();
+      window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+    }, 300);
+    return () => clearTimeout(t);
+  }, [filters, view]);
 
   const allShows = useMemo(() => {
     // Manual shows take priority on ID collisions; industry overrides replace
@@ -134,6 +156,16 @@ function App() {
     return out;
   }, [allShows, filters, sort, flags]);
 
+  function showWeekInTable(year, week) {
+    setFilters((prev) => ({ ...prev, week: String(week), weekYear: String(year), dateFrom: '', dateTo: '' }));
+    setView('table');
+  }
+
+  function findShowByName(name) {
+    setFilters((prev) => ({ ...prev, query: name, dateFrom: '', dateTo: '', week: '', weekYear: '' }));
+    setView('table');
+  }
+
   function handleAdded(show) {
     setManualShows((prev) => {
       const without = prev.filter((s) => s.id !== show.id);
@@ -149,6 +181,7 @@ function App() {
           <span className="dim">— global trade show database</span>
         </div>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+          <ChangelogPanel onShowClick={findShowByName} />
           <button onClick={() => setFormOpen(true)} style={{ color: 'var(--accent)', borderColor: 'var(--accent-dim)' }}>+ Add show</button>
           <div className="app__meta">
             {allShows.length.toLocaleString()} shows
@@ -163,16 +196,25 @@ function App() {
         <main className="app__main">
           {loadError && <div className="empty" style={{ color: 'var(--red)' }}>Failed to load shows: {loadError}</div>}
           {!loadError && !showsData && <div className="empty">Loading…</div>}
-          <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData?.source_scraped_at} />
-          <ShowTable
-            shows={filtered}
-            sort={sort}
-            setSort={setSort}
-            flags={flags}
-            onFlag={cycle}
-            industryOverrides={industryOverrides}
-            onIndustryChange={handleIndustryChange}
-          />
+          <StatsBar filtered={filtered} total={allShows.length} refreshedAt={showsData?.source_scraped_at} view={view} setView={setView} />
+          {view === 'calendar' ? (
+            <CalendarView
+              shows={filtered}
+              flags={flags}
+              initialMonth={filters.dateFrom ? filters.dateFrom.slice(0, 7) : ''}
+              onWeekSelect={showWeekInTable}
+            />
+          ) : (
+            <ShowTable
+              shows={filtered}
+              sort={sort}
+              setSort={setSort}
+              flags={flags}
+              onFlag={cycle}
+              industryOverrides={industryOverrides}
+              onIndustryChange={handleIndustryChange}
+            />
+          )}
         </main>
       </div>
       {formOpen && <AddShowForm onClose={() => setFormOpen(false)} onAdded={handleAdded} />}

@@ -1,0 +1,95 @@
+{
+  "refreshes": [
+    {
+      "date": "2026-07-19",
+      "added": [
+        {
+          "id": "arizona-international-auto-show-phoenix-az-2026-11",
+          "name": "ARIZONA INTERNATIONAL AUTO SHOW",
+          "city": "Phoenix, AZ",
+          "country": "United States",
+          "start_date": "2026-11-26",
+          "end_date": "2026-11-29"
+        },
+        {
+          "id": "hippologica-berlin-berlin-2027-01",
+          "name": "HIPPOLOGICA BERLIN",
+          "city": "Berlin",
+          "country": "Germany",
+          "start_date": "2027-01-22",
+          "end_date": "2027-01-24"
+        },
+        {
+          "id": "pennsylvania-auto-show-harrisburg-pa-2027-01",
+          "name": "PENNSYLVANIA AUTO SHOW",
+          "city": "Harrisburg, PA",
+          "country": "United States",
+          "start_date": "2027-01-28",
+          "end_date": "2027-01-31"
+        },
+        {
+          "id": "biocultura-a-coruna-a-coruna-2027-03",
+          "name": "BIOCULTURA A CORUÑA",
+          "city": "A Coruña",
+          "country": "Spain",
+          "start_date": "2027-03-05",
+          "end_date": "2027-03-07"
+        },
+        {
+          "id": "batir-nice-2027-03",
+          "name": "BÂTIR",
+          "city": "Nice",
+          "country": "France",
+          "start_date": "2027-03-06",
+          "end_date": "2027-03-14"
+        },
+        {
+          "id": "foire-internationale-de-nice-nice-2027-03",
+          "name": "FOIRE INTERNATIONALE DE NICE",
+          "city": "Nice",
+          "country": "France",
+          "start_date": "2027-03-06",
+          "end_date": "2027-03-14"
+        },
+        {
+          "id": "inted-valencia-2027-03",
+          "name": "INTED",
+          "city": "Valencia",
+          "country": "Spain",
+          "start_date": "2027-03-09",
+          "end_date": "2027-03-11"
+        },
+        {
+          "id": "greater-milwaukee-auto-show-milwaukee-wi-2027-04",
+          "name": "GREATER MILWAUKEE AUTO SHOW",
+          "city": "Milwaukee, WI",
+          "country": "United States",
+          "start_date": "2027-04-15",
+          "end_date": "2027-04-18"
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "id": "interforst-munich-2026-10",
+          "name": "INTERFORST",
+          "city": "Munich",
+          "country": "Germany",
+          "from": {
+            "start": "2026-07-12",
+            "end": "2026-07-15"
+          },
+          "to": {
+            "start": "2026-10-15",
+            "end": "2026-10-18"
+          }
+        }
+      ],
+      "counts": {
+        "added": 8,
+        "removed": 0,
+        "changed": 1
+      }
+    }
+  ]
+}

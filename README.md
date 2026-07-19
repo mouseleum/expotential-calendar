@@ -20,7 +20,11 @@ npm test           # vitest unit tests (date/filter utils, merge helpers, API va
 ```
 
 Deployed on Vercel; `api/` contains the serverless endpoints and `vercel.json`
-sets edge caching for `/shows.json`. Team-shared state (manual shows, industry
+sets edge caching for `/shows.json`. The table has a calendar-view toggle,
+and every view is shareable — filters serialize into the URL (`?f=…`), with a
+"Copy link" button in the stats bar. Filtered shows export as CSV or as
+all-day `.ics` calendar events. A "what's new" panel in the header shows what
+each data refresh added, changed, or dropped. Team-shared state (manual shows, industry
 overrides, filter presets, show flags) lives in Vercel KV. If the `WRITE_TOKEN`
 env var is set on Vercel, mutating API calls require it (`x-write-token`
 header); the UI prompts for it once and remembers it in localStorage.
@@ -28,7 +32,9 @@ header); the UI prompts for it once and remembers it in localStorage.
 CI (`.github/workflows/ci.yml`) runs lint + tests + build on every push. Data
 refreshes itself weekly via `.github/workflows/refresh-data.yml` (Mondays
 05:00 UTC, or Actions → "Refresh data" → Run workflow); classification steps
-run when the `ANTHROPIC_API_KEY` repo secret is set.
+run when the `ANTHROPIC_API_KEY` repo secret is set. The pipeline aborts
+rather than committing bad data when a scrape returns zero results or the
+merged dataset shrinks >30% (`ALLOW_SHRINK=1` overrides).
 
 ## Data pipeline
 

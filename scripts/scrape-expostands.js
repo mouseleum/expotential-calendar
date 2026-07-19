@@ -199,6 +199,10 @@ async function main() {
   };
   const outPath = resolve(ROOT, 'data/venue-scrapes/expostands.json');
   await mkdir(dirname(outPath), { recursive: true });
+  if (allEvents.length === 0) {
+    console.error('ABORT: scrape returned 0 results — source is blocking us or changed markup. Not overwriting the previous output.');
+    process.exit(1);
+  }
   await writeFile(outPath, JSON.stringify(out, null, 2));
   console.log(`\nDone. ${allEvents.length} events → ${outPath}`);
 }

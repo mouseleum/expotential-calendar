@@ -154,11 +154,6 @@ async function main() {
     ? Object.entries(COUNTRY_SLUGS).filter(([c]) => c === argCountry)
     : Object.entries(COUNTRY_SLUGS);
 
-  if (targets.length === 0) {
-    console.error(`Unknown country: ${argCountry}`);
-    console.error('Available:', Object.keys(COUNTRY_SLUGS).join(', '));
-    process.exit(1);
-  }
 
   const result = {
     venue_id: 'eventseye',
@@ -187,7 +182,16 @@ async function main() {
 
   const outPath = resolve(ROOT, 'data/venue-scrapes/eventseye.json');
   await mkdir(dirname(outPath), { recursive: true });
+  if (targets.length === 0) {
+    console.error(`Unknown country: ${argCountry}`);
+    console.error('Available:', Object.keys(COUNTRY_SLUGS).join(', '));
+    process.exit(1);
+  }
   await writeFile(outPath, JSON.stringify(result, null, 2));
+  if (total === 0) {
+    console.error('ABORT: scrape returned 0 results — source is blocking us or changed markup. Not overwriting the previous output.');
+    process.exit(1);
+  }
   console.log(`\nDone. ${total} events across ${targets.length} countries → ${outPath}`);
 }
 

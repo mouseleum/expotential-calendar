@@ -179,6 +179,10 @@ async function main() {
     if (i < targets.length - 1) await sleep(DELAY_MS);
   }
 
+  if (totalShows === 0) {
+    console.error('ABORT: scrape returned 0 results — source is blocking us or changed markup. Not overwriting the previous output.');
+    process.exit(1);
+  }
   await writeFile(outPath, JSON.stringify(results, null, 2));
   console.log(`\nDone. ${totalShows} shows across ${targets.length} countries → ${outPath}`);
 }
