@@ -1,3 +1,43 @@
 {
-  "conflicts": []
+  "conflicts": [
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "nordbygg-stockholm-2028-04",
+      "existing": {
+        "name": "NORDBYGG",
+        "start_date": "2028-04-25",
+        "end_date": "2028-04-28",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "country_code": null,
+        "venue": "Stockholmsmässan - Stockholm International Fairs",
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": null,
+        "source": "venue:eventseye",
+        "source_url": "https://www.eventseye.com",
+        "notes": "frequency: every 2 years",
+        "id": "nordbygg-stockholm-2028-04",
+        "audience": "b2b"
+      },
+      "incoming": {
+        "name": "Nordbygg",
+        "start_date": "2028-04-04",
+        "end_date": "2028-04-07",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "country_code": "SE",
+        "venue": "Stockholmsmässan",
+        "industry": [],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://stockholmsmassan.se/en/calendar/nordbygg-2/",
+        "source": "venue:stockholmsmassan",
+        "source_url": "https://stockholmsmassan.se/en/calendar/nordbygg-2/",
+        "notes": "",
+        "id": "nordbygg-stockholm-2028-04"
+      }
+    }
+  ]
 }

@@ -1,15 +1,15 @@
 {
   "venue_id": "eventseye",
-  "scraped_at": "2026-07-18T10:08:37.461Z",
+  "scraped_at": "2026-07-19T10:14:03.412Z",
   "source_url": "https://www.eventseye.com",
   "countries": {
-    "United States": 1149,
+    "United States": 1152,
     "Austria": 85,
     "Belgium": 103,
     "Denmark": 22,
     "Finland": 57,
-    "France": 1059,
-    "Germany": 618,
+    "France": 1061,
+    "Germany": 619,
     "Greece": 48,
     "Ireland": 12,
     "Italy": 351,
@@ -19,7 +19,7 @@
     "Netherlands": 130,
     "Norway": 18,
     "Portugal": 45,
-    "Spain": 222,
+    "Spain": 224,
     "Sweden": 106,
     "Switzerland": 96,
     "United Kingdom": 369
@@ -6395,6 +6395,17 @@
       "notes": "frequency: twice a year"
     },
     {
+      "name": "ARIZONA INTERNATIONAL AUTO SHOW",
+      "start_date": "2026-11-26",
+      "end_date": "2026-11-29",
+      "city": "Phoenix, AZ",
+      "country": "United States",
+      "venue": "Phoenix Convention Center",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "GNYDM - GREATER NEW-YORK DENTAL MEETING",
       "start_date": "2026-11-27",
       "end_date": "2026-12-01",
@@ -8106,6 +8117,17 @@
       "city": "Anaheim, CA",
       "country": "United States",
       "venue": "Anaheim Convention Center",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "PENNSYLVANIA AUTO SHOW",
+      "start_date": "2027-01-28",
+      "end_date": "2027-01-31",
+      "city": "Harrisburg, PA",
+      "country": "United States",
+      "venue": "Pennsylvania Farm Show Complex & Expo Center",
       "industry": [],
       "website": null,
       "notes": "frequency: once a year"
@@ -11175,6 +11197,17 @@
       "city": "Chicago, IL",
       "country": "United States",
       "venue": "Park Hyatt Chicago",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "GREATER MILWAUKEE AUTO SHOW",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-18",
+      "city": "Milwaukee, WI",
+      "country": "United States",
+      "venue": "Wisconsin Expo Center / State Fair Park",
       "industry": [],
       "website": null,
       "notes": "frequency: once a year"
@@ -25183,12 +25216,34 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "BÂTIR",
+      "start_date": "2027-03-06",
+      "end_date": "2027-03-14",
+      "city": "Nice",
+      "country": "France",
+      "venue": "Palais des Expositions de Nice",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "EROSEXPO ORLÉANS",
       "start_date": "2027-03-06",
       "end_date": "2027-03-07",
       "city": "Orleans",
       "country": "France",
       "venue": "Parc des expositions d'Orléans",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "FOIRE INTERNATIONALE DE NICE",
+      "start_date": "2027-03-06",
+      "end_date": "2027-03-14",
+      "city": "Nice",
+      "country": "France",
+      "venue": "Palais des Expositions de Nice",
       "industry": [],
       "website": null,
       "notes": "frequency: once a year"
@@ -27570,17 +27625,6 @@
       "notes": "frequency: twice a year"
     },
     {
-      "name": "INTERFORST",
-      "start_date": "2026-07-12",
-      "end_date": "2026-07-15",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Fairground Messe München",
-      "industry": [],
-      "website": null,
-      "notes": "frequency: every 4 years"
-    },
-    {
       "name": "MUNICH FABRIC START",
       "start_date": "2026-07-14",
       "end_date": "2026-07-16",
@@ -29020,6 +29064,17 @@
       "industry": [],
       "website": null,
       "notes": "frequency: once a year"
+    },
+    {
+      "name": "INTERFORST",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-18",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Fairground Messe München",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: every 4 years"
     },
     {
       "name": "WINTERZAUBER - LAUBACH",
@@ -30799,6 +30854,17 @@
       "city": "Münster",
       "country": "Germany",
       "venue": "Halle Münsterland",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "HIPPOLOGICA BERLIN",
+      "start_date": "2027-01-22",
+      "end_date": "2027-01-24",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Messegelände Berlin",
       "industry": [],
       "website": null,
       "notes": "frequency: once a year"
@@ -42717,10 +42783,32 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "BIOCULTURA A CORUÑA",
+      "start_date": "2027-03-05",
+      "end_date": "2027-03-07",
+      "city": "A Coruña",
+      "country": "Spain",
+      "venue": "ExpoCoruña",
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "HORECA BALEARES - IBIZA",
       "start_date": "2027-03-08",
       "end_date": "2027-03-10",
       "city": "Mahón (Balearic Islands)",
+      "country": "Spain",
+      "venue": null,
+      "industry": [],
+      "website": null,
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "INTED",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-11",
+      "city": "Valencia",
       "country": "Spain",
       "venue": null,
       "industry": [],
@@ -45706,7 +45794,7 @@
       "venue": null,
       "industry": [],
       "website": null,
-      "notes": "frequency: unknown"
+      "notes": "frequency: once a year"
     },
     {
       "name": "TRUCKFEST WEST MIDLANDS",
