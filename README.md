@@ -16,14 +16,23 @@ npm install
 npm run dev        # Vite dev server (the /api/* endpoints need `vercel dev`)
 npm run build      # production build to dist/
 npm run lint
+npm test           # vitest unit tests (date/filter utils, merge helpers, API validation)
 ```
 
 Deployed on Vercel; `api/` contains the serverless endpoints and `vercel.json`
-sets edge caching for `/shows.json`.
+sets edge caching for `/shows.json`. Team-shared state (manual shows, industry
+overrides, filter presets, show flags) lives in Vercel KV. If the `WRITE_TOKEN`
+env var is set on Vercel, mutating API calls require it (`x-write-token`
+header); the UI prompts for it once and remembers it in localStorage.
+
+CI (`.github/workflows/ci.yml`) runs lint + tests + build on every push. Data
+refreshes itself weekly via `.github/workflows/refresh-data.yml` (Mondays
+05:00 UTC, or Actions → "Refresh data" → Run workflow); classification steps
+run when the `ANTHROPIC_API_KEY` repo secret is set.
 
 ## Data pipeline
 
-Shows are refreshed offline and committed — the app just serves
+Shows are refreshed by the weekly Action (or by hand, below) and committed — the app just serves
 `public/shows.json`:
 
 ```sh

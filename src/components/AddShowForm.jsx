@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { INDUSTRY_SEGMENTS } from '../utils/industries';
+import { writeFetch } from '../utils/api';
 
 const EMPTY = {
   name: '',
@@ -53,9 +54,8 @@ export function AddShowForm({ onClose, onAdded }) {
       };
       delete payload.industries;
       delete payload.industryOther;
-      const res = await fetch('/api/manual-shows', {
+      const res = await writeFetch('/api/manual-shows', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
       const data = await res.json();

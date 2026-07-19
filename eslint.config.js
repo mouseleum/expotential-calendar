@@ -21,7 +21,7 @@ export default defineConfig([
   {
     // Scrapers, the merge pipeline, and the Vercel serverless functions run
     // under Node, not the browser.
-    files: ['scripts/**/*.js', 'api/**/*.js'],
+    files: ['scripts/**/*.js', 'api/**/*.js', 'test/**/*.js'],
     languageOptions: {
       globals: globals.node,
     },

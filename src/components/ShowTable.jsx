@@ -57,7 +57,8 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
         </thead>
         <tbody>
           {shows.map((s) => {
-            const flag = flags[s.id];
+            const flag = flags[s.id]?.state;
+            const flagBy = flags[s.id]?.by;
             return (
               <tr key={s.id}>
                 <td className="col-flag">
@@ -65,7 +66,7 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
                     className="flag-btn"
                     data-state={flag || ''}
                     onClick={() => onFlag(s.id)}
-                    title={flag ? `Flagged: ${flag}` : 'Flag this show'}
+                    title={flag ? `Flagged: ${flag}${flagBy ? ` (by ${flagBy})` : ''}` : 'Flag this show'}
                   >
                     {flag ? FLAG_GLYPH[flag] : '·'}
                   </button>

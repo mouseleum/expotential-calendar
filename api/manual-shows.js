@@ -8,6 +8,7 @@
 
 import { slugify } from '../scripts/lib/slugify.js';
 import { createHashStore, getQueryId } from './_lib/kv-hash-store.js';
+import { requireWriteAuth } from './_lib/auth.js';
 
 const store = createHashStore({
   hashKey: 'manual-shows',
@@ -31,12 +32,12 @@ function makeId(show) {
 
 // Missing/empty counts stay null; anything else must coerce to a finite
 // number (note +null and +'' are 0, so the emptiness check comes first).
-function toCount(v) {
+export function toCount(v) {
   if (v == null || v === '') return null;
   return Number.isFinite(+v) ? +v : null;
 }
 
-function normalize(input) {
+export function normalize(input) {
   const errors = [];
   if (!input || typeof input !== 'object') {
     errors.push('body must be an object');
@@ -85,6 +86,7 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'POST') {
+      if (!requireWriteAuth(req, res)) return;
       const { show, errors } = normalize(req.body);
       if (errors) return res.status(400).json({ errors });
       await store.set(show.id, show);
@@ -92,6 +94,7 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'DELETE') {
+      if (!requireWriteAuth(req, res)) return;
       const id = getQueryId(req);
       if (!id) return res.status(400).json({ error: 'id query param required' });
       const removed = await store.remove(id);

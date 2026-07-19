@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { INDUSTRY_SEGMENTS, INDUSTRY_COLORS } from '../utils/industries';
+import { writeFetch } from '../utils/api';
 
 const SEGMENT_SET = new Set(INDUSTRY_SEGMENTS);
 
@@ -51,9 +52,8 @@ export function IndustryEditor({ show, overrides, onChange }) {
     setSaving(true);
     try {
       const industry = [...draft];
-      const res = await fetch('/api/industry-overrides', {
+      const res = await writeFetch('/api/industry-overrides', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id: show.id, industry }),
       });
       if (!res.ok) {
@@ -74,7 +74,7 @@ export function IndustryEditor({ show, overrides, onChange }) {
   async function clearOverride() {
     setSaving(true);
     try {
-      const res = await fetch(`/api/industry-overrides?id=${encodeURIComponent(show.id)}`, {
+      const res = await writeFetch(`/api/industry-overrides?id=${encodeURIComponent(show.id)}`, {
         method: 'DELETE',
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

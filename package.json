@@ -16,7 +16,8 @@
     "classify:industry": "node scripts/classify-with-haiku.js",
     "classify:audience": "node scripts/classify-audience-with-haiku.js",
     "merge": "node scripts/merge.js",
-    "refresh": "npm run scrape && npm run merge"
+    "refresh": "npm run scrape && npm run merge",
+    "test": "vitest run"
   },
   "dependencies": {
     "@vercel/kv": "^3.0.0",
@@ -35,6 +36,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "vitest": "^4.1.10"
   }
 }

@@ -8,6 +8,7 @@
 // the legacy 'filter-presets:v1' array key is migrated on first read.
 
 import { createHashStore, getQueryId } from './_lib/kv-hash-store.js';
+import { requireWriteAuth } from './_lib/auth.js';
 
 const MAX_NAME = 60;
 const MAX_PRESETS = 100;
@@ -40,6 +41,7 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'POST') {
+      if (!requireWriteAuth(req, res)) return;
       const { name, filters, added_by } = req.body || {};
       if (!name || typeof name !== 'string' || !name.trim()) {
         return res.status(400).json({ error: 'name required' });
@@ -67,6 +69,7 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'DELETE') {
+      if (!requireWriteAuth(req, res)) return;
       const id = getQueryId(req);
       if (!id) return res.status(400).json({ error: 'id query param required' });
       const removed = await store.remove(id);

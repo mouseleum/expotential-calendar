@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { filtersToJSON, filtersFromJSON } from '../utils/filterSerialize';
+import { writeFetch } from '../utils/api';
 
 export function FilterPresets({ filters, setFilters }) {
   const [presets, setPresets] = useState([]);
@@ -22,9 +23,8 @@ export function FilterPresets({ filters, setFilters }) {
     if (!name) return;
     setSaving(true);
     try {
-      const res = await fetch('/api/filter-presets', {
+      const res = await writeFetch('/api/filter-presets', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, filters: filtersToJSON(filters) }),
       });
       const data = await res.json();
@@ -49,7 +49,7 @@ export function FilterPresets({ filters, setFilters }) {
     e.stopPropagation();
     if (!confirm(`Delete preset "${preset.name}"?`)) return;
     try {
-      const res = await fetch(`/api/filter-presets?id=${encodeURIComponent(preset.id)}`, {
+      const res = await writeFetch(`/api/filter-presets?id=${encodeURIComponent(preset.id)}`, {
         method: 'DELETE',
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
