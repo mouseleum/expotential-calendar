@@ -275,7 +275,13 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             max="53"
             placeholder="Week"
             value={filters.week}
-            onChange={(e) => setFilters((p) => ({ ...p, week: e.target.value, weekYear: p.weekYear || years[0] || '' }))}
+            onChange={(e) => {
+              // Default the year to the current year (fall back to the
+              // earliest dataset year if the current one has no shows).
+              const currentYear = String(new Date().getFullYear());
+              const defaultYear = years.includes(currentYear) ? currentYear : years[0] || '';
+              setFilters((p) => ({ ...p, week: e.target.value, weekYear: p.weekYear || defaultYear }));
+            }}
             style={{ flex: 1 }}
           />
           <select
