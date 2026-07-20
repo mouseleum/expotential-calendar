@@ -1,6 +1,6 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-07-19T10:14:03.113Z",
+  "scraped_at": "2026-07-20T07:55:36.665Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
     {
@@ -712,7 +712,19 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-microwave-week/"
     },
     {
-      "name": "Conxemar 2025",
+      "name": "Fruit Attraction 2026",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fruit-attraction/"
+    },
+    {
+      "name": "Conxemar 2026",
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
       "city": "Vigo",
@@ -724,7 +736,7 @@
       "website": "https://www.expoexhibitionstands.com/conxemar/"
     },
     {
-      "name": "Motek 2025",
+      "name": "Motek 2026",
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
       "city": "Stuttgart",
@@ -748,7 +760,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-world-ethanol-biofuels/"
     },
     {
-      "name": "BioTechX Europe 2025",
+      "name": "BioTechX Europe 2026",
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
       "city": "Basel",
@@ -808,7 +820,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-rental-estetika/"
     },
     {
-      "name": "Bar Convent Berlin 2025",
+      "name": "Bar Convent Berlin 2026",
       "start_date": "2026-10-12",
       "end_date": "2026-10-14",
       "city": null,
@@ -844,7 +856,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-network-x/"
     },
     {
-      "name": "COSMETIC 360 2025",
+      "name": "COSMETIC 360 2026",
       "start_date": "2026-10-14",
       "end_date": "2026-10-15",
       "city": "Paris",
@@ -854,7 +866,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rentals-cosmetic-360-paris/"
     },
     {
-      "name": "Classic Expo 2025",
+      "name": "Classic Expo 2026",
       "start_date": "2026-10-16",
       "end_date": "2025-10-18",
       "city": "Salzburg",
@@ -866,7 +878,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-classic-expo/"
     },
     {
-      "name": "EANM’25 Barcelona, Spain",
+      "name": "EANM’26 Austria Centre Vienna",
       "start_date": "2026-10-17",
       "end_date": "2026-10-21",
       "city": null,
@@ -878,7 +890,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-eanm/"
     },
     {
-      "name": "UEG Week 2025 Berlin, Germany",
+      "name": "UEG Week 2026 Berlin, Germany",
       "start_date": "2026-10-17",
       "end_date": "2026-10-20",
       "city": "Barcelona",
@@ -902,10 +914,10 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-sial-paris/"
     },
     {
-      "name": "IoT Tech Expo Europe 2025",
+      "name": "IoT Tech Expo Europe 2026, Amsterdam, the",
       "start_date": "2026-10-19",
       "end_date": "2026-10-20",
-      "city": "RAI Amsterdam, the",
+      "city": null,
       "country": "Netherlands",
       "venue": "RAI Amsterdam",
       "industry": [
@@ -914,7 +926,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-iot-tech-expo-europe/"
     },
     {
-      "name": "Hydrogen Technology Expo Europe 2025",
+      "name": "Hydrogen Technology Expo Europe 2026",
       "start_date": "2026-10-20",
       "end_date": "2026-10-22",
       "city": "Hamburg Messe",
@@ -950,7 +962,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-euroblech/"
     },
     {
-      "name": "COSMETORIUM 2025",
+      "name": "COSMETORIUM 2026",
       "start_date": "2026-10-21",
       "end_date": "2026-10-22",
       "city": "Barcelona",
@@ -962,7 +974,7 @@
       "website": "https://www.expoexhibitionstands.com/cosmetorium-barcelona/"
     },
     {
-      "name": "SPIEL Essen 2025",
+      "name": "SPIEL Essen 2026",
       "start_date": "2026-10-22",
       "end_date": "2026-10-25",
       "city": "Essen",
@@ -974,7 +986,7 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-spiel-essen/"
     },
     {
-      "name": "it-sa Expo&Congress 2025",
+      "name": "it-sa Expo&Congress 2026",
       "start_date": "2026-10-27",
       "end_date": "2026-10-29",
       "city": "Nuremberg",
