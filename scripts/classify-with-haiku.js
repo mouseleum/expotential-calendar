@@ -140,8 +140,16 @@ async function main() {
 
   const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
 
-  // Find shows without any canonical segment
+  // Previously classified shows (incl. empty results = "no segment applies")
+  // are skipped — merge.js re-applies the cache, so only new ids cost money.
+  let persisted = {};
+  if (existsSync(PERSIST_PATH)) {
+    persisted = JSON.parse(await readFile(PERSIST_PATH, 'utf8'));
+  }
+
+  // Find shows without any canonical segment that we haven't classified before
   const untagged = data.shows.filter((s) => {
+    if (s.id in persisted) return false;
     const tags = Array.isArray(s.industry) ? s.industry : [];
     return !tags.some((t) => SEGMENT_SET.has(t));
   });
@@ -156,13 +164,6 @@ async function main() {
     console.log('\n[DRY RUN] Sample of shows to classify:');
     untagged.slice(0, 10).forEach((s, i) => console.log(`  ${i + 1}. ${s.name}`));
     return;
-  }
-
-  // Load existing persisted classifications (resume capability)
-  let persisted = {};
-  if (existsSync(PERSIST_PATH)) {
-    persisted = JSON.parse(await readFile(PERSIST_PATH, 'utf8'));
-    console.log(`Resuming with ${Object.keys(persisted).length} existing classifications`);
   }
 
   // Build batches

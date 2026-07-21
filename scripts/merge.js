@@ -25,6 +25,7 @@ const INDUSTRY_RULES = resolve(ROOT, 'scripts/industry-rules.json');
 const VENUE_ALIASES = resolve(ROOT, 'scripts/venue-aliases.json');
 const SCAN2LEAD_NAMES = resolve(ROOT, 'scripts/scan2lead-names.json');
 const AUDIENCE_PATH = resolve(ROOT, 'data/audience-classifications.json');
+const HAIKU_INDUSTRY_PATH = resolve(ROOT, 'data/haiku-classifications.json');
 
 async function loadScan2LeadNames() {
   if (!existsSync(SCAN2LEAD_NAMES)) return [];
@@ -296,6 +297,31 @@ async function main() {
     }
   }
 
+  // Apply persisted Haiku industry classifications (empty arrays mean the
+  // show was judged out-of-segment — kept so classify-with-haiku.js doesn't
+  // re-send it). GC entries whose show id no longer exists.
+  let haikuApplied = 0;
+  let haikuGcd = 0;
+  if (existsSync(HAIKU_INDUSTRY_PATH)) {
+    const haiku = JSON.parse(await readFile(HAIKU_INDUSTRY_PATH, 'utf8'));
+    const liveIdsH = new Set(byId.keys());
+    for (const show of byId.values()) {
+      const segs = haiku[show.id];
+      if (!Array.isArray(segs) || segs.length === 0) continue;
+      const existing = new Set(show.industry || []);
+      const before = existing.size;
+      for (const seg of segs) existing.add(seg);
+      if (existing.size > before) haikuApplied++;
+      show.industry = [...existing];
+    }
+    for (const id of Object.keys(haiku)) {
+      if (!liveIdsH.has(id)) { delete haiku[id]; haikuGcd++; }
+    }
+    if (haikuGcd > 0) {
+      await writeFile(HAIKU_INDUSTRY_PATH, JSON.stringify(haiku, null, 2));
+    }
+  }
+
   // Apply persisted Haiku audience classifications, if any. Also garbage-
   // collect IDs that no longer exist in the dataset (saves the file from
   // growing forever as shows get deduped/dropped across merges).
@@ -383,6 +409,7 @@ async function main() {
   console.log(`Scan2Lead matches: ${s2lTagged} shows tagged`);
   console.log(`Audience tags: ${audienceApplied} shows tagged (B2B / B2C / mixed)` + (audienceGcd ? `, ${audienceGcd} stale ids GC'd` : ''));
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
+  console.log(`Haiku industry cache: ${haikuApplied} shows tagged` + (haikuGcd ? `, ${haikuGcd} stale ids GC'd` : ''));
   console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
   for (const [seg, n] of Object.entries(perSegment).sort((a, b) => b[1] - a[1])) {
     console.log(`  ${String(n).padStart(5)}  ${seg}`);
