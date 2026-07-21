@@ -17,7 +17,8 @@
     "classify:audience": "node scripts/classify-audience-with-haiku.js",
     "merge": "node scripts/merge.js",
     "refresh": "npm run scrape && npm run merge",
-    "test": "vitest run"
+    "test": "vitest run",
+    "scrape:eventseye:links": "node scripts/enrich-eventseye-links.js"
   },
   "dependencies": {
     "@vercel/kv": "^3.0.0",

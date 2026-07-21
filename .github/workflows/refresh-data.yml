@@ -28,6 +28,11 @@ jobs:
       - run: npm run scrape
       - run: npm run scrape:expostands
       - run: npm run scrape:eventseye
+      # Fetches each *new* EventsEye show's detail page for its official
+      # website (data/eventseye-official-links.json caches by detail_url, so
+      # a normal week only fetches a handful of pages — the ~4,500-page
+      # backfill was a one-time run, not part of this job).
+      - run: npm run scrape:eventseye:links
       - run: npm run merge
       - name: Classify with Haiku
         env:

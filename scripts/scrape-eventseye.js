@@ -75,6 +75,12 @@ function parseEvents(html, country) {
     const name = $a.find('b').first().text().trim();
     if (!name) return;
 
+    // Each event's detail page carries its official website (the listing
+    // page never does) — resolved here, fetched later by
+    // enrich-eventseye-links.js so a full scrape stays fast.
+    const href = $a.attr('href');
+    const detailUrl = href ? new URL(href, 'https://www.eventseye.com/fairs/').toString() : null;
+
     // Walk up to the <tr> that contains this event link.
     const $row = $a.closest('tr');
     if ($row.length === 0) return;
@@ -118,6 +124,7 @@ function parseEvents(html, country) {
       venue,
       industry: [],
       website: null,
+      detail_url: detailUrl,
       notes: frequency ? `frequency: ${frequency}` : '',
     });
   });
