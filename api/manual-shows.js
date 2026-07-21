@@ -65,6 +65,7 @@ export function normalize(input) {
     country_code: (input.country_code || '').trim() || null,
     venue: (input.venue || '').trim() || null,
     industry: Array.isArray(input.industry) ? input.industry : [],
+    audience: ['b2b', 'b2c', 'mixed'].includes(input.audience) ? input.audience : null,
     attendees: toCount(input.attendees),
     exhibitors: toCount(input.exhibitors),
     website: website || null,

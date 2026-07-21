@@ -4,6 +4,7 @@ import { writeFetch } from '../utils/api';
 
 const EMPTY = {
   name: '',
+  audience: 'b2b',
   start_date: '',
   end_date: '',
   city: '',
@@ -100,6 +101,13 @@ export function AddShowForm({ onClose, onAdded }) {
               <input type="text" value={form.country} onChange={(e) => update('country', e.target.value)} required />
             </Field>
           </div>
+          <Field label="Audience">
+            <select value={form.audience} onChange={(e) => update('audience', e.target.value)}>
+              <option value="b2b">B2B (trade)</option>
+              <option value="b2c">B2C (consumer)</option>
+              <option value="mixed">Mixed</option>
+            </select>
+          </Field>
           <Field label="Venue">
             <input type="text" value={form.venue} onChange={(e) => update('venue', e.target.value)} />
           </Field>

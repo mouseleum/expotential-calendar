@@ -43,6 +43,11 @@ describe('manual-shows normalize', () => {
     const { errors } = normalize({ ...valid, website: 'javascript:alert(1)' });
     expect(errors).toEqual(['website must start with http:// or https://']);
   });
+  it('stores a valid audience and nulls invalid ones', () => {
+    expect(normalize({ ...valid, audience: 'b2b' }).show.audience).toBe('b2b');
+    expect(normalize({ ...valid, audience: 'everyone' }).show.audience).toBe(null);
+    expect(normalize(valid).show.audience).toBe(null);
+  });
   it('accepts https websites', () => {
     const { show } = normalize({ ...valid, website: 'https://example.com' });
     expect(show.website).toBe('https://example.com');
