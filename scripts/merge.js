@@ -13,6 +13,7 @@ import {
   prepareScan2Lead, matchesScan2Lead,
   stripDiacritics, normalizeVenue, urlToDomain,
 } from './lib/normalize.js';
+import { computeMajorCities, isMajorCity } from './lib/major-cities.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -359,6 +360,11 @@ async function main() {
 
   const shows = [...byId.values()].sort((a, b) => a.start_date.localeCompare(b.start_date));
 
+  // "Major cities only" filter support — see lib/major-cities.js for how
+  // qualifying (country, city) pairs are chosen.
+  const majorSet = computeMajorCities(shows);
+  for (const s of shows) s.major_city = isMajorCity(s, majorSet);
+
   const final = {
     generated_at: new Date().toISOString(),
     source_scraped_at: ttc.scraped_at,
@@ -411,6 +417,7 @@ async function main() {
   console.log(`Domain map: ${venueFromUrl} shows enriched with venue from URL`);
   console.log(`Haiku industry cache: ${haikuApplied} shows tagged` + (haikuGcd ? `, ${haikuGcd} stale ids GC'd` : ''));
   console.log(`Industry rules: ${segmentsTagged} shows tagged with ≥1 canonical segment`);
+  console.log(`Major cities: ${shows.filter((s) => s.major_city).length} / ${shows.length} shows`);
   for (const [seg, n] of Object.entries(perSegment).sort((a, b) => b[1] - a[1])) {
     console.log(`  ${String(n).padStart(5)}  ${seg}`);
   }

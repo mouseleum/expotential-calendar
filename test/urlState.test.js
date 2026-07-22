@@ -15,6 +15,7 @@ const DEFAULTS = {
   weekYear: '',
   flaggedOnly: false,
   scan2leadOnly: false,
+  majorCitiesOnly: false,
 };
 
 describe('urlState', () => {

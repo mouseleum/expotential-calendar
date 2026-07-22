@@ -1,6 +1,17 @@
 {
   "refreshes": [
     {
+      "date": "2026-07-22",
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "changed": 0
+      }
+    },
+    {
       "date": "2026-07-21",
       "added": [],
       "removed": [],

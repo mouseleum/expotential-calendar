@@ -9,7 +9,7 @@
 
 const SET_FIELDS = ['countries', 'venues', 'industries', 'audiences', 'sources'];
 const STRING_FIELDS = ['query', 'minAttendees', 'dateFrom', 'dateTo', 'week', 'weekYear'];
-const BOOL_FIELDS = ['flaggedOnly', 'scan2leadOnly'];
+const BOOL_FIELDS = ['flaggedOnly', 'scan2leadOnly', 'majorCitiesOnly'];
 
 export function filtersToJSON(filters) {
   const out = { ...filters };

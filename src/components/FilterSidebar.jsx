@@ -162,9 +162,15 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
       weekYear: '',
       flaggedOnly: false,
       scan2leadOnly: false,
+      majorCitiesOnly: false,
     });
     setExpandedCountries(new Set());
   }
+
+  const majorCityCount = useMemo(
+    () => allShows.filter((s) => s.major_city).length,
+    [allShows],
+  );
 
   const audienceCounts = useMemo(() => {
     const m = { b2b: 0, b2c: 0, mixed: 0, unknown: 0 };
@@ -324,6 +330,15 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             onChange={(e) => setFilters((p) => ({ ...p, scan2leadOnly: e.target.checked }))}
           />
           Scan2Lead reference only
+        </label>
+        <label className="filter-group__row" title="Hides the long tail of small-town, one-off shows — keeps each country's busiest trade-show cities.">
+          <input
+            type="checkbox"
+            checked={filters.majorCitiesOnly}
+            onChange={(e) => setFilters((p) => ({ ...p, majorCitiesOnly: e.target.checked }))}
+          />
+          <span>Major cities only</span>
+          <span className="filter-group__count">{majorCityCount}</span>
         </label>
       </div>
 

@@ -65,3 +65,9 @@ matching), venue-name canonicalization (`scripts/venue-aliases.json`),
 rule-based industry tagging (`scripts/industry-rules.json`), and Scan2Lead
 reference-fair tagging (`scripts/scan2lead-names.json`). Ambiguous merges land
 in `data/review-needed.json` for manual review.
+
+Every show is also tagged `major_city` (`scripts/lib/major-cities.js`) —
+whether its city is among its country's busiest trade-show cities — backing
+the sidebar's "Major cities only" filter, which cuts the long tail of
+one-off small-town shows. Fully automatic (no curated list to maintain):
+tunable via the `topN`/`minShare` constants in that file.

@@ -32,6 +32,7 @@ const INITIAL_FILTERS = {
   weekYear: '',
   flaggedOnly: false,
   scan2leadOnly: false,
+  majorCitiesOnly: false,
 };
 
 function App() {
@@ -87,7 +88,10 @@ function App() {
     // Manual shows take priority on ID collisions; industry overrides replace
     // the show's canonical-segment portion of `industry`.
     const map = new Map((showsData?.shows ?? []).map((s) => [s.id, s]));
-    for (const s of manualShows) map.set(s.id, s);
+    // Manual shows are never auto-tagged major_city by the pipeline — treat
+    // them as major by default so "Major cities only" never hides a show
+    // someone deliberately added.
+    for (const s of manualShows) map.set(s.id, { major_city: true, ...s });
     if (Object.keys(industryOverrides).length === 0) return [...map.values()];
     return [...map.values()].map((s) => {
       const override = industryOverrides[s.id];
@@ -135,6 +139,7 @@ function App() {
       }
       if (filters.flaggedOnly && !flags[s.id]) return false;
       if (filters.scan2leadOnly && !s.scan2lead) return false;
+      if (filters.majorCitiesOnly && !s.major_city) return false;
       return true;
     });
 

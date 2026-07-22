@@ -15,6 +15,7 @@ const FULL = {
   weekYear: '',
   flaggedOnly: true,
   scan2leadOnly: false,
+  majorCitiesOnly: false,
 };
 
 describe('filter serialization', () => {
