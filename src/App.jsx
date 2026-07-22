@@ -182,7 +182,7 @@ function App() {
     <div className="app">
       <header className="app__header">
         <div className="app__title">
-          eXpotential Calendar
+          Expotential Calendar
           <span className="dim">— global trade show database</span>
         </div>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>

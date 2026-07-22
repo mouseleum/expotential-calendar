@@ -1,4 +1,4 @@
-# eXpotential Calendar
+# Expotential Calendar
 
 Internal trade-show database: ~8,200 shows scraped from public calendars
 (Tradeshow Calendar, EventsEye, Expo Exhibition Stands, Informa Markets,
