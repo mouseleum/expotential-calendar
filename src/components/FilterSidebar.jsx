@@ -24,7 +24,7 @@ function joinYM(year, month) {
   return `${year}-${month}`;
 }
 
-export function FilterSidebar({ allShows, filters, setFilters }) {
+export function FilterSidebar({ allShows, filters, setFilters, flags }) {
   const countryCounts = useMemo(() => {
     const m = new Map();
     for (const s of allShows) m.set(s.country, (m.get(s.country) || 0) + 1);
@@ -169,6 +169,16 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
 
   const majorCityCount = useMemo(
     () => allShows.filter((s) => s.major_city).length,
+    [allShows],
+  );
+
+  const flaggedCount = useMemo(
+    () => allShows.filter((s) => flags[s.id]).length,
+    [allShows, flags],
+  );
+
+  const scan2leadCount = useMemo(
+    () => allShows.filter((s) => s.scan2lead).length,
     [allShows],
   );
 
@@ -321,7 +331,8 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             checked={filters.flaggedOnly}
             onChange={(e) => setFilters((p) => ({ ...p, flaggedOnly: e.target.checked }))}
           />
-          Flagged only
+          <span>Flagged only</span>
+          <span className="filter-group__count">{flaggedCount}</span>
         </label>
         <label className="filter-group__row">
           <input
@@ -329,7 +340,8 @@ export function FilterSidebar({ allShows, filters, setFilters }) {
             checked={filters.scan2leadOnly}
             onChange={(e) => setFilters((p) => ({ ...p, scan2leadOnly: e.target.checked }))}
           />
-          Scan2Lead reference only
+          <span>Scan2Lead reference only</span>
+          <span className="filter-group__count">{scan2leadCount}</span>
         </label>
         <label className="filter-group__row" title="Hides the long tail of small-town, one-off shows — keeps each country's busiest trade-show cities.">
           <input

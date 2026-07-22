@@ -196,7 +196,7 @@ function App() {
       </header>
       <div className="app__body">
         <aside className="app__sidebar">
-          <FilterSidebar allShows={allShows} filters={filters} setFilters={setFilters} />
+          <FilterSidebar allShows={allShows} filters={filters} setFilters={setFilters} flags={flags} />
         </aside>
         <main className="app__main">
           {loadError && <div className="empty" style={{ color: 'var(--red)' }}>Failed to load shows: {loadError}</div>}
