@@ -1,44 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-07-20T07:55:36.665Z",
+  "scraped_at": "2026-07-27T08:26:37.520Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Farnborough Airshow 2026 UK",
-      "start_date": "2026-07-20",
-      "end_date": "2026-07-24",
-      "city": "Farnborough",
-      "country": "United Kingdom",
-      "venue": "Farnborough International Exhibition and Conference Centre",
-      "industry": [
-        "Aviation"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-farnborough-airshow/"
-    },
-    {
-      "name": "Libramont Fair 2026",
-      "start_date": "2026-07-24",
-      "end_date": "2026-07-27",
-      "city": "Libramont",
-      "country": "Belgium",
-      "venue": "Libramont Exhibition & Congress",
-      "industry": [
-        "Agriculture"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-foire-de-libramont/"
-    },
-    {
-      "name": "Nordstil Hamburg 2026",
-      "start_date": "2026-07-25",
-      "end_date": "2026-07-27",
-      "city": null,
-      "country": "Germany",
-      "venue": "Hamburg Messe und Congress",
-      "industry": [
-        "Retail"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-nordstil/"
-    },
     {
       "name": "Maker Faire Hannover 2026",
       "start_date": "2026-08-15",
@@ -712,6 +676,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-microwave-week/"
     },
     {
+      "name": "EXPO REAL 2026",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-07",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Real Estate"
+      ],
+      "website": "https://www.expoexhibitionstands.com/expo-real-munich/"
+    },
+    {
       "name": "Fruit Attraction 2026",
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
@@ -808,6 +784,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-vision/"
     },
     {
+      "name": "Aluminium 2026",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-aluminium/"
+    },
+    {
       "name": "ESTETIKA 2026",
       "start_date": "2026-10-10",
       "end_date": "2026-10-12",
@@ -818,6 +806,18 @@
         "Beauty"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-rental-estetika/"
+    },
+    {
+      "name": "Fakuma 2026",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-16",
+      "city": "Friedrichshafen",
+      "country": "Germany",
+      "venue": "Messe Friedrichshafen",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fakuma-friedrichshafen/"
     },
     {
       "name": "Bar Convent Berlin 2026",
@@ -844,6 +844,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-mipcom-cannes/"
     },
     {
+      "name": "CHILLVENTA 2026",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-15",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Nuremberg Messe",
+      "industry": [
+        "HVAC & Refrigeration"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-chillventa-nuremberg/"
+    },
+    {
       "name": "NetworkX 2026",
       "start_date": "2026-10-13",
       "end_date": "2026-10-14",
@@ -854,6 +866,30 @@
         "Telecommunications"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-network-x/"
+    },
+    {
+      "name": "HYDRO 2026",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "city": "Bologna",
+      "country": "Italy",
+      "venue": "Bologna Congress Center",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-hydro/"
+    },
+    {
+      "name": "Dutch Pork & Poultry Expo 2026 Hardenberg",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-15",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "Evenementenhal Hardenberg",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/dutch-pork-poultry-expo/"
     },
     {
       "name": "COSMETIC 360 2026",
@@ -938,6 +974,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-hydrogen-technology-expo-europe/"
     },
     {
+      "name": "IFAS 2026",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "venue": "Messe Zurich",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rentals-ifas-zurich/"
+    },
+    {
       "name": "Unleash World 2026",
       "start_date": "2026-10-20",
       "end_date": "2026-10-22",
@@ -960,6 +1008,30 @@
         "Sheet Metal Working"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-euroblech/"
+    },
+    {
+      "name": "Glasstec 2026",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-23",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-glasstec/"
+    },
+    {
+      "name": "Solids Antwerp 2026",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "city": null,
+      "country": "Belgium",
+      "venue": "ANTWERP EXPO",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-solids-antwerp/"
     },
     {
       "name": "COSMETORIUM 2026",
@@ -986,6 +1058,40 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-spiel-essen/"
     },
     {
+      "name": "ESMO Congress 2026",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-27",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-esmo/"
+    },
+    {
+      "name": "Beauty Forum Festival Munich 2026",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Cosmetics"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-beauty-forum-munich/"
+    },
+    {
+      "name": "IZB 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "city": "Wolfsburg",
+      "country": "Germany",
+      "venue": "Allerpark Wolfsburg",
+      "industry": [],
+      "website": "https://www.expoexhibitionstands.com/izb/"
+    },
+    {
       "name": "it-sa Expo&Congress 2026",
       "start_date": "2026-10-27",
       "end_date": "2026-10-29",
@@ -996,6 +1102,18 @@
         "IT"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-it-sa/"
+    },
+    {
+      "name": "ORGATEC 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-30",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse GmbH, Cologne",
+      "industry": [
+        "Interior Design"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-orgatec/"
     },
     {
       "name": "MRO Europe 2026 Amsterdam",

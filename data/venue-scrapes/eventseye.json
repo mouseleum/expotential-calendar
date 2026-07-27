@@ -1,28 +1,28 @@
 {
   "venue_id": "eventseye",
-  "scraped_at": "2026-07-21T15:27:22.973Z",
+  "scraped_at": "2026-07-27T08:26:37.802Z",
   "source_url": "https://www.eventseye.com",
   "countries": {
-    "United States": 1154,
-    "Austria": 85,
+    "United States": 1167,
+    "Austria": 87,
     "Belgium": 103,
     "Denmark": 22,
     "Finland": 57,
-    "France": 1064,
+    "France": 1073,
     "Germany": 625,
-    "Greece": 48,
-    "Ireland": 12,
-    "Italy": 352,
+    "Greece": 49,
+    "Ireland": 13,
+    "Italy": 359,
     "Luxembourg": 8,
     "Malta": 2,
-    "Monaco": 10,
+    "Monaco": 11,
     "Netherlands": 130,
     "Norway": 18,
     "Portugal": 45,
-    "Spain": 224,
-    "Sweden": 106,
+    "Spain": 227,
+    "Sweden": 107,
     "Switzerland": 97,
-    "United Kingdom": 371
+    "United Kingdom": 376
   },
   "events": [
     {
@@ -6974,6 +6974,18 @@
       "notes": "frequency: unknown"
     },
     {
+      "name": "PASCAGOULA GUN SHOW",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "city": "Pascagoula, MS",
+      "country": "United States",
+      "venue": "Jackson County Fairgrounds",
+      "industry": [],
+      "website": "http://www.bigpopgunshows.com/services",
+      "detail_url": "https://www.eventseye.com/fairs/f-pascagoula-gun-show-24425-1.html",
+      "notes": "frequency: twice a year"
+    },
+    {
       "name": "SUPER GIGANTIC GARAGE SALES",
       "start_date": "2026-11-21",
       "end_date": "2026-11-22",
@@ -7499,6 +7511,18 @@
       "industry": [],
       "website": "http://www.performanceracing.com/tradeshow",
       "detail_url": "https://www.eventseye.com/fairs/f-performance-racing-industry-show-4998-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "SALON DU VINTAGE - MIAMI",
+      "start_date": "2026-12-10",
+      "end_date": "2026-12-13",
+      "city": "Miami, FL",
+      "country": "United States",
+      "venue": "Bal Harbour Waterfront Park",
+      "industry": [],
+      "website": "http://salonduvintage.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-salon-du-vintage-miami-33645-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -8085,7 +8109,7 @@
       "country": "United States",
       "venue": "Norris-Penrose Event Center",
       "industry": [],
-      "website": null,
+      "website": "http://www.homeshowcenter.com/overview/ColoradoSprings",
       "detail_url": "https://www.eventseye.com/fairs/f-colorado-springs-home-building-remodeling-show-11118-1.html",
       "notes": "frequency: once a year"
     },
@@ -11618,6 +11642,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "INDY POP CON",
+      "start_date": "2027-03-26",
+      "end_date": "2027-03-28",
+      "city": "Indianapolis, IN",
+      "country": "United States",
+      "venue": "Indiana Convention Center",
+      "industry": [],
+      "website": "http://www.indypopcon.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-indy-pop-con-24151-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "NEW ENGLAND HOME SHOW - LINCOLN",
       "start_date": "2027-03-26",
       "end_date": "2027-03-28",
@@ -12314,6 +12350,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "THE FRANCHISE EXPO - WASHINGTON D.C.",
+      "start_date": "2027-04-17",
+      "end_date": "2027-04-18",
+      "city": "Fairfax, VA",
+      "country": "United States",
+      "venue": "Dulles Expo & Conference Center",
+      "industry": [],
+      "website": "http://www.franchiseshowinfo.com/dcn-virginia/visitor",
+      "detail_url": "https://www.eventseye.com/fairs/f-the-franchise-expo-washington-d.c-17632-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "BUILD POINT",
       "start_date": "2027-04-18",
       "end_date": "2027-04-21",
@@ -12842,6 +12890,30 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "TEFAF NEW YORK - FALL",
+      "start_date": "2027-05-14",
+      "end_date": "2027-05-18",
+      "city": "New York, NY",
+      "country": "United States",
+      "venue": "Park Avenue Armory",
+      "industry": [],
+      "website": "http://www.tefaf.com/fairs/tefaf-new-york",
+      "detail_url": "https://www.eventseye.com/fairs/f-tefaf-new-york-fall-24907-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "TEFAF NEW YORK - SPRING",
+      "start_date": "2027-05-14",
+      "end_date": "2027-05-18",
+      "city": "New York, NY",
+      "country": "United States",
+      "venue": "Park Avenue Armory",
+      "industry": [],
+      "website": "http://www.tefaf.com/fairs/tefaf-new-york-spring",
+      "detail_url": "https://www.eventseye.com/fairs/f-tefaf-new-york-spring-24906-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "DESTINATION WEST",
       "start_date": "2027-05-16",
       "end_date": "2027-05-18",
@@ -13178,6 +13250,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "PHARMACOVIGILANCE USA",
+      "start_date": "2027-05-26",
+      "end_date": "2027-05-27",
+      "city": "Boston, MA",
+      "country": "United States",
+      "venue": null,
+      "industry": [],
+      "website": "http://virtueinsight.com/upcoming-conferences",
+      "detail_url": "https://www.eventseye.com/fairs/f-pharmacovigilance-usa-33211-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "JACKSONVILLE HOME & GARDEN SHOW",
       "start_date": "2027-05-28",
       "end_date": "2027-05-31",
@@ -13187,6 +13271,18 @@
       "industry": [],
       "website": "http://www.homeshowcenter.com/overview/jacksonvillehome",
       "detail_url": "https://www.eventseye.com/fairs/f-jacksonville-home-garden-show-29635-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "LAS VEGAS GEM & JEWELRY SHOW",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-06",
+      "city": "Las Vegas, NV",
+      "country": "United States",
+      "venue": "World Market Center, Las Vegas",
+      "industry": [],
+      "website": "http://jogsshow.com/las-vegas-gem-and-jewelry-show",
+      "detail_url": "https://www.eventseye.com/fairs/f-las-vegas-gem-jewelry-show-30016-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -13211,6 +13307,18 @@
       "industry": [],
       "website": "http://luxury.jckonline.com",
       "detail_url": "https://www.eventseye.com/fairs/f-luxury-by-jck-24609-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "LAS VEGAS ANTIQUE JEWELRY & WATCH SHOW",
+      "start_date": "2027-06-03",
+      "end_date": "2027-06-06",
+      "city": "Las Vegas, NV",
+      "country": "United States",
+      "venue": "Wynn Las Vegas Resort",
+      "industry": [],
+      "website": "http://www.lasvegasantiquejewelryandwatchshow.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-las-vegas-antique-jewelry-watch-show-15290-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -13574,6 +13682,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "LAKESHORE ART FESTIVAL IN MUSKEGON",
+      "start_date": "2027-06-26",
+      "end_date": "2027-06-27",
+      "city": "Muskegon, MI",
+      "country": "United States",
+      "venue": null,
+      "industry": [],
+      "website": "http://www.lakeshoreartfestival.org",
+      "detail_url": "https://www.eventseye.com/fairs/f-lakeshore-art-festival-in-muskegon-24096-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "A&WMA CONFERENCE & EXHIBITION",
       "start_date": "2027-06-28",
       "end_date": "2027-07-01",
@@ -13595,6 +13715,18 @@
       "industry": [],
       "website": "http://esxweb.com",
       "detail_url": "https://www.eventseye.com/fairs/f-esx-electronic-security-expo-12287-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "POWDERMET",
+      "start_date": "2027-06-28",
+      "end_date": "2027-06-30",
+      "city": "Buffalo, NY",
+      "country": "United States",
+      "venue": null,
+      "industry": [],
+      "website": "http://www.mpif.org",
+      "detail_url": "https://www.eventseye.com/fairs/f-powdermet-2140-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -13667,6 +13799,18 @@
       "industry": [],
       "website": "http://www.packexpolasvegas.com",
       "detail_url": "https://www.eventseye.com/fairs/f-pack-expo-las-vegas-28709-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "WISCONSIN MANUFACTURING & TECHNOLOGY SHOW (WMTS)",
+      "start_date": "2027-10-12",
+      "end_date": "2027-10-13",
+      "city": "Milwaukee, WI",
+      "country": "United States",
+      "venue": "Wisconsin Expo Center / State Fair Park",
+      "industry": [],
+      "website": "http://www.epishows.com/wmts",
+      "detail_url": "https://www.eventseye.com/fairs/f-wisconsin-manufacturing-technology-show-(wmts)-20175-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -13763,6 +13907,18 @@
       "industry": [],
       "website": "http://www.tissueworld.com/miami/en/home.html",
       "detail_url": "https://www.eventseye.com/fairs/f-tissue-world-miami-23363-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "AEROSPACE & DEFENSE SUPPLIER SUMMIT SEATTLE",
+      "start_date": "2028-03-28",
+      "end_date": "2028-03-30",
+      "city": "Seattle, WA",
+      "country": "United States",
+      "venue": "Seatle Convention Center",
+      "industry": [],
+      "website": "http://www.seattle.bciaerospace.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-aerospace-defense-supplier-summit-seattle-16540-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -14762,6 +14918,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "OLDTIMER MESSE TULLN",
+      "start_date": "2027-04-24",
+      "end_date": "2027-04-25",
+      "city": "Tulln",
+      "country": "Austria",
+      "venue": "Messe Tulln",
+      "industry": [],
+      "website": "http://www.oldtimermesse.at",
+      "detail_url": "https://www.eventseye.com/fairs/f-oldtimer-messe-tulln-23580-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "CASA POP-UP",
       "start_date": "2027-04-28",
       "end_date": "2027-04-30",
@@ -14772,6 +14940,18 @@
       "website": "http://www.casa-messe.at",
       "detail_url": "https://www.eventseye.com/fairs/f-casa-pop-up-10296-1.html",
       "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "ADVENTURE ALLRAD AUSTRIA",
+      "start_date": "2027-05-06",
+      "end_date": "2027-05-09",
+      "city": "Tulln",
+      "country": "Austria",
+      "venue": "Messe Tulln",
+      "industry": [],
+      "website": "http://allradaustria.at",
+      "detail_url": "https://www.eventseye.com/fairs/f-adventure-allrad-austria-30513-1.html",
+      "notes": "frequency: once a year"
     },
     {
       "name": "HIGH END VIENNA",
@@ -15794,18 +15974,6 @@
       "notes": "frequency: once a year"
     },
     {
-      "name": "FLANDERS HORSE EXPO",
-      "start_date": "2027-02-26",
-      "end_date": "2027-02-28",
-      "city": "Ghent",
-      "country": "Belgium",
-      "venue": "Flanders Expo",
-      "industry": [],
-      "website": "http://www.flanders-horse-expo.be",
-      "detail_url": "https://www.eventseye.com/fairs/f-flanders-horse-expo-11469-1.html",
-      "notes": "frequency: once a year"
-    },
-    {
       "name": "SALON DU MARIAGE DE NAMUR",
       "start_date": "2027-03-06",
       "end_date": "2027-03-07",
@@ -15959,6 +16127,18 @@
       "industry": [],
       "website": "http://www.ae-expo.be/en",
       "detail_url": "https://www.eventseye.com/fairs/f-advanced-engineering-belgium-31834-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "SEAGRICULTURE EU",
+      "start_date": "2027-06-15",
+      "end_date": "2027-06-17",
+      "city": "Ostend",
+      "country": "Belgium",
+      "venue": "Andromeda Hotel Ostend",
+      "industry": [],
+      "website": "http://seagriculture.eu",
+      "detail_url": "https://www.eventseye.com/fairs/f-seagriculture-eu-25896-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -16173,7 +16353,7 @@
       "country": "Denmark",
       "venue": "Exhibition Centre Herning",
       "industry": [],
-      "website": null,
+      "website": "http://www.formland.com",
       "detail_url": "https://www.eventseye.com/fairs/f-formland-9168-1.html",
       "notes": "frequency: twice a year"
     },
@@ -16257,7 +16437,7 @@
       "country": "Denmark",
       "venue": "Radisson Blu Royal Hotel",
       "industry": [],
-      "website": null,
+      "website": "http://commerceinteract.com/event/worlds-leading-wines",
       "detail_url": "https://www.eventseye.com/fairs/f-world-s-leading-wines-copenhagen-22351-1.html",
       "notes": "frequency: once a year"
     },
@@ -16365,7 +16545,7 @@
       "country": "Denmark",
       "venue": "Exhibition Centre Herning",
       "industry": [],
-      "website": null,
+      "website": "http://www.hi-industri.dk",
       "detail_url": "https://www.eventseye.com/fairs/f-hi-industrimessen-1208-1.html",
       "notes": "frequency: every 2 years"
     },
@@ -21292,7 +21472,7 @@
     {
       "name": "SALON DU VINTAGE - PARIS",
       "start_date": "2026-10-15",
-      "end_date": "2026-10-18",
+      "end_date": "2026-10-17",
       "city": "Paris",
       "country": "France",
       "venue": "Galerie Turenne (Galerie Joseph)",
@@ -21755,6 +21935,18 @@
       "industry": [],
       "website": "http://www.parisgamesweek.com/en",
       "detail_url": "https://www.eventseye.com/fairs/f-paris-game-week-23687-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "I'NOV PRO",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "city": "Bordeaux",
+      "country": "France",
+      "venue": "Solarium de Gradignan",
+      "industry": [],
+      "website": "http://www.transtech.fr/saloninovpro",
+      "detail_url": "https://www.eventseye.com/fairs/f-i-nov-pro-34551-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -29270,6 +29462,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "GAME FAIR",
+      "start_date": "2027-06-11",
+      "end_date": "2027-06-13",
+      "city": "Lamotte-Beuvron",
+      "country": "France",
+      "venue": "Parc Équestre Fédéral",
+      "industry": [],
+      "website": "http://www.gamefair.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-game-fair-9369-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "GOURMET FOOD & WINE SELECTION",
       "start_date": "2027-06-13",
       "end_date": "2027-06-14",
@@ -29354,6 +29558,18 @@
       "notes": "frequency: every 2 years"
     },
     {
+      "name": "SALON DE L'ETUDIANT DE PARIS",
+      "start_date": "2027-06-19",
+      "end_date": "2027-06-19",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Espace Champerret",
+      "industry": [],
+      "website": "http://salon-cap-sur-la-rentree-paris.salon.letudiant.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-salon-de-l-etudiant-de-paris-30402-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "SECURFOOD PACKINNOVE EUROPE",
       "start_date": "2027-06-22",
       "end_date": "2027-06-23",
@@ -29375,6 +29591,42 @@
       "industry": [],
       "website": "http://www.sifer-expo.com/en-gb.html",
       "detail_url": "https://www.eventseye.com/fairs/f-sifer-2479-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "PRESTIGE AUTO BEAUNE",
+      "start_date": "2027-06-24",
+      "end_date": "2027-06-27",
+      "city": "Beaune",
+      "country": "France",
+      "venue": "Palais des Congrès - Beaune",
+      "industry": [],
+      "website": "http://www.prestige-eventsbfc.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-prestige-auto-beaune-29352-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "JAZZ À VIENNE",
+      "start_date": "2027-06-25",
+      "end_date": "2027-07-10",
+      "city": "Vienne (France)",
+      "country": "France",
+      "venue": "Théâtre Antique de Vienne",
+      "industry": [],
+      "website": "http://www.jazzavienne.com/en",
+      "detail_url": "https://www.eventseye.com/fairs/f-jazz-a-vienne-30317-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "JNC",
+      "start_date": "2027-07-05",
+      "end_date": "2027-07-07",
+      "city": "Lorient",
+      "country": "France",
+      "venue": "Parc des expositions de Lorient",
+      "industry": [],
+      "website": "http://amac-composites.org/missions/journees-nationales-composites",
+      "detail_url": "https://www.eventseye.com/fairs/f-jnc-12568-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -29400,6 +29652,18 @@
       "website": "http://www.paimpol-festival.bzh",
       "detail_url": "https://www.eventseye.com/fairs/f-festival-du-chant-de-marin-32988-1.html",
       "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "3D PRINT CONGRESS & EXHIBITION - LYON",
+      "start_date": "2027-09-15",
+      "end_date": "2027-09-16",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Eurexpo",
+      "industry": [],
+      "website": "http://www.3dprint-exhibition-lyon.com/en",
+      "detail_url": "https://www.eventseye.com/fairs/f-3d-print-congress-exhibition-lyon-27297-1.html",
+      "notes": "frequency: once a year"
     },
     {
       "name": "FMTM - FESTIVAL MONDIAL DES THÉÂTRES DE MARIONNETTES",
@@ -29580,6 +29844,18 @@
       "website": "http://leopro.fr/salon-maison-colmar",
       "detail_url": "https://www.eventseye.com/fairs/f-salon-maison-de-colmar-34380-1.html",
       "notes": "frequency: once a year"
+    },
+    {
+      "name": "EURADH",
+      "start_date": "2027-11-03",
+      "end_date": "2027-11-05",
+      "city": "Toulouse",
+      "country": "France",
+      "venue": "Espaces Vanel",
+      "industry": [],
+      "website": "http://www.iom3.org/events-awards/euradh-2027.html",
+      "detail_url": "https://www.eventseye.com/fairs/f-euradh-26016-1.html",
+      "notes": "frequency: every 2 years"
     },
     {
       "name": "MILIPOL PARIS",
@@ -29783,6 +30059,18 @@
       "industry": [],
       "website": "http://www.eurobois.net/en",
       "detail_url": "https://www.eventseye.com/fairs/f-eurobois-776-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "EUROMARITIME",
+      "start_date": "2028-02-01",
+      "end_date": "2028-02-03",
+      "city": "Marseille",
+      "country": "France",
+      "venue": "Parc Chanot",
+      "industry": [],
+      "website": "http://www.euromaritime.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-euromaritime-22162-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -37862,6 +38150,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "PREMIUM REAL ESTATE EXPO",
+      "start_date": "2027-04-02",
+      "end_date": "2027-04-04",
+      "city": "Athens",
+      "country": "Greece",
+      "venue": "Athens Metropolitan Expo",
+      "industry": [],
+      "website": "http://rexpo.gr/en/home-page",
+      "detail_url": "https://www.eventseye.com/fairs/f-premium-real-estate-expo-27532-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "FRESKON",
       "start_date": "2027-04-15",
       "end_date": "2027-04-17",
@@ -37968,6 +38268,18 @@
       "website": "http://www.idealhome.ie",
       "detail_url": "https://www.eventseye.com/fairs/f-ptsb-ideal-home-show-8706-1.html",
       "notes": "frequency: twice a year"
+    },
+    {
+      "name": "FARM MACHINERY SHOW IRELAND",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Punchestown",
+      "country": "Ireland",
+      "venue": "Punchestown Event Centre",
+      "industry": [],
+      "website": "http://ftmta.ie/events",
+      "detail_url": "https://www.eventseye.com/fairs/f-farm-machinery-show-ireland-5439-1.html",
+      "notes": "frequency: every 2 years"
     },
     {
       "name": "DATACENTRES IRELAND",
@@ -39062,6 +39374,30 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CARRARA SPOSI EXPO",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-04",
+      "city": "Carrara",
+      "country": "Italy",
+      "venue": "CarraraFiere",
+      "industry": [],
+      "website": "http://www.sposiexpo.it/Carrara",
+      "detail_url": "https://www.eventseye.com/fairs/f-carrara-sposi-expo-23547-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "L'AQUILA SPOSI EXPO",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-04",
+      "city": "L'Aquila",
+      "country": "Italy",
+      "venue": "Palazzo Palitti",
+      "industry": [],
+      "website": "http://www.sposiexpo.it/aquila",
+      "detail_url": "https://www.eventseye.com/fairs/f-l-aquila-sposi-expo-30912-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "MERCANTEINFIERA AUTUNNO",
       "start_date": "2026-10-03",
       "end_date": "2026-10-11",
@@ -39098,6 +39434,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "PERUGIA SPOSI EXPO",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-04",
+      "city": "Perugia",
+      "country": "Italy",
+      "venue": "Villa Pignattelli",
+      "industry": [],
+      "website": "http://sposiexpo.it",
+      "detail_url": "https://www.eventseye.com/fairs/f-perugia-sposi-expo-29808-1.html",
+      "notes": "frequency: twice a year"
+    },
+    {
       "name": "PISTOIA SPOSI EXPO",
       "start_date": "2026-10-03",
       "end_date": "2026-10-04",
@@ -39131,6 +39479,18 @@
       "industry": [],
       "website": "http://sposiexpo.it",
       "detail_url": "https://www.eventseye.com/fairs/f-piemonte-sposi-expo-34366-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "RAVENNA SPOSI EXPO",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-04",
+      "city": "Ravenna",
+      "country": "Italy",
+      "venue": "Palazzo Rasponi dalle Teste",
+      "industry": [],
+      "website": "http://www.sposiexpo.it/ravenna",
+      "detail_url": "https://www.eventseye.com/fairs/f-ravenna-sposi-expo-29805-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -40934,6 +41294,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CASA SU MISURA",
+      "start_date": "2027-02-13",
+      "end_date": "2027-02-21",
+      "city": "Padua",
+      "country": "Italy",
+      "venue": "PadovaFiere",
+      "industry": [],
+      "website": "http://www.casasumisura.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-casa-su-misura-11713-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "AQUA FARM",
       "start_date": "2027-02-17",
       "end_date": "2027-02-18",
@@ -41714,6 +42086,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "FOTOMERCATO",
+      "start_date": "2027-04-24",
+      "end_date": "2027-04-27",
+      "city": "Pordenone",
+      "country": "Italy",
+      "venue": "Pordenone Fiere",
+      "industry": [],
+      "website": "http://www.fierapordenone.it/eventi/extracon-2027",
+      "detail_url": "https://www.eventseye.com/fairs/f-fotomercato-29440-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "RADIOAMATORE TECH EXPO",
       "start_date": "2027-04-24",
       "end_date": "2027-04-25",
@@ -41795,6 +42179,30 @@
       "industry": [],
       "website": "http://recycling.thepeopleevents.com",
       "detail_url": "https://www.eventseye.com/fairs/f-world-recycling-convention-30989-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "FIERA DI PADOVA - AUTO",
+      "start_date": "2027-05-08",
+      "end_date": "2027-05-16",
+      "city": "Padua",
+      "country": "Italy",
+      "venue": "PadovaFiere",
+      "industry": [],
+      "website": "http://campionaria.it/aree/auto",
+      "detail_url": "https://www.eventseye.com/fairs/f-fiera-di-padova-auto-18225-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "LA FIERA CAMPIONARIA",
+      "start_date": "2027-05-08",
+      "end_date": "2027-05-16",
+      "city": "Padua",
+      "country": "Italy",
+      "venue": "PadovaFiere",
+      "industry": [],
+      "website": "http://www.campionaria.it",
+      "detail_url": "https://www.eventseye.com/fairs/f-la-fiera-campionaria-10102-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -42144,18 +42552,6 @@
       "website": "http://smartbuildingexpo.it",
       "detail_url": "https://www.eventseye.com/fairs/f-smart-building-expo-16744-1.html",
       "notes": "frequency: every 2 years"
-    },
-    {
-      "name": "FOTOMERCATO",
-      "start_date": "2027-11-20",
-      "end_date": "2027-11-21",
-      "city": "Pordenone",
-      "country": "Italy",
-      "venue": "Pordenone Fiere",
-      "industry": [],
-      "website": "http://www.fierapordenone.it/eventi/extracon-2027",
-      "detail_url": "https://www.eventseye.com/fairs/f-fotomercato-29440-1.html",
-      "notes": "frequency: once a year"
     },
     {
       "name": "FIERAGRICOLA",
@@ -42527,6 +42923,18 @@
       "industry": [],
       "website": "http://artmontecarlo.ch",
       "detail_url": "https://www.eventseye.com/fairs/f-art-monte-carlo-23578-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "TOP MARQUES MONACO",
+      "start_date": "2027-05-05",
+      "end_date": "2027-05-09",
+      "city": "Monaco",
+      "country": "Monaco",
+      "venue": "Grimaldi Forum",
+      "industry": [],
+      "website": "http://www.topmarquesmonaco.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-top-marques-monaco-21292-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -45134,6 +45542,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "GIROCÀMPING PRO",
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "city": "Girona",
+      "country": "Spain",
+      "venue": "Palacio de Congresos de Girona",
+      "industry": [],
+      "website": "http://campingsingirona.com/girocampingPRO",
+      "detail_url": "https://www.eventseye.com/fairs/f-girocamping-pro-22296-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "SEATRADE CRUISE MED",
       "start_date": "2026-09-23",
       "end_date": "2026-09-24",
@@ -45179,18 +45599,6 @@
       "industry": [],
       "website": "http://www.ifema.es/en/estampa",
       "detail_url": "https://www.eventseye.com/fairs/f-estampa-13679-1.html",
-      "notes": "frequency: once a year"
-    },
-    {
-      "name": "GIROCÀMPING PRO",
-      "start_date": "2026-09-24",
-      "end_date": "2026-09-24",
-      "city": "Girona",
-      "country": "Spain",
-      "venue": "Palacio de Congresos de Girona",
-      "industry": [],
-      "website": "http://campingsingirona.com/girocampingPRO",
-      "detail_url": "https://www.eventseye.com/fairs/f-girocamping-pro-22296-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -46598,6 +47006,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CARAVANING ALICANTE",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-14",
+      "city": "Alicante",
+      "country": "Spain",
+      "venue": "IFA - Fira Alicant",
+      "industry": [],
+      "website": "http://www.caravaning-alicante.es",
+      "detail_url": "https://www.eventseye.com/fairs/f-caravaning-alicante-11254-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
       "name": "FÒRUM GASTRONÒMIC DE GIRONA",
       "start_date": "2027-02-08",
       "end_date": "2027-02-10",
@@ -46607,6 +47027,18 @@
       "industry": [],
       "website": "http://www.forumgirona.com/en",
       "detail_url": "https://www.eventseye.com/fairs/f-forum-gastronomic-de-girona-25075-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "H & T",
+      "start_date": "2027-02-08",
+      "end_date": "2027-02-10",
+      "city": "Malaga",
+      "country": "Spain",
+      "venue": "Palacio de Ferias y Congresos de Malaga",
+      "industry": [],
+      "website": "http://salonhyt.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-h-t-13186-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -47258,6 +47690,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "TECHNARTE BILBAO",
+      "start_date": "2027-05-21",
+      "end_date": "2027-05-21",
+      "city": "Bilbao",
+      "country": "Spain",
+      "venue": "Palacio de Congresos Euskalduna",
+      "industry": [],
+      "website": "http://technarte.org/en/the-conference",
+      "detail_url": "https://www.eventseye.com/fairs/f-technarte-bilbao-22680-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "PICK & PACK",
       "start_date": "2027-05-26",
       "end_date": "2027-05-27",
@@ -47784,6 +48228,18 @@
       "website": "http://www.scifiworld.se",
       "detail_url": "https://www.eventseye.com/fairs/f-the-scandinavian-sci-fi-game-film-convention-helsingborg-25175-1.html",
       "notes": "frequency: once a year"
+    },
+    {
+      "name": "AUDIO - VIDEO - LIGHTING, LLB EXPO",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-08",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "venue": "Stockholmsmässan - Stockholm International Fairs",
+      "industry": [],
+      "website": "http://llbexpo.se/en",
+      "detail_url": "https://www.eventseye.com/fairs/f-audio-video-lighting-llb-expo-16928-1.html",
+      "notes": "frequency: every 2 years"
     },
     {
       "name": "HEM, VILLA & BOSTADSRÄTT STOCKHOLM",
@@ -52334,6 +52790,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "AI WORLD CONGRESS",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-26",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Kensington Conference and Events Centre",
+      "industry": [],
+      "website": "http://aiconference.london",
+      "detail_url": "https://www.eventseye.com/fairs/f-ai-world-congress-32501-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "ELEMENTAL LONDON",
       "start_date": "2026-11-25",
       "end_date": "2026-11-26",
@@ -53858,6 +54326,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "PHOTO LONDON",
+      "start_date": "2027-05-13",
+      "end_date": "2027-05-16",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Somerset House",
+      "industry": [],
+      "website": "http://photolondon.org",
+      "detail_url": "https://www.eventseye.com/fairs/f-photo-london-29703-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "ROYAL WINDSOR HORSE SHOW",
       "start_date": "2027-05-13",
       "end_date": "2027-05-16",
@@ -53894,6 +54374,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "LONDON WINE FAIR",
+      "start_date": "2027-05-17",
+      "end_date": "2027-05-19",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Olympia Exhibition Centre",
+      "industry": [],
+      "website": "http://www.londonwinefair.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-london-wine-fair-12809-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "BANKING TRANSFORMATION SUMMIT",
       "start_date": "2027-05-18",
       "end_date": "2027-05-19",
@@ -53918,6 +54410,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CHELSEA FLOWER SHOW",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-22",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Royal Hospital Chelsea",
+      "industry": [],
+      "website": "http://www.rhs.org.uk/chelsea",
+      "detail_url": "https://www.eventseye.com/fairs/f-chelsea-flower-show-6178-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "FIT SHOW",
       "start_date": "2027-05-18",
       "end_date": "2027-05-20",
@@ -53939,6 +54443,18 @@
       "industry": [],
       "website": "http://www.chemicalukexpo.com/interest",
       "detail_url": "https://www.eventseye.com/fairs/f-chemuk-expo-29482-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "PARKEX INTERNATIONAL",
+      "start_date": "2027-05-19",
+      "end_date": "2027-05-20",
+      "city": "Coventry",
+      "country": "United Kingdom",
+      "venue": "Coventry Building Society Arena",
+      "industry": [],
+      "website": "http://www.parkex.net",
+      "detail_url": "https://www.eventseye.com/fairs/f-parkex-international-8223-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -54326,18 +54842,6 @@
       "notes": "frequency: every 2 years"
     },
     {
-      "name": "EURADH",
-      "start_date": "2027-09-13",
-      "end_date": "2027-09-15",
-      "city": "Cambridge",
-      "country": "United Kingdom",
-      "venue": null,
-      "industry": [],
-      "website": "http://www.iom3.org/events-awards/euradh-2027.html",
-      "detail_url": "https://www.eventseye.com/fairs/f-euradh-26016-1.html",
-      "notes": "frequency: every 2 years"
-    },
-    {
       "name": "LISW - LONDON INTERNATIONAL SHIPPING WEEK",
       "start_date": "2027-09-13",
       "end_date": "2027-09-17",
@@ -54395,6 +54899,18 @@
       "industry": [],
       "website": "http://www.oceanologyinternational.com/london/en-gb.html",
       "detail_url": "https://www.eventseye.com/fairs/f-oi-oceanology-international-2018-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "MACH",
+      "start_date": "2028-04-03",
+      "end_date": "2028-04-07",
+      "city": "Birmingham",
+      "country": "United Kingdom",
+      "venue": "National Exhibition Centre",
+      "industry": [],
+      "website": "http://www.machexhibition.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-mach-1737-1.html",
       "notes": "frequency: every 2 years"
     },
     {
