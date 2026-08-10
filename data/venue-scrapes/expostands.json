@@ -1,6 +1,6 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-08-03T08:24:35.608Z",
+  "scraped_at": "2026-08-10T06:12:19.252Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
     {
@@ -676,6 +676,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-microwave-week/"
     },
     {
+      "name": "Madrid Tech Show 2026",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-05",
+      "city": null,
+      "country": "Spain",
+      "venue": "IFEMA MADRID",
+      "industry": [
+        "Technology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-madrid-tech-show/"
+    },
+    {
       "name": "EXPO REAL 2026",
       "start_date": "2026-10-05",
       "end_date": "2026-10-07",
@@ -1126,6 +1138,758 @@
         "Aviation"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-mro-europe/"
+    },
+    {
+      "name": "GET 2026",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-06",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Hannover Congress Centrum",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eage-get/"
+    },
+    {
+      "name": "Smart City Expo World Congress 2026 Barcelona",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": null,
+      "country": null,
+      "venue": "Fira Barcelona Gran Via, Barcelona",
+      "industry": [
+        "Construction"
+      ],
+      "website": "https://www.expoexhibitionstands.com/smart-city-expo-world-congress/"
+    },
+    {
+      "name": "FMB 2026",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": "Bad Salzuflen",
+      "country": "Germany",
+      "venue": "Messezentrum Bad Salzuflen",
+      "industry": [
+        "Mechanical Engineering"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fmb/"
+    },
+    {
+      "name": "Welding Week 2026 Gorinchem",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-05",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "Evenementenhal Gorinchem",
+      "industry": [
+        "Manufacturing & Industrial Engineering"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-welding-week-netherland/"
+    },
+    {
+      "name": "MetalMadrid 2026",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-metalmadrid/"
+    },
+    {
+      "name": "European Commodities Exchange 2026",
+      "start_date": "2026-11-05",
+      "end_date": "2026-11-06",
+      "city": "Rotterdam, the",
+      "country": "Netherlands",
+      "venue": "Rotterdam Ahoy",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-commodities-exchange/"
+    },
+    {
+      "name": "infotage FACHDENTAL Frankfurt 2026",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-07",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Messe Frankfurt",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-infotage-fachdental/"
+    },
+    {
+      "name": "Alles für den Gast 2026",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-10",
+      "city": "Salzburg",
+      "country": "Austria",
+      "venue": "Messezentrum Salzburg",
+      "industry": [
+        "Hospitality"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-alles-fur-den-gast/"
+    },
+    {
+      "name": "ISPOR Europe 2026",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-11",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Austria Center Vienna",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/ispor-europe/"
+    },
+    {
+      "name": "Web Summit Lisbon 2026",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-12",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "venue": "MEO Arena and Lisbon Exhibition & Congress Centre, Lisbon",
+      "industry": [
+        "Technology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-web-summit-lisbon/"
+    },
+    {
+      "name": "Adhesives & Bonding Expo 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart (Hall 1)",
+      "industry": [
+        "Industrial Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-adhesives-bonding-expo/"
+    },
+    {
+      "name": "Thermal Management Expo Europe 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Advanced Manufacturing and Engineering"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-thermal-management-expo-europe/"
+    },
+    {
+      "name": "Enlit Europe 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Messe Wien Exhibition Centre",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-enlit-europe/"
+    },
+    {
+      "name": "Foam Expo 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2025-11-12",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Material Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-foam-expo/"
+    },
+    {
+      "name": "VAKBEURS Recycling 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "city": "Gorinchem, the",
+      "country": "Netherlands",
+      "venue": "Evenementenhal Gorinchem, Gorinchem",
+      "industry": [
+        "Environment"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vakbeurs-recycling/"
+    },
+    {
+      "name": "SEMICON Europa 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-13",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Semiconductors"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-semicon-europa/"
+    },
+    {
+      "name": "BrauBeviale 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Exhibition Centre Nuremberg",
+      "industry": [
+        "Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-braubeviale-nuremberg/"
+    },
+    {
+      "name": "electronica 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-13",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munchen",
+      "industry": [
+        "Electronics"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-electronica/"
+    },
+    {
+      "name": "Eurotier 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-13",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Messe Hannover",
+      "industry": [
+        "Animal Farming and Livestock Management"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eurotier-hannover-germany/"
+    },
+    {
+      "name": "PMW Expo 2026",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-12",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pmw-expo/"
+    },
+    {
+      "name": "SIMO Educacion 2026",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA MADRID",
+      "industry": [
+        "Edutech"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-simo-educacion/"
+    },
+    {
+      "name": "MIF Expo Paris 2026",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-15",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Retail"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-mif-expo/"
+    },
+    {
+      "name": "Horeca Expo 2026",
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-18",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": null,
+      "industry": [
+        "Hospitality"
+      ],
+      "website": "https://www.expoexhibitionstands.com/horeca-expo/"
+    },
+    {
+      "name": "MEDICA 2026",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-19",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medica-dusseldorf/"
+    },
+    {
+      "name": "Heavent Paris 2026",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles, Hall 4",
+      "industry": [
+        "Event Management"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-heavent-paris/"
+    },
+    {
+      "name": "IBTM 2026",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira Barcelona Gran Via",
+      "industry": [
+        "Global Meeting & Events"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ibtm-world/"
+    },
+    {
+      "name": "Formnext 2026",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-20",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Frankfurt am Main",
+      "industry": [
+        "Advanced Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-formnext-frankfurt/"
+    },
+    {
+      "name": "Space Tech Expo Europe 2026",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe Bremen",
+      "industry": [
+        "Aerospace and Defence"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-space-tech-expo-europe/"
+    },
+    {
+      "name": "Metstrade 2026",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-19",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam",
+      "industry": [
+        "Marine & Maritime Technology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-metstrade-show-amsterdam/"
+    },
+    {
+      "name": "Piscine Global -",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-20",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Eurexpo Lyon",
+      "industry": [
+        "Fitness and Wellness"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-piscine-global/"
+    },
+    {
+      "name": "Precision Fair 2026 's-Hertogenbosch",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-19",
+      "city": "‘s-Hertogenbosch",
+      "country": "Netherlands",
+      "venue": "Brabanthallen",
+      "industry": [
+        "Precision Technology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-precision-fair/"
+    },
+    {
+      "name": "Cloud & AI Infrastructure Paris 2026",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-19",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Porte de Versailles",
+      "industry": [
+        "IT"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-cloud-ai-infrastructure-paris/"
+    },
+    {
+      "name": "Paint & Coatings 2026 Barcelona",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-19",
+      "city": null,
+      "country": null,
+      "venue": "La Farga, L’Hospitalet de Llobregat, Barcelona",
+      "industry": [
+        "Materials & Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-paint-coatings/"
+    },
+    {
+      "name": "NEDS 2026",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "venue": "Rotterdam Ahoy",
+      "industry": [
+        "Defence & Security"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-nidv-exhibition-defence-security/"
+    },
+    {
+      "name": "Berufsinformationsmesse 2026",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-22",
+      "city": "Salzburg",
+      "country": "Austria",
+      "venue": "Messezentrum Salzburg",
+      "industry": [
+        "Education and Career Development"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-berufsinformationsmesse/"
+    },
+    {
+      "name": "Spiele Messe 2026",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-21",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "MESSE STUTTGART",
+      "industry": [
+        "Games"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-spiele-messe/"
+    },
+    {
+      "name": "GET NORD 2026",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-21",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Construction"
+      ],
+      "website": "https://www.expoexhibitionstands.com/get-nord-hamburg/"
+    },
+    {
+      "name": "IP Service World 2026",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-24",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Holiday Inn Munich City Centre",
+      "industry": [
+        "IT"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ip-service-world/"
+    },
+    {
+      "name": "IME 2026",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-24",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Frankfurt Marriott Hotel",
+      "industry": [
+        "Investment and Economic Development"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-international-management-exhibition/"
+    },
+    {
+      "name": "All4Pack 2026",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-26",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte, Paris",
+      "industry": [],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-all4pack-emballage-paris/"
+    },
+    {
+      "name": "Future Battery Forum 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-25",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "ECC Berlin",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-future-battery-forum/"
+    },
+    {
+      "name": "OEEC 2026 Amsterdam, The",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-25",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam Convention Centre",
+      "industry": [],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-offshore-energy-exhibition-conference/"
+    },
+    {
+      "name": "HEATEXPO 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-26",
+      "city": "Dortmund",
+      "country": "Germany",
+      "venue": "Messe Dortmund",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-heat-expo/"
+    },
+    {
+      "name": "PMRExpo 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-26",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "IT"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pmr-expo-cologne/"
+    },
+    {
+      "name": "MATELEC 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-26",
+      "city": "IFEMA MADRID",
+      "country": "Spain",
+      "venue": "IFEMA MADRID",
+      "industry": [
+        "Electronics"
+      ],
+      "website": "https://www.expoexhibitionstands.com/matelec/"
+    },
+    {
+      "name": "SPS 2026",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-26",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Exhibition Centre Nuremberg",
+      "industry": [
+        "Automation"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sps/"
+    },
+    {
+      "name": "Food & Life 2026",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-29",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Food & Beverages"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-food-life/"
+    },
+    {
+      "name": "Essen Motor Show 2026",
+      "start_date": "2026-11-28",
+      "end_date": "2026-12-07",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Essen, Essen",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-essen-motor-show/"
+    },
+    {
+      "name": "ILTM Cannes 2026",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-03",
+      "city": "Cannes",
+      "country": "France",
+      "venue": "Palais des Festivals et des Congres",
+      "industry": [
+        "Travel"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iltm-cannes/"
+    },
+    {
+      "name": "European Rotors 2026",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-03",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "EUREXPO",
+      "industry": [
+        "Aviation & Rotorcraft"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-rotors/"
+    },
+    {
+      "name": "Valve World Expo 2026",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-03",
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "venue": "Messe Düsseldorf",
+      "industry": [
+        "Manufacturing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-valve-world-expo/"
+    },
+    {
+      "name": "VINITECH - SIFEL 2026",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-03",
+      "city": "Bordeaux",
+      "country": "France",
+      "venue": "Parc des Expositions de Bordeaux",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-vinitech-sifel-bordeaux/"
+    },
+    {
+      "name": "TRUSTECH 2026",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-03",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Technology and Security"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-trustech-paris/"
+    },
+    {
+      "name": "VdS-FireSafety Cologne 2026",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-03",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Cologne, Germany"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vds-firesafety/"
+    },
+    {
+      "name": "EACVI 2026",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Allianz MiCo",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eacvi/"
+    },
+    {
+      "name": "AUSA LANDEURO 2026",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-04",
+      "city": "Wiesbaden",
+      "country": "Germany",
+      "venue": "RheinMain CongressCenter (RMCC)",
+      "industry": [
+        "Defence and Military"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ausa-landeuro/"
+    },
+    {
+      "name": "PASSION PFERD 2026",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-06",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Hannover Fairground",
+      "industry": [
+        "Equestrian Sports"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-passion-pferd/"
+    },
+    {
+      "name": "Minerale Hamburg-Schnelsen 2026",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-06",
+      "city": null,
+      "country": "Germany",
+      "venue": "MesseHalle Hamburg-Schnelsen",
+      "industry": [
+        "Jewellery & Gemstones"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-minerale-hamburg-schnelsen/"
+    },
+    {
+      "name": "Salon SIMI 2026",
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-10",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Porte de Versailles",
+      "industry": [
+        "Real Estate"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-salonsimi/"
+    },
+    {
+      "name": "Deutscher Wirbelsaulenkongress 2026",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-11",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Nuremberg Convention Center",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-deutscher-wirbelsaulenkongress/"
+    },
+    {
+      "name": "EnerGaia Forum 2026",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-10",
+      "city": "Montpellier",
+      "country": "France",
+      "venue": "Parc des Expositions de Montpellier",
+      "industry": [
+        "Renewable Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-energaia-the-renewable-energy-forum/"
+    },
+    {
+      "name": "BOTTLE MARKET 2026",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-12",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe Bremen",
+      "industry": [
+        "Spirits & Wine"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bottle-market/"
+    },
+    {
+      "name": "Fi Europe 2026 Frankfurt, Germany",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-19",
+      "city": "Frankfurt",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/food-ingredients-europe-fi-global/"
     }
   ]
 }
