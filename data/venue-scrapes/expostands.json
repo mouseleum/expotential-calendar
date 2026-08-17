@@ -1,20 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-08-10T06:12:19.252Z",
+  "scraped_at": "2026-08-17T05:31:08.182Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Maker Faire Hannover 2026",
-      "start_date": "2026-08-15",
-      "end_date": "2026-08-16",
-      "city": null,
-      "country": "Germany",
-      "venue": "Hannover Congress Centrum",
-      "industry": [
-        "Technology"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-maker-faire-hannover/"
-    },
     {
       "name": "AMEE 2026 Vienna (ACV), Vienna",
       "start_date": "2026-08-22",
