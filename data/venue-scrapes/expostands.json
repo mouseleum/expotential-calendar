@@ -1,20 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-08-17T05:31:08.182Z",
+  "scraped_at": "2026-08-24T05:34:45.086Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "AMEE 2026 Vienna (ACV), Vienna",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-26",
-      "city": null,
-      "country": null,
-      "venue": null,
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-amee/"
-    },
     {
       "name": "Plantarium/GROEN-Direkt Autumn Edition 2026 The",
       "start_date": "2026-08-26",
