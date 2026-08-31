@@ -1,6 +1,2110 @@
 {
   "refreshes": [
     {
+      "date": "2026-08-31",
+      "added": [
+        {
+          "id": "salon-des-antiquaires-de-guerande-guerande-2026-08",
+          "name": "SALON DES ANTIQUAIRES DE GUÉRANDE",
+          "city": "Guérande",
+          "country": "France",
+          "start_date": "2026-08-08",
+          "end_date": "2026-08-16"
+        },
+        {
+          "id": "optical-engineering-applications-part-of-optics-photonics-san-diego-ca-2026-08",
+          "name": "OPTICAL ENGINEERING + APPLICATIONS (PART OF OPTICS+PHOTONICS)",
+          "city": "San Diego, CA",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "photonic-devices-applications-part-of-optics-photonics-san-diego-ca-2026-08",
+          "name": "PHOTONIC DEVICES + APPLICATIONS (PART OF OPTICS+PHOTONICS)",
+          "city": "San Diego, CA",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "spie-nanoscience-engineering-part-of-optics-photonics-san-diego-ca-2026-08",
+          "name": "SPIE NANOSCIENCE + ENGINEERING (PART OF OPTICS+PHOTONICS)",
+          "city": "San Diego, CA",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "connect-marketplace-tampa-fl-2026-08",
+          "name": "CONNECT MARKETPLACE",
+          "city": "Tampa, FL",
+          "country": "United States",
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "formex-stockholm-2026-08",
+          "name": "FORMEX",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "wood-products-and-technology-gothenburg-2026-08",
+          "name": "WOOD PRODUCTS & TECHNOLOGY",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "broadband-communities-summit-houston-tx-2026-08",
+          "name": "BROADBAND COMMUNITIES SUMMIT",
+          "city": "Houston, TX",
+          "country": "United States",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "abastur-mexico-city-2026-08",
+          "name": "ABASTUR",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "textech-bangladesh-dhaka-2026-09",
+          "name": "Textech Bangladesh",
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "start_date": "2026-09-02",
+          "end_date": "2026-09-05"
+        },
+        {
+          "id": "pax-west-seattle-wa-2026-09",
+          "name": "PAX West",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-07"
+        },
+        {
+          "id": "antigo-ice-arena-gun-show-antigo-wi-2026-09",
+          "name": "ANTIGO ICE ARENA GUN SHOW",
+          "city": "Antigo, WI",
+          "country": "United States",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-06"
+        },
+        {
+          "id": "polecon-the-international-pole-convention-phoenix-az-2026-09",
+          "name": "PoleCon - The International Pole Convention",
+          "city": "Phoenix, AZ",
+          "country": "United States",
+          "start_date": "2026-09-11",
+          "end_date": "2026-09-13"
+        },
+        {
+          "id": "hplc-congress-rome-2026-09",
+          "name": "HPLC CONGRESS",
+          "city": "Rome",
+          "country": "Italy",
+          "start_date": "2026-09-14",
+          "end_date": "2026-09-15"
+        },
+        {
+          "id": "evertiq-expo-gothenburg-2026-09",
+          "name": "Evertiq Expo",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "start_date": "2026-09-17",
+          "end_date": "2026-09-17"
+        },
+        {
+          "id": "habitat-deco-rouen-rouen-2026-09",
+          "name": "HABITAT DÉCO ROUEN",
+          "city": "Rouen",
+          "country": "France",
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-20"
+        },
+        {
+          "id": "second-home-expo-den-bosch-hertogenbosch-2026-09",
+          "name": "SECOND HOME EXPO - DEN BOSCH",
+          "city": "Hertogenbosch",
+          "country": "Netherlands",
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-20"
+        },
+        {
+          "id": "japan-weekend-bilbao-bilbao-2026-10",
+          "name": "JAPAN WEEKEND BILBAO",
+          "city": "Bilbao",
+          "country": "Spain",
+          "start_date": "2026-10-03",
+          "end_date": "2026-10-03"
+        },
+        {
+          "id": "spacioboda-malaga-malaga-2026-10",
+          "name": "SPACIOBODA - MÁLAGA",
+          "city": "Malaga",
+          "country": "Spain",
+          "start_date": "2026-10-03",
+          "end_date": "2026-10-04"
+        },
+        {
+          "id": "festival-du-cinema-feministe-les-lilas-2026-10",
+          "name": "FESTIVAL DU CINÉMA FÉMINISTE",
+          "city": "Les Lilas",
+          "country": "France",
+          "start_date": "2026-10-07",
+          "end_date": "2026-10-11"
+        },
+        {
+          "id": "congresso-aplog-lisbon-2026-10",
+          "name": "CONGRESSO APLOG",
+          "city": "Lisbon",
+          "country": "Portugal",
+          "start_date": "2026-10-13",
+          "end_date": "2026-10-14"
+        },
+        {
+          "id": "tgca-show-auction-and-display-awards-denton-tx-2026-10",
+          "name": "TGCA SHOW, AUCTION AND DISPLAY AWARDS",
+          "city": "Denton, TX",
+          "country": "United States",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-18"
+        },
+        {
+          "id": "salon-des-collectionneurs-mulhouse-mulhouse-2026-10",
+          "name": "SALON DES COLLECTIONNEURS - MULHOUSE",
+          "city": "Mulhouse",
+          "country": "France",
+          "start_date": "2026-10-18",
+          "end_date": "2026-10-18"
+        },
+        {
+          "id": "stoffen-spektakel-nijkerk-nijkerk-2026-10",
+          "name": "STOFFEN SPEKTAKEL NIJKERK",
+          "city": "Nijkerk",
+          "country": "Netherlands",
+          "start_date": "2026-10-21",
+          "end_date": "2026-10-21"
+        },
+        {
+          "id": "evertiq-expo-warsaw-2026-10",
+          "name": "Evertiq Expo",
+          "city": "Warsaw",
+          "country": "Poland",
+          "start_date": "2026-10-22",
+          "end_date": "2026-10-22"
+        },
+        {
+          "id": "foire-teillouse-grande-foire-aux-marrons-redon-2026-10",
+          "name": "FOIRE TEILLOUSE - GRANDE FOIRE AUX MARRONS",
+          "city": "Redon",
+          "country": "France",
+          "start_date": "2026-10-23",
+          "end_date": "2026-10-25"
+        },
+        {
+          "id": "mostra-mercato-dell-artigianato-erba-2026-10",
+          "name": "MOSTRA MERCATO DELL’ARTIGIANATO",
+          "city": "Erba",
+          "country": "Italy",
+          "start_date": "2026-10-24",
+          "end_date": "2026-11-01"
+        },
+        {
+          "id": "functional-fabric-fair-fall-portland-or-2026-10",
+          "name": "Functional Fabric Fair Fall",
+          "city": "Portland, OR",
+          "country": "United States",
+          "start_date": "2026-10-26",
+          "end_date": "2026-10-28"
+        },
+        {
+          "id": "salon-des-vins-de-terroir-arras-2026-10",
+          "name": "SALON DES VINS DE TERROIR",
+          "city": "Arras",
+          "country": "France",
+          "start_date": "2026-10-30",
+          "end_date": "2026-11-01"
+        },
+        {
+          "id": "stoffen-spektakel-houten-houten-2026-11",
+          "name": "STOFFEN SPEKTAKEL HOUTEN",
+          "city": "Houten",
+          "country": "Netherlands",
+          "start_date": "2026-11-01",
+          "end_date": "2026-11-01"
+        },
+        {
+          "id": "future-sustainability-forum-fsf-dubai-2026-11",
+          "name": "Future Sustainability Forum (FSF)",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "start_date": "2026-11-03",
+          "end_date": "2026-11-03"
+        },
+        {
+          "id": "isc-east-new-york-ny-2026-11",
+          "name": "ISC East",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2026-11-03",
+          "end_date": "2026-11-05"
+        },
+        {
+          "id": "power-bangladesh-dhaka-2026-11",
+          "name": "POWER Bangladesh",
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "start_date": "2026-11-12",
+          "end_date": "2026-11-14"
+        },
+        {
+          "id": "solar-bangladesh-dhaka-2026-11",
+          "name": "Solar Bangladesh",
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "start_date": "2026-11-12",
+          "end_date": "2026-11-14"
+        },
+        {
+          "id": "journees-professionnelles-esf-tarbes-2026-11",
+          "name": "JOURNÉES PROFESSIONNELLES ESF",
+          "city": "Tarbes",
+          "country": "France",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-14"
+        },
+        {
+          "id": "samon-habitat-de-liege-liege-2026-11",
+          "name": "SAMON HABITAT DE LIÈGE",
+          "city": "Liege",
+          "country": "Belgium",
+          "start_date": "2026-11-14",
+          "end_date": "2026-11-22"
+        },
+        {
+          "id": "ahse-asia-international-hotel-supples-and-catering-expo-macao-2026-11",
+          "name": "AHSE - ASIA INTERNATIONAL HOTEL SUPPLES AND CATERING EXPO",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-16",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "fbaf-international-food-beverage-asia-fair-macao-2026-11",
+          "name": "FBAF - International Food Beverage Asia Fair",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "horeca-hotel-restaurant-catering-macao-2026-11",
+          "name": "HORECA - Hotel Restaurant Catering",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "propack-asia-international-food-processing-and-packaging-machinery-exhibition-macao-2026-11",
+          "name": "PROPACK ASIA International Food Processing and Packaging Machinery Exhibition",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "aps-asia-international-property-show-macao-2026-11",
+          "name": "APS - Asia International Property Show",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "aplf-asia-private-label-fair-macao-2026-11",
+          "name": "APLF - Asia Private Label Fair",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "build-asia-internation-construction-exhibition-macau-macao-2026-11",
+          "name": "Build Asia Internation Construction Exhibition(Macau)",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "hvac-asia-asia-international-heating-water-supply-ventilation-air-conditioning-refrigeration-sanitary-and-home-comfort-system-expo-macao-2026-11",
+          "name": "HVAC Asia - Asia International Heating, Water supply, Ventilation, Air Conditioning, Refrigeration, Sanitary & Home Comfort System Expo",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "smart-city-asia-expo-macao-macao-2026-11",
+          "name": "Smart City Asia Expo Macao",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "agroworld-asia-international-agriculture-and-livestock-exhibition-macao-2026-11",
+          "name": "Agroworld - ASIA INTERNATIONAL AGRICULTURE AND LIVESTOCK EXHIBITION",
+          "city": "Macao",
+          "country": "China",
+          "start_date": "2026-11-18",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "indiairport-gandhinagar-2026-11",
+          "name": "IndiAirport",
+          "city": "Gandhinagar",
+          "country": "India",
+          "start_date": "2026-11-19",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "bodaeventos-madrid-madrid-2026-11",
+          "name": "BODAEVENTOS MADRID",
+          "city": "Madrid",
+          "country": "Spain",
+          "start_date": "2026-11-28",
+          "end_date": "2026-11-29"
+        },
+        {
+          "id": "bimp-eaga-transport-ports-and-logistics-kota-kinabalu-2026-12",
+          "name": "BIMP EAGA Transport, Ports & Logistics",
+          "city": "Kota Kinabalu",
+          "country": "Malaysia",
+          "start_date": "2026-12-08",
+          "end_date": "2026-12-10"
+        },
+        {
+          "id": "american-correctional-association-winter-conference-aca-phoenix-az-2027-01",
+          "name": "American Correctional Association Winter Conference - ACA",
+          "city": "Phoenix, AZ",
+          "country": "United States",
+          "start_date": "2027-01-07",
+          "end_date": "2027-01-10"
+        },
+        {
+          "id": "greater-chicago-rv-show-chicago-il-2027-01",
+          "name": "GREATER CHICAGO RV SHOW",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-01-08",
+          "end_date": "2027-01-10"
+        },
+        {
+          "id": "waco-guns-and-knife-show-waco-tx-2027-01",
+          "name": "WACO GUNS & KNIFE SHOW",
+          "city": "Waco, TX",
+          "country": "United States",
+          "start_date": "2027-01-09",
+          "end_date": "2027-01-10"
+        },
+        {
+          "id": "the-ir-show-the-innovative-retail-shoe-show-las-vegas-nv-2027-01",
+          "name": "The IR Show - The Innovative Retail (Shoe) Show",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2027-01-12",
+          "end_date": "2027-01-14"
+        },
+        {
+          "id": "innatex-hofheim-2027-01",
+          "name": "INNATEX",
+          "city": "Hofheim",
+          "country": "Germany",
+          "start_date": "2027-01-16",
+          "end_date": "2027-01-18"
+        },
+        {
+          "id": "texworld-new-york-city-new-york-ny-2027-01",
+          "name": "Texworld New York City",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2027-01-19",
+          "end_date": "2027-01-21"
+        },
+        {
+          "id": "pga-show-professional-golfers-association-orlando-fl-2027-01",
+          "name": "PGA Show - Professional Golfers' Association",
+          "city": "Orlando, FL",
+          "country": "United States",
+          "start_date": "2027-01-26",
+          "end_date": "2027-01-29"
+        },
+        {
+          "id": "functional-fabric-fair-winter-orlando-fl-2027-01",
+          "name": "Functional Fabric Fair Winter",
+          "city": "Orlando, FL",
+          "country": "United States",
+          "start_date": "2027-01-27",
+          "end_date": "2027-01-29"
+        },
+        {
+          "id": "evertiq-expo-vienna-2027-01",
+          "name": "Evertiq Expo",
+          "city": "Vienna",
+          "country": "Austria",
+          "start_date": "2027-01-28",
+          "end_date": "2027-01-28"
+        },
+        {
+          "id": "texas-speech-language-hearing-association-tsha-annual-convention-and-exhibition-dallas-tx-2027-01",
+          "name": "Texas Speech-Language-Hearing Association - TSHA Annual Convention & Exhibition",
+          "city": "Dallas, TX",
+          "country": "United States",
+          "start_date": "2027-01-29",
+          "end_date": "2027-01-30"
+        },
+        {
+          "id": "salon-essentiel-bourg-en-bresse-2027-01",
+          "name": "SALON ESSENTIEL",
+          "city": "Bourg-en-Bresse",
+          "country": "France",
+          "start_date": "2027-01-29",
+          "end_date": "2027-01-31"
+        },
+        {
+          "id": "salon-jardinexpo-liege-2027-02",
+          "name": "SALON JARDINEXPO",
+          "city": "Liege",
+          "country": "Belgium",
+          "start_date": "2027-02-04",
+          "end_date": "2027-02-07"
+        },
+        {
+          "id": "motorrad-messe-leipzig-leipzig-2027-02",
+          "name": "MOTORRAD MESSE LEIPZIG",
+          "city": "Leipzig",
+          "country": "Germany",
+          "start_date": "2027-02-06",
+          "end_date": "2027-02-08"
+        },
+        {
+          "id": "nutraceuticals-europe-madrid-2027-02",
+          "name": "NUTRACEUTICALS EUROPE",
+          "city": "Madrid",
+          "country": "Spain",
+          "start_date": "2027-02-17",
+          "end_date": "2027-02-18"
+        },
+        {
+          "id": "mim-costa-mesa-ca-2027-03",
+          "name": "MIM",
+          "city": "Costa Mesa, CA",
+          "country": "United States",
+          "start_date": "2027-03-01",
+          "end_date": "2027-03-03"
+        },
+        {
+          "id": "fastmarkets-forest-products-europe-conference-amsterdam-2027-03",
+          "name": "FASTMARKETS FOREST PRODUCTS EUROPE CONFERENCE",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "start_date": "2027-03-01",
+          "end_date": "2027-03-03"
+        },
+        {
+          "id": "woodpack-global-annual-leadership-conference-san-antonio-tx-2027-03",
+          "name": "WoodPack Global Annual Leadership Conference",
+          "city": "San Antonio, TX",
+          "country": "United States",
+          "start_date": "2027-03-03",
+          "end_date": "2027-03-05"
+        },
+        {
+          "id": "evertiq-expo-grenoble-2027-03",
+          "name": "Evertiq Expo",
+          "city": "Grenoble",
+          "country": "France",
+          "start_date": "2027-03-04",
+          "end_date": "2027-03-04"
+        },
+        {
+          "id": "emerald-city-comic-con-seattle-wa-2027-03",
+          "name": "Emerald City Comic Con",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2027-03-04",
+          "end_date": "2027-03-07"
+        },
+        {
+          "id": "las-vegas-rv-show-las-vegas-nv-2027-03",
+          "name": "LAS VEGAS RV SHOW",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2027-03-05",
+          "end_date": "2027-03-07"
+        },
+        {
+          "id": "model-expo-italy-verona-2027-03",
+          "name": "MODEL EXPO ITALY",
+          "city": "Verona",
+          "country": "Italy",
+          "start_date": "2027-03-06",
+          "end_date": "2027-03-07"
+        },
+        {
+          "id": "international-association-of-airport-duty-free-stores-iaadfs-summit-of-the-americas-palm-beach-fl-2027-03",
+          "name": "International Association of Airport Duty Free Stores - IAADFS Summit of the Americas",
+          "city": "Palm Beach, FL",
+          "country": "United States",
+          "start_date": "2027-03-07",
+          "end_date": "2027-03-10"
+        },
+        {
+          "id": "zak-world-of-facades-spain-madrid-2027-03",
+          "name": "ZAK WORLD OF FAÇADES - SPAIN",
+          "city": "Madrid",
+          "country": "Spain",
+          "start_date": "2027-03-11",
+          "end_date": "2027-03-11"
+        },
+        {
+          "id": "evertiq-expo-tampere-2027-03",
+          "name": "Evertiq Expo",
+          "city": "Tampere",
+          "country": "Finland",
+          "start_date": "2027-03-18",
+          "end_date": "2027-03-18"
+        },
+        {
+          "id": "gartentraume-giessen-giessen-2027-03",
+          "name": "GARTENTRÄUME GIESSEN",
+          "city": "Giessen",
+          "country": "Germany",
+          "start_date": "2027-03-19",
+          "end_date": "2027-03-21"
+        },
+        {
+          "id": "pennsylvania-bus-association-pba-marketplace-manheim-pa-2027-03",
+          "name": "Pennsylvania Bus Association - PBA Marketplace",
+          "city": "Manheim, PA",
+          "country": "United States",
+          "start_date": "2027-03-23",
+          "end_date": "2027-03-24"
+        },
+        {
+          "id": "asean-ports-and-logistics-ho-chi-minh-city-2027-03",
+          "name": "Asean Ports & Logistics",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "start_date": "2027-03-23",
+          "end_date": "2027-03-25"
+        },
+        {
+          "id": "contaminexpo-paris-2027-03",
+          "name": "CONTAMINEXPO",
+          "city": "Paris",
+          "country": "France",
+          "start_date": "2027-03-23",
+          "end_date": "2027-03-25"
+        },
+        {
+          "id": "textech-sri-lanka-colombo-2027-03",
+          "name": "Textech Sri Lanka",
+          "city": "Colombo",
+          "country": "Sri Lanka",
+          "start_date": "2027-03-25",
+          "end_date": "2027-03-27"
+        },
+        {
+          "id": "the-ultimate-women-s-show-jacksonville-jacksonville-fl-2027-03",
+          "name": "THE ULTIMATE WOMEN'S SHOW - JACKSONVILLE",
+          "city": "Jacksonville, FL",
+          "country": "United States",
+          "start_date": "2027-03-27",
+          "end_date": "2027-03-28"
+        },
+        {
+          "id": "solucop-toulouse-toulouse-2027-04",
+          "name": "SOLUCOP - TOULOUSE",
+          "city": "Toulouse",
+          "country": "France",
+          "start_date": "2027-04-01",
+          "end_date": "2027-04-01"
+        },
+        {
+          "id": "tabexpo-tobacco-industry-johannesburg-2027-04",
+          "name": "TABEXPO - Tobacco Industry",
+          "city": "Johannesburg",
+          "country": "South Africa",
+          "start_date": "2027-04-02",
+          "end_date": "2027-04-03"
+        },
+        {
+          "id": "automotive-training-expo-ate-seattle-wa-2027-04",
+          "name": "Automotive Training Expo - ATE",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2027-04-02",
+          "end_date": "2027-04-04"
+        },
+        {
+          "id": "beauty-trade-special-utrecht-2027-04",
+          "name": "BEAUTY TRADE SPECIAL",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "start_date": "2027-04-03",
+          "end_date": "2027-04-05"
+        },
+        {
+          "id": "isc-las-vegas-nv-2027-04",
+          "name": "ISC",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2027-04-05",
+          "end_date": "2027-04-09"
+        },
+        {
+          "id": "american-biomanufacturing-summit-san-francisco-ca-2027-04",
+          "name": "AMERICAN BIOMANUFACTURING SUMMIT",
+          "city": "San Francisco, CA",
+          "country": "United States",
+          "start_date": "2027-04-08",
+          "end_date": "2027-04-09"
+        },
+        {
+          "id": "zak-world-of-facades-usa-chicago-chicago-il-2027-04",
+          "name": "ZAK WORLD OF FAÇADES - USA - CHICAGO",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-04-08",
+          "end_date": "2027-04-08"
+        },
+        {
+          "id": "hits-championship-napa-valley-ca-spring-napa-ca-2027-04",
+          "name": "HITS CHAMPIONSHIP NAPA VALLEY, CA - SPRING",
+          "city": "Napa, CA",
+          "country": "United States",
+          "start_date": "2027-04-10",
+          "end_date": "2027-04-10"
+        },
+        {
+          "id": "animotions-aubagne-aubagne-2027-04",
+          "name": "ANIMOTIONS - AUBAGNE",
+          "city": "Aubagne",
+          "country": "France",
+          "start_date": "2027-04-10",
+          "end_date": "2027-04-11"
+        },
+        {
+          "id": "functional-fabric-fair-spring-portland-or-2027-04",
+          "name": "Functional Fabric Fair Spring",
+          "city": "Portland, OR",
+          "country": "United States",
+          "start_date": "2027-04-13",
+          "end_date": "2027-04-15"
+        },
+        {
+          "id": "alsms-annual-conference-on-energy-based-medicine-and-science-dallas-tx-2027-04",
+          "name": "ALSMS ANNUAL CONFERENCE ON ENERGY-BASED MEDICINE & SCIENCE",
+          "city": "Dallas, TX",
+          "country": "United States",
+          "start_date": "2027-04-15",
+          "end_date": "2027-04-18"
+        },
+        {
+          "id": "paris-perfume-week-paris-2027-04",
+          "name": "PARIS PERFUME WEEK",
+          "city": "Paris",
+          "country": "France",
+          "start_date": "2027-04-15",
+          "end_date": "2027-04-17"
+        },
+        {
+          "id": "solucop-strasbourg-strasbourg-2027-04",
+          "name": "SOLUCOP - STRASBOURG",
+          "city": "Strasbourg",
+          "country": "France",
+          "start_date": "2027-04-15",
+          "end_date": "2027-04-15"
+        },
+        {
+          "id": "stamp-and-scrapbook-expo-fredericksburg-fredericksburg-va-2027-04",
+          "name": "STAMP & SCRAPBOOK EXPO FREDERICKSBURG",
+          "city": "Fredericksburg, VA",
+          "country": "United States",
+          "start_date": "2027-04-16",
+          "end_date": "2027-04-17"
+        },
+        {
+          "id": "boston-marathon-expo-boston-ma-2027-04",
+          "name": "BOSTON MARATHON EXPO",
+          "city": "Boston, MA",
+          "country": "United States",
+          "start_date": "2027-04-19",
+          "end_date": "2027-04-19"
+        },
+        {
+          "id": "food-processing-and-technology-amsterdam-2027-04",
+          "name": "FOOD PROCESSING & TECHNOLOGY",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "start_date": "2027-04-20",
+          "end_date": "2027-04-21"
+        },
+        {
+          "id": "dhaka-motor-show-dhaka-2027-04",
+          "name": "Dhaka Motor Show",
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "start_date": "2027-04-22",
+          "end_date": "2027-04-24"
+        },
+        {
+          "id": "evertiq-expo-zurich-2027-04",
+          "name": "Evertiq Expo",
+          "city": "Zurich",
+          "country": "Switzerland",
+          "start_date": "2027-04-22",
+          "end_date": "2027-04-22"
+        },
+        {
+          "id": "pax-east-boston-ma-2027-04",
+          "name": "PAX East",
+          "city": "Boston, MA",
+          "country": "United States",
+          "start_date": "2027-04-22",
+          "end_date": "2027-04-25"
+        },
+        {
+          "id": "intermodal-africa-dakar-2027-04",
+          "name": "Intermodal Africa",
+          "city": "Dakar",
+          "country": "Senegal",
+          "start_date": "2027-04-27",
+          "end_date": "2027-04-29"
+        },
+        {
+          "id": "bbc-gardeners-s-world-fair-spring-beaulieu-hampshire-2027-04",
+          "name": "BBC GARDENERS'S WORLD FAIR - SPRING",
+          "city": "Beaulieu (Hampshire)",
+          "country": "United Kingdom",
+          "start_date": "2027-04-30",
+          "end_date": "2027-05-02"
+        },
+        {
+          "id": "euromed-desalination-congress-liverpool-2027-05",
+          "name": "EUROMED - DESALINATION CONGRESS",
+          "city": "Liverpool",
+          "country": "United Kingdom",
+          "start_date": "2027-05-04",
+          "end_date": "2027-05-07"
+        },
+        {
+          "id": "international-poultry-and-livestock-dhaka-2027-05",
+          "name": "International Poultry & Livestock",
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "start_date": "2027-05-06",
+          "end_date": "2027-05-08"
+        },
+        {
+          "id": "zak-world-of-facades-usa-miami-miami-fl-2027-05",
+          "name": "ZAK WORLD OF FAÇADES - USA - MIAMI",
+          "city": "Miami, FL",
+          "country": "United States",
+          "start_date": "2027-05-06",
+          "end_date": "2027-05-06"
+        },
+        {
+          "id": "foire-de-tours-tours-2027-05",
+          "name": "FOIRE DE TOURS",
+          "city": "Tours",
+          "country": "France",
+          "start_date": "2027-05-06",
+          "end_date": "2027-05-17"
+        },
+        {
+          "id": "medevice-boston-boston-ma-2027-05",
+          "name": "MEDevice Boston",
+          "city": "Boston, MA",
+          "country": "United States",
+          "start_date": "2027-05-11",
+          "end_date": "2027-05-12"
+        },
+        {
+          "id": "canadian-chemical-engineering-conference-csche-edmonton-ab-2027-05",
+          "name": "Canadian Chemical Engineering Conference - CSChE",
+          "city": "Edmonton, AB",
+          "country": "Canada",
+          "start_date": "2027-05-16",
+          "end_date": "2027-05-19"
+        },
+        {
+          "id": "evertiq-expo-lund-2027-05",
+          "name": "Evertiq Expo",
+          "city": "Lund",
+          "country": "Sweden",
+          "start_date": "2027-05-20",
+          "end_date": "2027-05-20"
+        },
+        {
+          "id": "stamp-and-scrapbook-expo-puyallup-puyallup-wa-2027-05",
+          "name": "STAMP & SCRAPBOOK EXPO PUYALLUP",
+          "city": "Puyallup, WA",
+          "country": "United States",
+          "start_date": "2027-05-21",
+          "end_date": "2027-05-22"
+        },
+        {
+          "id": "society-of-gastroenterology-nurses-and-assoc-sgna-new-orleans-la-2027-05",
+          "name": "Society of Gastroenterology Nurses and Assoc - SGNA",
+          "city": "New Orleans, LA",
+          "country": "United States",
+          "start_date": "2027-05-22",
+          "end_date": "2027-05-24"
+        },
+        {
+          "id": "build-in-wood-copenhagen-2027-05",
+          "name": "BUILD IN WOOD",
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "start_date": "2027-05-25",
+          "end_date": "2027-05-26"
+        },
+        {
+          "id": "rehabweek-lausanne-2027-05",
+          "name": "RehabWeek",
+          "city": "Lausanne",
+          "country": "Switzerland",
+          "start_date": "2027-05-31",
+          "end_date": "2027-06-04"
+        },
+        {
+          "id": "architect-work-france-marseille-marseille-2027-06",
+          "name": "ARCHITECT @ WORK - FRANCE - MARSEILLE",
+          "city": "Marseille",
+          "country": "France",
+          "start_date": "2027-06-02",
+          "end_date": "2027-06-03"
+        },
+        {
+          "id": "festival-a-2-bulles-de-niort-niort-2027-06",
+          "name": "FESTIVAL À 2 BULLES DE NIORT",
+          "city": "Niort",
+          "country": "France",
+          "start_date": "2027-06-04",
+          "end_date": "2027-06-05"
+        },
+        {
+          "id": "ehp-congress-marseille-2027-06",
+          "name": "EHP CONGRESS",
+          "city": "Marseille",
+          "country": "France",
+          "start_date": "2027-06-08",
+          "end_date": "2027-06-10"
+        },
+        {
+          "id": "zak-world-of-facades-united-kingdom-birmingham-birmingham-2027-06",
+          "name": "ZAK WORLD OF FAÇADES - UNITED KINGDOM - BIRMINGHAM",
+          "city": "Birmingham",
+          "country": "United Kingdom",
+          "start_date": "2027-06-08",
+          "end_date": "2027-06-08"
+        },
+        {
+          "id": "evertiq-expo-krakow-2027-06",
+          "name": "Evertiq Expo",
+          "city": "Krakow",
+          "country": "Poland",
+          "start_date": "2027-06-09",
+          "end_date": "2027-06-09"
+        },
+        {
+          "id": "home-textiles-sourcing-expo-new-york-ny-2027-06",
+          "name": "Home Textiles Sourcing Expo",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2027-06-15",
+          "end_date": "2027-06-17"
+        },
+        {
+          "id": "evertiq-expo-berlin-2027-06",
+          "name": "Evertiq Expo",
+          "city": "Berlin",
+          "country": "Germany",
+          "start_date": "2027-06-17",
+          "end_date": "2027-06-17"
+        },
+        {
+          "id": "textech-asia-bangkok-2027-06",
+          "name": "Textech Asia",
+          "city": "Bangkok",
+          "country": "Thailand",
+          "start_date": "2027-06-17",
+          "end_date": "2027-06-19"
+        },
+        {
+          "id": "grasse-perfume-week-grasse-2027-06",
+          "name": "GRASSE PERFUME WEEK",
+          "city": "Grasse",
+          "country": "France",
+          "start_date": "2027-06-17",
+          "end_date": "2027-06-19"
+        },
+        {
+          "id": "zak-world-of-facades-france-paris-2027-06",
+          "name": "ZAK WORLD OF FAÇADES - FRANCE",
+          "city": "Paris",
+          "country": "France",
+          "start_date": "2027-06-17",
+          "end_date": "2027-06-17"
+        },
+        {
+          "id": "conferenza-rete-italiana-ricerca-fotovoltaico-rome-2027-06",
+          "name": "CONFERENZA RETE ITALIANA RICERCA FOTOVOLTAICO",
+          "city": "Rome",
+          "country": "Italy",
+          "start_date": "2027-06-17",
+          "end_date": "2027-06-18"
+        },
+        {
+          "id": "stamp-and-scrapbook-expo-edison-edison-nj-2027-06",
+          "name": "STAMP & SCRAPBOOK EXPO EDISON",
+          "city": "Edison, NJ",
+          "country": "United States",
+          "start_date": "2027-06-25",
+          "end_date": "2027-06-26"
+        },
+        {
+          "id": "annual-westmoreland-arts-and-heritage-festival-pittsburgh-pa-2027-07",
+          "name": "ANNUAL WESTMORELAND ARTS & HERITAGE FESTIVAL",
+          "city": "Pittsburgh, PA",
+          "country": "United States",
+          "start_date": "2027-07-01",
+          "end_date": "2027-07-04"
+        },
+        {
+          "id": "montreux-jazz-festival-montreux-2027-07",
+          "name": "MONTREUX JAZZ FESTIVAL",
+          "city": "Montreux",
+          "country": "Switzerland",
+          "start_date": "2027-07-02",
+          "end_date": "2027-07-17"
+        },
+        {
+          "id": "nanotexnology-thessaloniki-2027-07",
+          "name": "NANOTEXNOLOGY",
+          "city": "Thessaloniki",
+          "country": "Greece",
+          "start_date": "2027-07-03",
+          "end_date": "2027-07-10"
+        },
+        {
+          "id": "annual-art-festival-state-college-pa-2027-07",
+          "name": "ANNUAL ART FESTIVAL",
+          "city": "State College, PA",
+          "country": "United States",
+          "start_date": "2027-07-07",
+          "end_date": "2027-07-11"
+        },
+        {
+          "id": "dour-festival-dour-2027-07",
+          "name": "DOUR FESTIVAL",
+          "city": "Dour",
+          "country": "Belgium",
+          "start_date": "2027-07-07",
+          "end_date": "2027-07-11"
+        },
+        {
+          "id": "rdh-under-one-roof-nashville-tn-2027-07",
+          "name": "RDH UNDER ONE ROOF",
+          "city": "Nashville, TN",
+          "country": "United States",
+          "start_date": "2027-07-08",
+          "end_date": "2027-07-10"
+        },
+        {
+          "id": "florida-supercon-miami-2027-07",
+          "name": "Florida Supercon",
+          "city": "Miami",
+          "country": "United States",
+          "start_date": "2027-07-09",
+          "end_date": "2027-07-11"
+        },
+        {
+          "id": "parker-county-peach-festival-weatherford-tx-2027-07",
+          "name": "PARKER COUNTY PEACH FESTIVAL",
+          "city": "Weatherford, TX",
+          "country": "United States",
+          "start_date": "2027-07-10",
+          "end_date": "2027-07-10"
+        },
+        {
+          "id": "national-conference-on-weights-and-measures-ncwm-knoxville-tn-2027-07",
+          "name": "National Conference on Weights and Measures - NCWM",
+          "city": "Knoxville, TN",
+          "country": "United States",
+          "start_date": "2027-07-11",
+          "end_date": "2027-07-15"
+        },
+        {
+          "id": "fetes-de-bayonne-bayonne-2027-07",
+          "name": "FÊTES DE BAYONNE",
+          "city": "Bayonne",
+          "country": "France",
+          "start_date": "2027-07-14",
+          "end_date": "2027-07-18"
+        },
+        {
+          "id": "stamp-and-scrapbook-expo-duluth-duluth-ga-2027-07",
+          "name": "STAMP & SCRAPBOOK EXPO DULUTH",
+          "city": "Duluth, GA",
+          "country": "United States",
+          "start_date": "2027-07-16",
+          "end_date": "2027-07-17"
+        },
+        {
+          "id": "world-ticket-conference-wtc-new-orleans-la-2027-07",
+          "name": "World Ticket Conference - WTC",
+          "city": "New Orleans, LA",
+          "country": "United States",
+          "start_date": "2027-07-19",
+          "end_date": "2027-07-21"
+        },
+        {
+          "id": "functional-fabric-fair-summer-new-york-ny-2027-07",
+          "name": "Functional Fabric Fair Summer",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2027-07-20",
+          "end_date": "2027-07-21"
+        },
+        {
+          "id": "southeast-building-conference-sebc-orlando-fl-2027-07",
+          "name": "Southeast Building Conference - SEBC",
+          "city": "Orlando, FL",
+          "country": "United States",
+          "start_date": "2027-07-21",
+          "end_date": "2027-07-22"
+        },
+        {
+          "id": "pga-buying-summit-professional-golfers-association-frisco-tx-2027-07",
+          "name": "PGA Buying Summit - Professional Golfers' Association",
+          "city": "Frisco, TX",
+          "country": "United States",
+          "start_date": "2027-07-25",
+          "end_date": "2027-07-28"
+        },
+        {
+          "id": "retailnow-retail-solutions-providers-association-rspa-las-vegas-nv-2027-07",
+          "name": "RetailNow - Retail Solutions Providers Association - RSPA",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2027-07-25",
+          "end_date": "2027-07-27"
+        },
+        {
+          "id": "international-association-of-administrative-professionals-iaap-summit-dallas-tx-2027-07",
+          "name": "International Association of Administrative Professionals - IAAP Summit",
+          "city": "Dallas, TX",
+          "country": "United States",
+          "start_date": "2027-07-26",
+          "end_date": "2027-07-28"
+        },
+        {
+          "id": "affiliate-summit-east-new-york-ny-2027-07",
+          "name": "Affiliate Summit East",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2027-07-26",
+          "end_date": "2027-07-27"
+        },
+        {
+          "id": "ibwss-international-bulk-wine-and-spirits-show-san-francisco-ca-2027-07",
+          "name": "IBWSS - International Bulk Wine and Spirits Show",
+          "city": "San Francisco, CA",
+          "country": "United States",
+          "start_date": "2027-07-27",
+          "end_date": "2027-07-28"
+        },
+        {
+          "id": "american-bar-association-annual-meeting-aba-chicago-il-2027-07",
+          "name": "American Bar Association Annual Meeting - ABA",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-07-28",
+          "end_date": "2027-08-03"
+        },
+        {
+          "id": "ohio-state-fair-columbus-oh-2027-07",
+          "name": "OHIO STATE FAIR",
+          "city": "Columbus, OH",
+          "country": "United States",
+          "start_date": "2027-07-28",
+          "end_date": "2027-08-08"
+        },
+        {
+          "id": "academy-of-management-annual-meeting-aom-vienna-2027-07",
+          "name": "Academy of Management Annual Meeting - AOM",
+          "city": "Vienna",
+          "country": "Austria",
+          "start_date": "2027-07-30",
+          "end_date": "2027-08-03"
+        },
+        {
+          "id": "gen-con-international-gaming-convention-indianapolis-in-2027-08",
+          "name": "Gen Con - International Gaming Convention",
+          "city": "Indianapolis, IN",
+          "country": "United States",
+          "start_date": "2027-08-05",
+          "end_date": "2027-08-08"
+        },
+        {
+          "id": "association-for-the-healthcare-environment-ahe-exchange-ft-lauderdale-fl-2027-08",
+          "name": "Association for the Healthcare Environment  - AHE Exchange",
+          "city": "Ft. Lauderdale, FL",
+          "country": "United States",
+          "start_date": "2027-08-08",
+          "end_date": "2027-08-11"
+        },
+        {
+          "id": "scaffold-and-access-industry-association-saia-tampa-fl-2027-08",
+          "name": "Scaffold & Access Industry Association - SAIA",
+          "city": "Tampa, FL",
+          "country": "United States",
+          "start_date": "2027-08-09",
+          "end_date": "2027-08-12"
+        },
+        {
+          "id": "connect-summer-marketplace-anaheim-ca-2027-08",
+          "name": "Connect Summer Marketplace",
+          "city": "Anaheim, CA",
+          "country": "United States",
+          "start_date": "2027-08-23",
+          "end_date": "2027-08-25"
+        },
+        {
+          "id": "cphi-korea-seoul-2027-08",
+          "name": "CPhI Korea",
+          "city": "Seoul",
+          "country": "South Korea",
+          "start_date": "2027-08-24",
+          "end_date": "2027-08-26"
+        },
+        {
+          "id": "destination-east-spotsylvania-va-2027-08",
+          "name": "DESTINATION EAST",
+          "city": "Spotsylvania, VA",
+          "country": "United States",
+          "start_date": "2027-08-29",
+          "end_date": "2027-08-31"
+        },
+        {
+          "id": "asia-pacific-coatings-show-bangkok-2027-09",
+          "name": "Asia Pacific Coatings Show",
+          "city": "Bangkok",
+          "country": "Thailand",
+          "start_date": "2027-09-01",
+          "end_date": "2027-09-03"
+        },
+        {
+          "id": "food-production-solutions-show-fpss-chicago-il-2027-10",
+          "name": "Food Production Solutions Show (FPSS)",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-10-26",
+          "end_date": "2027-10-28"
+        },
+        {
+          "id": "zak-world-of-facades-germany-frankfurt-2027-11",
+          "name": "ZAK WORLD OF FAÇADES - GERMANY",
+          "city": "Frankfurt",
+          "country": "Germany",
+          "start_date": "2027-11-11",
+          "end_date": "2027-11-11"
+        },
+        {
+          "id": "international-motor-show-luxembourg-2027-11",
+          "name": "INTERNATIONAL MOTOR SHOW",
+          "city": "Luxembourg",
+          "country": "Luxembourg",
+          "start_date": "2027-11-12",
+          "end_date": "2027-11-14"
+        },
+        {
+          "id": "zak-world-of-facades-usa-seattle-seattle-wa-2027-11",
+          "name": "ZAK WORLD OF FAÇADES - USA - SEATTLE",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2027-11-18",
+          "end_date": "2027-11-18"
+        },
+        {
+          "id": "composite-meetings-nantes-2027-12",
+          "name": "COMPOSITE MEETINGS",
+          "city": "Nantes",
+          "country": "France",
+          "start_date": "2027-12-01",
+          "end_date": "2027-12-02"
+        },
+        {
+          "id": "zak-world-of-facades-norway-oslo-2027-12",
+          "name": "ZAK WORLD OF FAÇADES - NORWAY",
+          "city": "Oslo",
+          "country": "Norway",
+          "start_date": "2027-12-02",
+          "end_date": "2027-12-02"
+        },
+        {
+          "id": "exposolidos-barcelona-2028-02",
+          "name": "EXPOSOLIDOS",
+          "city": "Barcelona",
+          "country": "Spain",
+          "start_date": "2028-02-08",
+          "end_date": "2028-02-10"
+        },
+        {
+          "id": "truck-world-mississauga-on-2028-04",
+          "name": "Truck World",
+          "city": "Mississauga, ON",
+          "country": "Canada",
+          "start_date": "2028-04-20",
+          "end_date": "2028-04-22"
+        },
+        {
+          "id": "scot-plant-edinburgh-2028-04",
+          "name": "SCOT PLANT",
+          "city": "Edinburgh",
+          "country": "United Kingdom",
+          "start_date": "2028-04-21",
+          "end_date": "2028-04-22"
+        },
+        {
+          "id": "elmia-automation-jonkoping-2028-05",
+          "name": "ELMIA AUTOMATION",
+          "city": "Jönköping",
+          "country": "Sweden",
+          "start_date": "2028-05-16",
+          "end_date": "2028-05-19"
+        },
+        {
+          "id": "eliaden-lillestr-m-2028-05",
+          "name": "ELIADEN",
+          "city": "Lillestrøm",
+          "country": "Norway",
+          "start_date": "2028-05-30",
+          "end_date": "2028-06-01"
+        },
+        {
+          "id": "oceania-ports-and-logistics-melbourne-2029-01",
+          "name": "Oceania Ports & Logistics",
+          "city": "Melbourne",
+          "country": "Australia",
+          "start_date": "2029-01-24",
+          "end_date": "2029-01-25"
+        },
+        {
+          "id": "caspian-ports-and-logistics-aktau-2029-07",
+          "name": "Caspian Ports & Logistics",
+          "city": "Aktau",
+          "country": "Kazakhstan",
+          "start_date": "2029-07-03",
+          "end_date": "2029-07-05"
+        }
+      ],
+      "removed": [
+        {
+          "id": "festival-international-de-piano-de-la-roque-d-antheron-la-roque-d-antheron-2026-07",
+          "name": "FESTIVAL INTERNATIONAL DE PIANO DE LA ROQUE D'ANTHÉRON",
+          "city": "La Roque-d'Anthéron",
+          "country": "France",
+          "start_date": "2026-07-16",
+          "end_date": "2026-08-16"
+        },
+        {
+          "id": "salzburger-festspiele-salzburg-festival-festival-de-salzbourg-salzburg-2026-07",
+          "name": "SALZBURGER FESTSPIELE - SALZBURG FESTIVAL - FESTIVAL DE SALZBOURG",
+          "city": "Salzburg",
+          "country": "Austria",
+          "start_date": "2026-07-17",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "shoes-dusselsorf-dusseldorf-2026-07",
+          "name": "SHOES DÜSSELSORF",
+          "city": "Dusseldorf",
+          "country": "Germany",
+          "start_date": "2026-07-25",
+          "end_date": "2026-08-31"
+        },
+        {
+          "id": "festival-de-ramatuelle-ramatuelle-2026-07",
+          "name": "FESTIVAL DE RAMATUELLE",
+          "city": "Ramatuelle",
+          "country": "France",
+          "start_date": "2026-07-29",
+          "end_date": "2026-08-12"
+        },
+        {
+          "id": "elektrotec-coimbatore-2026-08",
+          "name": "Elektrotec",
+          "city": "Coimbatore",
+          "country": "India",
+          "start_date": "2026-08-21",
+          "end_date": "2026-08-24"
+        },
+        {
+          "id": "india-international-optical-and-ophthalmology-expo-iioo-chennai-2026-08",
+          "name": "India International Optical & Ophthalmology Expo - IIOO",
+          "city": "Chennai",
+          "country": "India",
+          "start_date": "2026-08-22",
+          "end_date": "2026-08-24"
+        },
+        {
+          "id": "american-chemical-society-fall-acs-chicago-il-2026-08",
+          "name": "American Chemical Society Fall - ACS",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "the-institute-for-public-procurement-nigp-forum-columbus-oh-2026-08",
+          "name": "The Institute for Public Procurement - NIGP Forum",
+          "city": "Columbus, OH",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "the-ed-expo-las-vegas-nv-2026-08",
+          "name": "The ED Expo",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2026-08-23",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "the-international-emergency-and-catastrophe-management-iecm-conference-and-exhibition-dubai-2026-08",
+          "name": "The International Emergency and Catastrophe Management - IECM Conference and Exhibition",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "dihad-dubai-int-l-humanitarian-aid-and-development-exhibition-dubai-2026-08",
+          "name": "DIHAD - Dubai Int'l Humanitarian Aid & Development Exhibition",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "techcon-365-datacon-and-pwrcon-seattle-wa-2026-08",
+          "name": "TechCon 365, DATACON & PWRCON",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "connect-summer-marketplace-tampa-fl-2026-08",
+          "name": "Connect Summer Marketplace",
+          "city": "Tampa, FL",
+          "country": "United States",
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "cachoeiro-stone-fair-cachoeiro-2026-08",
+          "name": "Cachoeiro Stone Fair",
+          "city": "Cachoeiro",
+          "country": "Brazil",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "pl-connection-private-label-in-latin-america-sao-paulo-2026-08",
+          "name": "PL Connection - Private Label in Latin America",
+          "city": "Sao Paulo",
+          "country": "Brazil",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-26"
+        },
+        {
+          "id": "nigeria-mega-project-expo-lagos-2026-08",
+          "name": "NIGERIA MEGA PROJECT EXPO",
+          "city": "Lagos",
+          "country": "Nigeria",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "mega-ceramica-lagos-2026-08",
+          "name": "MEGA Ceramica",
+          "city": "Lagos",
+          "country": "Nigeria",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "wood-products-and-technology-exhibition-gothenburg-2026-08",
+          "name": "Wood Products & Technology Exhibition -",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "formex-design-interiors-giftware-stockholm-2026-08",
+          "name": "FORMEX - Design, Interiors, Giftware",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "duphat-dubai-int-l-pharmaceuticals-and-technologies-conference-and-exhibition-dubai-2026-08",
+          "name": "DUPHAT - Dubai Int'l Pharmaceuticals & Technologies Conference & Exhibition",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "ifm-dubai-international-family-medicine-conference-and-exhibition-dubai-2026-08",
+          "name": "IFM Dubai - International Family Medicine Conference & Exhibition",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "international-woodworking-fair-iwf-atlanta-ga-2026-08",
+          "name": "International Woodworking Fair - IWF",
+          "city": "Atlanta, GA",
+          "country": "United States",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "spe-artificial-lift-conference-and-exhibition-americas-houston-tx-2026-08",
+          "name": "SPE Artificial Lift Conference and Exhibition - Americas",
+          "city": "Houston, TX",
+          "country": "United States",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "the-broadband-communities-summit-houston-tx-2026-08",
+          "name": "The Broadband Communities Summit",
+          "city": "Houston, TX",
+          "country": "United States",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "stormcon-minneapolis-mn-2026-08",
+          "name": "StormCon",
+          "city": "Minneapolis, MN",
+          "country": "United States",
+          "start_date": "2026-08-25",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "automotive-testing-china-shanghai-2026-08",
+          "name": "Automotive Testing China",
+          "city": "Shanghai",
+          "country": "China",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "formnext-asia-shenzhen-shenzhen-2026-08",
+          "name": "Formnext Asia Shenzhen",
+          "city": "Shenzhen",
+          "country": "China",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "gamescon-cologne-2026-08",
+          "name": "Gamescon",
+          "city": "Cologne",
+          "country": "Germany",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "propak-india-mumbai-2026-08",
+          "name": "ProPak India",
+          "city": "Mumbai",
+          "country": "India",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "asia-pacific-coatings-show-jakarta-2026-08",
+          "name": "Asia Pacific Coatings Show",
+          "city": "Jakarta",
+          "country": "Indonesia",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "japan-jewellery-fair-jjf-tokyo-2026-08",
+          "name": "Japan Jewellery Fair - JJF",
+          "city": "Tokyo",
+          "country": "Japan",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "abastur-hotels-restaurants-catering-mexico-city-2026-08",
+          "name": "ABASTUR (Hotels - Restaurants - Catering)",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "ildex-livestock-dairy-meat-processing-manila-2026-08",
+          "name": "ILDEX - Livestock, Dairy, Meat Processing",
+          "city": "Manila",
+          "country": "Philippines",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "f-istanbul-food-and-beverage-products-and-production-technologies-exhibition-istanbul-2026-08",
+          "name": "F ISTANBUL - Food & Beverage Products and Production Technologies Exhibition",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-29"
+        },
+        {
+          "id": "the-northeast-materials-show-danvers-ma-2026-08",
+          "name": "The Northeast Materials Show",
+          "city": "Danvers, MA",
+          "country": "United States",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "farwest-show-portland-or-2026-08",
+          "name": "Farwest Show",
+          "city": "Portland, OR",
+          "country": "United States",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-28"
+        },
+        {
+          "id": "theme-park-vietnam-expo-ho-chi-minh-city-2026-08",
+          "name": "Theme Park Vietnam Expo",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "plantarium-groen-direkt-autumn-edition-2026-the-hazerswoude-dorp-2026-08",
+          "name": "Plantarium/GROEN-Direkt Autumn Edition 2026 The",
+          "city": "Hazerswoude-Dorp",
+          "country": "Netherlands",
+          "start_date": "2026-08-26",
+          "end_date": "2026-08-27"
+        },
+        {
+          "id": "imcas-china-dermatology-plastic-surgery-and-aging-science-shanghai-2026-08",
+          "name": "IMCAS China - Dermatology, Plastic Surgery & Aging Science",
+          "city": "Shanghai",
+          "country": "China",
+          "start_date": "2026-08-27",
+          "end_date": "2026-08-29"
+        },
+        {
+          "id": "beautysum-india-new-delhi-2026-08",
+          "name": "BEAUTYSUM INDIA",
+          "city": "New Delhi",
+          "country": "India",
+          "start_date": "2026-08-27",
+          "end_date": "2026-08-29"
+        },
+        {
+          "id": "kofurn-korea-international-furniture-and-interior-fair-seoul-2026-08",
+          "name": "KOFURN - Korea International Furniture & Interior Fair",
+          "city": "Seoul",
+          "country": "South Korea",
+          "start_date": "2026-08-27",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "the-food-show-wellington-2026-08",
+          "name": "The Food Show",
+          "city": "Wellington",
+          "country": "New Zealand",
+          "start_date": "2026-08-28",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "festival-of-motoring-johannesburg-johannesburg-2026-08",
+          "name": "Festival of Motoring Johannesburg",
+          "city": "Johannesburg",
+          "country": "South Africa",
+          "start_date": "2026-08-28",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "fetch-a-dvm360-conference-kansas-city-mo-2026-08",
+          "name": "Fetch, a dvm360 conference",
+          "city": "Kansas City, MO",
+          "country": "United States",
+          "start_date": "2026-08-28",
+          "end_date": "2026-08-30"
+        },
+        {
+          "id": "lucky-leaf-expo-richmond-va-2026-08",
+          "name": "Lucky Leaf Expo",
+          "city": "Richmond, VA",
+          "country": "United States",
+          "start_date": "2026-08-28",
+          "end_date": "2026-08-29"
+        },
+        {
+          "id": "cannacon-st-louis-mo-2026-08",
+          "name": "CannaCon",
+          "city": "St. Louis, MO",
+          "country": "United States",
+          "start_date": "2026-08-28",
+          "end_date": "2026-08-29"
+        },
+        {
+          "id": "caravan-salon-dusseldorf-2026-2026-08",
+          "name": "CARAVAN SALON DUSSELDORF 2026",
+          "city": null,
+          "country": "Germany",
+          "start_date": "2026-08-28",
+          "end_date": "2026-09-06"
+        },
+        {
+          "id": "pax-west-expo-seattle-wa-2026-09",
+          "name": "PAX West Expo",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-07"
+        },
+        {
+          "id": "salon-de-l-habitat-de-rouen-rouen-2026-09",
+          "name": "SALON DE L'HABITAT DE ROUEN",
+          "city": "Rouen",
+          "country": "France",
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-20"
+        },
+        {
+          "id": "functional-fabric-fair-portland-or-2026-10",
+          "name": "Functional Fabric Fair",
+          "city": "Portland, OR",
+          "country": "United States",
+          "start_date": "2026-10-26",
+          "end_date": "2026-10-28"
+        },
+        {
+          "id": "functional-fabric-fair-portland-or-2027-04",
+          "name": "Functional Fabric Fair",
+          "city": "Portland, OR",
+          "country": "United States",
+          "start_date": "2027-04-13",
+          "end_date": "2027-04-15"
+        },
+        {
+          "id": "isc-east-security-solutions-new-york-ny-2026-11",
+          "name": "ISC East - Security Solutions",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2026-11-03",
+          "end_date": "2026-11-05"
+        },
+        {
+          "id": "indiairport-ganghinagar-2026-11",
+          "name": "IndiAirport",
+          "city": "Ganghinagar",
+          "country": "India",
+          "start_date": "2026-11-19",
+          "end_date": "2026-11-20"
+        },
+        {
+          "id": "bimp-eaga-ports-and-logistics-kota-kinabalu-2026-12",
+          "name": "BIMP-EAGA Ports & Logistics",
+          "city": "Kota Kinabalu",
+          "country": "Malaysia",
+          "start_date": "2026-12-08",
+          "end_date": "2026-12-10"
+        },
+        {
+          "id": "atlanta-rv-expo-atlanta-ga-2027-01",
+          "name": "ATLANTA RV EXPO",
+          "city": "Atlanta, GA",
+          "country": "United States",
+          "start_date": "2027-01-08",
+          "end_date": "2027-01-11"
+        },
+        {
+          "id": "chicago-rv-show-chicago-il-2027-01",
+          "name": "CHICAGO RV SHOW",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-01-08",
+          "end_date": "2027-01-10"
+        },
+        {
+          "id": "aqualand-expo-pool-spa-wellness-and-water-attraction-exhibition-istanbul-2027-01",
+          "name": "AQUALAND EXPO - Pool, Spa, Wellness & Water Attraction Exhibition",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "start_date": "2027-01-28",
+          "end_date": "2027-01-30"
+        },
+        {
+          "id": "emerald-city-comicon-eccc-seattle-wa-2027-03",
+          "name": "Emerald City Comicon - ECCC",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "start_date": "2027-03-04",
+          "end_date": "2027-03-07"
+        },
+        {
+          "id": "isc-west-security-solutions-las-vegas-nv-2027-04",
+          "name": "ISC West - Security Solutions",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2027-04-05",
+          "end_date": "2027-04-09"
+        },
+        {
+          "id": "pax-east-expo-penny-arcade-expo-east-boston-ma-2027-04",
+          "name": "PAX East Expo -  Penny Arcade Expo East",
+          "city": "Boston, MA",
+          "country": "United States",
+          "start_date": "2027-04-22",
+          "end_date": "2027-04-25"
+        },
+        {
+          "id": "tabexpo-tobacco-industry-budapest-2027-05",
+          "name": "TABEXPO - Tobacco Industry",
+          "city": "Budapest",
+          "country": "Hungary",
+          "start_date": "2027-05-27",
+          "end_date": "2027-05-28"
+        },
+        {
+          "id": "canadian-north-resources-expo-prince-george-bc-2027-05",
+          "name": "Canadian North Resources Expo",
+          "city": "Prince George, BC",
+          "country": "Canada",
+          "start_date": "2027-05-28",
+          "end_date": "2027-05-29"
+        },
+        {
+          "id": "rehabweek-2027-05",
+          "name": "RehabWeek",
+          "city": null,
+          "country": "Switzerland",
+          "start_date": "2027-05-31",
+          "end_date": "2027-06-04"
+        },
+        {
+          "id": "ite-hong-kong-international-travel-expo-hong-kong-and-mice-travel-expo-hong-kong-2027-06",
+          "name": "ITE Hong Kong - International Travel Expo Hong Kong & MICE Travel Expo",
+          "city": "Hong Kong",
+          "country": "China",
+          "start_date": "2027-06-10",
+          "end_date": "2027-06-13"
+        },
+        {
+          "id": "florida-supercon-pop-culture-exhibition-and-festival-miami-2027-07",
+          "name": "Florida Supercon - Pop Culture Exhibition and Festival",
+          "city": "Miami",
+          "country": "United States",
+          "start_date": "2027-07-09",
+          "end_date": "2027-07-11"
+        },
+        {
+          "id": "functional-fabric-fair-powered-by-performance-days-new-york-ny-2027-07",
+          "name": "Functional Fabric Fair powered by PERFORMANCE DAYS",
+          "city": "New York, NY",
+          "country": "United States",
+          "start_date": "2027-07-20",
+          "end_date": "2027-07-21"
+        },
+        {
+          "id": "eats-the-equipment-automation-and-technology-show-for-food-and-beverage-chicago-il-2027-10",
+          "name": "EATS - The Equipment, Automation and Technology Show for Food & Beverage",
+          "city": "Chicago, IL",
+          "country": "United States",
+          "start_date": "2027-10-26",
+          "end_date": "2027-10-28"
+        },
+        {
+          "id": "transport-middle-east-doha-2027-10",
+          "name": "Transport Middle East",
+          "city": "Doha",
+          "country": "Qatar",
+          "start_date": "2027-10-27",
+          "end_date": "2027-10-28"
+        },
+        {
+          "id": "truck-world-mississigua-on-2028-04",
+          "name": "Truck World",
+          "city": "Mississigua, ON",
+          "country": "Canada",
+          "start_date": "2028-04-20",
+          "end_date": "2028-04-22"
+        },
+        {
+          "id": "conexpo-conagg-las-vegas-nv-2029-03",
+          "name": "Conexpo/Conagg",
+          "city": "Las Vegas, NV",
+          "country": "United States",
+          "start_date": "2029-03-13",
+          "end_date": "2029-03-17"
+        }
+      ],
+      "changed": [
+        {
+          "id": "north-american-skull-base-society-nasbs-nashville-tn-2027-02",
+          "name": "North American Skull Base Society - NASBS",
+          "city": "Nashville, TN",
+          "country": "United States",
+          "from": {
+            "start": "2027-02-26",
+            "end": "2027-02-28"
+          },
+          "to": {
+            "start": "2027-02-25",
+            "end": "2027-02-28"
+          }
+        },
+        {
+          "id": "california-rv-expo-pomona-ca-2027-03",
+          "name": "CALIFORNIA RV EXPO",
+          "city": "Pomona, CA",
+          "country": "United States",
+          "from": {
+            "start": "2027-03-18",
+            "end": "2027-03-21"
+          },
+          "to": {
+            "start": "2027-03-19",
+            "end": "2027-03-21"
+          }
+        },
+        {
+          "id": "home-delivery-world-retail-logistics-exhibition-and-conference-orlando-fl-2027-05",
+          "name": "Home Delivery World - Retail Logistics Exhibition and Conference",
+          "city": "Orlando, FL",
+          "country": "United States",
+          "from": {
+            "start": "2027-05-26",
+            "end": "2027-05-27"
+          },
+          "to": {
+            "start": "2027-05-25",
+            "end": "2027-05-27"
+          }
+        },
+        {
+          "id": "american-association-of-oral-and-maxillofacial-surgeons-aaoms-seattle-wa-2026-09",
+          "name": "American Association of Oral & Maxillofacial Surgeons - AAOMS",
+          "city": "Seattle, WA",
+          "country": "United States",
+          "from": {
+            "start": "2027-09-30",
+            "end": "2027-10-03"
+          },
+          "to": {
+            "start": "2026-09-30",
+            "end": "2026-10-03"
+          }
+        },
+        {
+          "id": "rocky-mountain-apparel-gift-and-resort-show-denver-co-2027-02",
+          "name": "Rocky Mountain Apparel Gift and Resort Show",
+          "city": "Denver, CO",
+          "country": "United States",
+          "from": {
+            "start": "2026-08-25",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-02-23",
+            "end": "2027-02-26"
+          }
+        },
+        {
+          "id": "visionplus-expo-dubai-2027-04",
+          "name": "VISIONPLUS Expo",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "from": {
+            "start": "2026-10-26",
+            "end": "2026-10-27"
+          },
+          "to": {
+            "start": "2027-04-24",
+            "end": "2027-04-25"
+          }
+        },
+        {
+          "id": "international-legal-technology-assn-iltacon-nashville-tn-2027-08",
+          "name": "International Legal Technology Assn - ILTACON",
+          "city": "Nashville, TN",
+          "country": "United States",
+          "from": {
+            "start": "2026-08-23",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-08-08",
+            "end": "2027-08-12"
+          }
+        },
+        {
+          "id": "international-congress-of-esthetics-and-spa-ices-long-beach-ca-2027-08",
+          "name": "International Congress of Esthetics & Spa - ICES",
+          "city": "Long Beach, CA",
+          "country": "United States",
+          "from": {
+            "start": "2026-08-23",
+            "end": "2026-08-24"
+          },
+          "to": {
+            "start": "2027-08-22",
+            "end": "2027-08-23"
+          }
+        },
+        {
+          "id": "intersolar-south-america-sao-paulo-2027-08",
+          "name": "Intersolar South America",
+          "city": "Sao Paulo",
+          "country": "Brazil",
+          "from": {
+            "start": "2026-08-25",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-08-24",
+            "end": "2027-08-26"
+          }
+        },
+        {
+          "id": "japan-build-osaka-osaka-2027-08",
+          "name": "JAPAN BUILD OSAKA",
+          "city": "Osaka",
+          "country": "Japan",
+          "from": {
+            "start": "2026-08-26",
+            "end": "2026-08-28"
+          },
+          "to": {
+            "start": "2027-08-25",
+            "end": "2027-08-27"
+          }
+        },
+        {
+          "id": "optics-and-photonics-spie-san-diego-ca-2027-08",
+          "name": "Optics & Photonics - SPIE",
+          "city": "San Diego, CA",
+          "country": "United States",
+          "from": {
+            "start": "2026-08-23",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-08-29",
+            "end": "2027-09-02"
+          }
+        },
+        {
+          "id": "the-business-show-tbs-singapore-2027-09",
+          "name": "The Business Show - TBS",
+          "city": "Singapore",
+          "country": "Singapore",
+          "from": {
+            "start": "2026-08-26",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-09-01",
+            "end": "2027-09-02"
+          }
+        },
+        {
+          "id": "trends-expo-international-b2b-clothing-fair-lodz-2027-09",
+          "name": "Trends Expo - International B2B Clothing Fair",
+          "city": "Lodz",
+          "country": "Poland",
+          "from": {
+            "start": "2026-08-25",
+            "end": "2026-08-27"
+          },
+          "to": {
+            "start": "2027-09-07",
+            "end": "2027-09-09"
+          }
+        },
+        {
+          "id": "california-restaurant-show-anaheim-ca-2027-09",
+          "name": "California Restaurant Show",
+          "city": "Anaheim, CA",
+          "country": "United States",
+          "from": {
+            "start": "2026-08-23",
+            "end": "2026-08-25"
+          },
+          "to": {
+            "start": "2027-09-12",
+            "end": "2027-09-14"
+          }
+        },
+        {
+          "id": "food-ingredients-fi-india-mumbai-2027-09",
+          "name": "Food Ingredients - Fi India",
+          "city": "Mumbai",
+          "country": "India",
+          "from": {
+            "start": "2026-08-26",
+            "end": "2026-08-28"
+          },
+          "to": {
+            "start": "2027-09-29",
+            "end": "2027-10-01"
+          }
+        }
+      ],
+      "counts": {
+        "added": 165,
+        "removed": 70,
+        "changed": 15
+      }
+    },
+    {
       "date": "2026-08-24",
       "added": [
         {
@@ -13760,1414 +15864,6 @@
         "added": 0,
         "removed": 0,
         "changed": 0
-      }
-    },
-    {
-      "date": "2026-07-20",
-      "added": [
-        {
-          "id": "msandd-hamburg-2026-09",
-          "name": "MS&D",
-          "city": "Hamburg",
-          "country": "Germany",
-          "start_date": "2026-09-03",
-          "end_date": "2026-09-04"
-        },
-        {
-          "id": "novel-nicotine-expo-usa-miami-fl-2026-09",
-          "name": "NOVEL NICOTINE EXPO - USA",
-          "city": "Miami, FL",
-          "country": "United States",
-          "start_date": "2026-09-04",
-          "end_date": "2026-09-05"
-        },
-        {
-          "id": "next-summer-sport-achat-ete-grenoble-2026-09",
-          "name": "NEXT SUMMER - SPORT ACHAT ÉTÉ",
-          "city": "Grenoble",
-          "country": "France",
-          "start_date": "2026-09-07",
-          "end_date": "2026-09-08"
-        },
-        {
-          "id": "salon-de-l-immobilier-la-rochelle-la-rochelle-2026-09",
-          "name": "SALON DE L'IMMOBILIER - LA ROCHELLE",
-          "city": "La Rochelle",
-          "country": "France",
-          "start_date": "2026-09-25",
-          "end_date": "2026-09-27"
-        },
-        {
-          "id": "rescue-day-geneve-2026-09",
-          "name": "RESCUE DAY",
-          "city": "Geneve",
-          "country": "Switzerland",
-          "start_date": "2026-09-26",
-          "end_date": "2026-09-27"
-        },
-        {
-          "id": "society-for-healthcare-strategy-and-market-development-shsmd-baltimore-md-2026-09",
-          "name": "Society for Healthcare Strategy & Market Development - SHSMD",
-          "city": "Baltimore, MD",
-          "country": "United States",
-          "start_date": "2026-09-27",
-          "end_date": "2026-09-29"
-        },
-        {
-          "id": "smart-city-asia-hanoi-2026-10",
-          "name": "Smart City Asia",
-          "city": "Hanoi",
-          "country": "Vietnam",
-          "start_date": "2026-10-08",
-          "end_date": "2026-10-10"
-        },
-        {
-          "id": "bar-convent-berlin-2026-2026-10",
-          "name": "Bar Convent Berlin 2026",
-          "city": null,
-          "country": "Germany",
-          "start_date": "2026-10-12",
-          "end_date": "2026-10-14"
-        },
-        {
-          "id": "eanm-26-austria-centre-vienna-2026-10",
-          "name": "EANM’26 Austria Centre Vienna",
-          "city": null,
-          "country": "Austria",
-          "start_date": "2026-10-17",
-          "end_date": "2026-10-21"
-        },
-        {
-          "id": "ueg-week-2026-berlin-germany-barcelona-2026-10",
-          "name": "UEG Week 2026 Berlin, Germany",
-          "city": "Barcelona",
-          "country": "Spain",
-          "start_date": "2026-10-17",
-          "end_date": "2026-10-20"
-        },
-        {
-          "id": "iot-tech-expo-europe-2026-amsterdam-the-2026-10",
-          "name": "IoT Tech Expo Europe 2026, Amsterdam, the",
-          "city": null,
-          "country": "Netherlands",
-          "start_date": "2026-10-19",
-          "end_date": "2026-10-20"
-        },
-        {
-          "id": "cvrm-professional-care-london-2026-10",
-          "name": "CVRM Professional Care",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2026-10-20",
-          "end_date": "2026-10-21"
-        },
-        {
-          "id": "hydrogen-technology-expo-europe-2026-hamburg-messe-2026-10",
-          "name": "Hydrogen Technology Expo Europe 2026",
-          "city": "Hamburg Messe",
-          "country": "Germany",
-          "start_date": "2026-10-20",
-          "end_date": "2026-10-22"
-        },
-        {
-          "id": "growtech-middle-east-dubai-2026-10",
-          "name": "Growtech Middle East",
-          "city": "Dubai",
-          "country": "United Arab Emirates",
-          "start_date": "2026-10-26",
-          "end_date": "2026-10-28"
-        },
-        {
-          "id": "the-london-textile-fair-london-2027-01",
-          "name": "The London Textile Fair",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-01-12",
-          "end_date": "2027-01-13"
-        },
-        {
-          "id": "southwest-pool-and-spa-show-san-antonio-tx-2027-01",
-          "name": "Southwest Pool & Spa Show",
-          "city": "San Antonio, TX",
-          "country": "United States",
-          "start_date": "2027-01-12",
-          "end_date": "2027-01-16"
-        },
-        {
-          "id": "french-property-exhibition-london-2027-01",
-          "name": "French Property Exhibition",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-01-23",
-          "end_date": "2027-01-24"
-        },
-        {
-          "id": "international-aquatics-and-water-safety-conference-and-exposition-aoap-reno-nv-2027-02",
-          "name": "International Aquatics & Water Safety Conference and Exposition  - AOAP",
-          "city": "Reno, NV",
-          "country": "United States",
-          "start_date": "2027-02-08",
-          "end_date": "2027-02-11"
-        },
-        {
-          "id": "world-mail-and-express-americas-wmx-miami-fl-2027-02",
-          "name": "World Mail & Express Americas - WMX",
-          "city": "Miami, FL",
-          "country": "United States",
-          "start_date": "2027-02-15",
-          "end_date": "2027-02-17"
-        },
-        {
-          "id": "imtm-international-mediteranean-tourism-market-tel-aviv-2027-02",
-          "name": "IMTM - International Mediteranean Tourism Market",
-          "city": "Tel Aviv",
-          "country": "Israel",
-          "start_date": "2027-02-16",
-          "end_date": "2027-02-17"
-        },
-        {
-          "id": "taipei-international-book-exhibition-tibe-taipei-2027-02",
-          "name": "Taipei International Book Exhibition - TiBE",
-          "city": "Taipei",
-          "country": "Taiwan",
-          "start_date": "2027-02-16",
-          "end_date": "2027-02-21"
-        },
-        {
-          "id": "learning-disabilities-association-of-america-lda-las-vegas-nv-2027-02",
-          "name": "Learning Disabilities Association of America - LDA",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-02-17",
-          "end_date": "2027-02-19"
-        },
-        {
-          "id": "motor-drive-systems-and-magnetics-conference-and-exhibition-mdsm-orlando-fl-2027-02",
-          "name": "Motor, Drive Systems & Magnetics Conference & Exhibition - MDSM",
-          "city": "Orlando, FL",
-          "country": "United States",
-          "start_date": "2027-02-17",
-          "end_date": "2027-02-19"
-        },
-        {
-          "id": "american-craft-made-baltimore-md-2027-02",
-          "name": "American Craft Made",
-          "city": "Baltimore, MD",
-          "country": "United States",
-          "start_date": "2027-02-19",
-          "end_date": "2027-02-21"
-        },
-        {
-          "id": "gift-home-market-alberta-edmonton-ab-2027-02",
-          "name": "Gift + Home Market Alberta",
-          "city": "Edmonton, AB",
-          "country": "Canada",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-23"
-        },
-        {
-          "id": "trendset-trade-fair-for-living-tableware-and-lifestyle-munich-2027-02",
-          "name": "TrendSet - Trade Fair for Living, Tableware & Lifestyle",
-          "city": "Munich",
-          "country": "Germany",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-23"
-        },
-        {
-          "id": "national-business-officers-association-nboa-dallas-tx-2027-02",
-          "name": "National Business Officers Association - NBOA",
-          "city": "Dallas, TX",
-          "country": "United States",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-24"
-        },
-        {
-          "id": "aquaculture-america-honolulu-hi-2027-02",
-          "name": "Aquaculture America",
-          "city": "Honolulu, HI",
-          "country": "United States",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-24"
-        },
-        {
-          "id": "cma-sima-conference-the-association-of-retail-and-consumer-professionals-las-vegas-nv-2027-02",
-          "name": "CMA|SIMA Conference - The Association of Retail & Consumer Professionals",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-24"
-        },
-        {
-          "id": "international-erosion-control-association-ieca-reno-nv-2027-02",
-          "name": "International Erosion Control Association - IECA",
-          "city": "Reno, NV",
-          "country": "United States",
-          "start_date": "2027-02-21",
-          "end_date": "2027-02-24"
-        },
-        {
-          "id": "southeastern-association-of-housing-officers-seaho-baton-rouge-la-2027-02",
-          "name": "Southeastern Association of Housing Officers - SEAHO",
-          "city": "Baton Rouge, LA",
-          "country": "United States",
-          "start_date": "2027-02-22",
-          "end_date": "2027-02-26"
-        },
-        {
-          "id": "canadian-golf-course-management-conference-halifax-ns-2027-02",
-          "name": "Canadian Golf Course Management Conference",
-          "city": "Halifax, NS",
-          "country": "Canada",
-          "start_date": "2027-02-23",
-          "end_date": "2027-02-25"
-        },
-        {
-          "id": "awards-and-recognition-association-ara-las-vegas-nv-2027-02",
-          "name": "Awards & Recognition Association - ARA",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-02-23",
-          "end_date": "2027-02-26"
-        },
-        {
-          "id": "american-string-teachers-association-asta-national-conference-chicago-il-2027-02",
-          "name": "American String Teachers Association - ASTA National Conference",
-          "city": "Chicago, IL",
-          "country": "United States",
-          "start_date": "2027-02-24",
-          "end_date": "2027-02-27"
-        },
-        {
-          "id": "national-association-of-truck-stop-operators-natso-connect-dallas-tx-2027-02",
-          "name": "National Association of Truck Stop Operators - NATSO Connect",
-          "city": "Dallas, TX",
-          "country": "United States",
-          "start_date": "2027-02-24",
-          "end_date": "2027-02-26"
-        },
-        {
-          "id": "retail-packaging-association-rpa-las-vegas-nv-2027-02",
-          "name": "Retail Packaging Association - RPA",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-02-24",
-          "end_date": "2027-02-25"
-        },
-        {
-          "id": "ilandscape-horticultural-trade-show-schaumburg-il-2027-02",
-          "name": "iLandscape - Horticultural Trade Show",
-          "city": "Schaumburg, IL",
-          "country": "United States",
-          "start_date": "2027-02-24",
-          "end_date": "2027-02-26"
-        },
-        {
-          "id": "mid-south-farm-and-gin-show-memphis-tn-2027-02",
-          "name": "Mid-South Farm & Gin Show",
-          "city": "Memphis, TN",
-          "country": "United States",
-          "start_date": "2027-02-26",
-          "end_date": "2027-02-27"
-        },
-        {
-          "id": "california-association-of-teachers-of-english-cate-san-francisco-ca-2027-02",
-          "name": "California Association of Teachers of English - CATE",
-          "city": "San Francisco, CA",
-          "country": "United States",
-          "start_date": "2027-02-26",
-          "end_date": "2027-02-28"
-        },
-        {
-          "id": "international-forum-on-process-analytical-chemistry-ifpac-bethesda-md-2027-02",
-          "name": "International Forum on Process Analytical Chemistry - IFPAC",
-          "city": "Bethesda, MD",
-          "country": "United States",
-          "start_date": "2027-02-28",
-          "end_date": "2027-03-03"
-        },
-        {
-          "id": "tpm-trans-pacific-global-container-shipping-and-logistics-long-beach-ca-2027-02",
-          "name": "TPM - Trans-Pacific Global Container Shipping & Logistics",
-          "city": "Long Beach, CA",
-          "country": "United States",
-          "start_date": "2027-02-28",
-          "end_date": "2027-03-03"
-        },
-        {
-          "id": "independent-community-bankers-of-america-icba-las-vegas-nv-2027-03",
-          "name": "Independent Community Bankers of America - ICBA",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-03-01",
-          "end_date": "2027-03-04"
-        },
-        {
-          "id": "dvcon-santa-clara-ca-2027-03",
-          "name": "DVCon",
-          "city": "Santa Clara, CA",
-          "country": "United States",
-          "start_date": "2027-03-01",
-          "end_date": "2027-03-04"
-        },
-        {
-          "id": "world-game-protection-conference-las-vegas-nv-2027-03",
-          "name": "World Game Protection Conference",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-03-02",
-          "end_date": "2027-03-04"
-        },
-        {
-          "id": "new-england-regional-turfgrass-conference-and-show-providence-ri-2027-03",
-          "name": "New England Regional Turfgrass Conference & Show",
-          "city": "Providence, RI",
-          "country": "United States",
-          "start_date": "2027-03-02",
-          "end_date": "2027-03-04"
-        },
-        {
-          "id": "london-farm-show-london-on-2027-03",
-          "name": "London Farm Show",
-          "city": "London, ON",
-          "country": "Canada",
-          "start_date": "2027-03-03",
-          "end_date": "2027-03-05"
-        },
-        {
-          "id": "oake-organization-of-american-kodaly-educators-chicago-il-2027-03",
-          "name": "OAKE - Organization of American Kodaly Educators",
-          "city": "Chicago, IL",
-          "country": "United States",
-          "start_date": "2027-03-04",
-          "end_date": "2027-03-07"
-        },
-        {
-          "id": "american-numismatic-association-national-money-show-virginia-beach-va-2027-03",
-          "name": "American Numismatic Association National Money Show",
-          "city": "Virginia Beach, VA",
-          "country": "United States",
-          "start_date": "2027-03-04",
-          "end_date": "2027-03-06"
-        },
-        {
-          "id": "rideindia-bicycles-bicycle-parts-and-toys-expo-ludhiana-2027-03",
-          "name": "RideIndia - Bicycles, Bicycle Parts & Toys Expo",
-          "city": "Ludhiana",
-          "country": "India",
-          "start_date": "2027-03-05",
-          "end_date": "2027-03-07"
-        },
-        {
-          "id": "monroeville-fire-and-ems-expo-monroeville-pa-2027-03",
-          "name": "Monroeville Fire & EMS Expo",
-          "city": "Monroeville, PA",
-          "country": "United States",
-          "start_date": "2027-03-06",
-          "end_date": "2027-03-07"
-        },
-        {
-          "id": "wm-symposia-waste-management-phoenix-az-2027-03",
-          "name": "WM Symposia - Waste Management",
-          "city": "Phoenix, AZ",
-          "country": "United States",
-          "start_date": "2027-03-07",
-          "end_date": "2027-03-11"
-        },
-        {
-          "id": "paintindia-new-delhi-2027-03",
-          "name": "PAINTINDIA",
-          "city": "New Delhi",
-          "country": "India",
-          "start_date": "2027-03-12",
-          "end_date": "2027-03-13"
-        },
-        {
-          "id": "let-s-play-hockey-st-paul-mn-2027-03",
-          "name": "Let's Play Hockey",
-          "city": "St. Paul, MN",
-          "country": "United States",
-          "start_date": "2027-03-12",
-          "end_date": "2027-03-13"
-        },
-        {
-          "id": "the-manchester-cleaning-show-london-2027-03",
-          "name": "The Manchester Cleaning Show",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-03-16",
-          "end_date": "2027-03-18"
-        },
-        {
-          "id": "tyrexpo-asia-singapore-2027-03",
-          "name": "Tyrexpo Asia",
-          "city": "Singapore",
-          "country": "Singapore",
-          "start_date": "2027-03-17",
-          "end_date": "2027-03-19"
-        },
-        {
-          "id": "southern-conference-on-language-teaching-scolt-jacksonville-fl-2027-03",
-          "name": "Southern Conference on Language Teaching - SCOLT",
-          "city": "Jacksonville, FL",
-          "country": "United States",
-          "start_date": "2027-03-18",
-          "end_date": "2027-03-20"
-        },
-        {
-          "id": "professional-beauty-gcc-dubai-2027-03",
-          "name": "Professional Beauty GCC",
-          "city": "Dubai",
-          "country": "United Arab Emirates",
-          "start_date": "2027-03-22",
-          "end_date": "2027-03-23"
-        },
-        {
-          "id": "ifx-expo-dubai-dubai-2027-03",
-          "name": "iFX EXPO DUBAI",
-          "city": "Dubai",
-          "country": "United Arab Emirates",
-          "start_date": "2027-03-23",
-          "end_date": "2027-03-25"
-        },
-        {
-          "id": "automechanika-istanbul-istanbul-2027-03",
-          "name": "Automechanika Istanbul",
-          "city": "Istanbul",
-          "country": "Turkey",
-          "start_date": "2027-03-24",
-          "end_date": "2027-03-27"
-        },
-        {
-          "id": "southern-california-linux-expo-scale-pasadena-ca-2027-04",
-          "name": "Southern California Linux Expo - SCaLE",
-          "city": "Pasadena, CA",
-          "country": "United States",
-          "start_date": "2027-04-01",
-          "end_date": "2027-04-04"
-        },
-        {
-          "id": "fespa-global-print-expo-munich-2027-04",
-          "name": "FESPA Global Print Expo",
-          "city": "Munich",
-          "country": "Germany",
-          "start_date": "2027-04-06",
-          "end_date": "2027-04-09"
-        },
-        {
-          "id": "buildtech-week-berlin-2027-04",
-          "name": "BUILDTECH WEEK",
-          "city": "Berlin",
-          "country": "Germany",
-          "start_date": "2027-04-06",
-          "end_date": "2027-04-07"
-        },
-        {
-          "id": "hvac-korea-seoul-2027-04",
-          "name": "HVAC Korea",
-          "city": "Seoul",
-          "country": "South Korea",
-          "start_date": "2027-04-07",
-          "end_date": "2027-04-09"
-        },
-        {
-          "id": "auto-ev-show-pune-2027-04",
-          "name": "Auto EV Show",
-          "city": "Pune",
-          "country": "India",
-          "start_date": "2027-04-14",
-          "end_date": "2027-04-16"
-        },
-        {
-          "id": "empack-netherlands-s-hertogenbosch-2027-04",
-          "name": "EMPACK Netherlands",
-          "city": "s-Hertogenbosch",
-          "country": "Netherlands",
-          "start_date": "2027-04-14",
-          "end_date": "2027-04-15"
-        },
-        {
-          "id": "the-business-show-miami-miami-fl-2027-04",
-          "name": "The Business Show Miami",
-          "city": "Miami, FL",
-          "country": "United States",
-          "start_date": "2027-04-14",
-          "end_date": "2027-04-15"
-        },
-        {
-          "id": "heartland-travel-showcase-toledo-oh-2027-04",
-          "name": "Heartland Travel Showcase",
-          "city": "Toledo, OH",
-          "country": "United States",
-          "start_date": "2027-04-19",
-          "end_date": "2027-04-21"
-        },
-        {
-          "id": "indus-tech-machine-tools-and-automation-expo-kolkata-2027-04",
-          "name": "INDUS-tech Machine Tools & Automation Expo",
-          "city": "Kolkata",
-          "country": "India",
-          "start_date": "2027-04-23",
-          "end_date": "2027-04-26"
-        },
-        {
-          "id": "oman-petroleum-and-energy-show-muscat-2027-04",
-          "name": "Oman Petroleum & Energy Show",
-          "city": "Muscat",
-          "country": "Oman",
-          "start_date": "2027-04-26",
-          "end_date": "2027-04-28"
-        },
-        {
-          "id": "oman-sustainability-week-osw-expo-muscat-2027-04",
-          "name": "Oman Sustainability Week - OSW Expo",
-          "city": "Muscat",
-          "country": "Oman",
-          "start_date": "2027-04-26",
-          "end_date": "2027-04-28"
-        },
-        {
-          "id": "grand-designs-live-exhibition-london-2027-04",
-          "name": "Grand Designs Live - Exhibition",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-04-30",
-          "end_date": "2027-05-03"
-        },
-        {
-          "id": "american-association-of-critical-care-nurses-aacn-s-national-teaching-institute-nti-inianapolis-in-2027-05",
-          "name": "American Association of Critical Care Nurses - AACN's National Teaching Institute - NTI",
-          "city": "Inianapolis, IN",
-          "country": "United States",
-          "start_date": "2027-05-02",
-          "end_date": "2027-05-05"
-        },
-        {
-          "id": "proposte-furnishings-fabrics-and-curtains-cernobbio-2027-05",
-          "name": "Proposte - Furnishings Fabrics & Curtains",
-          "city": "Cernobbio",
-          "country": "Italy",
-          "start_date": "2027-05-04",
-          "end_date": "2027-05-06"
-        },
-        {
-          "id": "bbb-expo-bioenergy-biogas-biofuel-international-summit-and-expo-on-bioenergy-value-chain-new-delhi-2027-05",
-          "name": "BBB Expo - BIOENERGY, BIOGAS, BIOFUEL - International Summit & Expo on Bioenergy Value Chain",
-          "city": "New Delhi",
-          "country": "India",
-          "start_date": "2027-05-06",
-          "end_date": "2027-05-08"
-        },
-        {
-          "id": "ledtec-asia-ho-chi-minh-city-2027-05",
-          "name": "LEDTEC ASIA",
-          "city": "Ho Chi Minh City",
-          "country": "Vietnam",
-          "start_date": "2027-05-06",
-          "end_date": "2027-05-08"
-        },
-        {
-          "id": "oroarezzo-international-jewelry-exhibition-arezzo-2027-05",
-          "name": "OROAREZZO - International Jewelry Exhibition",
-          "city": "Arezzo",
-          "country": "Italy",
-          "start_date": "2027-05-08",
-          "end_date": "2027-05-11"
-        },
-        {
-          "id": "european-outdoor-week-riva-del-garda-2027-05",
-          "name": "European Outdoor Week",
-          "city": "Riva del Garda",
-          "country": "Italy",
-          "start_date": "2027-05-08",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "tfwa-asia-pacific-tax-free-world-association-singapore-2027-05",
-          "name": "TFWA Asia Pacific - Tax Free World Association",
-          "city": "Singapore",
-          "country": "Singapore",
-          "start_date": "2027-05-09",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "asia-amusement-and-attractions-expo-aaa-guangzhou-2027-05",
-          "name": "Asia Amusement & Attractions Expo - AAA",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "asia-vrandar-fair-and-summit-guangzhou-2027-05",
-          "name": "Asia VR&AR Fair & Summit",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "asia-water-based-tourism-water-sports-sea-fishing-and-yacht-expo-guangzhou-2027-05",
-          "name": "Asia Water-Based Tourism, Water Sports, Sea Fishing & Yacht Expo",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "expo-franchising-guangzhou-gife-guangzhou-2027-05",
-          "name": "Expo Franchising Guangzhou - GIFE",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "the-china-bakery-exhibition-cbe-guangzhou-2027-05",
-          "name": "The China Bakery Exhibition - CBE",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "orbdays-and-outdoor-trade-show-riva-del-garda-2027-05",
-          "name": "ORBDAYS & OUTDOOR trade show",
-          "city": "Riva del Garda",
-          "country": "Italy",
-          "start_date": "2027-05-10",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "fenagra-international-agroindustry-feed-and-food-fair-sao-paulo-2027-05",
-          "name": "Fenagra - International Agroindustry Feed & Food Fair",
-          "city": "Sao Paulo",
-          "country": "Brazil",
-          "start_date": "2027-05-11",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "on-sale-live-london-2027-05",
-          "name": "On Sale Live",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-11",
-          "end_date": "2027-05-12"
-        },
-        {
-          "id": "insurenxt-international-congress-and-expo-for-innovation-in-insurance-cologne-2027-05",
-          "name": "InsureNXT - International Congress & Expo for Innovation in Insurance",
-          "city": "Cologne",
-          "country": "Germany",
-          "start_date": "2027-05-12",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "factory-innovation-week-osaka-2027-05",
-          "name": "Factory Innovation Week",
-          "city": "Osaka",
-          "country": "Japan",
-          "start_date": "2027-05-12",
-          "end_date": "2027-05-14"
-        },
-        {
-          "id": "nepcon-japan-osaka-2027-05",
-          "name": "Nepcon Japan",
-          "city": "Osaka",
-          "country": "Japan",
-          "start_date": "2027-05-12",
-          "end_date": "2027-05-14"
-        },
-        {
-          "id": "accountex-national-accountancy-exhibition-and-conference-london-2027-05",
-          "name": "ACCOUNTEX - National Accountancy Exhibition & Conference",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-12",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "international-cafe-and-beverage-show-icbs-kuala-lumpur-2027-05",
-          "name": "International Cafe & Beverage Show - ICBS",
-          "city": "Kuala Lumpur",
-          "country": "Malaysia",
-          "start_date": "2027-05-13",
-          "end_date": "2027-05-15"
-        },
-        {
-          "id": "eu-startups-summit-valletta-2027-05",
-          "name": "EU-Startups Summit",
-          "city": "Valletta",
-          "country": "Malta",
-          "start_date": "2027-05-13",
-          "end_date": "2027-05-14"
-        },
-        {
-          "id": "the-hutchwilco-new-zealand-boat-show-auckland-2027-05",
-          "name": "The Hutchwilco New Zealand Boat Show",
-          "city": "Auckland",
-          "country": "New Zealand",
-          "start_date": "2027-05-13",
-          "end_date": "2027-05-16"
-        },
-        {
-          "id": "photo-london-london-2027-05",
-          "name": "Photo London",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-13",
-          "end_date": "2027-05-16"
-        },
-        {
-          "id": "asia-forestry-and-garden-machinery-and-tools-fair-gmf-guangzhou-2027-05",
-          "name": "Asia Forestry & Garden Machinery & Tools Fair - GMF",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-15",
-          "end_date": "2027-05-17"
-        },
-        {
-          "id": "asia-landscape-design-equipment-and-supplies-expo-landscape-expo-asia-guangzhou-2027-05",
-          "name": "Asia Landscape Design, Equipment & Supplies Expo - Landscape Expo Asia",
-          "city": "Guangzhou",
-          "country": "China",
-          "start_date": "2027-05-15",
-          "end_date": "2027-05-17"
-        },
-        {
-          "id": "london-international-wine-and-spirits-fair-london-2027-05",
-          "name": "London International Wine & Spirits Fair",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-17",
-          "end_date": "2027-05-19"
-        },
-        {
-          "id": "mega-clima-nigeria-lagos-2027-05",
-          "name": "MEGA CLIMA NIGERIA",
-          "city": "Lagos",
-          "country": "Nigeria",
-          "start_date": "2027-05-18",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "west-africa-water-expo-wawe-lagos-2027-05",
-          "name": "WEST AFRICA WATER EXPO - WAWE",
-          "city": "Lagos",
-          "country": "Nigeria",
-          "start_date": "2027-05-18",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "parkex-coventry-2027-05",
-          "name": "Parkex",
-          "city": "Coventry",
-          "country": "United Kingdom",
-          "start_date": "2027-05-19",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "sits-europe-service-desk-and-it-support-show-london-2027-05",
-          "name": "SITS Europe - Service Desk & IT Support Show",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-19",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "the-podcast-show-london-2027-05",
-          "name": "The Podcast Show",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-19",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "the-spring-furniture-and-bed-show-telford-2027-05",
-          "name": "The Spring Furniture & Bed Show",
-          "city": "Telford",
-          "country": "United Kingdom",
-          "start_date": "2027-05-19",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "international-fastener-show-ifs-china-shanghai-2027-05",
-          "name": "International Fastener Show - IFS China",
-          "city": "Shanghai",
-          "country": "China",
-          "start_date": "2027-05-20",
-          "end_date": "2027-05-22"
-        },
-        {
-          "id": "international-jewellery-kobe-ijk-kobe-2027-05",
-          "name": "International Jewellery Kobe - IJK",
-          "city": "Kobe",
-          "country": "Japan",
-          "start_date": "2027-05-20",
-          "end_date": "2027-05-22"
-        },
-        {
-          "id": "firsts-london-s-rare-book-fair-london-2027-05",
-          "name": "Firsts - London's Rare Book Fair",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-20",
-          "end_date": "2027-05-23"
-        },
-        {
-          "id": "american-urological-association-aua-annual-meeting-san-diego-ca-2027-05",
-          "name": "American Urological Association - AUA Annual Meeting",
-          "city": "San Diego, CA",
-          "country": "United States",
-          "start_date": "2027-05-21",
-          "end_date": "2027-05-24"
-        },
-        {
-          "id": "gartner-supply-chain-symposium-xpo-barcelona-2027-05",
-          "name": "Gartner Supply Chain Symposium/Xpo",
-          "city": "Barcelona",
-          "country": "Spain",
-          "start_date": "2027-05-24",
-          "end_date": "2027-05-26"
-        },
-        {
-          "id": "semicon-southeast-asia-kuala-lumpur-2027-05",
-          "name": "SEMICON Southeast Asia",
-          "city": "Kuala Lumpur",
-          "country": "Malaysia",
-          "start_date": "2027-05-25",
-          "end_date": "2027-05-27"
-        },
-        {
-          "id": "combined-naval-event-farnborough-2027-05",
-          "name": "Combined Naval Event",
-          "city": "Farnborough",
-          "country": "United Kingdom",
-          "start_date": "2027-05-25",
-          "end_date": "2027-05-27"
-        },
-        {
-          "id": "ancora-yacht-festival-holstein-2027-05",
-          "name": "Ancora Yacht Festival",
-          "city": "Holstein",
-          "country": "Germany",
-          "start_date": "2027-05-28",
-          "end_date": "2027-05-30"
-        },
-        {
-          "id": "advanced-automotive-battery-conference-aabc-europe-mainz-2027-06",
-          "name": "Advanced Automotive Battery Conference - AABC Europe",
-          "city": "Mainz",
-          "country": "Germany",
-          "start_date": "2027-06-01",
-          "end_date": "2027-06-04"
-        },
-        {
-          "id": "american-society-for-artificial-interal-organs-asaio-houston-tx-2027-06",
-          "name": "American Society for Artificial Interal Organs - ASAIO",
-          "city": "Houston, TX",
-          "country": "United States",
-          "start_date": "2027-06-02",
-          "end_date": "2027-06-05"
-        },
-        {
-          "id": "adas-and-autonomous-vehicle-technology-expo-stuttgart-2027-06",
-          "name": "ADAS & AUTONOMOUS VEHICLE TECHNOLOGY EXPO",
-          "city": "Stuttgart",
-          "country": "Germany",
-          "start_date": "2027-06-02",
-          "end_date": "2027-06-03"
-        },
-        {
-          "id": "automotive-interiors-expo-europe-stuttgart-2027-06",
-          "name": "AUTOMOTIVE INTERIORS EXPO - EUROPE",
-          "city": "Stuttgart",
-          "country": "Germany",
-          "start_date": "2027-06-02",
-          "end_date": "2027-06-03"
-        },
-        {
-          "id": "american-academy-of-clinical-neuropsychology-aacn-seattle-wa-2027-06",
-          "name": "American Academy of Clinical Neuropsychology - AACN",
-          "city": "Seattle, WA",
-          "country": "United States",
-          "start_date": "2027-06-09",
-          "end_date": "2027-06-12"
-        },
-        {
-          "id": "abilities-expo-chicago-schaumburg-il-2027-06",
-          "name": "Abilities Expo - Chicago",
-          "city": "Schaumburg, IL",
-          "country": "United States",
-          "start_date": "2027-06-11",
-          "end_date": "2027-06-13"
-        },
-        {
-          "id": "life-sciences-trainers-and-educators-network-lten-dallas-tx-2027-06",
-          "name": "Life Sciences Trainers & Educators Network - LTEN",
-          "city": "Dallas, TX",
-          "country": "United States",
-          "start_date": "2027-06-14",
-          "end_date": "2027-06-17"
-        },
-        {
-          "id": "lab-italia-milan-2027-06",
-          "name": "Lab Italia",
-          "city": "Milan",
-          "country": "Italy",
-          "start_date": "2027-06-15",
-          "end_date": "2027-06-16"
-        },
-        {
-          "id": "ifes-world-summit-garda-2027-06",
-          "name": "IFES WORLD SUMMIT",
-          "city": "Garda",
-          "country": "Italy",
-          "start_date": "2027-06-15",
-          "end_date": "2027-06-18"
-        },
-        {
-          "id": "carolinas-restaurant-show-charlotte-nc-2027-06",
-          "name": "Carolinas Restaurant Show",
-          "city": "Charlotte, NC",
-          "country": "United States",
-          "start_date": "2027-06-16",
-          "end_date": "2027-06-17"
-        },
-        {
-          "id": "aesthetic-medcine-world-congress-amwc-brazil-sao-paulo-2027-06",
-          "name": "Aesthetic Medcine World Congress - AMWC Brazil",
-          "city": "Sao Paulo",
-          "country": "Brazil",
-          "start_date": "2027-06-17",
-          "end_date": "2027-06-19"
-        },
-        {
-          "id": "drug-information-association-annual-meeting-dia-san-diego-ca-2027-06",
-          "name": "Drug Information Association Annual Meeting - DIA",
-          "city": "San Diego, CA",
-          "country": "United States",
-          "start_date": "2027-06-28",
-          "end_date": "2027-07-01"
-        },
-        {
-          "id": "school-nutrition-association-sna-phoenix-az-2027-07",
-          "name": "School Nutrition Association - SNA",
-          "city": "Phoenix, AZ",
-          "country": "United States",
-          "start_date": "2027-07-11",
-          "end_date": "2027-07-13"
-        },
-        {
-          "id": "texas-restaurant-association-tra-marketplace-san-antonio-tx-2027-07",
-          "name": "Texas Restaurant Association - TRA Marketplace",
-          "city": "San Antonio, TX",
-          "country": "United States",
-          "start_date": "2027-07-11",
-          "end_date": "2027-07-12"
-        },
-        {
-          "id": "manufacturing-indaba-johannesburg-2027-07",
-          "name": "Manufacturing Indaba",
-          "city": "Johannesburg",
-          "country": "South Africa",
-          "start_date": "2027-07-13",
-          "end_date": "2027-07-14"
-        },
-        {
-          "id": "develop-brighton-game-industry-convention-brighton-2027-07",
-          "name": "Develop:Brighton - Game Industry Convention",
-          "city": "Brighton",
-          "country": "United Kingdom",
-          "start_date": "2027-07-13",
-          "end_date": "2027-07-15"
-        },
-        {
-          "id": "cosmoprof-north-america-las-vegas-las-vegas-nv-2027-07",
-          "name": "Cosmoprof North America Las Vegas",
-          "city": "Las Vegas, NV",
-          "country": "United States",
-          "start_date": "2027-07-13",
-          "end_date": "2027-07-15"
-        },
-        {
-          "id": "american-veterinary-medical-association-avma-minneapolis-mn-2027-07",
-          "name": "American Veterinary Medical Association - AVMA",
-          "city": "Minneapolis, MN",
-          "country": "United States",
-          "start_date": "2027-07-16",
-          "end_date": "2027-07-20"
-        },
-        {
-          "id": "alzheimer-s-association-international-conference-aaic-chicago-il-2027-07",
-          "name": "Alzheimer's Association International Conference - AAIC",
-          "city": "Chicago, IL",
-          "country": "United States",
-          "start_date": "2027-07-18",
-          "end_date": "2027-07-21"
-        },
-        {
-          "id": "bcvs-basic-cardiovascular-sciences-american-heart-association-boston-ma-2027-07",
-          "name": "BCVS - Basic Cardiovascular Sciences - American Heart Association",
-          "city": "Boston, MA",
-          "country": "United States",
-          "start_date": "2027-07-19",
-          "end_date": "2027-07-22"
-        },
-        {
-          "id": "ahra-association-for-medical-imaging-management-annual-san-jose-ca-2027-07",
-          "name": "AHRA - Association for Medical Imaging Management - Annual",
-          "city": "San Jose, CA",
-          "country": "United States",
-          "start_date": "2027-07-25",
-          "end_date": "2027-07-28"
-        },
-        {
-          "id": "infocomm-asia-kuala-lumpur-2027-07",
-          "name": "InfoComm Asia",
-          "city": "Kuala Lumpur",
-          "country": "Malaysia",
-          "start_date": "2027-07-28",
-          "end_date": "2027-07-30"
-        },
-        {
-          "id": "bett-usa-education-event-nashville-tn-2027-11",
-          "name": "BETT USA - Education Event",
-          "city": "Nashville, TN",
-          "country": "United States",
-          "start_date": "2027-11-08",
-          "end_date": "2027-11-10"
-        },
-        {
-          "id": "india-stonemart-jaipur-2028-02",
-          "name": "INDIA STONEMART",
-          "city": "Jaipur",
-          "country": "India",
-          "start_date": "2028-02-17",
-          "end_date": "2028-02-20"
-        },
-        {
-          "id": "modex-material-handling-and-logistics-solutions-atlanta-ga-2028-04",
-          "name": "MODEX - Material Handling & Logistics Solutions",
-          "city": "Atlanta, GA",
-          "country": "United States",
-          "start_date": "2028-04-03",
-          "end_date": "2028-04-05"
-        },
-        {
-          "id": "international-security-national-resilience-isnr-abu-dhabi-2028-04",
-          "name": "International Security National Resilience - ISNR",
-          "city": "Abu Dhabi",
-          "country": "United Arab Emirates",
-          "start_date": "2028-04-04",
-          "end_date": "2028-04-06"
-        },
-        {
-          "id": "interzum-bogota-furniture-production-and-interiors-bogota-2028-05",
-          "name": "Interzum Bogota - Furniture Production & Interiors",
-          "city": "Bogota",
-          "country": "Colombia",
-          "start_date": "2028-05-09",
-          "end_date": "2028-05-12"
-        },
-        {
-          "id": "scottish-skipper-expo-exhibition-for-the-fishing-and-processing-industry-aberdeen-2028-05",
-          "name": "Scottish Skipper Expo - Exhibition for the Fishing and Processing Industry",
-          "city": "Aberdeen",
-          "country": "United Kingdom",
-          "start_date": "2028-05-11",
-          "end_date": "2028-05-12"
-        },
-        {
-          "id": "uniti-expo-retail-petroleum-and-car-wash-trade-fair-stuttgart-2028-05",
-          "name": "UNITI expo - retail petroleum and car wash trade fair",
-          "city": "Stuttgart",
-          "country": "Germany",
-          "start_date": "2028-05-16",
-          "end_date": "2028-05-18"
-        },
-        {
-          "id": "food-ingredients-vietnam-fi-ho-chi-minh-city-2028-05",
-          "name": "Food Ingredients Vietnam - FI",
-          "city": "Ho Chi Minh City",
-          "country": "Vietnam",
-          "start_date": "2028-05-17",
-          "end_date": "2028-05-19"
-        },
-        {
-          "id": "interpack-dusseldorf-2029-06",
-          "name": "Interpack",
-          "city": "Dusseldorf",
-          "country": "Germany",
-          "start_date": "2029-06-10",
-          "end_date": "2029-06-15"
-        },
-        {
-          "id": "metpack-trade-fair-for-metal-packaging-essen-2029-06",
-          "name": "METPACK - Trade Fair for Metal Packaging",
-          "city": "Essen",
-          "country": "Germany",
-          "start_date": "2029-06-12",
-          "end_date": "2029-06-15"
-        }
-      ],
-      "removed": [
-        {
-          "id": "choregies-d-orange-orange-2026-06",
-          "name": "CHORÉGIES D'ORANGE",
-          "city": "Orange",
-          "country": "France",
-          "start_date": "2026-06-19",
-          "end_date": "2026-07-18"
-        },
-        {
-          "id": "salon-deco-la-rochelle-la-rochelle-2026-09",
-          "name": "SALON DÉCO LA ROCHELLE",
-          "city": "La Rochelle",
-          "country": "France",
-          "start_date": "2026-09-25",
-          "end_date": "2026-09-28"
-        },
-        {
-          "id": "bar-convent-berlin-2025-2026-10",
-          "name": "Bar Convent Berlin 2025",
-          "city": null,
-          "country": "Germany",
-          "start_date": "2026-10-12",
-          "end_date": "2026-10-14"
-        },
-        {
-          "id": "eanm-25-barcelona-spain-2026-10",
-          "name": "EANM’25 Barcelona, Spain",
-          "city": null,
-          "country": "Austria",
-          "start_date": "2026-10-17",
-          "end_date": "2026-10-21"
-        },
-        {
-          "id": "ueg-week-2025-berlin-germany-barcelona-2026-10",
-          "name": "UEG Week 2025 Berlin, Germany",
-          "city": "Barcelona",
-          "country": "Spain",
-          "start_date": "2026-10-17",
-          "end_date": "2026-10-20"
-        },
-        {
-          "id": "iot-tech-expo-europe-2025-rai-amsterdam-the-2026-10",
-          "name": "IoT Tech Expo Europe 2025",
-          "city": "RAI Amsterdam, the",
-          "country": "Netherlands",
-          "start_date": "2026-10-19",
-          "end_date": "2026-10-20"
-        },
-        {
-          "id": "diabetes-professional-care-london-2026-10",
-          "name": "Diabetes Professional Care",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2026-10-20",
-          "end_date": "2026-10-21"
-        },
-        {
-          "id": "hydrogen-technology-expo-europe-2025-hamburg-messe-2026-10",
-          "name": "Hydrogen Technology Expo Europe 2025",
-          "city": "Hamburg Messe",
-          "country": "Germany",
-          "start_date": "2026-10-20",
-          "end_date": "2026-10-22"
-        },
-        {
-          "id": "australian-adventure-expo-sydney-2026-10",
-          "name": "Australian Adventure Expo",
-          "city": "Sydney",
-          "country": "Australia",
-          "start_date": "2026-10-21",
-          "end_date": "2026-10-22"
-        },
-        {
-          "id": "agrame-agribusiness-middle-east-dubai-2026-10",
-          "name": "AGRAme - Agribusiness Middle East",
-          "city": "Dubai",
-          "country": "United Arab Emirates",
-          "start_date": "2026-10-26",
-          "end_date": "2026-10-28"
-        },
-        {
-          "id": "national-money-show-virginia-beach-va-2027-03",
-          "name": "NATIONAL MONEY SHOW",
-          "city": "Virginia Beach, VA",
-          "country": "United States",
-          "start_date": "2027-03-04",
-          "end_date": "2027-03-06"
-        },
-        {
-          "id": "empack-netherlands-gorinchem-2027-04",
-          "name": "EMPACK Netherlands",
-          "city": "Gorinchem",
-          "country": "Netherlands",
-          "start_date": "2027-04-14",
-          "end_date": "2027-04-15"
-        },
-        {
-          "id": "the-business-show-tbs-miami-fl-2027-04",
-          "name": "The Business Show - TBS",
-          "city": "Miami, FL",
-          "country": "United States",
-          "start_date": "2027-04-14",
-          "end_date": "2027-04-15"
-        },
-        {
-          "id": "india-welding-technology-show-pune-2027-04",
-          "name": "India Welding Technology Show",
-          "city": "Pune",
-          "country": "India",
-          "start_date": "2027-04-16",
-          "end_date": "2027-04-18"
-        },
-        {
-          "id": "oroarezzo-arezzo-2027-05",
-          "name": "OROAREZZO",
-          "city": "Arezzo",
-          "country": "Italy",
-          "start_date": "2027-05-08",
-          "end_date": "2027-05-11"
-        },
-        {
-          "id": "accountex-london-london-2027-05",
-          "name": "ACCOUNTEX LONDON",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-12",
-          "end_date": "2027-05-13"
-        },
-        {
-          "id": "sits-the-service-desk-and-it-support-show-london-2027-05",
-          "name": "SITS – THE SERVICE DESK & IT SUPPORT SHOW",
-          "city": "London",
-          "country": "United Kingdom",
-          "start_date": "2027-05-19",
-          "end_date": "2027-05-20"
-        },
-        {
-          "id": "american-urological-association-aua-san-diego-ca-2027-05",
-          "name": "American Urological Association - AUA",
-          "city": "San Diego, CA",
-          "country": "United States",
-          "start_date": "2027-05-21",
-          "end_date": "2027-05-24"
-        },
-        {
-          "id": "adas-and-autonomous-vehicle-technology-expo-europe-stuttgart-2027-06",
-          "name": "ADAS & AUTONOMOUS VEHICLE TECHNOLOGY EXPO EUROPE",
-          "city": "Stuttgart",
-          "country": "Germany",
-          "start_date": "2027-06-02",
-          "end_date": "2027-06-03"
-        }
-      ],
-      "changed": [
-        {
-          "id": "swissbau-construction-and-real-estate-exhibition-basel-2027-01",
-          "name": "Swissbau - Construction & Real Estate Exhibition",
-          "city": "Basel",
-          "country": "Switzerland",
-          "from": {
-            "start": "2027-01-18",
-            "end": "2027-01-22"
-          },
-          "to": {
-            "start": "2027-01-18",
-            "end": "2027-01-21"
-          }
-        },
-        {
-          "id": "mediterranean-ports-and-logistics-trieste-2027-04",
-          "name": "Mediterranean Ports & Logistics",
-          "city": "Trieste",
-          "country": "Italy",
-          "from": {
-            "start": "2027-04-14",
-            "end": "2027-04-15"
-          },
-          "to": {
-            "start": "2027-04-13",
-            "end": "2027-04-15"
-          }
-        },
-        {
-          "id": "american-association-of-geriatric-psychiatry-aagp-san-diego-ca-2027-04",
-          "name": "American Association of Geriatric Psychiatry - AAGP",
-          "city": "San Diego, CA",
-          "country": "United States",
-          "from": {
-            "start": "2027-04-15",
-            "end": "2027-04-19"
-          },
-          "to": {
-            "start": "2027-04-16",
-            "end": "2027-04-19"
-          }
-        },
-        {
-          "id": "oman-design-and-build-week-the-big-show-muscat-2027-04",
-          "name": "Oman Design & Build Week - The BIG Show",
-          "city": "Muscat",
-          "country": "Oman",
-          "from": {
-            "start": "2027-04-19",
-            "end": "2027-04-21"
-          },
-          "to": {
-            "start": "2027-04-18",
-            "end": "2027-04-21"
-          }
-        },
-        {
-          "id": "nufam-karlsruhe-2027-09",
-          "name": "NUFAM",
-          "city": "Karlsruhe",
-          "country": "Germany",
-          "from": {
-            "start": "2027-09-23",
-            "end": "2027-09-26"
-          },
-          "to": {
-            "start": "2027-09-22",
-            "end": "2027-09-25"
-          }
-        },
-        {
-          "id": "icci-int-l-energy-and-environment-fair-istanbul-2027-01",
-          "name": "ICCI - Int'l Energy & Environment Fair",
-          "city": "Istanbul",
-          "country": "Turkey",
-          "from": {
-            "start": "2026-09-16",
-            "end": "2026-09-18"
-          },
-          "to": {
-            "start": "2027-01-20",
-            "end": "2027-01-22"
-          }
-        },
-        {
-          "id": "salon-du-chocolat-mumbai-2027-02",
-          "name": "SALON DU CHOCOLAT",
-          "city": "Mumbai",
-          "country": "India",
-          "from": {
-            "start": "2027-01-16",
-            "end": "2027-01-17"
-          },
-          "to": {
-            "start": "2027-02-20",
-            "end": "2027-02-21"
-          }
-        }
-      ],
-      "counts": {
-        "added": 143,
-        "removed": 19,
-        "changed": 7
       }
     }
   ]

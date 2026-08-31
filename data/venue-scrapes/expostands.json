@@ -1,68 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-08-24T05:34:45.086Z",
+  "scraped_at": "2026-08-31T11:18:57.123Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Plantarium/GROEN-Direkt Autumn Edition 2026 The",
-      "start_date": "2026-08-26",
-      "end_date": "2026-08-27",
-      "city": "Hazerswoude-Dorp",
-      "country": "Netherlands",
-      "venue": "Plantarium gebouw",
-      "industry": [
-        "Agriculture"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-plantariumgroendirekt/"
-    },
-    {
-      "name": "gamescom 2026",
-      "start_date": "2026-08-26",
-      "end_date": "2026-08-30",
-      "city": "Cologne",
-      "country": "Germany",
-      "venue": null,
-      "industry": [
-        "Gaming"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-gamescom-cologne/"
-    },
-    {
-      "name": "ESC Congress 2026",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munich",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-esc-congress/"
-    },
-    {
-      "name": "CARAVAN SALON DUSSELDORF 2026",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-06",
-      "city": null,
-      "country": "Germany",
-      "venue": "Messe Dusseldorf",
-      "industry": [
-        "Travel and Tourism"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-caravan-salon/"
-    },
-    {
-      "name": "ILM 2026",
-      "start_date": "2026-08-29",
-      "end_date": "2026-08-31",
-      "city": "Offenbach",
-      "country": "Germany",
-      "venue": "Messe Offenbach",
-      "industry": [
-        "Fashion"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ilm/"
-    },
     {
       "name": "SMM 2026",
       "start_date": "2026-09-01",
