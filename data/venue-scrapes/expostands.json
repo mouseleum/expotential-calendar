@@ -1,44 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-08-31T11:18:57.123Z",
+  "scraped_at": "2026-09-07T09:54:41.117Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "SMM 2026",
-      "start_date": "2026-09-01",
-      "end_date": "2026-09-04",
-      "city": "Hamburg",
-      "country": "Germany",
-      "venue": "Hamburg Messe and Congress",
-      "industry": [
-        "Maritime"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-smm-hamburg-germany/"
-    },
-    {
-      "name": "WM Workshop Trade Fair Dortmund 2026",
-      "start_date": "2026-09-04",
-      "end_date": "2026-09-06",
-      "city": null,
-      "country": "Germany",
-      "venue": "Westfalenhallen Dortmund",
-      "industry": [
-        "Automobile"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-wm-workshop-trade-fair-dortmund/"
-    },
-    {
-      "name": "jobmesse Bremen 2026",
-      "start_date": "2026-09-05",
-      "end_date": "2026-09-06",
-      "city": "Bremen",
-      "country": "Germany",
-      "venue": "Messe Bremen",
-      "industry": [
-        "HR"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-jobmesse-bremen/"
-    },
     {
       "name": "PflegeMesse 2026",
       "start_date": "2026-09-08",
