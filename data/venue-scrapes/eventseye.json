@@ -1,28 +1,28 @@
 {
   "venue_id": "eventseye",
-  "scraped_at": "2026-09-07T09:54:41.411Z",
+  "scraped_at": "2026-09-14T10:16:39.051Z",
   "source_url": "https://www.eventseye.com",
   "countries": {
-    "United States": 1137,
+    "United States": 1140,
     "Austria": 87,
     "Belgium": 108,
     "Denmark": 22,
-    "Finland": 56,
-    "France": 1050,
-    "Germany": 618,
+    "Finland": 57,
+    "France": 1053,
+    "Germany": 619,
     "Greece": 48,
     "Ireland": 12,
-    "Italy": 376,
+    "Italy": 377,
     "Luxembourg": 9,
     "Malta": 2,
     "Monaco": 11,
     "Netherlands": 141,
     "Norway": 16,
     "Portugal": 42,
-    "Spain": 226,
+    "Spain": 227,
     "Sweden": 103,
     "Switzerland": 94,
-    "United Kingdom": 374
+    "United Kingdom": 380
   },
   "events": [
     {
@@ -374,18 +374,6 @@
       "notes": "frequency: unknown"
     },
     {
-      "name": "BURNING MAN",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-07",
-      "city": "Reno, NV",
-      "country": "United States",
-      "venue": "Burning Man Gathering",
-      "industry": [],
-      "website": "http://burningman.org",
-      "detail_url": "https://www.eventseye.com/fairs/f-burning-man-30637-1.html",
-      "notes": "frequency: once a year"
-    },
-    {
       "name": "CEDIA EXPO",
       "start_date": "2026-09-01",
       "end_date": "2026-09-04",
@@ -516,18 +504,6 @@
       "website": "http://www.bigpopgunshows.com/services",
       "detail_url": "https://www.eventseye.com/fairs/f-batesville-gun-show-27348-1.html",
       "notes": "frequency: unknown"
-    },
-    {
-      "name": "FRANCHISE EXPO WEST",
-      "start_date": "2026-09-05",
-      "end_date": "2026-09-06",
-      "city": "Los Angeles, CA",
-      "country": "United States",
-      "venue": "Los Angeles Convention Center",
-      "industry": [],
-      "website": "http://www.franchiseexpo.com/west",
-      "detail_url": "https://www.eventseye.com/fairs/f-franchise-expo-west-12702-1.html",
-      "notes": "frequency: once a year"
     },
     {
       "name": "G & S OKLAHOMA GUNS & KNIFE SHOW - ELK CITY",
@@ -1091,18 +1067,6 @@
       "industry": [],
       "website": "http://www.npaconvention.org",
       "detail_url": "https://www.eventseye.com/fairs/f-npa-convention-exposition-6026-1.html",
-      "notes": "frequency: once a year"
-    },
-    {
-      "name": "EMPOWER EXECUTIVE ENERGY SUMMIT",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-16",
-      "city": "Boston, MA",
-      "country": "United States",
-      "venue": null,
-      "industry": [],
-      "website": "http://empower-energy-summit.com",
-      "detail_url": "https://www.eventseye.com/fairs/f-empower-executive-energy-summit-34526-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -4334,6 +4298,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "BLUFFS SHOOTERS GUN SHOW NEBRASKA",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "city": "Mitchell, NE",
+      "country": "United States",
+      "venue": "Scotts Bluff County Fairground",
+      "industry": [],
+      "website": "http://bluffsshooters.com/gun-show",
+      "detail_url": "https://www.eventseye.com/fairs/f-bluffs-shooters-gun-show-nebraska-24507-1.html",
+      "notes": "frequency: twice a year"
+    },
+    {
       "name": "GUNS & KNIFE SHOW BRUNSWICK",
       "start_date": "2026-11-07",
       "end_date": "2026-11-08",
@@ -4562,6 +4538,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CENTRAL FLORIDA INTERNATIONAL AUTO SHOW",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-15",
+      "city": "Orlando, FL",
+      "country": "United States",
+      "venue": "Orange County Convention Center",
+      "industry": [],
+      "website": "http://orlandoautoshow.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-central-florida-international-auto-show-10645-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "COLORADO COUNTRY CHRISTMAS GIFT SHOW",
       "start_date": "2026-11-13",
       "end_date": "2026-11-15",
@@ -4571,6 +4559,18 @@
       "industry": [],
       "website": "http://www.denverchristmasshow.com",
       "detail_url": "https://www.eventseye.com/fairs/f-colorado-country-christmas-gift-show-29461-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "FRANCHISE EXPO WEST",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-14",
+      "city": "Glendale, AZ",
+      "country": "United States",
+      "venue": "Renaissance Phoenix Glezndale Hotel & Spa",
+      "industry": [],
+      "website": "http://www.franchiseexpo.com/west",
+      "detail_url": "https://www.eventseye.com/fairs/f-franchise-expo-west-12702-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -5015,6 +5015,18 @@
       "industry": [],
       "website": "http://www.poolspapatio.com/en/home.html",
       "detail_url": "https://www.eventseye.com/fairs/f-international-pool-spa-patio-expo-30685-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "ISS WORLD NORTH AMERICA",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-18",
+      "city": "Washington D.C.",
+      "country": "United States",
+      "venue": null,
+      "industry": [],
+      "website": "http://www.telestrategies.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-iss-world-north-america-10618-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -13286,6 +13298,30 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "VANCOUVER WINE & JAZZ FESTIVAL",
+      "start_date": "2027-08-27",
+      "end_date": "2027-08-29",
+      "city": "Vancouver, WA",
+      "country": "United States",
+      "venue": "Esther Short Park",
+      "industry": [],
+      "website": "http://www.vancouverwinejazz.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-vancouver-wine-jazz-festival-12812-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "DESTINATION CALIFORNIA",
+      "start_date": "2027-08-29",
+      "end_date": "2027-08-31",
+      "city": "San Francisco, CA",
+      "country": "United States",
+      "venue": "Hyatt Regency San Francisco Airport",
+      "industry": [],
+      "website": "http://www.northstarmeetingsgroup.com/Events",
+      "detail_url": "https://www.eventseye.com/fairs/f-destination-california-32664-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "DESTINATION EAST",
       "start_date": "2027-08-29",
       "end_date": "2027-08-31",
@@ -16790,6 +16826,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "KULJETUS-LOGISTIIKKA",
+      "start_date": "2027-05-20",
+      "end_date": "2027-05-22",
+      "city": "Helsinki",
+      "country": "Finland",
+      "venue": "Helsingin Messut Oy Wanha Satama",
+      "industry": [],
+      "website": "http://kuljetuslogistiikka.messukeskus.com/en",
+      "detail_url": "https://www.eventseye.com/fairs/f-kuljetus-logistiikka-18200-1.html",
+      "notes": "frequency: every 4 years"
+    },
+    {
       "name": "WOOD AND BIOENERGY",
       "start_date": "2027-09-01",
       "end_date": "2027-09-03",
@@ -16991,18 +17039,6 @@
       "industry": [],
       "website": "http://www.rencontres-arles.com",
       "detail_url": "https://www.eventseye.com/fairs/f-les-rencontres-d-arles-photographie-16319-1.html",
-      "notes": "frequency: once a year"
-    },
-    {
-      "name": "FOIRE DE CHÂLONS-EN-CHAMPAGNE",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-07",
-      "city": "Chalons-en-Champagne",
-      "country": "France",
-      "venue": "Le Capitole en Champagne",
-      "industry": [],
-      "website": "http://foiredechalons.com",
-      "detail_url": "https://www.eventseye.com/fairs/f-foire-de-chalons-en-champagne-28699-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -18470,18 +18506,6 @@
       "notes": "frequency: once a year"
     },
     {
-      "name": "METAL EXPO",
-      "start_date": "2026-09-28",
-      "end_date": "2026-10-01",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
-      "industry": [],
-      "website": "http://www.metal-pro.org/metal-expo",
-      "detail_url": "https://www.eventseye.com/fairs/f-metal-expo-4700-1.html",
-      "notes": "frequency: every 2 years"
-    },
-    {
       "name": "NATEXPO",
       "start_date": "2026-09-28",
       "end_date": "2026-09-29",
@@ -19271,6 +19295,18 @@
       "industry": [],
       "website": "http://www.studyrama.com/salons/salon-grandes-ecoles-de-tours-332204",
       "detail_url": "https://www.eventseye.com/fairs/f-salon-studyrama-grandes-ecoles-de-tours-34421-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "VIRTUAL CALAIS XXL",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-04",
+      "city": "Calais",
+      "country": "France",
+      "venue": "Forum Gambetta",
+      "industry": [],
+      "website": "http://virtualcalais.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-virtual-calais-xxl-34657-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -23066,6 +23102,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "GEEK DAYS - LILLE",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "city": "Lille",
+      "country": "France",
+      "venue": "Lille Grand Palais",
+      "industry": [],
+      "website": "http://www.geek-days.com/lille",
+      "detail_url": "https://www.eventseye.com/fairs/f-geek-days-lille-34115-1.html",
+      "notes": "frequency: twice a year"
+    },
+    {
       "name": "ID D'ART - LYON",
       "start_date": "2026-11-21",
       "end_date": "2026-11-22",
@@ -23904,6 +23952,18 @@
       "website": "http://autocar-expo.com/en",
       "detail_url": "https://www.eventseye.com/fairs/f-autocar-expo-28522-1.html",
       "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "BUILD IT SUMMIT",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-03",
+      "city": "Paris",
+      "country": "France",
+      "venue": "CNIT Paris la Défense",
+      "industry": [],
+      "website": "http://builditsummit.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-build-it-summit-34656-1.html",
+      "notes": "frequency: once a year"
     },
     {
       "name": "SUPPLY CHAIN EVENT",
@@ -25487,6 +25547,18 @@
       "industry": [],
       "website": "http://sport-achat.com/en",
       "detail_url": "https://www.eventseye.com/fairs/f-sport-achat-hiver-15615-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "CONVENTION D’AFFAIRES MICE & LEISURE",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-27",
+      "city": "Antibes",
+      "country": "France",
+      "venue": "Palais des Congrès d'Antibes-Juan les Pins",
+      "industry": [],
+      "website": "http://www.convention-daffaires-tourisme.fr",
+      "detail_url": "https://www.eventseye.com/fairs/f-convention-d-affaires-mice-leisure-34641-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -28385,9 +28457,9 @@
       "name": "SALON SUD TRADITION",
       "start_date": "2027-05-07",
       "end_date": "2027-05-09",
-      "city": "Uzès",
+      "city": "Maillane",
       "country": "France",
-      "venue": "Haras National de Uzès",
+      "venue": null,
       "industry": [],
       "website": "http://sudtraditions.fr",
       "detail_url": "https://www.eventseye.com/fairs/f-salon-sud-tradition-29559-1.html",
@@ -29075,6 +29147,18 @@
       "industry": [],
       "website": "http://www.salon-aps.com",
       "detail_url": "https://www.eventseye.com/fairs/f-aps-alarmes-protection-securite-65-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "METAL EXPO",
+      "start_date": "2027-09-28",
+      "end_date": "2027-10-01",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [],
+      "website": "http://www.metal-pro.org/metal-expo",
+      "detail_url": "https://www.eventseye.com/fairs/f-metal-expo-4700-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -35990,6 +36074,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "CARAVAN SALON DÜSSELDORF",
+      "start_date": "2027-08-27",
+      "end_date": "2027-09-05",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Düsseldorf Exhibition Centre",
+      "industry": [],
+      "website": "http://www.caravan-salon.de",
+      "detail_url": "https://www.eventseye.com/fairs/f-caravan-salon-dusseldorf-376-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "MEIN HUND - SCHLOSS OELBER",
       "start_date": "2027-08-28",
       "end_date": "2027-08-29",
@@ -39600,6 +39696,18 @@
       "website": "http://www.abilmente.org/en/turin",
       "detail_url": "https://www.eventseye.com/fairs/f-abilmente-torino-29361-1.html",
       "notes": "frequency: once a year"
+    },
+    {
+      "name": "FASHIONEX",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-13",
+      "city": "Carpi",
+      "country": "Italy",
+      "venue": "La Baracca sul mare",
+      "industry": [],
+      "website": "http://fashionex.it/en",
+      "detail_url": "https://www.eventseye.com/fairs/f-fashionex-33473-1.html",
+      "notes": "frequency: twice a year"
     },
     {
       "name": "INNOVATION IN LANGUAGE LEARNING - INTERNATIONAL CONFERENCE",
@@ -46106,6 +46214,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "JAPAN WEEKEND VALENCIA",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "city": "Valencia",
+      "country": "Spain",
+      "venue": "Feria Valencia",
+      "industry": [],
+      "website": "http://www.japanweekend.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-japan-weekend-valencia-29507-1.html",
+      "notes": "frequency: twice a year"
+    },
+    {
       "name": "GENERA",
       "start_date": "2026-11-24",
       "end_date": "2026-11-26",
@@ -46946,7 +47066,7 @@
       "notes": "frequency: every 2 years"
     },
     {
-      "name": "MARINE ENERGEY WEEK",
+      "name": "MARINE ENERGY WEEK",
       "start_date": "2027-03-17",
       "end_date": "2027-03-18",
       "city": "Bilbao",
@@ -46954,7 +47074,7 @@
       "venue": "Bilbao Exhibition Centre",
       "industry": [],
       "website": "http://wmw.bilbaoexhibitioncentre.com/en",
-      "detail_url": "https://www.eventseye.com/fairs/f-marine-energey-week-25047-1.html",
+      "detail_url": "https://www.eventseye.com/fairs/f-marine-energy-week-25047-1.html",
       "notes": "frequency: every 2 years"
     },
     {
@@ -51722,6 +51842,30 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "HYGIENE & NONWOWEN SHOW - UK",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-12",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [],
+      "website": "http://www.hygieneandnonwoven.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-hygiene-nonwowen-show-uk-34661-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "PACKAGAGING & RECYCLE SHOW - UK",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-12",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL",
+      "industry": [],
+      "website": "http://www.packagingandrecycle.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-packagaging-recycle-show-uk-34659-1.html",
+      "notes": "frequency: every 2 years"
+    },
+    {
       "name": "PAPER & TISSUE SHOW - UK",
       "start_date": "2026-11-11",
       "end_date": "2026-11-12",
@@ -51842,6 +51986,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "EDTECH WORLD FORUM",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-17",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Kensington Conference and Events Centre",
+      "industry": [],
+      "website": "http://edtechconferences.london",
+      "detail_url": "https://www.eventseye.com/fairs/f-edtech-world-forum-34645-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "B2B MARKETING EXPO",
       "start_date": "2026-11-18",
       "end_date": "2026-11-19",
@@ -51959,6 +52115,18 @@
       "industry": [],
       "website": "http://www.pharmacycongress.co.uk/north",
       "detail_url": "https://www.eventseye.com/fairs/f-clinical-pharmacy-congress-north-31555-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
+      "name": "DIGITAL HEALTH WORLD CONGRESS",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-24",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Kensington Conference and Events Centre",
+      "industry": [],
+      "website": "http://digitalhealthcareworldcongress.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-digital-health-world-congress-34644-1.html",
       "notes": "frequency: once a year"
     },
     {
@@ -52154,6 +52322,18 @@
       "notes": "frequency: once a year"
     },
     {
+      "name": "IMPACT INVESTING WORLD FORUM",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-04",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Kensington Conference and Events Centre",
+      "industry": [],
+      "website": "http://impactinvestingconferences.com",
+      "detail_url": "https://www.eventseye.com/fairs/f-impact-investing-world-forum-34642-1.html",
+      "notes": "frequency: once a year"
+    },
+    {
       "name": "HAMPTON COURT PALACE FESTIVE FAYRE",
       "start_date": "2026-12-04",
       "end_date": "2026-12-13",
@@ -52188,6 +52368,18 @@
       "website": "http://energycouncil.com/event-events/world-energy-capital-assembly",
       "detail_url": "https://www.eventseye.com/fairs/f-weca-world-energy-capital-assembly-28987-1.html",
       "notes": "frequency: every 2 years"
+    },
+    {
+      "name": "MINING WORLD CONGRESS",
+      "start_date": "2026-12-15",
+      "end_date": "2026-12-16",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Kensington Conference and Events Centre",
+      "industry": [],
+      "website": "http://miningconferences.org",
+      "detail_url": "https://www.eventseye.com/fairs/f-mining-world-congress-34646-1.html",
+      "notes": "frequency: once a year"
     },
     {
       "name": "THE LONDON INTERNATIONAL HORSE SHOW",
