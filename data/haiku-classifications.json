@@ -314,8 +314,6 @@
   "herbstzauber-laubach-laubach-2026-09": [],
   "lebensart-messe-burg-stargard-burg-stargard-2026-09": [],
   "wm-werkstattmesse-dortmund-dortmund-2026-09": [],
-  "palakiss-vicenza-2026-09": [],
-  "t-gold-vicenza-2026-09": [],
   "vicenza-oro-vicenza-2026-09": [],
   "vo-vintage-vicenza-2026-09": [],
   "stockholm-hundmassa-stockholm-2026-09": [],
@@ -370,13 +368,6 @@
   "build-show-live-san-antonio-2026-09": [
     "Construction & Building"
   ],
-  "ibc-international-broadcasting-convention-amsterdam-2026-09": [
-    "Technology & IT"
-  ],
-  "national-safety-council-nsc-congress-and-expo-inianapolis-in-2026-09": [
-    "Professional Services",
-    "Industrial / Manufacturing"
-  ],
   "atlanta-home-show-fall-atlanta-ga-2026-09": [
     "Construction & Building"
   ],
@@ -412,10 +403,6 @@
     "Technology & IT"
   ],
   "fragranze-florence-2026-09": [],
-  "milano-fashion-and-jewels-exhibition-mfj-milan-2026-09": [],
-  "iaslc-world-conference-on-lung-cancer-seoul-2026-09": [
-    "Medical & Pharma"
-  ],
   "fxbg-pet-palooza-fredericksburg-va-2026-09": [],
   "greenville-gun-and-knife-show-greenville-sc-2026-09": [],
   "guns-and-knife-show-covington-covington-ga-2026-09": [],
@@ -444,18 +431,6 @@
   "38th-european-congress-of-pathology-stockholm-2026-09": [
     "Medical & Pharma"
   ],
-  "eurotox-congress-of-the-european-society-of-toxocology-vienna-2026-09": [
-    "Medical & Pharma"
-  ],
-  "mipel-the-bag-show-milan-2026-09": [],
-  "bridal-week-bridal-fashion-event-harrogate-2026-09": [],
-  "top-drawer-london-2026-09": [],
-  "administrative-professionals-conference-apc-nashville-tn-2026-09": [
-    "Professional Services"
-  ],
-  "american-public-power-association-appa-business-and-financial-conference-san-antonio-tx-2026-09": [
-    "Professional Services"
-  ],
   "istat-2026-copenhagen-2026-09": [],
   "hits-championship-lake-saugerties-ny-saugerties-ny-2026-09": [],
   "ecasia-conference-brussels-2026-09": [
@@ -468,33 +443,7 @@
   "cremona-sposi-expo-cremona-2026-09": [],
   "cuneo-sposi-expo-bene-vagienna-2026-09": [],
   "fano-sposi-expo-fano-2026-09": [],
-  "gartner-symposium-itxpo-gold-coast-2026-09": [
-    "Technology & IT",
-    "Professional Services"
-  ],
-  "jewellery-and-gem-world-jgw-hong-kong-hong-kong-2026-09": [],
   "money20-20-middle-east-riyadh-2026-09": [
-    "Professional Services"
-  ],
-  "mercedes-benz-fashion-week-mbfw-madrid-madrid-2026-09": [],
-  "autentica-premium-food-seville-2026-09": [],
-  "professional-beauty-abu-dhabi-abu-dhabi-2026-09": [],
-  "arabian-travel-market-atm-dubai-2026-09": [],
-  "global-security-exchange-gsx-atlanta-ga-2026-09": [
-    "Professional Services"
-  ],
-  "ldc-gas-forum-mid-continent-chicago-il-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "intermodal-expo-iana-long-beach-ca-2026-09": [
-    "Automotive & Transportation"
-  ],
-  "americas-food-and-beverage-show-miami-fl-2026-09": [],
-  "podcast-movement-new-york-ny-2026-09": [],
-  "parcel-forum-orlando-fl-2026-09": [
-    "Automotive & Transportation"
-  ],
-  "national-rural-water-association-nrwa-waterpro-phoenix-az-2026-09": [
     "Professional Services"
   ],
   "bellavita-expo-miami-miami-fl-2026-09": [],
@@ -506,67 +455,9 @@
   ],
   "jewellery-and-gem-world-hong-kong-asiaworld-expo-hksar-hong-kong-s-a-r-2026-09": [],
   "expolux-sao-paulo-2026-09": [],
-  "carbon-capture-canada-edmonton-ab-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "world-mail-and-express-asia-wmx-hong-kong-2026-09": [
-    "Automotive & Transportation"
-  ],
-  "led-china-shanghai-2026-09": [
-    "Technology & IT",
-    "Industrial / Manufacturing"
-  ],
-  "sign-china-shanghai-shanghai-2026-09": [
-    "Professional Services"
-  ],
-  "tissue-me-cairo-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "print-2-pack-p2p-cairo-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "iftm-top-resa-international-french-travel-market-paris-2026-09": [],
   "nrf-retail-s-big-show-europe-paris-2026-09": [],
-  "kind-jugend-baby-to-teenager-fair-cologne-2026-09": [],
-  "zukunft-personal-human-resources-management-cologne-2026-09": [
-    "Professional Services"
-  ],
-  "intertabac-and-intersupply-tobacco-goods-dortmund-2026-09": [],
-  "lubricant-expo-dusseldorf-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "intergeo-goedesy-geo-information-and-land-management-munich-2026-09": [
-    "Construction & Building"
-  ],
-  "galabau-urban-green-and-open-spaces-nuremberg-2026-09": [
-    "Construction & Building"
-  ],
-  "bauma-conexpo-india-new-delhi-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "lineapelle-international-exhibition-of-leather-milan-2026-09": [],
-  "prokitchen-expo-warsaw-2026-09": [],
-  "coffee-europe-expo-warsaw-2026-09": [],
-  "lightspace-saudi-arabia-riyadh-2026-09": [
-    "Technology & IT"
-  ],
-  "fast-food-and-cafe-and-restaurant-expo-ffcr-gothenburg-2026-09": [],
-  "british-blood-transfusion-society-bbts-annual-conference-glasgow-2026-09": [
-    "Medical & Pharma"
-  ],
   "design-london-shoreditch-london-2026-09": [],
-  "casual-market-atlanta-atlanta-ga-2026-09": [],
-  "funeral-directors-convention-and-expo-new-jersey-state-funeral-directors-association-njsfda-atlantic-city-nj-2026-09": [],
   "husker-harvest-days-grand-island-ne-2026-09": [],
-  "super-dug-developing-unconventional-gas-houston-tx-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "association-of-donor-relations-professionals-adrp-international-conference-reno-nv-2026-09": [
-    "Medical & Pharma"
-  ],
-  "loupe-americas-rosemont-il-2026-09": [
-    "Technology & IT"
-  ],
   "international-powder-and-bulk-solids-texas-houston-tx-2026-09": [
     "Industrial / Manufacturing"
   ],
@@ -589,45 +480,8 @@
     "Technology & IT"
   ],
   "husker-harvest-days-grand-island-2026-09": [],
-  "seasons-autumn-fashion-jewellery-and-accessories-fair-hong-kong-2026-09": [],
-  "cphi-shenzhen-shenzhen-2026-09": [
-    "Medical & Pharma"
-  ],
-  "electronica-india-bengaluru-2026-09": [
-    "Technology & IT"
-  ],
-  "laser-world-of-photonics-india-bengaluru-2026-09": [
-    "Technology & IT"
-  ],
-  "productronica-india-bengaluru-2026-09": [
-    "Technology & IT"
-  ],
-  "infocomm-india-mumbai-2026-09": [
-    "Technology & IT"
-  ],
-  "ildex-indonesia-livestock-dairy-meat-processing-jakarta-2026-09": [],
-  "food-ingredients-indonesia-fi-asia-jakarta-2026-09": [],
-  "gisec-gulf-information-security-expo-and-conference-dubai-2026-09": [
-    "Technology & IT"
-  ],
-  "ess-envirnmental-services-and-solutions-expo-birmingham-2026-09": [],
-  "the-emergency-services-show-birmingham-2026-09": [],
-  "association-of-anaesthetists-annual-congress-liverpool-2026-09": [
-    "Medical & Pharma"
-  ],
   "lunch-london-2026-09": [],
-  "the-national-restaurant-pub-and-bar-show-london-2026-09": [],
-  "world-adhesive-conference-wac-london-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "design-2-part-show-greenville-sc-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "america-s-largest-rv-show-hershey-pa-2026-09": [],
   "surf-expo-orlando-fl-2026-09": [],
-  "fincon-financial-content-expo-palm-springs-ca-2026-09": [
-    "Professional Services"
-  ],
   "affordable-art-fair-new-york-new-york-ny-2026-09": [],
   "minneapolis-chro-minneapolis-mn-2026-09": [
     "Professional Services"
@@ -663,26 +517,8 @@
   "sweden-water-expo-stockholm-2026-09": [
     "Industrial / Manufacturing"
   ],
-  "bangladesh-buildcon-international-expo-dhaka-2026-09": [
-    "Construction & Building"
-  ],
   "reeduca-paris-paris-2026-09": [
     "Professional Services"
-  ],
-  "tools-and-equipment-expo-new-delhi-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "media-expo-new-delhi-2026-09": [
-    "Professional Services"
-  ],
-  "global-sources-electronics-indonesia-jakarta-2026-09": [
-    "Technology & IT"
-  ],
-  "bauen-and-moderniseiren-zurich-2026-09": [
-    "Construction & Building"
-  ],
-  "texas-academy-of-physician-assistants-tapa-lake-conroe-tx-2026-09": [
-    "Medical & Pharma"
   ],
   "foire-expo-de-dole-dole-2026-09": [],
   "foire-internationale-de-caen-caen-2026-09": [],
@@ -704,9 +540,6 @@
   "maker-faire-portugal-porto-porto-2026-09": [],
   "firanoaia-igualada-2026-09": [],
   "a-place-in-the-sun-live-birmingham-birmingham-2026-09": [],
-  "general-practitioner-conference-and-exhibition-gpce-perth-perth-2026-09": [
-    "Medical & Pharma"
-  ],
   "agha-gift-home-expo-sydney-2026-09": [],
   "atlanta-ga-gun-show-atlanta-ga-2026-09": [],
   "hickory-gun-and-knife-show-lenoir-nc-2026-09": [],
@@ -839,7 +672,6 @@
   "marmomac-verona-2026-09": [
     "Construction & Building"
   ],
-  "milano-moda-donna-milan-2026-09": [],
   "tecna-expo-rimini-2026-09": [
     "Technology & IT"
   ],
@@ -2149,9 +1981,6 @@
   "asia-ink-expo-aie-guangzhou-2026-10": [],
   "vinexpo-india-wine-and-spirits-exhibition-mumbai-2026-10": [],
   "fame-manila-2026-10": [],
-  "be-my-franchise-franchising-and-dealership-trade-fair-istanbul-2026-10": [
-    "Professional Services"
-  ],
   "sawc-fall-symposium-on-advanced-wound-care-las-vegas-nv-2026-10": [
     "Medical & Pharma"
   ],
@@ -2632,7 +2461,6 @@
     "Industrial / Manufacturing"
   ],
   "pet-fair-south-east-asia-bangkok-2026-10": [],
-  "hot-pots-world-hpw-bangkok-2026-10": [],
   "chicago-build-expo-chicago-il-2026-10": [
     "Construction & Building"
   ],
@@ -4602,7 +4430,6 @@
   "boot-dusseldorf-dusseldorf-2027-01": [
     "Automotive & Transportation"
   ],
-  "sigep-the-dolce-world-expo-rimini-2027-01": [],
   "gsco-hunter-and-outfitter-convention-grand-slam-club-ovis-nashville-tn-2027-01": [],
   "new-york-travel-and-adventure-show-new-york-ny-2027-01": [],
   "guns-and-knife-show-franklin-franklin-nc-2027-01": [],
@@ -5165,12 +4992,6 @@
     "Automotive & Transportation",
     "Industrial / Manufacturing"
   ],
-  "corrvision-expo-pune-2027-02": [
-    "Industrial / Manufacturing"
-  ],
-  "packvision-expo-pune-2027-02": [
-    "Industrial / Manufacturing"
-  ],
   "eudishow-european-dive-show-bologna-2027-02": [],
   "national-association-for-campus-activities-naca-live-columbus-oh-2027-02": [],
   "american-academy-of-allergy-asthma-and-immunology-aaaai-new-orleans-la-2027-02": [
@@ -5208,7 +5029,6 @@
   "danzainfiera-florence-2027-02": [],
   "eudi-show-bologna-2027-02": [],
   "testo-florence-2027-02": [],
-  "reed-gift-fairs-sydney-sydney-2027-02": [],
   "life-instyle-sydney-sydney-2027-02": [],
   "rya-dinghy-and-watersports-show-farnborough-2027-02": [
     "Automotive & Transportation"
@@ -5431,9 +5251,6 @@
   "hawkeye-farm-show-cedar-falls-ia-2027-03": [],
   "disasters-expo-usa-ft-lauderdale-fl-2027-03": [],
   "houston-livestock-show-and-rodeo-houston-tx-2027-03": [],
-  "emerge-americas-miami-fl-2027-03": [
-    "Technology & IT"
-  ],
   "ceati-hydropower-conference-palm-springs-ca-2027-03": [
     "Industrial / Manufacturing"
   ],
@@ -5538,7 +5355,6 @@
   "aqua-fisch-friedrichshafen-2027-03": [],
   "japan-golf-fair-yokohama-2027-03": [],
   "the-baby-show-london-2027-03": [],
-  "premium-cigar-association-pca-las-vegas-nv-2027-03": [],
   "buffalo-home-show-buffalo-ny-2027-03": [
     "Construction & Building"
   ],
@@ -5867,9 +5683,6 @@
     "Professional Services"
   ],
   "the-photography-and-video-show-london-2027-03": [],
-  "sxsw-edu-expo-austin-tx-2027-03": [
-    "Professional Services"
-  ],
   "denver-travel-and-adventure-show-denver-co-2027-03": [],
   "indiana-flower-patio-show-indianapolis-in-2027-03": [],
   "overland-expo-so-cal-costa-mesa-ca-2027-03": [],
@@ -5926,9 +5739,6 @@
   "tesol-english-language-expo-houston-tx-2027-03": [
     "Professional Services"
   ],
-  "channel-partners-spring-conference-and-expo-las-vegas-nv-2027-03": [
-    "Technology & IT"
-  ],
   "world-of-asphalt-show-and-conference-new-orleans-la-2027-03": [
     "Construction & Building"
   ],
@@ -5971,9 +5781,6 @@
   "hcj-hoteres-caterex-japan-foodservice-and-equipment-show-tokyo-2027-03": [],
   "aqua-nederland-gorinchem-2027-03": [],
   "nigeria-agrofood-lagos-2027-03": [],
-  "nigeria-plastprintpack-lagos-2027-03": [
-    "Industrial / Manufacturing"
-  ],
   "world-of-build-expo-warsaw-2027-03": [
     "Construction & Building"
   ],
@@ -6029,7 +5836,6 @@
     "Industrial / Manufacturing"
   ],
   "international-istanbul-yarn-fair-istanbul-2027-03": [],
-  "impressions-expo-the-imprinted-sportswear-show-atlantic-city-atlantic-city-nj-2027-03": [],
   "american-academy-of-osteopathy-aao-annual-convocation-dallas-tx-2027-03": [
     "Medical & Pharma"
   ],
@@ -6046,7 +5852,6 @@
   "hpp-human-protection-and-prevention-summit-biarritz-2027-03": [
     "Medical & Pharma"
   ],
-  "salon-des-seniors-paris-2027-03": [],
   "creativa-dortmund-2027-03": [],
   "electronic-display-nuremberg-2027-03": [
     "Technology & IT"
@@ -6094,7 +5899,6 @@
   "holiday-world-and-region-world-prague-2027-03": [],
   "outdoor-riga-riga-2027-03": [],
   "the-yorkshire-motorhome-and-campervan-show-outandabout-live-harrogate-2027-03": [],
-  "nj-saltwater-fishing-expo-edison-nj-2027-03": [],
   "national-home-infusion-association-nhia-san-diego-ca-2027-03": [
     "Medical & Pharma"
   ],
@@ -6143,7 +5947,6 @@
   "food-expo-athens-2027-03": [
     "Industrial / Manufacturing"
   ],
-  "bauma-saudi-arabia-riyadh-2027-03": [],
   "the-national-outdoor-expo-birmingham-2027-03": [],
   "seattle-travel-and-adventure-show-seattle-wa-2027-03": [],
   "rock-n-roll-washington-dc-washington-d-c-2027-03": [],
@@ -6685,9 +6488,6 @@
   ],
   "michigan-townships-association-conference-and-expo-mta-traverse-city-mi-2027-04": [
     "Professional Services"
-  ],
-  "regatec-amsterdam-2027-04": [
-    "Industrial / Manufacturing"
   ],
   "automec-autoparts-equipment-and-service-trade-fair-sao-paulo-2027-04": [
     "Automotive & Transportation"
@@ -7352,7 +7152,6 @@
     "Industrial / Manufacturing",
     "Automotive & Transportation"
   ],
-  "fispal-sorvetes-sao-paulo-2027-05": [],
   "chemuk-group-of-events-birmingham-2027-05": [
     "Industrial / Manufacturing"
   ],
@@ -8234,7 +8033,6 @@
   ],
   "coterie-new-york-new-york-2026-09": [],
   "magic-new-york-new-york-2026-09": [],
-  "maison-and-objet-home-decoration-and-gifts-paris-2026-09": [],
   "build-show-live-san-antonio-tx-2026-09": [
     "Construction & Building"
   ],
@@ -8242,16 +8040,6 @@
   "solutions-cse-lyon-lyon-2026-09": [
     "Professional Services",
     "Construction & Building"
-  ],
-  "american-urological-association-aua-northeastern-section-annual-meeting-rochester-ny-2026-09": [
-    "Medical & Pharma",
-    "Professional Services",
-    "Construction & Building"
-  ],
-  "fetch-a-dvm360-conference-washington-dc-2026-09": [
-    "Medical & Pharma",
-    "Professional Services",
-    "Automotive & Transportation"
   ],
   "zak-world-of-facades-usa-dallas-dallas-tx-2026-09": [
     "Construction & Building"
@@ -8268,14 +8056,6 @@
   ],
   "portojoia-porto-2026-09": [],
   "london-fashion-week-london-2026-09": [],
-  "everything-electric-australia-sydney-2026-09": [
-    "Industrial / Manufacturing"
-  ],
-  "kunming-international-flower-expo-of-china-and-ifex-kunming-international-flowers-and-plants-expo-kunming-2026-09": [],
-  "necann-new-jersey-cannabis-convention-atlantic-city-nj-2026-09": [],
-  "small-business-expo-san-diego-ca-2026-09": [
-    "Professional Services"
-  ],
   "antique-alley-at-whipp-farm-cleburne-tx-2026-09": [],
   "fairgrounds-southern-ideal-home-show-fall-raleigh-nc-2026-09": [],
   "stamp-and-scrapbook-expo-mesa-mesa-az-2026-09": [],
@@ -8730,7 +8510,6 @@
     "Professional Services"
   ],
   "wvc-vegas-las-vegas-nv-2027-02": [],
-  "wppi-wedding-and-portrait-photographers-int-l-las-vegas-nv-2027-02": [],
   "america-s-credit-unions-governmental-affairs-conference-gac-washington-dc-2027-02": [
     "Professional Services"
   ],
@@ -8864,7 +8643,6 @@
     "Professional Services"
   ],
   "american-resort-development-association-arda-orlando-fl-2027-04": [],
-  "atlanta-jewelry-show-ajs-spring-show-savannah-ga-2027-04": [],
   "sea-air-space-conference-and-exposition-washington-dc-2027-04": [
     "Automotive & Transportation"
   ],

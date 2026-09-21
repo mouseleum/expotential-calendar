@@ -1,200 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-09-14T10:16:38.758Z",
+  "scraped_at": "2026-09-21T10:22:51.473Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "EU PVSEC 2026",
-      "start_date": "2026-09-14",
-      "end_date": "2026-09-15",
-      "city": "Rotterdam, The",
-      "country": "Netherlands",
-      "venue": "WTC Rotterdam",
-      "industry": [
-        "Energy"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eu-pvsec/"
-    },
-    {
-      "name": "GaLaBau 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-18",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Messe Nuremberg",
-      "industry": [
-        "Construction"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-galabau-nuremberg/"
-    },
-    {
-      "name": "IFTM 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Porte de Versailles",
-      "industry": [
-        "Travel & Tourism"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iftm/"
-    },
-    {
-      "name": "EXPOPHARM 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munich",
-      "industry": [
-        "Pharmaceutical"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-expopharm/"
-    },
-    {
-      "name": "Zukunft Personal Europe 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Cologne",
-      "country": "Germany",
-      "venue": "Koelnmesse",
-      "industry": [
-        "Human Resources"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-zukunft-personal-europe/"
-    },
-    {
-      "name": "NRF 2026: Retail's Big Show Paris",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": null,
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
-      "industry": [
-        "Retail"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-nrf-big-show-europe/"
-    },
-    {
-      "name": "SPACE 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Rennes",
-      "country": "France",
-      "venue": "Parc Expo Rennes",
-      "industry": [
-        "Livestock"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-space/"
-    },
-    {
-      "name": "Kind + Jugend 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Cologne",
-      "country": "Germany",
-      "venue": "Koelnmesse",
-      "industry": [
-        "Baby Products"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-kind-jugend/"
-    },
-    {
-      "name": "InterTabac 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Dortmund",
-      "country": "Germany",
-      "venue": "Messe Dortmund",
-      "industry": [
-        "Tobacco"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intertabac-dortmund/"
-    },
-    {
-      "name": "INTERGEO 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-17",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munich",
-      "industry": [
-        "Construction and Infrastructure"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-intergeo/"
-    },
-    {
-      "name": "IAA TRANSPORTATION 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-20",
-      "city": "Hannover",
-      "country": "Germany",
-      "venue": "Hannover Exhibition Grounds",
-      "industry": [
-        "Transport"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iaa-transportation-hannover/"
-    },
-    {
-      "name": "Big Data & AI Paris 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-16",
-      "city": null,
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
-      "industry": [
-        "IT"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-big-data-ai-paris/"
-    },
-    {
-      "name": "AMB 2026",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-19",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "venue": "Messe Stuttgart",
-      "industry": [
-        "Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-amb-stuttgart/"
-    },
-    {
-      "name": "EuGMS Congress 2026",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-18",
-      "city": "Lille",
-      "country": "France",
-      "venue": "Lille Grand Palais",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-builders-eugms-congress/"
-    },
-    {
-      "name": "Kunststoffenbeurs 2026",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-17",
-      "city": "’s-Hertogenbosch",
-      "country": "Netherlands",
-      "venue": null,
-      "industry": [
-        "Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-kunststoffenbeurs/"
-    },
-    {
-      "name": "Reeduca 2026",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-18",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Porte de Versailles, Halls 5.2 and 5.3",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-reeduca/"
-    },
     {
       "name": "EUDEX 2026",
       "start_date": "2026-09-22",
@@ -1674,6 +1482,546 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/food-ingredients-europe-fi-global/"
+    },
+    {
+      "name": "Vakantiebeurs 2027",
+      "start_date": "2027-01-07",
+      "end_date": "2027-01-10",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "Jaarbeurs Utrecht",
+      "industry": [
+        "Tourism and Leisure Fair"
+      ],
+      "website": "https://www.expoexhibitionstands.com/booth-builder-vakantiebeurs/"
+    },
+    {
+      "name": "Horecava 2027",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-14",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam",
+      "industry": [
+        "Hospitality"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-horecava/"
+    },
+    {
+      "name": "BAU 2027",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-15",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Trade Fair Center Messe München",
+      "industry": [
+        "Architecture, Materials & Systems"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bau-munich/"
+    },
+    {
+      "name": "Wine Professional 2027",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-13",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": null,
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-wine-professional/"
+    },
+    {
+      "name": "Heimtextil 2027",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-15",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Frankfurt am Main",
+      "industry": [
+        "Textiles"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-heimtextil-frankfurt/"
+    },
+    {
+      "name": "SIVAL 2027",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "city": "Angers",
+      "country": "France",
+      "venue": "Angers Exhibition Center",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sival/"
+    },
+    {
+      "name": "Cosmet'Agora Paris 2027",
+      "start_date": "2027-01-12",
+      "end_date": "2025-01-13",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Espace Champerret",
+      "industry": [
+        "Cosmetology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-cosmet-agora/"
+    },
+    {
+      "name": "PSI 2027",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Exhibition Centre Cologne",
+      "industry": [
+        "Retail"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-psi/"
+    },
+    {
+      "name": "Partner Pferd 2027",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-17",
+      "city": "Leipzig",
+      "country": "Germany",
+      "venue": "Leipzig Messe",
+      "industry": [
+        "Equestrian Sports, Lifestyle & Equipment"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-partner-pferd/"
+    },
+    {
+      "name": "Ferien-Messe Wien 2027",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-17",
+      "city": "Anger",
+      "country": "Austria",
+      "venue": "Messe Wien",
+      "industry": [
+        "Travel and Leisure"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ferien-messe-wien/"
+    },
+    {
+      "name": "Agriflanders Ghent 2027",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-17",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": "Flanders Expo",
+      "industry": [
+        "Agriculture and Horticulture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-builders-agriflander-ghent/"
+    },
+    {
+      "name": "InterClassics Maastricht 2027",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-17",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "MECC Maastricht",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/booth-builder-interclassics-maastricht/"
+    },
+    {
+      "name": "Maison&Objet 2027",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-18",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte",
+      "industry": [
+        "Construction"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-maison-objet-paris/"
+    },
+    {
+      "name": "Grüne Woche 2027",
+      "start_date": "2027-01-15",
+      "end_date": "2027-01-24",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Messe Berlin",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-grune-woche/"
+    },
+    {
+      "name": "INTERLOOK Dortmund 2027",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-17",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Dortmund",
+      "industry": [
+        "Ophthalmic Optics"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-interlook/"
+    },
+    {
+      "name": "CMT Stuttgart 2027",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-24",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Tourism and Leisure"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-cmt-stuttgart/"
+    },
+    {
+      "name": "HOGA Nuremberg, Germany 2027",
+      "start_date": "2027-01-17",
+      "end_date": "2027-01-19",
+      "city": null,
+      "country": "Germany",
+      "venue": "Exhibition Centre Nuremberg",
+      "industry": [
+        "Hotel and Catering"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-hoga-nurnberg/"
+    },
+    {
+      "name": "ICE Barcelona 2027",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "city": null,
+      "country": "Spain",
+      "venue": "Fira Barcelona Gran Via",
+      "industry": [
+        "Gaming"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ice-barcelona/"
+    },
+    {
+      "name": "De Groene Sector Vakbeurs 2027",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-21",
+      "city": "Hardenberg",
+      "country": "Netherlands",
+      "venue": "Evenementenhal Hardenberg",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-de-groene-sector-vakbeurs/"
+    },
+    {
+      "name": "ÖSFA Winter 2027",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-21",
+      "city": "Salzburg",
+      "country": "Austria",
+      "venue": "Brandboxx Salzburg",
+      "industry": [
+        "Winter Sports"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-oesfa-winter/"
+    },
+    {
+      "name": "National Education Exhibition 2027",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-23",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "Jaarbeurs Utrecht",
+      "industry": [
+        "Education and Childcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-national-education-exhibition/"
+    },
+    {
+      "name": "Perimeter Protection 2027",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-21",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "NürnbergMesse",
+      "industry": [
+        "Security"
+      ],
+      "website": "https://www.expoexhibitionstands.com/perimeter-protection/"
+    },
+    {
+      "name": "IMM Cologne 2027",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-22",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Interior Designing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-imm-cologne/"
+    },
+    {
+      "name": "Learning Technologies 2027",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-21",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "HR"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-learning-technologies-france/"
+    },
+    {
+      "name": "AutoZum 2027",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-23",
+      "city": "Salzburg",
+      "country": "Austria",
+      "venue": "Messezentrum Salzburg",
+      "industry": [
+        "Automotive Aftersales"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-autozum/"
+    },
+    {
+      "name": "BOE INTERNATIONAL 2027",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-21",
+      "city": "Dortmund",
+      "country": "Germany",
+      "venue": "Messe Dortmund",
+      "industry": [
+        "Experiential Marketing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-boe-international/"
+    },
+    {
+      "name": "Hamburg Open 2027",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-21",
+      "city": "Hall B6",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Broadcast, Media, and Event Technology"
+      ],
+      "website": "https://www.expoexhibitionstands.com/hamburg-open-germany/"
+    },
+    {
+      "name": "Baumag Lucerne 2027",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-24",
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "venue": "Messe Luzern",
+      "industry": [
+        "Construction Machinery, Equipment and Tools"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-baumag/"
+    },
+    {
+      "name": "Sirha 2027",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-25",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Eurexpo Lyon",
+      "industry": [
+        "Food Service and Hospitality"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sirha-lyon/"
+    },
+    {
+      "name": "ANIM 2027",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-23",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Berlin",
+      "industry": [
+        "Neurointensive and Emergency Medicine"
+      ],
+      "website": "https://www.expoexhibitionstands.com/anim-berlin/"
+    },
+    {
+      "name": "hanseBAU + Bremer Altbautage 2027",
+      "start_date": "2027-01-22",
+      "end_date": "2027-01-24",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe Bremen",
+      "industry": [
+        "Construction, Renovation, and Sustainable Building"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-hancebau-bremer-altbautage/"
+    },
+    {
+      "name": "Boot Dusseldorf 2027",
+      "start_date": "2027-01-23",
+      "end_date": "2027-01-31",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Yacht and Watersports"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-boot-dusseldorf/"
+    },
+    {
+      "name": "SEPEM Industries 2027",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-28",
+      "city": "Rouen",
+      "country": "France",
+      "venue": "Rouen Expo Congrès",
+      "industry": [
+        "Industrial Manufacturing and Engineering"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sepem-industries/"
+    },
+    {
+      "name": "InterSolution 2027",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-28",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": "Flanders Expo",
+      "industry": [
+        "Solar Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intersolution/"
+    },
+    {
+      "name": "Pharmapack Europe Paris 2027",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-28",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Packaging and Drug Delivery"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pharmapack-europe-paris/"
+    },
+    {
+      "name": "Caravana Leeuwarden 2027",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-31",
+      "city": "Leeuwarden",
+      "country": "Netherlands",
+      "venue": "WTC Expo Leeuwarden",
+      "industry": [
+        "Camping"
+      ],
+      "website": "https://www.expoexhibitionstands.com/booth-builder-caravana/"
+    },
+    {
+      "name": "IMCAS World Congress 2027",
+      "start_date": "2027-01-28",
+      "end_date": "2027-01-30",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Palais des Congres de Paris",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-imcas-world-congress/"
+    },
+    {
+      "name": "Ambiente 2027",
+      "start_date": "2027-01-29",
+      "end_date": "2027-02-02",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Messe Frankfurt Exhibition Centre",
+      "industry": [
+        "Consumer Goods"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ambiente-frankfurt/"
+    },
+    {
+      "name": "MEDIZIN 2027",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-31",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medizin/"
+    },
+    {
+      "name": "MOTORRADWELT BODENSEE 2027",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-31",
+      "city": "Friedrichshafen",
+      "country": "Germany",
+      "venue": "Messe Friedrichshafen",
+      "industry": [
+        "Motorcycle"
+      ],
+      "website": "https://www.expoexhibitionstands.com/booth-builder-motorradwelt-bodensee/"
+    },
+    {
+      "name": "Opti 2027",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-31",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Eyewear"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-opti-munich-germany/"
+    },
+    {
+      "name": "Spoga Horse Cologne 2027",
+      "start_date": "2027-01-30",
+      "end_date": "2027-02-01",
+      "city": null,
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Equestrian"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-spoga-horse/"
+    },
+    {
+      "name": "ProSweets Cologne 2027",
+      "start_date": "2027-01-31",
+      "end_date": "2027-02-03",
+      "city": null,
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Snacks and Sweets"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-prosweets-cologne/"
+    },
+    {
+      "name": "ISM 2027",
+      "start_date": "2027-01-31",
+      "end_date": "2027-02-03",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Confectionery and Snacks"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ism-cologne/"
+    },
+    {
+      "name": "Second Home Expo 2027",
+      "start_date": "2027-02-20",
+      "end_date": "2027-02-21",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": "Flanders Expo Gent",
+      "industry": [
+        "Real Estate"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-second-home-expo/"
     }
   ]
 }
