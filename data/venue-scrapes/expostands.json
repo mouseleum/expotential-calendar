@@ -1,116 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-09-28T11:24:18.866Z",
+  "scraped_at": "2026-10-05T12:00:42.896Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Natexpo 2026",
-      "start_date": "2026-09-28",
-      "end_date": "2026-09-29",
-      "city": "Lyon",
-      "country": "France",
-      "venue": "Eurexpo Lyon",
-      "industry": [
-        "Food & Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-natexpo-lyon/"
-    },
-    {
-      "name": "Interclima 2026",
-      "start_date": "2026-09-28",
-      "end_date": "2026-10-01",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Porte de Versailles",
-      "industry": [
-        "HVAC & Construction"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-interclima/"
-    },
-    {
-      "name": "Batimat 2026",
-      "start_date": "2026-09-28",
-      "end_date": "2026-10-01",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
-      "industry": [
-        "Construction"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-batimat-paris/"
-    },
-    {
-      "name": "POWTECH TECHNOPHARM 2026",
-      "start_date": "2026-09-29",
-      "end_date": "2026-10-01",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Nuremberg Messe",
-      "industry": [
-        "Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-powtech-technopharm/"
-    },
-    {
-      "name": "INTRAFOOD 2026",
-      "start_date": "2026-09-30",
-      "end_date": "2026-10-01",
-      "city": "Kortrijk",
-      "country": "Belgium",
-      "venue": "Kortrijk Xpo",
-      "industry": [
-        "Food & Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intrafood-kortrijk/"
-    },
-    {
-      "name": "EADV Congress 2026",
-      "start_date": "2026-09-30",
-      "end_date": "2026-10-03",
-      "city": "Vienna",
-      "country": "Austria",
-      "venue": "Austria Center Vienna",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-eadv-congress/"
-    },
-    {
-      "name": "Dentex 2026 Brussels",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-03",
-      "city": null,
-      "country": null,
-      "venue": "Brussels Expo – Hall 5, Brussels",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-dentex-brussel/"
-    },
-    {
-      "name": "Microwave Exhibition 2026 London, UK",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-09",
-      "city": "London",
-      "country": "United Kingdom",
-      "venue": "Excel",
-      "industry": [
-        "Electronics"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-microwave-week/"
-    },
-    {
-      "name": "Madrid Tech Show 2026",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-05",
-      "city": null,
-      "country": "Spain",
-      "venue": "IFEMA MADRID",
-      "industry": [
-        "Technology"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-madrid-tech-show/"
-    },
     {
       "name": "EXPO REAL 2026",
       "start_date": "2026-10-05",
@@ -1304,12 +1196,12 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-bottle-market/"
     },
     {
-      "name": "Fi Europe 2026 Frankfurt, Germany",
+      "name": "Fi Europe 2026",
       "start_date": "2026-12-17",
       "end_date": "2026-12-19",
       "city": "Frankfurt",
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
+      "country": "Germany",
+      "venue": "Messe Frankfurt, Frankfurt",
       "industry": [
         "Food & Beverage"
       ],
