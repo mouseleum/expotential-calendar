@@ -1,150 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-10-12T12:38:42.059Z",
+  "scraped_at": "2026-10-19T10:29:28.183Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Fakuma 2026",
-      "start_date": "2026-10-12",
-      "end_date": "2026-10-16",
-      "city": "Friedrichshafen",
-      "country": "Germany",
-      "venue": "Messe Friedrichshafen",
-      "industry": [
-        "Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fakuma-friedrichshafen/"
-    },
-    {
-      "name": "Bar Convent Berlin 2026",
-      "start_date": "2026-10-12",
-      "end_date": "2026-10-14",
-      "city": null,
-      "country": "Germany",
-      "venue": "Exhibition Center Berlin",
-      "industry": [
-        "Food and Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bar-convent-berlin/"
-    },
-    {
-      "name": "MIPCOM Cannes 2025",
-      "start_date": "2026-10-12",
-      "end_date": "2026-10-15",
-      "city": "Cannes",
-      "country": "France",
-      "venue": "Palais des Festivals",
-      "industry": [
-        "Entertainment"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-mipcom-cannes/"
-    },
-    {
-      "name": "CHILLVENTA 2026",
-      "start_date": "2026-10-13",
-      "end_date": "2026-10-15",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Nuremberg Messe",
-      "industry": [
-        "HVAC & Refrigeration"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-chillventa-nuremberg/"
-    },
-    {
-      "name": "NetworkX 2026",
-      "start_date": "2026-10-13",
-      "end_date": "2026-10-14",
-      "city": "Vienna",
-      "country": "Austria",
-      "venue": "VIECON",
-      "industry": [
-        "Telecommunications"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-network-x/"
-    },
-    {
-      "name": "HYDRO 2026",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-16",
-      "city": "Bologna",
-      "country": "Italy",
-      "venue": "Bologna Congress Center",
-      "industry": [
-        "Energy"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-hydro/"
-    },
-    {
-      "name": "Dutch Pork & Poultry Expo 2026 Hardenberg",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-15",
-      "city": null,
-      "country": "Netherlands",
-      "venue": "Evenementenhal Hardenberg",
-      "industry": [
-        "Agriculture"
-      ],
-      "website": "https://www.expoexhibitionstands.com/dutch-pork-poultry-expo/"
-    },
-    {
-      "name": "COSMETIC 360 2026",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-15",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Carrousel du Louvre",
-      "industry": [],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rentals-cosmetic-360-paris/"
-    },
-    {
-      "name": "Classic Expo 2026",
-      "start_date": "2026-10-16",
-      "end_date": "2025-10-18",
-      "city": "Salzburg",
-      "country": "Austria",
-      "venue": "Messezentrum Salzburg",
-      "industry": [
-        "Automotive"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-classic-expo/"
-    },
-    {
-      "name": "EANM’26 Austria Centre Vienna",
-      "start_date": "2026-10-17",
-      "end_date": "2026-10-21",
-      "city": null,
-      "country": "Austria",
-      "venue": "Austria Centre Vienna",
-      "industry": [
-        "Pharmaceutical"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eanm/"
-    },
-    {
-      "name": "UEG Week 2026 Berlin, Germany",
-      "start_date": "2026-10-17",
-      "end_date": "2026-10-20",
-      "city": "Barcelona",
-      "country": "Spain",
-      "venue": "Fira Gran Via",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ueg-week/"
-    },
-    {
-      "name": "SIAL Paris 2026",
-      "start_date": "2026-10-17",
-      "end_date": "2026-10-21",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Nord Villepinte",
-      "industry": [
-        "Food"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-sial-paris/"
-    },
     {
       "name": "IoT Tech Expo Europe 2026, Amsterdam, the",
       "start_date": "2026-10-19",
@@ -798,7 +656,9 @@
       "city": "Paris",
       "country": "France",
       "venue": "Paris Nord Villepinte, Paris",
-      "industry": [],
+      "industry": [
+        "Packaging and Logistics"
+      ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-all4pack-emballage-paris/"
     },
     {
@@ -820,7 +680,9 @@
       "city": "Amsterdam",
       "country": "Netherlands",
       "venue": "RAI Amsterdam Convention Centre",
-      "industry": [],
+      "industry": [
+        "Energy"
+      ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-offshore-energy-exhibition-conference/"
     },
     {
