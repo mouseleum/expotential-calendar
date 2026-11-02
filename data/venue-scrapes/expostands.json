@@ -1,54 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-10-26T10:42:55.351Z",
+  "scraped_at": "2026-11-02T13:02:20.624Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "IZB 2026",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-29",
-      "city": "Wolfsburg",
-      "country": "Germany",
-      "venue": "Allerpark Wolfsburg",
-      "industry": [],
-      "website": "https://www.expoexhibitionstands.com/izb/"
-    },
-    {
-      "name": "it-sa Expo&Congress 2026",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-29",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Exhibition Centre Nuremberg",
-      "industry": [
-        "IT"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-it-sa/"
-    },
-    {
-      "name": "ORGATEC 2026",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-30",
-      "city": "Cologne",
-      "country": "Germany",
-      "venue": "Koelnmesse GmbH, Cologne",
-      "industry": [
-        "Interior Design"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-orgatec/"
-    },
-    {
-      "name": "MRO Europe 2026 Amsterdam",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-29",
-      "city": null,
-      "country": "Netherlands",
-      "venue": "RAI Amsterdam",
-      "industry": [
-        "Aviation"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-mro-europe/"
-    },
     {
       "name": "GET 2026",
       "start_date": "2026-11-02",
