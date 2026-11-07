@@ -219,6 +219,28 @@
   opacity: 0.6;
 }
 
+.show-table .col-exh-list { text-align: center; }
+
+.exh-job-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  font-size: 11px;
+  font-family: var(--mono);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.exh-job-btn:hover:not(:disabled) { border-color: var(--border-strong); color: var(--text); }
+.exh-job-btn:disabled { cursor: default; }
+.exh-job-btn[data-state="pending"] { border-color: var(--accent-dim); color: var(--accent); }
+.exh-job-btn[data-state="running"] { border-color: var(--accent); color: var(--accent); }
+.exh-job-btn[data-state="done"] { border-color: var(--green); color: var(--green); }
+.exh-job-btn[data-state="review"] { border-color: var(--accent); color: var(--accent); }
+.exh-job-btn[data-state="failed"] { border-color: var(--red); color: var(--red); }
+
 .empty {
   padding: 60px 20px;
   text-align: center;

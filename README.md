@@ -71,3 +71,15 @@ whether its city is among its country's busiest trade-show cities — backing
 the sidebar's "Major cities only" filter, which cuts the long tail of
 one-off small-town shows. Fully automatic (no curated list to maintain):
 tunable via the `topN`/`minShare` constants in that file.
+
+## Exhibitor lists (List column)
+
+The **List** column queues a run of
+[exhibitor-browser-agent](https://github.com/mouseleum/exhibitor-browser-agent).
+That is a local worker that uses Claude and a Playwright browser to collect a show's full exhibitor list into a CSV on the machine it runs on.
+
+- Click `⇩` on a row and give the URL of the show's exhibitor list page. The prompt starts with the show's website, or the URL used last time.
+- `api/exhibitor-jobs.js` creates or reuses an `events` row and inserts an `extraction_jobs` row with `agent='browser'`, in the Supabase project shared with exporepoapi.
+- It remembers the latest job per show in KV hash `exhibitor-jobs`.
+- The cell polls until the job finishes: `…` queued → `⟳` running → `✓ N` / `! N` (partial) / `✕` (failed). The tooltip shows the CSV path or the error.
+- Needs `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` on Vercel, plus exporepoapi migration `0010_extraction_jobs_agent.sql`. Without them the column stays hidden.

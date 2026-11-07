@@ -8,6 +8,7 @@ import { CalendarView } from './components/CalendarView';
 import { ChangelogPanel } from './components/ChangelogPanel';
 import { filtersToParam, filtersFromParam } from './utils/urlState';
 import { useFlagged } from './hooks/useFlagged';
+import { useExhibitorJobs } from './hooks/useExhibitorJobs';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
 import { INDUSTRY_SEGMENTS } from './utils/industries';
@@ -46,6 +47,7 @@ function App() {
     new URLSearchParams(window.location.search).get('v') === 'cal' ? 'calendar' : 'table');
   const [sort, setSort] = useState({ key: 'start_date', dir: 'asc' });
   const { flags, cycle } = useFlagged();
+  const exhibitorJobs = useExhibitorJobs();
   // shows.json is served from /public/ at runtime instead of being bundled
   // into the JS — keeps the initial JS chunk small. null = not yet loaded.
   const [showsData, setShowsData] = useState(null);
@@ -218,6 +220,9 @@ function App() {
               onFlag={cycle}
               industryOverrides={industryOverrides}
               onIndustryChange={handleIndustryChange}
+              exhibitorJobs={exhibitorJobs.jobs}
+              exhibitorJobsAvailable={exhibitorJobs.available}
+              onRequestExhibitors={exhibitorJobs.request}
             />
           )}
         </main>

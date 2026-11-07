@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { normalize, toCount } from '../api/manual-shows.js';
 import { normalizeFlag, FLAG_STATES } from '../api/flags.js';
 import { requireWriteAuth } from '../api/_lib/auth.js';
+import { normalizeJobRequest, eventSlug, toJobView } from '../api/exhibitor-jobs.js';
 
 describe('manual-shows toCount', () => {
   it('keeps missing values null instead of coercing to 0', () => {
@@ -107,5 +108,46 @@ describe('requireWriteAuth', () => {
     } finally {
       delete process.env.WRITE_TOKEN;
     }
+  });
+});
+
+describe('exhibitor-jobs normalizeJobRequest', () => {
+  const valid = { showId: 'interpack-2026', showName: 'interpack', year: 2026, url: 'https://www.interpack.com/vis/v1/en/directory/a' };
+
+  it('accepts a valid request and normalizes the URL', () => {
+    const { input, error } = normalizeJobRequest({ ...valid, showName: '  interpack ' });
+    expect(error).toBeUndefined();
+    expect(input).toEqual({ ...valid, showName: 'interpack' });
+  });
+  it('requires showId and showName', () => {
+    expect(normalizeJobRequest({ ...valid, showId: '' }).error).toBe('showId required');
+    expect(normalizeJobRequest({ ...valid, showName: ' ' }).error).toBe('showName required');
+  });
+  it('rejects non-http URLs', () => {
+    expect(normalizeJobRequest({ ...valid, url: 'not a url' }).error).toMatch(/url/);
+    expect(normalizeJobRequest({ ...valid, url: 'javascript:alert(1)' }).error).toMatch(/url/);
+    expect(normalizeJobRequest({ ...valid, url: 'file:///etc/passwd' }).error).toMatch(/url/);
+  });
+  it('allows a missing year but rejects a bad one', () => {
+    expect(normalizeJobRequest({ ...valid, year: null }).input.year).toBe(null);
+    expect(normalizeJobRequest({ ...valid, year: 'soon' }).error).toMatch(/year/);
+  });
+});
+
+describe('exhibitor-jobs eventSlug / toJobView', () => {
+  it('builds a slug with the year once', () => {
+    expect(eventSlug('Interpack', 2026)).toBe('interpack-2026');
+    expect(eventSlug('Battery Show Europe 2026', 2026)).toBe('battery-show-europe-2026');
+    expect(eventSlug('', null)).toBe('event');
+  });
+  it('maps a job row for the browser', () => {
+    const view = toJobView(
+      { id: 'j1', status: 'done', error: null, summary: { count: 812, cost_usd: 0.42 }, output_path: '/x.csv', worker_id: 'mac', completed_at: 't' },
+      { jobId: 'j1', url: 'https://x', at: 'a' },
+    );
+    expect(view).toMatchObject({ jobId: 'j1', status: 'done', count: 812, costUsd: 0.42, outputPath: '/x.csv', url: 'https://x' });
+  });
+  it('reports unknown when the job row is gone', () => {
+    expect(toJobView(undefined, { jobId: 'j2', url: 'u', at: 'a' }).status).toBe('unknown');
   });
 });
