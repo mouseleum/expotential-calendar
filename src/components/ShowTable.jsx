@@ -1,11 +1,13 @@
 import { formatDateRange } from '../utils/dateUtils';
 import { IndustryEditor } from './IndustryEditor';
 import { useColumnWidths } from '../hooks/useColumnWidths';
+import { ExhibitorJobButton } from './ExhibitorJobButton';
 
 const FLAG_GLYPH = { interested: '★', attending: '✓', skip: '✕' };
 
 const DEFAULT_COL_WIDTHS = {
   flag: 40,
+  exhList: 64,
   dates: 130,
   name: 280,
   city: 130,
@@ -15,7 +17,10 @@ const DEFAULT_COL_WIDTHS = {
   exhibitors: 90,
 };
 
-export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrides, onIndustryChange }) {
+export function ShowTable({
+  shows, sort, setSort, flags, onFlag, industryOverrides, onIndustryChange,
+  exhibitorJobs, exhibitorJobsAvailable, onRequestExhibitors,
+}) {
   const { widths, startResize } = useColumnWidths(DEFAULT_COL_WIDTHS);
 
   function header(key, label, align = 'left') {
@@ -46,6 +51,9 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
         <thead>
           <tr>
             <th className="col-flag" style={{ width: widths.flag }}>⚑</th>
+            {exhibitorJobsAvailable && (
+              <th className="col-exh-list" style={{ width: widths.exhList }} title="Exhibitor list (CSV via the exhibitor agent)">List</th>
+            )}
             {header('start_date', 'Dates')}
             {header('name', 'Show')}
             {header('city', 'City')}
@@ -71,6 +79,11 @@ export function ShowTable({ shows, sort, setSort, flags, onFlag, industryOverrid
                     {flag ? FLAG_GLYPH[flag] : '·'}
                   </button>
                 </td>
+                {exhibitorJobsAvailable && (
+                  <td className="col-exh-list">
+                    <ExhibitorJobButton job={exhibitorJobs?.[s.id]} onRequest={() => onRequestExhibitors(s)} />
+                  </td>
+                )}
                 <td className="col-dates">{formatDateRange(s.start_date, s.end_date)}</td>
                 <td className="col-name">
                   {s.website
