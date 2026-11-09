@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { normalize, toCount } from '../api/manual-shows.js';
 import { normalizeFlag, FLAG_STATES } from '../api/flags.js';
 import { requireWriteAuth } from '../api/_lib/auth.js';
-import { normalizeJobRequest, eventSlug, toJobView } from '../api/exhibitor-jobs.js';
+import { normalizeJobRequest, eventSlug, toJobView, parseStoragePath } from '../api/exhibitor-jobs.js';
 
 describe('manual-shows toCount', () => {
   it('keeps missing values null instead of coercing to 0', () => {
@@ -149,5 +149,22 @@ describe('exhibitor-jobs eventSlug / toJobView', () => {
   });
   it('reports unknown when the job row is gone', () => {
     expect(toJobView(undefined, { jobId: 'j2', url: 'u', at: 'a' }).status).toBe('unknown');
+  });
+});
+
+describe('exhibitor-jobs storage downloads', () => {
+  it('parses storage output paths', () => {
+    expect(parseStoragePath('storage:exhibitor-lists/interpack-2026/interpack-2026-2026-11-09.csv'))
+      .toEqual({ bucket: 'exhibitor-lists', path: 'interpack-2026/interpack-2026-2026-11-09.csv' });
+  });
+  it('rejects local paths and junk', () => {
+    expect(parseStoragePath('/Users/me/Exhibitors/x.csv')).toBe(null);
+    expect(parseStoragePath('storage:')).toBe(null);
+    expect(parseStoragePath(null)).toBe(null);
+  });
+  it('marks only storage CSVs as downloadable', () => {
+    const entry = { jobId: 'j', url: 'u', at: 'a' };
+    expect(toJobView({ id: 'j', status: 'done', output_path: 'storage:exhibitor-lists/a/b.csv' }, entry).downloadable).toBe(true);
+    expect(toJobView({ id: 'j', status: 'done', output_path: '/tmp/b.csv' }, entry).downloadable).toBe(false);
   });
 });

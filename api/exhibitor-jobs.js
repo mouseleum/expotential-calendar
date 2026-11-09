@@ -1,6 +1,7 @@
 // Exhibitor-list extraction jobs, run by exhibitor-browser-agent on a local machine.
 //
 // GET  /api/exhibitor-jobs                              → { jobs: { [showId]: JobView } }
+// GET  /api/exhibitor-jobs?download=<showId>            → 302 to a 5-minute signed CSV link
 // POST /api/exhibitor-jobs {showId, showName, year, url} → { ok, showId, job: JobView }
 //
 // The queue lives in the Supabase project shared with exporepoapi:
@@ -8,7 +9,8 @@
 //   extraction_jobs   one row per run, agent='browser' (see exporepoapi
 //                     db/migrations/0010_extraction_jobs_agent.sql)
 // The agent claims pending agent='browser' rows, drives a browser with Claude,
-// writes a CSV on its own machine and sets status/summary/output_path.
+// uploads the CSV to the private Storage bucket 'exhibitor-lists' and sets
+// status/summary/output_path (`storage:<bucket>/<path>`).
 //
 // Vercel KV hash 'exhibitor-jobs' maps calendar show id → latest job id + URL,
 // so the calendar can show one status per show.
@@ -34,6 +36,15 @@ function db() {
   supabase ??= createClient(url, key, { auth: { persistSession: false } });
   return supabase;
 }
+
+// `storage:<bucket>/<path>` → { bucket, path }, or null for anything else
+// (e.g. a CSV that only exists on the machine of a local worker).
+export function parseStoragePath(outputPath) {
+  const m = /^storage:([a-z0-9][a-z0-9_-]*)\/(.+)$/.exec(outputPath || '');
+  return m ? { bucket: m[1], path: m[2] } : null;
+}
+
+const SIGNED_URL_SECONDS = 300;
 
 // Validates a POST body → { input } or { error }.
 export function normalizeJobRequest(body) {
@@ -75,6 +86,7 @@ export function toJobView(job, entry) {
     expectedTotal: job?.summary?.expected_total ?? null,
     costUsd: job?.summary?.cost_usd ?? null,
     outputPath: job?.output_path ?? null,
+    downloadable: parseStoragePath(job?.output_path) !== null,
     workerId: job?.worker_id ?? null,
     completedAt: job?.completed_at ?? null,
   };
@@ -119,6 +131,25 @@ export default async function handler(req, res) {
     const client = db();
     if (!client) {
       return res.status(503).json({ error: 'Exhibitor extraction is not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY missing)' });
+    }
+
+    const downloadId = req.method === 'GET'
+      ? (req.query?.download || new URL(req.url, 'http://x').searchParams.get('download'))
+      : null;
+    if (downloadId) {
+      const entry = (await store.all())[downloadId];
+      if (!entry?.jobId) return res.status(404).json({ error: 'No exhibitor run for this show' });
+      const { data: job, error } = await client.from('extraction_jobs').select('output_path').eq('id', entry.jobId).maybeSingle();
+      if (error) throw new Error(`job lookup: ${error.message}`);
+      const loc = parseStoragePath(job?.output_path);
+      if (!loc) return res.status(404).json({ error: 'No downloadable CSV for this show (not finished, or saved only on a local worker)' });
+      const { data: signed, error: signErr } = await client.storage
+        .from(loc.bucket)
+        .createSignedUrl(loc.path, SIGNED_URL_SECONDS, { download: loc.path.split('/').pop() });
+      if (signErr || !signed?.signedUrl) throw new Error(`signed url: ${signErr?.message ?? 'none returned'}`);
+      res.setHeader('Cache-Control', 'no-store');
+      res.setHeader('Location', signed.signedUrl);
+      return res.status(302).end();
     }
 
     if (req.method === 'GET') {
