@@ -37,11 +37,15 @@ function db() {
   return supabase;
 }
 
-// `storage:<bucket>/<path>` → { bucket, path }, or null for anything else
-// (e.g. a CSV that only exists on the machine of a local worker).
+export const CSV_BUCKET = 'exhibitor-lists';
+
+// `storage:exhibitor-lists/<path>` → { bucket, path }, or null for anything
+// else (a CSV that only exists on a local worker's disk, or any other bucket:
+// downloads are only ever signed for the exhibitor-lists bucket).
 export function parseStoragePath(outputPath) {
   const m = /^storage:([a-z0-9][a-z0-9_-]*)\/(.+)$/.exec(outputPath || '');
-  return m ? { bucket: m[1], path: m[2] } : null;
+  if (!m || m[1] !== CSV_BUCKET || m[2].includes('..')) return null;
+  return { bucket: m[1], path: m[2] };
 }
 
 const SIGNED_URL_SECONDS = 300;

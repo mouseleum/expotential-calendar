@@ -160,6 +160,8 @@ describe('exhibitor-jobs storage downloads', () => {
   it('rejects local paths and junk', () => {
     expect(parseStoragePath('/Users/me/Exhibitors/x.csv')).toBe(null);
     expect(parseStoragePath('storage:')).toBe(null);
+    expect(parseStoragePath('storage:other-bucket/a.csv')).toBe(null);
+    expect(parseStoragePath('storage:exhibitor-lists/../x.csv')).toBe(null);
     expect(parseStoragePath(null)).toBe(null);
   });
   it('marks only storage CSVs as downloadable', () => {
