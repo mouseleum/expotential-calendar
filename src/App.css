@@ -240,6 +240,17 @@
 .exh-job-btn[data-state="done"] { border-color: var(--green); color: var(--green); }
 .exh-job-btn[data-state="review"] { border-color: var(--accent); color: var(--accent); }
 .exh-job-btn[data-state="failed"] { border-color: var(--red); color: var(--red); }
+a.exh-job-btn { display: inline-flex; align-items: center; text-decoration: none; }
+.exh-job-cell { display: inline-flex; align-items: center; gap: 4px; }
+.exh-job-rerun {
+  background: transparent;
+  border: none;
+  color: var(--text-dimmer);
+  font-size: 12px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+.exh-job-rerun:hover { color: var(--text); }
 
 .empty {
   padding: 60px 20px;

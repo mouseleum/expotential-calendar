@@ -7,8 +7,8 @@ const FLAG_GLYPH = { interested: '★', attending: '✓', skip: '✕' };
 
 const DEFAULT_COL_WIDTHS = {
   flag: 40,
-  exhList: 64,
-  dates: 130,
+  exhibitorList: 84,
+  start_date: 130, // keyed like header('start_date') so the width actually applies
   name: 280,
   city: 130,
   country: 110,
@@ -52,7 +52,7 @@ export function ShowTable({
           <tr>
             <th className="col-flag" style={{ width: widths.flag }}>⚑</th>
             {exhibitorJobsAvailable && (
-              <th className="col-exh-list" style={{ width: widths.exhList }} title="Exhibitor list (CSV via the exhibitor agent)">List</th>
+              <th className="col-exh-list" style={{ width: widths.exhibitorList }} title="Exhibitor list (CSV via the exhibitor agent)">List</th>
             )}
             {header('start_date', 'Dates')}
             {header('name', 'Show')}
@@ -81,7 +81,7 @@ export function ShowTable({
                 </td>
                 {exhibitorJobsAvailable && (
                   <td className="col-exh-list">
-                    <ExhibitorJobButton job={exhibitorJobs?.[s.id]} onRequest={() => onRequestExhibitors(s)} />
+                    <ExhibitorJobButton showId={s.id} job={exhibitorJobs?.[s.id]} onRequest={() => onRequestExhibitors(s)} />
                   </td>
                 )}
                 <td className="col-dates">{formatDateRange(s.start_date, s.end_date)}</td>
