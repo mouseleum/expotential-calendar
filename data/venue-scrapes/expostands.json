@@ -1,176 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-11-09T13:33:22.835Z",
+  "scraped_at": "2026-11-16T13:18:43.121Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "Web Summit Lisbon 2026",
-      "start_date": "2026-11-09",
-      "end_date": "2026-11-12",
-      "city": "Lisbon",
-      "country": "Portugal",
-      "venue": "MEO Arena and Lisbon Exhibition & Congress Centre, Lisbon",
-      "industry": [
-        "Technology"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-web-summit-lisbon/"
-    },
-    {
-      "name": "Adhesives & Bonding Expo 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-12",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "venue": "Messe Stuttgart (Hall 1)",
-      "industry": [
-        "Industrial Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-adhesives-bonding-expo/"
-    },
-    {
-      "name": "Thermal Management Expo Europe 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-12",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "venue": "Messe Stuttgart",
-      "industry": [
-        "Advanced Manufacturing and Engineering"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-thermal-management-expo-europe/"
-    },
-    {
-      "name": "Enlit Europe 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-12",
-      "city": "Vienna",
-      "country": "Austria",
-      "venue": "Messe Wien Exhibition Centre",
-      "industry": [
-        "Energy"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-enlit-europe/"
-    },
-    {
-      "name": "Foam Expo 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2025-11-12",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "venue": "Messe Stuttgart",
-      "industry": [
-        "Material Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-foam-expo/"
-    },
-    {
-      "name": "VAKBEURS Recycling 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-12",
-      "city": "Gorinchem, the",
-      "country": "Netherlands",
-      "venue": "Evenementenhal Gorinchem, Gorinchem",
-      "industry": [
-        "Environment"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vakbeurs-recycling/"
-    },
-    {
-      "name": "SEMICON Europa 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-13",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munich",
-      "industry": [
-        "Semiconductors"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-semicon-europa/"
-    },
-    {
-      "name": "BrauBeviale 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-12",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Exhibition Centre Nuremberg",
-      "industry": [
-        "Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-braubeviale-nuremberg/"
-    },
-    {
-      "name": "electronica 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-13",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munchen",
-      "industry": [
-        "Electronics"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-electronica/"
-    },
-    {
-      "name": "Eurotier 2026",
-      "start_date": "2026-11-10",
-      "end_date": "2026-11-13",
-      "city": "Hannover",
-      "country": "Germany",
-      "venue": "Messe Hannover",
-      "industry": [
-        "Animal Farming and Livestock Management"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eurotier-hannover-germany/"
-    },
-    {
-      "name": "PMW Expo 2026",
-      "start_date": "2026-11-11",
-      "end_date": "2026-11-12",
-      "city": "Cologne",
-      "country": "Germany",
-      "venue": "Koelnmesse",
-      "industry": [
-        "Automotive"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pmw-expo/"
-    },
-    {
-      "name": "SIMO Educacion 2026",
-      "start_date": "2026-11-11",
-      "end_date": "2026-11-13",
-      "city": "Madrid",
-      "country": "Spain",
-      "venue": "IFEMA MADRID",
-      "industry": [
-        "Edutech"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-simo-educacion/"
-    },
-    {
-      "name": "MIF Expo Paris 2026",
-      "start_date": "2026-11-12",
-      "end_date": "2026-11-15",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles",
-      "industry": [
-        "Retail"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-mif-expo/"
-    },
-    {
-      "name": "Horeca Expo 2026",
-      "start_date": "2026-11-15",
-      "end_date": "2026-11-18",
-      "city": "Ghent",
-      "country": "Belgium",
-      "venue": null,
-      "industry": [
-        "Hospitality"
-      ],
-      "website": "https://www.expoexhibitionstands.com/horeca-expo/"
-    },
     {
       "name": "MEDICA 2026",
       "start_date": "2026-11-16",
@@ -448,18 +280,6 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-sps/"
     },
     {
-      "name": "Food & Life 2026",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-29",
-      "city": "Munich",
-      "country": "Germany",
-      "venue": "Messe Munich",
-      "industry": [
-        "Food & Beverages"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-food-life/"
-    },
-    {
       "name": "Essen Motor Show 2026",
       "start_date": "2026-11-28",
       "end_date": "2026-12-07",
@@ -640,18 +460,6 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-bottle-market/"
     },
     {
-      "name": "Fi Europe 2026",
-      "start_date": "2026-12-17",
-      "end_date": "2026-12-19",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "venue": "Messe Frankfurt, Frankfurt",
-      "industry": [
-        "Food & Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/food-ingredients-europe-fi-global/"
-    },
-    {
       "name": "Vakantiebeurs 2027",
       "start_date": "2027-01-07",
       "end_date": "2027-01-10",
@@ -671,7 +479,7 @@
       "country": "Netherlands",
       "venue": "RAI Amsterdam",
       "industry": [
-        "Hospitality"
+        "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-horecava/"
     },
@@ -976,6 +784,18 @@
       "website": "https://www.expoexhibitionstands.com/hamburg-open-germany/"
     },
     {
+      "name": "Sirha Europain 2027",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-25",
+      "city": "Lyon",
+      "country": "France",
+      "venue": "Eurexpo Lyon",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sirha-europain/"
+    },
+    {
       "name": "Baumag Lucerne 2027",
       "start_date": "2027-01-21",
       "end_date": "2027-01-24",
@@ -995,7 +815,7 @@
       "country": "France",
       "venue": "Eurexpo Lyon",
       "industry": [
-        "Food Service and Hospitality"
+        "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-sirha-lyon/"
     },
@@ -1163,7 +983,7 @@
       "country": "Germany",
       "venue": "Koelnmesse",
       "industry": [
-        "Snacks and Sweets"
+        "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-prosweets-cologne/"
     },
@@ -1175,9 +995,105 @@
       "country": "Germany",
       "venue": "Koelnmesse",
       "industry": [
-        "Confectionery and Snacks"
+        "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-ism-cologne/"
+    },
+    {
+      "name": "Bio360 Expo 2027",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-04",
+      "city": "Nantes",
+      "country": "France",
+      "venue": "Parc des Expositions de Nantes",
+      "industry": [
+        "Energy"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bio360-expo/"
+    },
+    {
+      "name": "Baumesse Chemnitz 2027",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-07",
+      "city": "Chemnitz",
+      "country": "Germany",
+      "venue": "Messe Chemnitz",
+      "industry": [
+        "Construction"
+      ],
+      "website": "https://www.expoexhibitionstands.com/booth-builder-baumesse-chemnitz/"
+    },
+    {
+      "name": "B.I.G. 2027",
+      "start_date": "2027-02-10",
+      "end_date": "2027-02-14",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Hannover Exhibition Centre",
+      "industry": [
+        "Construction"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-b-i-g/"
+    },
+    {
+      "name": "ABF 2027",
+      "start_date": "2027-02-10",
+      "end_date": "2027-02-14",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": null,
+      "industry": [
+        "Adventure and Leisure"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-abf/"
+    },
+    {
+      "name": "BATIBOUW Brussels 2027",
+      "start_date": "2027-02-12",
+      "end_date": "2027-02-21",
+      "city": null,
+      "country": "Belgium",
+      "venue": "Brussels Expo",
+      "industry": [
+        "Construction and Renovation"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-batibouw/"
+    },
+    {
+      "name": "Horeca Professional Expo 2027",
+      "start_date": "2027-02-15",
+      "end_date": "2027-02-17",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-horeca-professional-expo/"
+    },
+    {
+      "name": "Wine Paris 2027",
+      "start_date": "2027-02-15",
+      "end_date": "2027-02-17",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-wine-paris/"
+    },
+    {
+      "name": "BIOFACH 2027",
+      "start_date": "2027-02-16",
+      "end_date": "2027-02-19",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Nuremberg Exhibition Centre",
+      "industry": [
+        "Food & Beverages"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-biofach/"
     },
     {
       "name": "Second Home Expo 2027",
@@ -1190,6 +1106,222 @@
         "Real Estate"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-second-home-expo/"
+    },
+    {
+      "name": "ADDIT3D 2027",
+      "start_date": "2027-02-23",
+      "end_date": "2027-02-25",
+      "city": "Barakaldo",
+      "country": "Spain",
+      "venue": "Bilbao Exhibition Centre",
+      "industry": [
+        "Additive Manufacturing & 3D Printing"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-addit3d-barakaldo/"
+    },
+    {
+      "name": "100% Optical 2027",
+      "start_date": "2027-02-27",
+      "end_date": "2027-03-01",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL London",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-100-percent-optical/"
+    },
+    {
+      "name": "CFIA 2027",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-11",
+      "city": "Rennes",
+      "country": "France",
+      "venue": "Parc Expo Rennes",
+      "industry": [
+        "Food and Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-cfia-rennes/"
+    },
+    {
+      "name": "WTCE 2027",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-08",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Hamburg Messe",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-wtce/"
+    },
+    {
+      "name": "The Amsterdam Coffee Festival 2027",
+      "start_date": "2027-04-08",
+      "end_date": "2027-04-10",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "NDSM Loods",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-amsterdam-coffee-festival/"
+    },
+    {
+      "name": "Markt des guten Geschmacks 2027",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-16",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-markt-des-guten-geschmacks/"
+    },
+    {
+      "name": "Seafood Processing Global 2027",
+      "start_date": "2027-04-20",
+      "end_date": "2027-04-22",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira Barcelona Gran Via",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-seafood-processing-global/"
+    },
+    {
+      "name": "Salon Gourmets 2027",
+      "start_date": "2027-04-26",
+      "end_date": "2027-04-29",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-salon-gourmets/"
+    },
+    {
+      "name": "Vitafoods Europe 2027",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-20",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira Barcelona Gran Via",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vitafoods-europe/"
+    },
+    {
+      "name": "Autonomous Vehicle Technology Expo 2027",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-03",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-adas-autonomous-vehicle-technology-expo/"
+    },
+    {
+      "name": "Salimat Abanca 2027",
+      "start_date": "2027-06-03",
+      "end_date": "2027-06-06",
+      "city": "Galicia",
+      "country": "Spain",
+      "venue": "Silleda",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-salimat-abanca/"
+    },
+    {
+      "name": "Semana Verde de Galicia 2027",
+      "start_date": "2027-06-14",
+      "end_date": "2027-06-14",
+      "city": "Galicia",
+      "country": "Spain",
+      "venue": "Feira Internacional de Galicia",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-rental-semana-verde-de-galicia/"
+    },
+    {
+      "name": "INTRAFOOD 2027",
+      "start_date": "2027-09-22",
+      "end_date": "2027-09-23",
+      "city": "Kortrijk",
+      "country": "Belgium",
+      "venue": "Kortrijk Xpo",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intrafood-kortrijk/"
+    },
+    {
+      "name": "Conxemar 2027",
+      "start_date": "2027-10-05",
+      "end_date": "2027-10-07",
+      "city": "Vigo",
+      "country": "Spain",
+      "venue": "Instituto Feiral de Vigo",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/conxemar/"
+    },
+    {
+      "name": "IBA 2027",
+      "start_date": "2027-10-24",
+      "end_date": "2027-10-27",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe München",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iba/"
+    },
+    {
+      "name": "Food & Life 2027",
+      "start_date": "2027-11-24",
+      "end_date": "2027-11-28",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "F&B"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-food-life/"
+    },
+    {
+      "name": "Fi Europe 2027",
+      "start_date": "2027-11-30",
+      "end_date": "2027-12-02",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Messe Frankfurt, Frankfurt",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/food-ingredients-europe-fi-global/"
+    },
+    {
+      "name": "drinktec 2028",
+      "start_date": "2028-09-11",
+      "end_date": "2028-09-15",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Trade Fair Center Messe Munchen",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-drinktec/"
     }
   ]
 }
