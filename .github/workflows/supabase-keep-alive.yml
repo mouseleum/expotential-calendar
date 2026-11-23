@@ -1,0 +1,26 @@
+# Free-plan Supabase projects pause after a week without activity. This calls
+# the expo-calendar-mcp Edge Function once a week (search_shows, limit 1),
+# which queries the database. Drop it once the project moves to Pro.
+name: Supabase keep-alive
+
+on:
+  schedule:
+    - cron: '17 9 * * 4' # Thursdays 09:17 UTC (refresh-data runs Mondays)
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Call search_shows
+        run: |
+          out=$(curl -sS --fail-with-body --max-time 60 \
+            https://hihhgpzcklusonxnbfcn.supabase.co/functions/v1/expo-calendar-mcp \
+            -H 'Content-Type: application/json' \
+            -H 'Accept: application/json, text/event-stream' \
+            -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_shows","arguments":{"limit":1}}}')
+          echo "$out" | head -c 300; echo
+          echo "$out" | grep -q '\\"total\\"' || { echo "unexpected response"; exit 1; }

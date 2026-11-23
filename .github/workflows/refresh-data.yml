@@ -46,11 +46,23 @@ jobs:
           else
             echo "ANTHROPIC_API_KEY secret not set — skipping classification"
           fi
+      # Upsert the merged shows into Supabase (exporepoapi calendar_shows) and
+      # link new exhibitor lists. Skipped when the secrets aren't set; a
+      # failure here never blocks the JSON the website serves (the run row in
+      # calendar_scrape_runs records it as failed).
+      - name: Sync to Supabase
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          npm run import:calendar -- --skip-if-unconfigured
+          npm run link:events -- --skip-if-unconfigured
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+          git add data scripts/out
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else

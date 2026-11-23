@@ -18,13 +18,17 @@
     "merge": "node scripts/merge.js",
     "refresh": "npm run scrape && npm run merge",
     "test": "vitest run",
-    "scrape:eventseye:links": "node scripts/enrich-eventseye-links.js"
+    "scrape:eventseye:links": "node scripts/enrich-eventseye-links.js",
+    "import:calendar": "tsx scripts/import-calendar-json.ts",
+    "link:events": "tsx scripts/link-events.ts",
+    "link:apply": "tsx scripts/apply-event-links.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.118.0",
     "@vercel/kv": "^3.0.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.96.0",
@@ -38,6 +42,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "tsx": "^4.20.6",
     "vite": "^8.0.12",
     "vitest": "^4.1.10"
   }

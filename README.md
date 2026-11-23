@@ -83,3 +83,66 @@ That is a local worker that uses Claude and a Playwright browser to collect a sh
 - It remembers the latest job per show in KV hash `exhibitor-jobs`.
 - The cell polls until the job finishes: `…` queued → `⟳` running → `✓ N` / `! N` (partial) / `✕` (failed). The tooltip shows the CSV path or the error.
 - Needs `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` on Vercel, plus exporepoapi migration `0010_extraction_jobs_agent.sql`. Without them the column stays hidden.
+
+## Supabase copy (calendar_shows) and the MCP server
+
+The merged shows are also upserted into the `calendar_shows` table of the
+Supabase project shared with exporepoapi (ref `hihhgpzcklusonxnbfcn`, schema in
+exporepoapi `db/migrations/0012_calendar_shows.sql`). The website still reads
+`/shows.json`; Supabase is the shared copy other tools query, starting with the
+read-only `expo-calendar-mcp` server (see exporepoapi's README).
+
+`src/types/show.ts` is the zod schema for `data/shows.json`. The site
+(`src/App.jsx`) and the import script both use it, so field names can't drift.
+
+```sh
+npm run import:calendar -- --dry-run  # validate + map, write scripts/out/calendar-import-log.csv
+npm run import:calendar               # upsert into calendar_shows (needs .env, below)
+npm run link:events                   # link shows to exhibitor-list `events`
+npm run link:apply                    # apply hand-confirmed links from the review CSV
+```
+
+Needs a local `.env` (gitignored; never in Vercel):
+
+```
+SUPABASE_URL=https://hihhgpzcklusonxnbfcn.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=...
+```
+
+The weekly refresh runs the same two steps after classification when the
+`SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` **repository secrets** are set
+(Settings → Secrets and variables → Actions). Without them the step is skipped
+and only the JSON is updated.
+
+**Keys.** One row per edition, unique on `(series_key, edition_year)`.
+`series_key` is the slugified name with any year removed (`ISE 2027` → `ise`);
+`edition_year` is the year of `start_date`. Fallbacks, all logged to
+`scripts/out/calendar-import-log.csv`:
+
+| reason | what happens |
+|---|---|
+| `duplicate` | same series + year, start dates ≤ 3 days apart (a dedupe miss) — the richer row is kept, the other skipped |
+| `city_suffixed` | the series has several editions a year in different cities — every edition gets the city: `s-factory-expo-shanghai` |
+| `half_year_suffixed` | twice a year in the same city — `-h1` (Jan–Jun) / `-h2` (Jul–Dec): `formex-stockholm-h2` |
+| `ambiguous`, `no_city` | still can't be told apart — skipped |
+| `name_year_mismatch` | the year in the name differs from `start_date` — imported with `start_date`'s year |
+
+Rows missing from a later run are never deleted: they keep their old
+`last_seen_at` and are counted in `calendar_scrape_runs.rows_missing`.
+
+Derived columns: `country_code` is filled from the country name when the
+scrape has none; `date_status` is `confirmed` when any source is a venue or
+organiser site (Stockholmsmässan, Kistamässan, Malmömässan, Bella Center,
+Informa, RX) and `listing_only` otherwise; `frequency` and `organiser` come from
+`notes` and the sources.
+
+**Linking to exhibitor lists.** `link:events` sets `calendar_shows.event_id`
+when a show and an `events` row have the same normalised name (year stripped)
+and the same year, one-to-one. Near matches (trigram similarity ≥ 0.6) go to
+`scripts/out/event-link-review.csv`: put `y` in `confirm` and run
+`npm run link:apply`. The weekly refresh re-runs the matching, so new lists get
+linked as they arrive.
+
+**Keep-alive.** `.github/workflows/supabase-keep-alive.yml` calls the MCP
+server's `search_shows` (limit 1) every Thursday so the free-plan project
+isn't paused for inactivity. Remove it after moving to Pro.

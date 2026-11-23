@@ -12,6 +12,7 @@ import { useExhibitorJobs } from './hooks/useExhibitorJobs';
 import { isInDateRange, isInISOWeek } from './utils/dateUtils';
 import { REGIONS } from './utils/regions';
 import { INDUSTRY_SEGMENTS } from './utils/industries';
+import { ShowsFileSchema } from './types/show';
 
 const INDUSTRY_CANON = new Set(INDUSTRY_SEGMENTS);
 
@@ -62,7 +63,13 @@ function App() {
         if (!r.ok) throw new Error(`shows.json ${r.status}`);
         return r.json();
       })
-      .then((d) => setShowsData(d))
+      .then((d) => {
+        // Same schema the Supabase import validates against. A mismatch means
+        // the pipeline changed shape; log it but still render what we got.
+        const check = ShowsFileSchema.safeParse(d);
+        if (!check.success) console.warn('shows.json does not match ShowsFileSchema', check.error.issues.slice(0, 5));
+        setShowsData(d);
+      })
       .catch((err) => setLoadError(err.message));
     fetch('/api/manual-shows')
       .then((r) => (r.ok ? r.json() : { shows: [] }))
