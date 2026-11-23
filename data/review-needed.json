@@ -1,3 +1,92 @@
 {
-  "conflicts": []
+  "conflicts": [
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2027-06",
+      "existing": {
+        "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2027-06",
+        "name": "Electric & Hybrid - Vehicle Technology Expo",
+        "start_date": "2027-06-22",
+        "end_date": "2027-06-24",
+        "city": "Stuttgart",
+        "country": "Germany",
+        "country_code": "DE",
+        "venue": "Messe Stuttgart",
+        "industry": [
+          "Technology & IT",
+          "Automotive & Transportation"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.evtechexpo.eu",
+        "source": "tradeshow_calendar+venue:eventseye+venue:informa",
+        "source_url": "https://thetradeshowcalendar.com/ttn/index.php?vShow=search&vCtry=Germany",
+        "notes": "",
+        "audience": "b2b",
+        "major_city": true
+      },
+      "incoming": {
+        "name": "Electric & Hybrid Vehicle Technology Expo, Stuttgart",
+        "start_date": "2027-06-22",
+        "end_date": "2027-06-24",
+        "city": null,
+        "country": "Germany",
+        "country_code": null,
+        "venue": "Messe Stuttgart",
+        "industry": [
+          "Automotive"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/",
+        "notes": "",
+        "id": "electric-and-hybrid-vehicle-technology-expo-stuttgart-2027-06"
+      }
+    },
+    {
+      "reason": "venue: id collision, fuzzy missed",
+      "id": "libramont-fair-2027-libramont-2027-07",
+      "existing": {
+        "name": "Libramont Fair 2027",
+        "start_date": "2027-07-23",
+        "end_date": "2027-07-26",
+        "city": "Libramont",
+        "country": "Belgium",
+        "country_code": null,
+        "venue": "Libramont Exhibition & Congress",
+        "industry": [
+          "Agriculture"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-foire-de-libramont/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-foire-de-libramont/",
+        "notes": "",
+        "id": "libramont-fair-2027-libramont-2027-07",
+        "major_city": true
+      },
+      "incoming": {
+        "name": "Libramont Fair 2027",
+        "start_date": "2027-07-23",
+        "end_date": "2027-07-26",
+        "city": "Libramont",
+        "country": "Belgium",
+        "country_code": null,
+        "venue": "Libramont",
+        "industry": [
+          "Agriculture"
+        ],
+        "attendees": null,
+        "exhibitors": null,
+        "website": "https://www.expoexhibitionstands.com/exhibition-stands-libramont-fair/",
+        "source": "venue:expostands",
+        "source_url": "https://www.expoexhibitionstands.com/exhibition-stands-libramont-fair/",
+        "notes": "",
+        "id": "libramont-fair-2027-libramont-2027-07"
+      }
+    }
+  ]
 }

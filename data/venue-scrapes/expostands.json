@@ -1,176 +1,8 @@
 {
   "venue_id": "expostands",
-  "scraped_at": "2026-11-16T13:18:43.121Z",
+  "scraped_at": "2026-11-23T15:36:05.799Z",
   "source_url": "https://www.expoexhibitionstands.com/trade-show-calendar/",
   "events": [
-    {
-      "name": "MEDICA 2026",
-      "start_date": "2026-11-16",
-      "end_date": "2026-11-19",
-      "city": "Dusseldorf",
-      "country": "Germany",
-      "venue": "Messe Dusseldorf",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medica-dusseldorf/"
-    },
-    {
-      "name": "Heavent Paris 2026",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-19",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Expo Porte de Versailles, Hall 4",
-      "industry": [
-        "Event Management"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-heavent-paris/"
-    },
-    {
-      "name": "IBTM 2026",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-19",
-      "city": "Barcelona",
-      "country": "Spain",
-      "venue": "Fira Barcelona Gran Via",
-      "industry": [
-        "Global Meeting & Events"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ibtm-world/"
-    },
-    {
-      "name": "Formnext 2026",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-20",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "venue": "Frankfurt am Main",
-      "industry": [
-        "Advanced Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-formnext-frankfurt/"
-    },
-    {
-      "name": "Space Tech Expo Europe 2026",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-19",
-      "city": "Bremen",
-      "country": "Germany",
-      "venue": "Messe Bremen",
-      "industry": [
-        "Aerospace and Defence"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-space-tech-expo-europe/"
-    },
-    {
-      "name": "Metstrade 2026",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-19",
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "venue": "RAI Amsterdam",
-      "industry": [
-        "Marine & Maritime Technology"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-metstrade-show-amsterdam/"
-    },
-    {
-      "name": "Piscine Global -",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-20",
-      "city": "Lyon",
-      "country": "France",
-      "venue": "Eurexpo Lyon",
-      "industry": [
-        "Fitness and Wellness"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-piscine-global/"
-    },
-    {
-      "name": "Precision Fair 2026 's-Hertogenbosch",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-19",
-      "city": "‘s-Hertogenbosch",
-      "country": "Netherlands",
-      "venue": "Brabanthallen",
-      "industry": [
-        "Precision Technology"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-precision-fair/"
-    },
-    {
-      "name": "Cloud & AI Infrastructure Paris 2026",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-19",
-      "city": "Paris",
-      "country": "France",
-      "venue": "Paris Porte de Versailles",
-      "industry": [
-        "IT"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-cloud-ai-infrastructure-paris/"
-    },
-    {
-      "name": "Paint & Coatings 2026 Barcelona",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-19",
-      "city": null,
-      "country": null,
-      "venue": "La Farga, L’Hospitalet de Llobregat, Barcelona",
-      "industry": [
-        "Materials & Manufacturing"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-paint-coatings/"
-    },
-    {
-      "name": "NEDS 2026",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "venue": "Rotterdam Ahoy",
-      "industry": [
-        "Defence & Security"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-nidv-exhibition-defence-security/"
-    },
-    {
-      "name": "Berufsinformationsmesse 2026",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-22",
-      "city": "Salzburg",
-      "country": "Austria",
-      "venue": "Messezentrum Salzburg",
-      "industry": [
-        "Education and Career Development"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-berufsinformationsmesse/"
-    },
-    {
-      "name": "Spiele Messe 2026",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-21",
-      "city": "Stuttgart",
-      "country": "Germany",
-      "venue": "MESSE STUTTGART",
-      "industry": [
-        "Games"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-spiele-messe/"
-    },
-    {
-      "name": "GET NORD 2026",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-21",
-      "city": "Hamburg",
-      "country": "Germany",
-      "venue": "Hamburg Messe",
-      "industry": [
-        "Construction"
-      ],
-      "website": "https://www.expoexhibitionstands.com/get-nord-hamburg/"
-    },
     {
       "name": "IP Service World 2026",
       "start_date": "2026-11-23",
@@ -328,18 +160,6 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-valve-world-expo/"
     },
     {
-      "name": "VINITECH - SIFEL 2026",
-      "start_date": "2026-12-01",
-      "end_date": "2026-12-03",
-      "city": "Bordeaux",
-      "country": "France",
-      "venue": "Parc des Expositions de Bordeaux",
-      "industry": [
-        "Food & Beverage"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stand-vinitech-sifel-bordeaux/"
-    },
-    {
       "name": "TRUSTECH 2026",
       "start_date": "2026-12-01",
       "end_date": "2026-12-03",
@@ -424,18 +244,6 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-salonsimi/"
     },
     {
-      "name": "Deutscher Wirbelsaulenkongress 2026",
-      "start_date": "2026-12-09",
-      "end_date": "2026-12-11",
-      "city": "Nuremberg",
-      "country": "Germany",
-      "venue": "Nuremberg Convention Center",
-      "industry": [
-        "Healthcare"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-deutscher-wirbelsaulenkongress/"
-    },
-    {
       "name": "EnerGaia Forum 2026",
       "start_date": "2026-12-09",
       "end_date": "2026-12-10",
@@ -446,18 +254,6 @@
         "Renewable Energy"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-energaia-the-renewable-energy-forum/"
-    },
-    {
-      "name": "BOTTLE MARKET 2026",
-      "start_date": "2026-12-11",
-      "end_date": "2026-12-12",
-      "city": "Bremen",
-      "country": "Germany",
-      "venue": "Messe Bremen",
-      "industry": [
-        "Spirits & Wine"
-      ],
-      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bottle-market/"
     },
     {
       "name": "Vakantiebeurs 2027",
@@ -587,7 +383,7 @@
       "country": "Belgium",
       "venue": "Flanders Expo",
       "industry": [
-        "Agriculture and Horticulture"
+        "Agriculture"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-builders-agriflander-ghent/"
     },
@@ -616,6 +412,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-maison-objet-paris/"
     },
     {
+      "name": "Agrarmesse Alpen-Adria 2027",
+      "start_date": "2027-01-15",
+      "end_date": "2027-01-17",
+      "city": "Klagenfurt",
+      "country": "Austria",
+      "venue": "Karntner Messen Klagenfurt",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-agrarmesse-alpen-adria/"
+    },
+    {
       "name": "Grüne Woche 2027",
       "start_date": "2027-01-15",
       "end_date": "2027-01-24",
@@ -628,14 +436,14 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-grune-woche/"
     },
     {
-      "name": "INTERLOOK Dortmund 2027",
+      "name": "INTERLOOK 2027",
       "start_date": "2027-01-16",
       "end_date": "2027-01-17",
-      "city": null,
+      "city": "Dortmund",
       "country": "Germany",
       "venue": "Messe Dortmund",
       "industry": [
-        "Ophthalmic Optics"
+        "Healthcare"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-interlook/"
     },
@@ -755,7 +563,7 @@
       "country": "Austria",
       "venue": "Messezentrum Salzburg",
       "industry": [
-        "Automotive Aftersales"
+        "Automotive"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-autozum/"
     },
@@ -827,7 +635,7 @@
       "country": "Germany",
       "venue": "Berlin",
       "industry": [
-        "Neurointensive and Emergency Medicine"
+        "Healthcare"
       ],
       "website": "https://www.expoexhibitionstands.com/anim-berlin/"
     },
@@ -856,6 +664,30 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-boot-dusseldorf/"
     },
     {
+      "name": "Symposium on Intensive Care Medicine + Intensive Care 2027",
+      "start_date": "2027-01-24",
+      "end_date": "2027-01-29",
+      "city": "Brussels",
+      "country": "Belgium",
+      "venue": "SQUARE Brussels Meeting Centre (Brussels Congress Center)",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/symposium-intensivmedizin-intensivpflege/"
+    },
+    {
+      "name": "ICT&health World Conference 2027",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-28",
+      "city": "Maastricht",
+      "country": "Netherlands",
+      "venue": "MECC Maastricht",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ict-health-world-conference/"
+    },
+    {
       "name": "SEPEM Industries 2027",
       "start_date": "2027-01-26",
       "end_date": "2027-01-28",
@@ -866,6 +698,18 @@
         "Industrial Manufacturing and Engineering"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-sepem-industries/"
+    },
+    {
+      "name": "IPM ESSEN 2027",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-29",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Essen",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ipm-essen/"
     },
     {
       "name": "InterSolution 2027",
@@ -880,14 +724,14 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-intersolution/"
     },
     {
-      "name": "Pharmapack Europe Paris 2027",
+      "name": "Pharmapack Europe 2027",
       "start_date": "2027-01-27",
       "end_date": "2027-01-28",
       "city": "Paris",
       "country": "France",
       "venue": "Paris Expo Porte de Versailles",
       "industry": [
-        "Packaging and Drug Delivery"
+        "Healthcare"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-pharmapack-europe-paris/"
     },
@@ -928,6 +772,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-ambiente-frankfurt/"
     },
     {
+      "name": "therapro 2027",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-31",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Stuttgart Trade Fair",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-therapro/"
+    },
+    {
       "name": "MEDIZIN 2027",
       "start_date": "2027-01-29",
       "end_date": "2027-01-31",
@@ -947,7 +803,7 @@
       "country": "Germany",
       "venue": "Messe Friedrichshafen",
       "industry": [
-        "Motorcycle"
+        "Automotive"
       ],
       "website": "https://www.expoexhibitionstands.com/booth-builder-motorradwelt-bodensee/"
     },
@@ -959,7 +815,7 @@
       "country": "Germany",
       "venue": "Messe Munich",
       "industry": [
-        "Eyewear"
+        "Healthcare"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-opti-munich-germany/"
     },
@@ -1000,6 +856,42 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-ism-cologne/"
     },
     {
+      "name": "VertiFarm 2027",
+      "start_date": "2027-01-31",
+      "end_date": "2027-02-04",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": "Ghent",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-vertifarm/"
+    },
+    {
+      "name": "BouwBeurs 2027",
+      "start_date": "2027-02-01",
+      "end_date": "2027-02-05",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "Royal Dutch Jaarbeurs",
+      "industry": [
+        "Construction and Installation"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bouwbeurs/"
+    },
+    {
+      "name": "Retromobile 2027",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-07",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-retromobile/"
+    },
+    {
       "name": "Bio360 Expo 2027",
       "start_date": "2027-02-03",
       "end_date": "2027-02-04",
@@ -1012,6 +904,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-bio360-expo/"
     },
     {
+      "name": "FRUIT LOGISTICA 2027",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-05",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Messe Berlin",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fruit-logistica-berlin/"
+    },
+    {
       "name": "Baumesse Chemnitz 2027",
       "start_date": "2027-02-05",
       "end_date": "2027-02-07",
@@ -1022,6 +926,30 @@
         "Construction"
       ],
       "website": "https://www.expoexhibitionstands.com/booth-builder-baumesse-chemnitz/"
+    },
+    {
+      "name": "Bremen Classic Motorshow 2027",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-07",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe Bremen",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/bremen-classic-motorshow/"
+    },
+    {
+      "name": "MIDO Eyewear Show 2027",
+      "start_date": "2027-02-06",
+      "end_date": "2027-02-08",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Fieramilano (Rho)",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-mido-eye-wear-show/"
     },
     {
       "name": "B.I.G. 2027",
@@ -1041,11 +969,23 @@
       "end_date": "2027-02-14",
       "city": "Hannover",
       "country": "Germany",
-      "venue": null,
+      "venue": "Hannover Exhibition Centre",
       "industry": [
-        "Adventure and Leisure"
+        "Leisure, travel"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-abf/"
+    },
+    {
+      "name": "Intersana 2027",
+      "start_date": "2027-02-12",
+      "end_date": "2027-02-14",
+      "city": "Augsburg",
+      "country": "Germany",
+      "venue": "Messe Augsburg",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intersana/"
     },
     {
       "name": "BATIBOUW Brussels 2027",
@@ -1055,7 +995,7 @@
       "country": "Belgium",
       "venue": "Brussels Expo",
       "industry": [
-        "Construction and Renovation"
+        "Construction"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-batibouw/"
     },
@@ -1096,6 +1036,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-biofach/"
     },
     {
+      "name": "MOTORbeurs Utrecht 2027",
+      "start_date": "2027-02-18",
+      "end_date": "2027-02-21",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "Jaarbeurs Utrecht",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-motorbeurs-utrecht/"
+    },
+    {
       "name": "Second Home Expo 2027",
       "start_date": "2027-02-20",
       "end_date": "2027-02-21",
@@ -1115,9 +1067,33 @@
       "country": "Spain",
       "venue": "Bilbao Exhibition Centre",
       "industry": [
-        "Additive Manufacturing & 3D Printing"
+        "Aviation"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-addit3d-barakaldo/"
+    },
+    {
+      "name": "Horticontact 2027",
+      "start_date": "2027-02-23",
+      "end_date": "2027-02-25",
+      "city": "Gorinchem, The",
+      "country": "Netherlands",
+      "venue": "Evenementenhal Gorinchem",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-horticontact/"
+    },
+    {
+      "name": "Internationale Weinmesse Innsbruck 2027",
+      "start_date": "2027-02-25",
+      "end_date": "2027-02-27",
+      "city": null,
+      "country": "Austria",
+      "venue": "Messe Innsbruck",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-internationale-weinmesse-innsbruck/"
     },
     {
       "name": "100% Optical 2027",
@@ -1132,6 +1108,102 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-100-percent-optical/"
     },
     {
+      "name": "Paris International Agricultural Show 2026",
+      "start_date": "2027-02-27",
+      "end_date": "2027-03-07",
+      "city": null,
+      "country": "France",
+      "venue": "Paris Expo – Porte de Versailles",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-paris-international-agricultural-show/"
+    },
+    {
+      "name": "World EPA Congress 2027",
+      "start_date": "2027-03-02",
+      "end_date": "2027-03-03",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-world-epa-congress/"
+    },
+    {
+      "name": "Tire Technology Expo 2027",
+      "start_date": "2027-03-02",
+      "end_date": "2027-03-04",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Deutsche Messe",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-tire-technology-expo/"
+    },
+    {
+      "name": "European Congress of Radiology 2027 Austria, Vienna",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-07",
+      "city": null,
+      "country": null,
+      "venue": "Austria Center Vienna",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-congress-of-radiology/"
+    },
+    {
+      "name": "BDIA Dental Showcase 2027",
+      "start_date": "2027-03-05",
+      "end_date": "2027-03-06",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL London, England",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-bdia-dental-showcase/"
+    },
+    {
+      "name": "Belgium Auto Show 2027",
+      "start_date": "2027-03-06",
+      "end_date": "2027-03-07",
+      "city": "Ghent",
+      "country": "Belgium",
+      "venue": "Flanders Expo",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-belgium-auto-show/"
+    },
+    {
+      "name": "EUROVINO 2027",
+      "start_date": "2027-03-07",
+      "end_date": "2027-03-08",
+      "city": "Karlsruhe",
+      "country": "Germany",
+      "venue": "Messe Karlsruhe",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eurovino/"
+    },
+    {
+      "name": "ProWein 2027",
+      "start_date": "2027-03-07",
+      "end_date": "2027-03-09",
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "venue": "Messe Düsseldorf",
+      "industry": [
+        "Wine & Spirits"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-prowein/"
+    },
+    {
       "name": "CFIA 2027",
       "start_date": "2027-03-09",
       "end_date": "2027-03-11",
@@ -1142,6 +1214,162 @@
         "Food and Agriculture"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-cfia-rennes/"
+    },
+    {
+      "name": "FENAVIN 2027",
+      "start_date": "2027-03-11",
+      "end_date": "2027-03-13",
+      "city": "Ciudad Real",
+      "country": "Spain",
+      "venue": "Ciudad Real Trade Fair Pavilion",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/fenavin/"
+    },
+    {
+      "name": "PharmagoraPlus 2027",
+      "start_date": "2027-03-13",
+      "end_date": "2027-03-14",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pharmagoraplus/"
+    },
+    {
+      "name": "VSO Spring Symposium 2027",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-15",
+      "city": "Arnhem",
+      "country": "Netherlands",
+      "venue": "Hotel Papendal, Arnhem",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vso-spring-symposium/"
+    },
+    {
+      "name": "Zahntechnik plus 2027",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-20",
+      "city": "Leipzig",
+      "country": "Germany",
+      "venue": "Congress Center Leipzig",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-zahntechnik-plus/"
+    },
+    {
+      "name": "IDS 2027",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-20",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ids-cologne/"
+    },
+    {
+      "name": "DIA Europe 2027",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-18",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Congress Center Basel",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-dia-europe/"
+    },
+    {
+      "name": "ELCC 2027",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-20",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "ICM – International Congress Center Messe München",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/european-lung-cancer-congress-elcc/"
+    },
+    {
+      "name": "EADO Congress 2027",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-19",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Austria Center Vienna",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-eahp/"
+    },
+    {
+      "name": "LABORAMA 2027",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-19",
+      "city": "Brussels",
+      "country": "Belgium",
+      "venue": "Brussels Expo",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-laborama/"
+    },
+    {
+      "name": "Infarma 2027",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira Barcelona – Gran Via – Barcelona",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-infarma/"
+    },
+    {
+      "name": "Forum LABO 2027",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-forum-labo/"
+    },
+    {
+      "name": "EPA Congress 2027 Madrid, Spain",
+      "start_date": "2027-04-03",
+      "end_date": "2027-04-06",
+      "city": "Florence",
+      "country": "Italy",
+      "venue": "Fortezza da Basso",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-epa-congress/"
+    },
+    {
+      "name": "Vaatdagen 2027",
+      "start_date": "2027-04-05",
+      "end_date": "2027-04-06",
+      "city": "Noordwijkerhout",
+      "country": "Netherlands",
+      "venue": "NH Leeuwenhorst Noordwijkerhout",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-vaatdagen/"
     },
     {
       "name": "WTCE 2027",
@@ -1156,6 +1384,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-wtce/"
     },
     {
+      "name": "Motortec Madrid 2027",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-10",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA – Feria de Madrid",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-motortec-madrid/"
+    },
+    {
       "name": "The Amsterdam Coffee Festival 2027",
       "start_date": "2027-04-08",
       "end_date": "2027-04-10",
@@ -1166,6 +1406,78 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-amsterdam-coffee-festival/"
+    },
+    {
+      "name": "Automobile Barcelona 2027",
+      "start_date": "2027-04-10",
+      "end_date": "2027-04-18",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Gran Via Venue",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/automobile-barcelona/"
+    },
+    {
+      "name": "Zorg & facility 2027",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "Jaarbeurs Utrecht",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-zorg-facility/"
+    },
+    {
+      "name": "Zorg & ICT 2027",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-17",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "venue": "Jaarbeurs Utrecht",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-zorg-ict/"
+    },
+    {
+      "name": "Rematec Amsterdam 2027 The",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "1078 GZ Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam, Europaplein",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-rematec/"
+    },
+    {
+      "name": "DMEA 2027",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-15",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe München",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-dmea/"
+    },
+    {
+      "name": "Retro Classics Essen 2027",
+      "start_date": "2027-04-14",
+      "end_date": "2027-04-18",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Essen",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-retro-classics-essen/"
     },
     {
       "name": "Markt des guten Geschmacks 2027",
@@ -1180,6 +1492,42 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-markt-des-guten-geschmacks/"
     },
     {
+      "name": "i-Mobility 2027",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-18",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-i-mobility/"
+    },
+    {
+      "name": "EADO Congress 2027",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-17",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Palais des Congrès Versailles , Paris",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-eado-congress/"
+    },
+    {
+      "name": "PHARMAP 2027",
+      "start_date": "2027-04-19",
+      "end_date": "2027-04-20",
+      "city": "Berlin",
+      "country": "Germany",
+      "venue": "Titanic Chaussee Berlin",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pharmaceutical-manufacturing-packaging-congress/"
+    },
+    {
       "name": "Seafood Processing Global 2027",
       "start_date": "2027-04-20",
       "end_date": "2027-04-22",
@@ -1190,6 +1538,78 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-seafood-processing-global/"
+    },
+    {
+      "name": "GMP Pharma Congress 2027",
+      "start_date": "2027-04-20",
+      "end_date": "2027-04-21",
+      "city": "Wiesbaden",
+      "country": "Germany",
+      "venue": "RheinMain CongressCenter Wiesbaden",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-gmp-pharmacongress/"
+    },
+    {
+      "name": "ALTENPFLEGE 2027",
+      "start_date": "2027-04-20",
+      "end_date": "2027-04-22",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Messe Nuremberg",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-altenpflege/"
+    },
+    {
+      "name": "Inspire Health & Care 2027",
+      "start_date": "2027-04-21",
+      "end_date": "2027-04-22",
+      "city": "Mechelen",
+      "country": "Belgium",
+      "venue": "Nekkerhal",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-inspire-health-care/"
+    },
+    {
+      "name": "austropharm 2027",
+      "start_date": "2027-04-22",
+      "end_date": "2027-04-24",
+      "city": "Vienna",
+      "country": "Austria",
+      "venue": "Messe Wien",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-austropharm/"
+    },
+    {
+      "name": "SFO 2027",
+      "start_date": "2027-04-24",
+      "end_date": "2027-04-26",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Palais des Congrès in Paris",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sfo-congress/"
+    },
+    {
+      "name": "Swiss Biotech Day 2027",
+      "start_date": "2027-04-26",
+      "end_date": "2027-04-27",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Congress Center Basel",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-swiss-biotech-day/"
     },
     {
       "name": "Salon Gourmets 2027",
@@ -1204,6 +1624,114 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-salon-gourmets/"
     },
     {
+      "name": "Bioprocess International 2027",
+      "start_date": "2027-04-27",
+      "end_date": "2027-04-29",
+      "city": "Hamburg",
+      "country": "Germany",
+      "venue": "Congress Center Hamburg",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bioprocess-international/"
+    },
+    {
+      "name": "MEDFEL 2027",
+      "start_date": "2027-04-28",
+      "end_date": "2027-04-29",
+      "city": "Perpignan",
+      "country": "France",
+      "venue": "Perpignan Exhibition Center, Perpignan",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medfel/"
+    },
+    {
+      "name": "Retro Classics Bavaria 2027",
+      "start_date": "2027-04-29",
+      "end_date": "2027-05-02",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "NürnbergMesse (Exhibition Centre Nuremberg)",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-retro-classics-bavaria/"
+    },
+    {
+      "name": "EWMA DEWU 2027",
+      "start_date": "2027-05-05",
+      "end_date": "2027-05-07",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe & Congress Centrum Bremen",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ewma-dewu/"
+    },
+    {
+      "name": "TUNING WORLD BODENSEE 2027",
+      "start_date": "2027-05-06",
+      "end_date": "2027-05-09",
+      "city": "Friedrichshafen",
+      "country": "Germany",
+      "venue": "Messe Friedrichshafen",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-tuning-world-bodensee/"
+    },
+    {
+      "name": "BioCultura 2027",
+      "start_date": "2027-05-06",
+      "end_date": "2027-05-09",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "La Farga de L’Hospitalet",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-biocultura/"
+    },
+    {
+      "name": "REHAB 2027",
+      "start_date": "2027-05-13",
+      "end_date": "2027-05-15",
+      "city": "Karlsruhe",
+      "country": "Germany",
+      "venue": "Messe Karlsruhe",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-rehab-karlsruhe/"
+    },
+    {
+      "name": "OTWorld 2027",
+      "start_date": "2027-05-16",
+      "end_date": "2027-05-19",
+      "city": "Leipzig",
+      "country": "Germany",
+      "venue": "Leipziger Messe",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-otworld/"
+    },
+    {
+      "name": "EuroPCR 2027",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-21",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Palais des Congres de Paris",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-europcr/"
+    },
+    {
       "name": "Vitafoods Europe 2027",
       "start_date": "2027-05-18",
       "end_date": "2027-05-20",
@@ -1214,6 +1742,114 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-vitafoods-europe/"
+    },
+    {
+      "name": "SANTEXPO 2027",
+      "start_date": "2027-05-25",
+      "end_date": "2027-05-27",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris – Porte de Versailles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-santexpo/"
+    },
+    {
+      "name": "SFCO 2027",
+      "start_date": "2027-05-27",
+      "end_date": "2027-05-28",
+      "city": "Nice",
+      "country": "France",
+      "venue": "Radisson Blu Hotel",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-sfco-paris/"
+    },
+    {
+      "name": "therapie LEIPZIG 2027",
+      "start_date": "2027-05-27",
+      "end_date": "2027-05-29",
+      "city": null,
+      "country": "Germany",
+      "venue": "Grounds of Leipziger Messe (Hall 1 & 3), CCL Congress Center Leipzig",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-therapie-leipzig/"
+    },
+    {
+      "name": "Swiss Classic World 2027, Lucerne",
+      "start_date": "2027-05-28",
+      "end_date": "2027-05-30",
+      "city": null,
+      "country": "Switzerland",
+      "venue": "Messe Luzern",
+      "industry": [
+        "Automobile"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-swiss-classic-world/"
+    },
+    {
+      "name": "AABC Europe 2027",
+      "start_date": "2027-06-01",
+      "end_date": "2027-06-04",
+      "city": "Mainz",
+      "country": "Germany",
+      "venue": "Mainz Congress",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-aabc-europe/"
+    },
+    {
+      "name": "Autonomic Paris 2027",
+      "start_date": "2027-06-01",
+      "end_date": "2027-06-03",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-autonomic-paris/"
+    },
+    {
+      "name": "Automotive Testing Expo Europe 2027",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-03",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/automotive-testing-expo-europe/"
+    },
+    {
+      "name": "med.Logistica 2027",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-03",
+      "city": "Leipzig",
+      "country": "Germany",
+      "venue": "Leipziger Messe",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medlogistica/"
+    },
+    {
+      "name": "Automotive Interiors Expo Europe",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-03",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-automotive-interiors-expo-europe/"
     },
     {
       "name": "Autonomous Vehicle Technology Expo 2027",
@@ -1240,6 +1876,54 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-salimat-abanca/"
     },
     {
+      "name": "BCS Annual Conference 2027",
+      "start_date": "2027-06-07",
+      "end_date": "2027-06-09",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "venue": "Manchester Central",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-bcs-annual-conference/"
+    },
+    {
+      "name": "EULAR 2027",
+      "start_date": "2027-06-09",
+      "end_date": "2027-06-12",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira de Barcelona, Barcelona",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eular/"
+    },
+    {
+      "name": "GreenTech Amsterdam 2027",
+      "start_date": "2027-06-09",
+      "end_date": "2027-06-11",
+      "city": null,
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam",
+      "industry": [
+        "Horticulture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-greentech/"
+    },
+    {
+      "name": "ESH 2027",
+      "start_date": "2027-06-10",
+      "end_date": "2027-06-13",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Congress Center Basel",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-esh/"
+    },
+    {
       "name": "Semana Verde de Galicia 2027",
       "start_date": "2027-06-14",
       "end_date": "2027-06-14",
@@ -1250,6 +1934,354 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-rental-semana-verde-de-galicia/"
+    },
+    {
+      "name": "HLTH Europe 2027",
+      "start_date": "2027-06-14",
+      "end_date": "2027-06-17",
+      "city": "Amsterdam, the",
+      "country": "Netherlands",
+      "venue": "RAI Amsterdam",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-hlth-europe/"
+    },
+    {
+      "name": "EASL Congress 2027 London, UK",
+      "start_date": "2027-06-16",
+      "end_date": "2027-06-19",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "ExCeL London",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-easl-congress/"
+    },
+    {
+      "name": "iVT Expo 2027",
+      "start_date": "2027-06-16",
+      "end_date": "2027-06-17",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Köln Messe",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ivt-expo/"
+    },
+    {
+      "name": "SCVE 2027 Brussels",
+      "start_date": "2027-06-16",
+      "end_date": "2027-06-19",
+      "city": "le Square",
+      "country": "Belgium",
+      "venue": "Palais des Congrès de Bruxelles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-scve/"
+    },
+    {
+      "name": "World of Coffee",
+      "start_date": "2027-06-17",
+      "end_date": "2027-06-19",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "venue": "Lisbon Exhibition and Congress Centre (FIL)",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-world-of-coffee/"
+    },
+    {
+      "name": "Drug Discovery Europe 2027",
+      "start_date": "2027-06-22",
+      "end_date": "2027-06-23",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Basel Messe Congress Centre",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-drug-discovery-europe/"
+    },
+    {
+      "name": "Electric & Hybrid Vehicle Technology Expo, Stuttgart",
+      "start_date": "2027-06-22",
+      "end_date": "2027-06-24",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe Stuttgart",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-electric-hybrid-vehicle-technology-expo/"
+    },
+    {
+      "name": "IAMS 2027",
+      "start_date": "2027-06-24",
+      "end_date": "2027-06-27",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Vincentien Fernand Portal Centre",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iams/"
+    },
+    {
+      "name": "FACE 2027 London, UK",
+      "start_date": "2027-06-25",
+      "end_date": "2027-06-26",
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "InterContinental London – The O2",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-face/"
+    },
+    {
+      "name": "ESHRE Annual Meeting 2027",
+      "start_date": "2027-07-04",
+      "end_date": "2027-07-07",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "venue": "Stockholmsmässan",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eshre-annual-meeting/"
+    },
+    {
+      "name": "CSI 2027",
+      "start_date": "2027-07-07",
+      "end_date": "2027-07-10",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "venue": "Frankfurt",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-csi-frankfurt/"
+    },
+    {
+      "name": "Tarmstedter Ausstellung 2027",
+      "start_date": "2027-07-09",
+      "end_date": "2027-07-12",
+      "city": "27412 Tarmstedt",
+      "country": "Germany",
+      "venue": "Wendohweg",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-tarmstedter-ausstellung/"
+    },
+    {
+      "name": "Libramont Fair 2027",
+      "start_date": "2027-07-23",
+      "end_date": "2027-07-26",
+      "city": "Libramont",
+      "country": "Belgium",
+      "venue": "Libramont Exhibition & Congress",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-foire-de-libramont/"
+    },
+    {
+      "name": "Libramont Fair 2027",
+      "start_date": "2027-07-23",
+      "end_date": "2027-07-26",
+      "city": "Libramont",
+      "country": "Belgium",
+      "venue": "Libramont",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-libramont-fair/"
+    },
+    {
+      "name": "Internationale Forstmesse 2027",
+      "start_date": "2027-08-26",
+      "end_date": "2027-08-29",
+      "city": "Luzern",
+      "country": "Switzerland",
+      "venue": "Messe Luzern",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-internationale-forstmesse/"
+    },
+    {
+      "name": "Foire de Châlons 2027",
+      "start_date": "2027-08-27",
+      "end_date": "2027-09-05",
+      "city": "Châlons-en-Champagne",
+      "country": "France",
+      "venue": "Châlons-en-Champagne",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-foire-de-chalons/"
+    },
+    {
+      "name": "AMEE 2027",
+      "start_date": "2027-08-28",
+      "end_date": "2027-09-01",
+      "city": "Helsinki",
+      "country": "Finland",
+      "venue": "Messukeskus, Helsinki",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-amee/"
+    },
+    {
+      "name": "WM Workshop Trade Fair Dortmund 2027",
+      "start_date": "2027-09-03",
+      "end_date": "2027-09-05",
+      "city": null,
+      "country": "Germany",
+      "venue": "Messe dortmund",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-wm-workshop-trade-fair-dortmund/"
+    },
+    {
+      "name": "IAA MOBILITY 2027",
+      "start_date": "2027-09-07",
+      "end_date": "2027-09-12",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-iaa-mobility/"
+    },
+    {
+      "name": "Innov Agri 2027",
+      "start_date": "2027-09-07",
+      "end_date": "2027-09-09",
+      "city": "Outarville",
+      "country": "France",
+      "venue": "Outarville Exhibition Site",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-innov-agri/"
+    },
+    {
+      "name": "PotatoEurope 2027",
+      "start_date": "2027-09-08",
+      "end_date": "2027-09-09",
+      "city": "Tournai",
+      "country": "Belgium",
+      "venue": "Tournai",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-potatoeurope/"
+    },
+    {
+      "name": "Festival of Biologics 2027",
+      "start_date": "2027-09-13",
+      "end_date": "2027-09-15",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Messe Basel",
+      "industry": [
+        "Pharmaceutical"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-festival-of-biologics-basel/"
+    },
+    {
+      "name": "Swiss Medtech Expo 2027",
+      "start_date": "2027-09-14",
+      "end_date": "2027-09-15",
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "venue": "Messe Luzern",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-swiss-medtech-expo/"
+    },
+    {
+      "name": "SPACE 2027",
+      "start_date": "2027-09-14",
+      "end_date": "2027-09-16",
+      "city": "Rennes",
+      "country": "France",
+      "venue": "Parc Expo Rennes",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-space/"
+    },
+    {
+      "name": "EXPOPHARM 2027",
+      "start_date": "2027-09-15",
+      "end_date": "2027-09-18",
+      "city": "Munich",
+      "country": "Germany",
+      "venue": "Messe Munich",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-expopharm/"
+    },
+    {
+      "name": "REHACARE 2027",
+      "start_date": "2027-09-15",
+      "end_date": "2027-09-18",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-rehacare-international-dusseldorf/"
+    },
+    {
+      "name": "ESMO Congress 2027",
+      "start_date": "2027-09-17",
+      "end_date": "2027-09-21",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Fira de Barcelona (Gran Via)",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-esmo/"
+    },
+    {
+      "name": "Salon Automobile de Lyon 2027",
+      "start_date": "2027-09-22",
+      "end_date": "2027-09-26",
+      "city": "Chassieu",
+      "country": "France",
+      "venue": "Eurexpo Lyon",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-salon-automobile-de-lyon/"
+    },
+    {
+      "name": "Farmaforum 2027",
+      "start_date": "2027-09-22",
+      "end_date": "2027-09-23",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-farmaforum-spain/"
     },
     {
       "name": "INTRAFOOD 2027",
@@ -1264,6 +2296,66 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-intrafood-kortrijk/"
     },
     {
+      "name": "SILMO 2027",
+      "start_date": "2027-09-24",
+      "end_date": "2027-09-27",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Nord Villepinte",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-silmo-paris-france/"
+    },
+    {
+      "name": "Natexpo 2027",
+      "start_date": "2027-09-26",
+      "end_date": "2027-09-28",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-natexpo-lyon/"
+    },
+    {
+      "name": "Reeduca 2027",
+      "start_date": "2027-09-30",
+      "end_date": "2027-10-02",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-reeduca/"
+    },
+    {
+      "name": "Bar Convent Berlin 2027",
+      "start_date": "2027-10-04",
+      "end_date": "2027-10-05",
+      "city": null,
+      "country": "Germany",
+      "venue": "Exhibition Center Berlin",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bar-convent-berlin/"
+    },
+    {
+      "name": "Fruit Attraction 2027",
+      "start_date": "2027-10-05",
+      "end_date": "2027-10-07",
+      "city": "Madrid",
+      "country": "Spain",
+      "venue": "IFEMA Madrid",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-fruit-attraction/"
+    },
+    {
       "name": "Conxemar 2027",
       "start_date": "2027-10-05",
       "end_date": "2027-10-07",
@@ -1274,6 +2366,90 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/conxemar/"
+    },
+    {
+      "name": "Bioprocessing Summit Europe 2027",
+      "start_date": "2027-10-05",
+      "end_date": "2027-10-07",
+      "city": "Barcelona",
+      "country": "Spain",
+      "venue": "Intercontinental Barcelona",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-bioprocessing-summit-europe/"
+    },
+    {
+      "name": "BioTechX Europe 2027",
+      "start_date": "2027-10-11",
+      "end_date": "2027-10-13",
+      "city": "Basel",
+      "country": "Switzerland",
+      "venue": "Messe Basel",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-biotechx-europe/"
+    },
+    {
+      "name": "EQUIP AUTO 2027",
+      "start_date": "2027-10-12",
+      "end_date": "2027-10-16",
+      "city": "Paris",
+      "country": "France",
+      "venue": "Paris Expo Porte de Versailles",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-equip-auto/"
+    },
+    {
+      "name": "eMove360 2027 Munich",
+      "start_date": "2027-10-12",
+      "end_date": "2027-10-13",
+      "city": "Entrance East",
+      "country": "Germany",
+      "venue": "Messe Munchen",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-emove360/"
+    },
+    {
+      "name": "European Commodities Exchange 2027",
+      "start_date": "2027-10-14",
+      "end_date": "2027-10-15",
+      "city": "Maastricht, the",
+      "country": "Netherlands",
+      "venue": "MECC Maastricht",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-european-commodities-exchange/"
+    },
+    {
+      "name": "Classic Expo 2027",
+      "start_date": "2027-10-16",
+      "end_date": "2027-10-18",
+      "city": "Salzburg",
+      "country": "Austria",
+      "venue": "Messezentrum Salzburg",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-classic-expo/"
+    },
+    {
+      "name": "UEG Week 2026",
+      "start_date": "2027-10-16",
+      "end_date": "2027-10-19",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "venue": "Bella Center Copenhagen",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-ueg-week/"
     },
     {
       "name": "IBA 2027",
@@ -1288,6 +2464,114 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-iba/"
     },
     {
+      "name": "IFTF Expo 2027",
+      "start_date": "2027-11-03",
+      "end_date": "2027-11-05",
+      "city": "Vijfhuizen",
+      "country": "Netherlands",
+      "venue": "Expo Haarlemmermeer",
+      "industry": [
+        "Floriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-international-floriculture-trade-fair/"
+    },
+    {
+      "name": "AgroAlpin 2027",
+      "start_date": "2027-11-04",
+      "end_date": "2027-11-07",
+      "city": "Innsbruck",
+      "country": "Austria",
+      "venue": "Congress und Messe Innsbruck",
+      "industry": [
+        "Agricultural and Forestry"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-agroalpin/"
+    },
+    {
+      "name": "EICMA Milan 2027",
+      "start_date": "2027-11-09",
+      "end_date": "2027-11-14",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Fiera Milano – Rho",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-eicma-milan/"
+    },
+    {
+      "name": "BrauBeviale 2027",
+      "start_date": "2027-11-09",
+      "end_date": "2027-11-11",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Exhibition Centre Nuremberg",
+      "industry": [
+        "Food & Beverage"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-braubeviale-nuremberg/"
+    },
+    {
+      "name": "PMW Expo 2027",
+      "start_date": "2027-11-11",
+      "end_date": "2027-11-12",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-pmw-expo/"
+    },
+    {
+      "name": "Agritechnica 2027",
+      "start_date": "2027-11-14",
+      "end_date": "2027-11-20",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue": "Hannover Exhibition Grounds",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-agritechnica/"
+    },
+    {
+      "name": "ISPOR Europe 2027",
+      "start_date": "2027-11-14",
+      "end_date": "2027-11-17",
+      "city": "Milan",
+      "country": "Italy",
+      "venue": "Allianz MiCo convention center",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/ispor-europe/"
+    },
+    {
+      "name": "COMPAMED 2027",
+      "start_date": "2027-11-15",
+      "end_date": "2027-11-18",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-compamed/"
+    },
+    {
+      "name": "MEDICA 2027",
+      "start_date": "2027-11-15",
+      "end_date": "2027-11-18",
+      "city": "Dusseldorf",
+      "country": "Germany",
+      "venue": "Messe Dusseldorf",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-medica-dusseldorf/"
+    },
+    {
       "name": "Food & Life 2027",
       "start_date": "2027-11-24",
       "end_date": "2027-11-28",
@@ -1300,6 +2584,18 @@
       "website": "https://www.expoexhibitionstands.com/exhibition-stands-food-life/"
     },
     {
+      "name": "World Drug Safety Congress Europe 2027",
+      "start_date": "2027-11-29",
+      "end_date": "2027-11-30",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "venue": "RAI Exhibition Center, Amsterdam",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-rental-world-drug-safety-congress-europe/"
+    },
+    {
       "name": "Fi Europe 2027",
       "start_date": "2027-11-30",
       "end_date": "2027-12-02",
@@ -1310,6 +2606,66 @@
         "Food & Beverage"
       ],
       "website": "https://www.expoexhibitionstands.com/food-ingredients-europe-fi-global/"
+    },
+    {
+      "name": "VINITECH - SIFEL 2027",
+      "start_date": "2027-12-01",
+      "end_date": "2027-12-03",
+      "city": "Bordeaux",
+      "country": "France",
+      "venue": "Parc des Expositions de Bordeaux",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stand-vinitech-sifel-bordeaux/"
+    },
+    {
+      "name": "INTERMOT 2027",
+      "start_date": "2027-12-02",
+      "end_date": "2027-12-05",
+      "city": "Cologne",
+      "country": "Germany",
+      "venue": "Koelnmesse",
+      "industry": [
+        "Automotive"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-intermot-cologne/"
+    },
+    {
+      "name": "BOTTLE MARKET 2027",
+      "start_date": "2027-12-03",
+      "end_date": "2027-12-04",
+      "city": "Bremen",
+      "country": "Germany",
+      "venue": "Messe Bremen",
+      "industry": [
+        "Spirits & Wine"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-bottle-market/"
+    },
+    {
+      "name": "Agribex 2027",
+      "start_date": "2027-12-08",
+      "end_date": "2027-12-12",
+      "city": "Brussels",
+      "country": "Belgium",
+      "venue": "Brussels Expo",
+      "industry": [
+        "Agriculture"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-agribex/"
+    },
+    {
+      "name": "Deutscher Wirbelsaulenkongress 2027",
+      "start_date": "2027-12-09",
+      "end_date": "2027-12-11",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "venue": "Nuremberg Convention Center",
+      "industry": [
+        "Healthcare"
+      ],
+      "website": "https://www.expoexhibitionstands.com/exhibition-stands-deutscher-wirbelsaulenkongress/"
     },
     {
       "name": "drinktec 2028",
